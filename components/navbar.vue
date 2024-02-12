@@ -18,7 +18,7 @@
         <div class="flex main-nav-custom uppercase justify-between w-1/2">
           <NuxtLink to="/" class="nav-link">Home</NuxtLink>
           <NuxtLink to="/" class="nav-link">Azerbaijan</NuxtLink>
-          <NuxtLink to="/" class="nav-link">Tours</NuxtLink>
+          <NuxtLink to="/tours" class="nav-link">Tours</NuxtLink>
           <NuxtLink to="/bakuOutskirts" class="nav-link">Our Services</NuxtLink>
           <!-- 
           <div class="dropdown">
