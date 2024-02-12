@@ -63,7 +63,7 @@ const navbarBackgroundColor = ref("rgba(199, 191, 191, 0.5)");
 
 watchEffect(() => {
   navbarBackgroundColor.value = scrolled.value
-    ? "rgba(0, 0, 0, 1)"
+    ? "rgba(0, 0, 0, 0.9)"
     : "rgba(0, 0, 0, 0)";
 });
 </script>
@@ -72,7 +72,7 @@ watchEffect(() => {
 .nav-link {
   cursor: pointer;
   margin: auto;
-  padding-right: 12px;
+  padding-right: 25px;
   border-right: 1px solid white;
 }
 
