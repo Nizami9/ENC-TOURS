@@ -18,7 +18,7 @@
         },
       }"
     >
-      <div class="w-11/12 m-auto mt-6 font-light text-5xl">
+      <div class="w-11/12 m-auto mt-12 font-light text-6xl">
         <p class="w-4/12 md:w-1/2 text-center mb-6 m-auto pb-2">
           What Makes Us Different
         </p>
@@ -26,9 +26,7 @@
       <div class="w-11/12 m-auto mt-6 mb-6 text-center">
         <p class="border-b-4 w-1/12 m-auto border-orange-400"></p>
       </div>
-      <div
-        class="text-center text-gray-600 w-10/12 m-auto border-b pb-6"
-      >
+      <div class="text-center text-gray-600 w-10/12 m-auto border-b pb-6">
         <p>
           Under our motto ‘Blazing New Paths in Travel’, Asian Trails’ extensive
           knowledge of its business-to-business customers has paved the way for
@@ -39,7 +37,9 @@
       </div>
     </div>
     <div class="text-gray-600 md:text-sm lg:text-base xl:text-base">
-      <div class="flex w-10/12 m-auto mt-4 text-center border-b pb-3" v-motion
+      <div
+        class="flex w-10/12 m-auto mt-4 text-center border-b pb-3"
+        v-motion
         :initial="{
           opacity: 0,
           y: 100,
@@ -53,7 +53,8 @@
             damping: 70,
             mass: 5,
           },
-        }">
+        }"
+      >
         <div class="w-1/3 border-r">
           <img
             src="@/assets/images/icon1.png"
@@ -61,7 +62,7 @@
             alt=""
           />
           <h4>OWN OPERATIONS</h4>
-          <p class="p-6">
+          <p class="p-6 leading-7">
             A firm believer in operating in key destinations under our own name,
             Asian Trails is operational with more than 30 owner-operated offices
             in East and South-East Asia. We cover all aspects of quality assured
@@ -76,7 +77,7 @@
             alt=""
           />
           <h4>CUSTOMER FOCUSED</h4>
-          <p class="p-6">
+          <p class="p-6 leading-7">
             We speak your language! Our value-for-money approach with (y)our
             customer at heart has been at the forefront since our inception. We
             are driven in igniting the wanderlust in travellers, in every aspect
@@ -90,7 +91,7 @@
             alt=""
           />
           <h4>GLOBAL REPRESENTATION</h4>
-          <p class="p-6">
+          <p class="p-6 leading-7">
             Asian Trails prides itself on being present in every corner of ‘our
             Asia’ with our own dedicated offices and professionally-trained
             travel experts, backed by representative offices across the globe
@@ -125,7 +126,7 @@
             alt=""
           />
           <h4>NO COMPROMISES</h4>
-          <p class="p-6">
+          <p class="p-6 leading-7">
             We take guests to the ‘Real Asia’ so they touch, taste and
             experience the beating heart of every destination they visit. This
             comes with the assurance of operating in line with our core value of
@@ -140,7 +141,7 @@
             alt=""
           />
           <h4>RESPONSIBLE OPERATIONS</h4>
-          <p class="p-6">
+          <p class="p-6 leading-7">
             Choosing carefully, our approach in operating sustainably and
             supporting the right causes are recognized throughout the travel
             industry. From treading lightly where needed, to adhering to global
@@ -156,7 +157,7 @@
             alt=""
           />
           <h4>PASSIONATE ABOUT TRAVEL</h4>
-          <p class="p-6">
+          <p class="p-6 leading-7">
             Our offices span all the corners of our destinations, guided by the
             principle that travel is more than just an experience. Engrained in
             our DNA, no stone is left unturned to deliver exploratory memories

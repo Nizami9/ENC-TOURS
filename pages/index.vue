@@ -5,12 +5,12 @@
         <div class="parallax h-full w-full flex flex-col items-center relative">
           <div class="overlay"></div>
           <p
-            class="absolute w-2/3 p-3 top-32 text-center text-5xl text-white uppercase"
+            class="absolute w-2/3 p-3 top-80 text-center text-8xl text-white uppercase"
           >
             enc luxury tours
           </p>
           <p
-            class="uppercase absolute w-1/3 rounded-md p-2 top-60 text-center text-white"
+            class="uppercase absolute w-1/3 rounded-md p-2 top-96 pt-20 text-center text-white"
           >
             Be the one to enjoy the unforgettable experience
           </p>
@@ -47,11 +47,6 @@ import Component6 from "@/components/MainPage/Component5.vue";
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.5
-  ); /* Adjust the alpha value for darkness */
+  background-color: rgba(0, 0, 0, 0.6);
 }
 </style>

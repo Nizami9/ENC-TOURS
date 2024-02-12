@@ -1,7 +1,7 @@
 <template>
   <carousel
     items-to-show="3"
-    :autoplay="4000"
+    :autoplay="5000"
     class="w-11/12 pt-10 m-auto"
     :wrap-around="true"
   >
