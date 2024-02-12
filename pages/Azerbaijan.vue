@@ -5,7 +5,7 @@
         <div
           class="w-1/2 m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text-8xl uppercase font-semibold">TOURS</p>
+          <p class="text-8xl uppercase font-semibold">Azerbaijan</p>
           <p class="rounded-md mt-20 text-center">
             Lauded for its extensive knowledge, its East-meets-West model and
             venturing responsibly into every corner of its destinations, it is
@@ -69,12 +69,12 @@
           >
             <div
               class="pb-5 pl-8 pr-8 cursor-pointer"
-              @click="navigateTo('/bakuoutskirts')"
+              @click="navigateTo('/general-facts')"
             >
-              <p class="uppercase mb-3">Baku and Outskirts</p>
+              <p class="uppercase mb-3">General Facts</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
-                src="@/assets/images/az3.jpeg"
+                src="@/assets/images/az17.jpg"
                 class="h-60 w-full hover:scale-105 duration-300 transition-all"
                 alt=""
               />
@@ -109,12 +109,12 @@
           >
             <div
               class="pb-5 pl-8 pr-8 cursor-pointer"
-              @click="navigateTo('/specialinteresttours')"
+              @click="navigateTo('/mapofazerbaijan')"
             >
-              <p class="uppercase mb-3">Special Interest Tours</p>
+              <p class="uppercase mb-3">Map of Azerbaijan</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
-                src="@/assets/images/flamingo1.jpeg"
+                src="@/assets/images/map.jpeg"
                 class="h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
                 alt=""
               />
@@ -150,13 +150,13 @@
           >
             <div
               class="pb-5 pl-8 pr-8 cursor-pointer"
-              @click="navigateTo('/culturaltours')"
+              @click="navigateTo('/azerbaijan_e_visa')"
             >
-              <p class="uppercase mb-3">Cultural and Heritage</p>
+              <p class="uppercase mb-3">Azerbaijan E-visa</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
 
               <img
-                src="@/assets/images/sheki1.jpeg"
+                src="@/assets/images/visa.avif"
                 class="h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
                 alt=""
               />
@@ -189,15 +189,97 @@
               mass: 20,
             },
           }"
-          class="flex justify-center w-10/12 m-auto mb-6"
+          class="flex w-10/12 m-auto mb-6"
         >
-          <div class="w-1/3" @click="navigateTo('/combinedtours')">
+          <div class="w-1/3" @click="navigateTo('/')">
             <div class="pb-5 pl-8 pr-8 cursor-pointer">
-              <p class="uppercase mb-3">Combined Tours</p>
+              <p class="uppercase mb-3">Toursit Regions</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
 
               <img
-                src="@/assets/images/georg2.webp"
+                src="@/assets/images/guba.jpeg"
+                class="h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                alt=""
+              />
+            </div>
+            <div>
+              <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
+                VIETNAM Vietnam The country’s expansive coastline and towering
+                mountain ranges have shaped Vietnam into the harmonious country
+                it is now. Meandering rivers, an abundance of beaches, happing
+                cities and remote villages in the vastness of its mountain
+                ranges form the backbone of its ever-present popularity.
+              </p>
+            </div>
+          </div>
+          <div class="w-1/3" @click="navigateTo('/cuisine')">
+            <div class="pb-5 pl-8 pr-8 cursor-pointer">
+              <p class="uppercase mb-3">Azerbaijan Cuisines</p>
+              <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
+
+              <img
+                src="@/assets/images/cuisineaz.jpeg"
+                class="h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                alt=""
+              />
+            </div>
+            <div>
+              <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
+                VIETNAM Vietnam The country’s expansive coastline and towering
+                mountain ranges have shaped Vietnam into the harmonious country
+                it is now. Meandering rivers, an abundance of beaches, happing
+                cities and remote villages in the vastness of its mountain
+                ranges form the backbone of its ever-present popularity.
+              </p>
+            </div>
+          </div>
+          <div class="w-1/3" @click="navigateTo('/events')">
+            <div class="pb-5 pl-8 pr-8 cursor-pointer">
+              <p class="uppercase mb-3">Events & Festivals</p>
+              <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
+
+              <img
+                src="@/assets/images/event6.jpeg"
+                class="h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                alt=""
+              />
+            </div>
+            <div>
+              <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
+                VIETNAM Vietnam The country’s expansive coastline and towering
+                mountain ranges have shaped Vietnam into the harmonious country
+                it is now. Meandering rivers, an abundance of beaches, happing
+                cities and remote villages in the vastness of its mountain
+                ranges form the backbone of its ever-present popularity.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          v-motion
+          :initial="{
+            opacity: 0,
+            y: 100,
+          }"
+          :visible="{
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: 'spring',
+              stiffness: 250,
+              damping: 70,
+              mass: 20,
+            },
+          }"
+          class="flex w-10/12 justify-center m-auto mb-6"
+        >
+          <div class="w-1/3" @click="navigateTo('/unesco-heritage-list')">
+            <div class="pb-5 pl-8 pr-8 cursor-pointer">
+              <p class="uppercase mb-3">UNESCO Heritage Sites</p>
+              <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
+
+              <img
+                src="@/assets/images/unesco.png"
                 class="h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
                 alt=""
               />
@@ -231,7 +313,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("@/assets/images/sheki1.jpeg");
+  background-image: url("@/assets/images/az11.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

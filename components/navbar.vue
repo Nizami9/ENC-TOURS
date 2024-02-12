@@ -17,7 +17,7 @@
       <div class="flex justify-between w-full md:ml-0 md:mr-0 p-5">
         <div class="flex main-nav-custom uppercase justify-between w-1/2">
           <NuxtLink to="/" class="nav-link">Home</NuxtLink>
-          <NuxtLink to="/" class="nav-link">Azerbaijan</NuxtLink>
+          <NuxtLink to="/azerbaijan" class="nav-link">Azerbaijan</NuxtLink>
           <NuxtLink to="/tours" class="nav-link">Tours</NuxtLink>
           <NuxtLink to="/bakuOutskirts" class="nav-link">Our Services</NuxtLink>
           <!-- 
