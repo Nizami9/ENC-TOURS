@@ -6,7 +6,7 @@
           class="w-1/2 m-auto pt-48 text-center z-10 uppercase text-white p-2"
         >
           <p class="text-7xl uppercase font-semibold">
-            BLAZING NEW PATHS IN TRAVEL
+            ENC TOURS nizami
           </p>
           <p class="rounded-md mt-2">
             Founded on the principle in offering seamless operational travel
