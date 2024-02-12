@@ -2,7 +2,7 @@
   <carousel
     items-to-show="3"
     :autoplay="4000"
-    class="w-10/12 pt-20 m-auto"
+    class="w-11/12 pt-10 m-auto"
     :wrap-around="true"
   >
     <slide v-for="slide in 1" :key="slide">
@@ -60,9 +60,4 @@
 <script setup>
 import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
-
-const name = "App";
-const components = { Carousel, Slide, Pagination, Navigation };
-
-const photos = ["az3.jpeg"];
 </script>

@@ -50,7 +50,7 @@ setTimeout(() => {
 }
 
 * {
-  font-family: "Questrial", sans-serif;
+  font-family: 'Droid Serif', serif;
   font-weight: 400;
   font-style: normal;
 }

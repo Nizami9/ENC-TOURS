@@ -26,7 +26,7 @@
           </div>
           <div class="relative group cursor-pointer">
             <img
-              src="@/assets/images/img12.jpeg"
+              src="@/assets/images/baku1.jpeg"
               class="h-20 rounded-md md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
@@ -74,7 +74,7 @@
           </div>
           <div class="relative group cursor-pointer">
             <img
-              src="@/assets/images/img15.jpg"
+              src="@/assets/images/baku7.jpeg"
               class="h-20 rounded-md md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
@@ -125,7 +125,7 @@
           </div>
           <div class="relative group cursor-pointer">
             <img
-              src="@/assets/images/img9.jpeg"
+              src="@/assets/images/baku6.jpeg"
               class="h-20 rounded-md md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
@@ -149,7 +149,7 @@
           </div>
           <div class="relative group cursor-pointer">
             <img
-              src="@/assets/images/img18.jpg"
+              src="@/assets/images/baku4.jpeg"
               class="h-20 rounded-md md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
@@ -176,7 +176,7 @@
           </div>
           <div class="relative group cursor-pointer">
             <img
-              src="@/assets/images/img2.jpeg"
+              src="@/assets/images/baku2.jpeg"
               class="h-20 rounded-md md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
@@ -201,7 +201,7 @@
           <div class="relative group cursor-pointer">
             <div class="relative group cursor-pointer">
               <img
-                src="@/assets/images/img4.jpeg"
+                src="@/assets/images/aze1.jpg"
                 class="h-20 rounded-md md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
                 alt=""
               />
@@ -226,7 +226,7 @@
           </div>
           <div class="relative group cursor-pointer">
             <img
-              src="@/assets/images/img5.jpeg"
+              src="@/assets/images/aze12.jpg"
               class="h-20 rounded-md md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />

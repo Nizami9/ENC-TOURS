@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full pb-20 bg-rgba">
+    <div class="w-full pb-10 bg-rgba">
       <div class="m-auto w-5/12 text-center pt-9">
         <div>
           <p class="text-6xl font-thin">Inspirations</p>

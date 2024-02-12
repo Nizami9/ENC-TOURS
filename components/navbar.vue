@@ -1,24 +1,24 @@
 <template>
   <div
-    class="h-20 w-full text-white bg-gray-50 md:text-xs lg:text-sm xl:text-base transition"
+    class="p-2 text-white bg-gray-50 md:text-xs w-full lg:text-sm xl:text-sm transition"
     :style="{
       backgroundColor: navbarBackgroundColor,
       transition: 'background-color 0.5s ease',
     }"
   >
     <div class="flex">
-      <div class="w-1/12 m-auto">
+      <div class="w-20 m-auto">
         <img
           src="@/assets/images/enclogo2.png"
           alt="ENC logo"
-          class="w-5/6 xl:w-5/6 m-auto align-middle items-center"
+          class="w-16 m-auto align-middle items-center"
         />
       </div>
-      <div class="flex justify-between w-full md:ml-0 md:mr-0 m-5 p-3">
-        <div class="flex uppercase justify-between w-2/3">
-          <NuxtLink to="/" class="nav-link">Home</NuxtLink>
+      <div class="flex justify-between w-full md:ml-0 md:mr-0 p-4">
+        <div class="flex main-nav-custom uppercase justify-between w-1/2">
+          <NuxtLink to="/" class="nav-link">Home |</NuxtLink>
           <div class="dropdown">
-            <NuxtLink to="/" class="nav-link">Azerbaijan</NuxtLink>
+            <NuxtLink to="/" class="nav-link">Azerbaijan |</NuxtLink>
             <div class="dropdown-content-aze">
               <NuxtLink to="/general-facts" class="nav-link"
                 >General Facts</NuxtLink
@@ -45,14 +45,11 @@
           </div>
 
           <div class="dropdown">
-            <NuxtLink to="/" class="nav-link">Tours</NuxtLink>
+            <NuxtLink to="/" class="nav-link">Tours |</NuxtLink>
             <div class="dropdown-content-tours">
               <NuxtLink to="/bakuOutskirts" class="nav-link"
                 >Baku and Outskirts</NuxtLink
               >
-              <!-- <NuxtLink to="/culturalTours" class="nav-link"
-                >Cultural and Heritage</NuxtLink
-              > -->
               <div class="dropdown special-interest-dropdown">
                 <NuxtLink to="/specialinteresttours" class="nav-link"
                   >Special Interest Tours ></NuxtLink
@@ -69,15 +66,12 @@
               <NuxtLink to="/combinedtours" class="nav-link"
                 >Combined Tours</NuxtLink
               >
-              <!-- <NuxtLink to="/etnoTours" class="nav-link"
-                >Etnographical Tours</NuxtLink
-              > -->
             </div>
           </div>
 
           <div class="dropdown">
             <NuxtLink to="/bakuOutskirts" class="nav-link"
-              >Our Services</NuxtLink
+              >Our Services |</NuxtLink
             >
             <div class="dropdown-content-services">
               <NuxtLink to="/museums" class="nav-link">Museums</NuxtLink>
@@ -90,11 +84,11 @@
               >
             </div>
           </div>
-          <NuxtLink to="/" class="nav-link">Photogallery</NuxtLink>
-          <NuxtLink to="/luxury" class="nav-link">enc luxury</NuxtLink>
+          <NuxtLink to="/" class="nav-link">Photogallery |</NuxtLink>
+          <NuxtLink to="/luxury" class="nav-link">enc luxury |</NuxtLink>
           <NuxtLink to="/" class="nav-link">Mice</NuxtLink>
         </div>
-        <div class="w-1/5 md:w-52 lg:w-48 flex uppercase justify-between">
+        <div class="w-1/5 notmain-nav-custom flex uppercase justify-between">
           <NuxtLink to="/aboutUs" class="nav-link">About Us</NuxtLink>
           <NuxtLink to="/contactUs" class="nav-link">Contact Us</NuxtLink>
         </div>
@@ -133,8 +127,8 @@ const navbarBackgroundColor = ref("rgba(199, 191, 191, 0.5)");
 
 watchEffect(() => {
   navbarBackgroundColor.value = scrolled.value
-    ? "rgba(0, 0, 0, 1)"
-    : "rgba(0, 0, 0, 0.5)";
+    ? "rgba(0, 0, 0, 0.8)"
+    : "rgba(0, 0, 0, 0)";
 });
 </script>
 
@@ -227,5 +221,57 @@ watchEffect(() => {
 
 .special-interest-dropdown:hover .dropdown-content-special-interest {
   display: flex;
+}
+
+.main-nav-custom {
+  width: 100%;
+
+  @media (min-width: 765px) and (max-width: 800px) {
+    width: 70%;
+    font-size: x-small;
+    margin-left: 0%;
+  }
+
+  @media (min-width: 860px) and (max-width: 1060px) {
+    width: 72%;
+  }
+
+  @media (min-width: 1061px) and (max-width: 1274px) {
+    width: 65%;
+  }
+
+  @media (min-width: 1275px) and (max-width: 1480px) {
+    width: 55%;
+  }
+
+  @media (min-width: 1480px) and (max-width: 2149px) {
+    width: 45%;
+  }
+
+  @media (min-width: 2150px) {
+    width: 30%;
+  }
+}
+
+.notmain-nav-custom {
+  @media (min-width: 600px) and (max-width: 800px) {
+    width: 20%;
+    font-size: x-small;
+  }
+  @media (min-width: 800px) and (max-width: 1060px) {
+    width: 20%;
+  }
+
+  @media (min-width: 1061px) and (max-width: 1274px) {
+    width: 20%;
+  }
+
+  @media (min-width: 1275px) and (max-width: 1535px) {
+    width: 20%;
+  }
+
+  @media (min-width: 1536px) {
+    width: 14%;
+  }
 }
 </style>
