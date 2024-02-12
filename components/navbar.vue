@@ -7,19 +7,23 @@
     }"
   >
     <div class="flex">
-      <div class="w-20 m-auto">
+      <div class="w-32 m-auto">
         <img
           src="@/assets/images/enclogo2.png"
           alt="ENC logo"
           class="w-16 m-auto align-middle items-center"
         />
       </div>
-      <div class="flex justify-between w-full md:ml-0 md:mr-0 p-4">
+      <div class="flex justify-between w-full md:ml-0 md:mr-0 p-5">
         <div class="flex main-nav-custom uppercase justify-between w-1/2">
-          <NuxtLink to="/" class="nav-link">Home |</NuxtLink>
+          <NuxtLink to="/" class="nav-link">Home</NuxtLink>
+          <NuxtLink to="/" class="nav-link">Azerbaijan</NuxtLink>
+          <NuxtLink to="/" class="nav-link">Tours</NuxtLink>
+          <NuxtLink to="/bakuOutskirts" class="nav-link">Our Services</NuxtLink>
+          <!-- 
           <div class="dropdown">
-            <NuxtLink to="/" class="nav-link">Azerbaijan |</NuxtLink>
-            <div class="dropdown-content-aze">
+            <NuxtLink to="/" class="nav-link">Azerbaijan |</NuxtLink> -->
+          <!-- <div class="dropdown-content-aze">
               <NuxtLink to="/general-facts" class="nav-link"
                 >General Facts</NuxtLink
               >
@@ -41,10 +45,8 @@
               <NuxtLink to="/unesco-heritage-list" class="nav-link"
                 >UNESCO Heritage Sites</NuxtLink
               >
-            </div>
-          </div>
-
-          <div class="dropdown">
+            </div> -->
+          <!-- <div class="dropdown">
             <NuxtLink to="/" class="nav-link">Tours |</NuxtLink>
             <div class="dropdown-content-tours">
               <NuxtLink to="/bakuOutskirts" class="nav-link"
@@ -67,9 +69,9 @@
                 >Combined Tours</NuxtLink
               >
             </div>
-          </div>
+          </div> -->
 
-          <div class="dropdown">
+          <!-- <div class="dropdown">
             <NuxtLink to="/bakuOutskirts" class="nav-link"
               >Our Services |</NuxtLink
             >
@@ -83,9 +85,9 @@
                 >Vehicle Fleet</NuxtLink
               >
             </div>
-          </div>
-          <NuxtLink to="/" class="nav-link">Photogallery |</NuxtLink>
-          <NuxtLink to="/luxury" class="nav-link">enc luxury |</NuxtLink>
+          </div> -->
+          <NuxtLink to="/" class="nav-link">Photogallery</NuxtLink>
+          <NuxtLink to="/luxury" class="nav-link">enc luxury</NuxtLink>
           <NuxtLink to="/" class="nav-link">Mice</NuxtLink>
         </div>
         <div class="w-1/5 notmain-nav-custom flex uppercase justify-between">
@@ -135,14 +137,17 @@ watchEffect(() => {
 <style scoped>
 .nav-link {
   cursor: pointer;
+  margin: auto;
+  padding-right: 12px;
+  border-right: 1px solid white;
 }
 
 .nav-link:hover {
-  border-bottom: 1px solid black;
-  border-color: white;
+  scale: 95%;
+  transition: all 100ms;
 }
 
-.dropdown {
+/* .dropdown {
   position: relative;
   display: inline-block;
 }
@@ -157,8 +162,8 @@ watchEffect(() => {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
   flex-direction: column;
-}
-
+} */
+/* 
 .dropdown-content-services {
   display: none;
   position: absolute;
@@ -188,19 +193,19 @@ watchEffect(() => {
 .dropdown-content-tours .nav-link {
   display: block;
   margin: 10px;
-}
+} */
 
-.dropdown:hover .dropdown-content-aze,
+/* .dropdown:hover .dropdown-content-aze,
 .dropdown:hover .dropdown-content-services,
 .dropdown:hover .dropdown-content-tours {
   display: flex;
-}
-
+} */
+/* 
 .special-interest-dropdown {
   display: flex;
   align-items: center;
-}
-
+} */
+/* 
 .dropdown-content-special-interest {
   display: none;
   position: absolute;
@@ -212,8 +217,8 @@ watchEffect(() => {
   flex-direction: column;
   margin-top: 65px;
   margin-left: 229px;
-}
-
+} */
+/* 
 .dropdown-content-special-interest .nav-link {
   display: block;
   margin: 10px;
@@ -221,7 +226,7 @@ watchEffect(() => {
 
 .special-interest-dropdown:hover .dropdown-content-special-interest {
   display: flex;
-}
+} */
 
 .main-nav-custom {
   width: 100%;

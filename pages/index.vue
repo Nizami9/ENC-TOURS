@@ -36,7 +36,7 @@ import Component6 from "@/components/MainPage/Component5.vue";
 <style scoped>
 .parallax {
   background-image: url("@/assets/images/baku8.webp");
-  min-height: 800px;
+  min-height: 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
