@@ -5,14 +5,17 @@
         <div class="parallax h-full w-full flex flex-col items-center relative">
           <div class="overlay"></div>
           <p
-            class="absolute w-2/3 p-3 top-80 text-center text-8xl text-white uppercase"
+            class="absolute text2 w-full p-3 top-80 text-center text-7xl text-white uppercase"
           >
-            enc luxury tours
+            BLAZING NEW PATHS IN TRAVEL
           </p>
           <p
-            class="uppercase absolute w-1/3 rounded-md p-2 top-96 pt-20 text-center text-white"
+            class="uppercase absolute w-1/3 text-xs leading-5 rounded-md p-2 top-96 pt-10 text-center text-white"
           >
-            Be the one to enjoy the unforgettable experience
+            As an award-winning destination management company since 1999, Asian
+            Trails has led the way in designing and executing travel services
+            through its extensive network of offices across East and South-East
+            Asia.
           </p>
         </div>
       </div>
@@ -48,5 +51,9 @@ import Component6 from "@/components/MainPage/Component5.vue";
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+.text2 {
+  font-weight: 600;
 }
 </style>
