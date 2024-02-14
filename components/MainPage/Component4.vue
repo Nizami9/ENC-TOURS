@@ -23,13 +23,13 @@
       <div class="flex w-10/12 m-auto text-center">
         <div class="w-1/3">
           <p class="uppercase text-black font-semibold text-main-color">ACTIVE TRAILS</p>
-          <div class="w-12/12 m-auto mt-3 mb-3 text-center">
+          <div class="w-full m-auto mt-3 mb-3 text-center">
             <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
           </div>
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/baku1.jpeg"
-              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-6/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <NuxtLink
@@ -53,7 +53,7 @@
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/az11.jpg"
-              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-6/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <NuxtLink
@@ -77,7 +77,7 @@
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/baku7.jpeg"
-              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-6/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <NuxtLink
@@ -104,7 +104,7 @@
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/az22.jpeg"
-              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-6/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <NuxtLink
@@ -128,7 +128,7 @@
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/baku6.jpeg"
-              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-6/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <NuxtLink
@@ -152,7 +152,7 @@
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/baku4.jpeg"
-              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-6/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <NuxtLink
@@ -179,7 +179,7 @@
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/baku2.jpeg"
-              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-6/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <NuxtLink
@@ -204,7 +204,7 @@
             <div class="relative group cursor-pointer">
               <img
                 src="@/assets/images/aze1.jpg"
-                class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+                class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-6/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
                 alt=""
               />
               <NuxtLink
@@ -229,7 +229,7 @@
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/aze12.jpg"
-              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-5/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="h-20 md:w-11/12 md:h-32 group-hover:brightness-75 lg:w-11/12 lg:h-36 xl:w-6/6 xl:h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <NuxtLink

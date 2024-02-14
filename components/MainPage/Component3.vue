@@ -18,15 +18,17 @@
         },
       }"
     >
-      <div class="w-11/12 m-auto mt-12 font-light text-6xl">
-        <p class="w-4/12 md:w-1/2 text-center mb-6 m-auto pb-2 text-main-color">
+      <div class="w-11/12 m-auto mt-6 text-6xl">
+        <p class="w-4/12 md:w-1/2 text-center mb-4 m-auto pb-2 text-main-color">
           What Makes Us Different
         </p>
       </div>
-      <div class="w-11/12 m-auto mt-6 mb-6 text-center">
+      <div class="w-11/12 m-auto mb-4 text-center">
         <p class="border-b-4 w-1/12 m-auto border-orange-400"></p>
       </div>
-      <div class="text-center text-gray-600 w-10/12 m-auto border-b pb-6">
+      <div
+        class="text-center text-gray-600 w-10/12 m-auto border-b pb-6 text-color"
+      >
         <p>
           Under our motto ‘Blazing New Paths in Travel’, Asian Trails’ extensive
           knowledge of its business-to-business customers has paved the way for
@@ -38,7 +40,7 @@
     </div>
     <div class="text-gray-600 md:text-sm lg:text-base xl:text-base">
       <div
-        class="flex w-10/12 m-auto mt-4 text-center border-b pb-3"
+        class="flex w-10/12 m-auto mt-4 text-center border-b pb-8"
         v-motion
         :initial="{
           opacity: 0,
@@ -58,11 +60,11 @@
         <div class="w-1/3 border-r">
           <img
             src="@/assets/images/icon1.png"
-            class="w-20 m-auto mb-6 mt-6"
+            class="w-20 m-auto mb-6 mt-10"
             alt=""
           />
           <h4>OWN OPERATIONS</h4>
-          <p class="p-6 leading-7">
+          <p class="p-6 leading-7 text-color">
             A firm believer in operating in key destinations under our own name,
             Asian Trails is operational with more than 30 owner-operated offices
             in East and South-East Asia. We cover all aspects of quality assured
@@ -73,7 +75,7 @@
         <div class="w-1/3 border-r">
           <img
             src="@/assets/images/icon2.png"
-            class="w-20 m-auto mb-6 mt-6"
+            class="w-20 m-auto mb-6 mt-10"
             alt=""
           />
           <h4>CUSTOMER FOCUSED</h4>
@@ -87,7 +89,7 @@
         <div class="w-1/3">
           <img
             src="@/assets/images/icon3.webp"
-            class="w-20 m-auto mb-6 mt-6"
+            class="w-20 m-auto mb-6 mt-10"
             alt=""
           />
           <h4>GLOBAL REPRESENTATION</h4>
@@ -102,7 +104,7 @@
       </div>
 
       <div
-        class="flex w-10/12 m-auto mt-4 text-center border-b-2 border-orange-200 pb-3"
+        class="flex w-10/12 m-auto mt-4 text-center border-b-2 border-orange-200 pb-8"
         v-motion
         :initial="{
           opacity: 0,
@@ -122,7 +124,7 @@
         <div class="w-1/3 border-r">
           <img
             src="@/assets/images/icon4.png"
-            class="w-20 m-auto mb-6 mt-6"
+            class="w-20 m-auto mb-6 mt-10"
             alt=""
           />
           <h4>NO COMPROMISES</h4>
@@ -137,7 +139,7 @@
         <div class="w-1/3 border-r">
           <img
             src="@/assets/images/icon5.svg"
-            class="w-20 m-auto mb-6 mt-6"
+            class="w-20 m-auto mb-6 mt-10"
             alt=""
           />
           <h4>RESPONSIBLE OPERATIONS</h4>
@@ -153,7 +155,7 @@
         <div class="w-1/3">
           <img
             src="@/assets/images/icon6.jpg"
-            class="w-20 m-auto mb-6 mt-6"
+            class="w-20 m-auto mb-6 mt-10"
             alt=""
           />
           <h4>PASSIONATE ABOUT TRAVEL</h4>
@@ -199,9 +201,11 @@ const { observe } = useMotion(motionElement);
 <style scoped>
 .text-main-color {
   color: #24373d;
+  font-weight: 200;
 }
 
 .text-color {
   color: #5a5858;
+  font-weight: 200;
 }
 </style>
