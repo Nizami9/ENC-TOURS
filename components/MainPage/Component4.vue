@@ -1,13 +1,15 @@
 <template>
-  <div class="w-full mb-14">
+  <div class="w-full mb-14 text-color">
     <div>
       <div class="w-10/12 m-auto mt-6 font-light text-6xl">
-        <p class="w-1/6 text-center m-auto md:w-1/3 pb-2">Our Trails</p>
+        <p class="w-1/6 text-center m-auto md:w-1/3 pb-2 text-main-color">
+          Our Trails
+        </p>
       </div>
       <div class="w-10/12 m-auto mt-6 mb-6 text-center">
         <p class="border-b-4 w-1/12 m-auto border-orange-400"></p>
       </div>
-      <div class="text-center text-gray-600 w-10/12 m-auto mb-10">
+      <div class="text-center text-gray-500 w-10/12 m-auto mb-10">
         <p>
           Diversity aplenty when traveling through our Asia is on your agenda.
         </p>
@@ -20,7 +22,7 @@
     <div class="text-gray-600 md:text-sm lg:text-base xl:text-base">
       <div class="flex w-10/12 m-auto text-center">
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold">ACTIVE TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">ACTIVE TRAILS</p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
             <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
           </div>
@@ -44,7 +46,7 @@
           </p>
         </div>
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold">AUTHENTIC TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">AUTHENTIC TRAILS</p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
             <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
           </div>
@@ -68,7 +70,7 @@
           </p>
         </div>
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold">CRUISING TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">CRUISING TRAILS</p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
             <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
           </div>
@@ -95,7 +97,7 @@
 
       <div class="flex w-10/12 m-auto mt-4 text-center pb-3">
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold">CULINARY TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">CULINARY TRAILS</p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
             <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
           </div>
@@ -119,7 +121,7 @@
           </p>
         </div>
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold">DIGITAL TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">DIGITAL TRAILS</p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
             <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
           </div>
@@ -143,7 +145,7 @@
           </p>
         </div>
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold">ESSENTIAL TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">ESSENTIAL TRAILS</p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
             <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
           </div>
@@ -160,7 +162,7 @@
               Show Details
             </NuxtLink>
           </div>
-          <p class="p-6 leading-7">
+          <p class="p-6 leading-7 ext-color">
             The bucket list essentials for any traveller –no visit to our Asia
             is complete with venturing through these landmarks that shapes each
             destination in the best possible way.
@@ -170,7 +172,7 @@
 
       <div class="flex w-10/12 m-auto mt-4 text-center pb-3">
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold">FAMILY TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">FAMILY TRAILS</p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
             <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
           </div>
@@ -194,7 +196,7 @@
           </p>
         </div>
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold">JOINT TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">JOINT TRAILS</p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
             <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
           </div>
@@ -220,7 +222,7 @@
           </div>
         </div>
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold">ROMANTIC TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">ROMANTIC TRAILS</p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
             <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
           </div>
@@ -252,5 +254,13 @@
 <style scoped>
 .group:hover .group-hover\:opacity-100 {
   opacity: 1;
+}
+
+.text-main-color {
+  color: #24373d;
+}
+
+.text-color {
+  color: #5a5858;
 }
 </style>

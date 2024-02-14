@@ -7,7 +7,7 @@
           <p
             class="absolute text2 w-full p-3 top-80 text-center text-7xl text-white uppercase"
           >
-            BLAZING NEW PATHS IN TRAVEL
+            enc cultural and heritage tours
           </p>
           <p
             class="uppercase absolute w-1/3 text-xs leading-5 rounded-md p-2 top-96 pt-10 text-center text-white"

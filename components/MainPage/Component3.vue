@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full mb-14">
+  <div class="w-full mb-14 text-color">
     <div
       class="w-full"
       v-motion
@@ -19,7 +19,7 @@
       }"
     >
       <div class="w-11/12 m-auto mt-12 font-light text-6xl">
-        <p class="w-4/12 md:w-1/2 text-center mb-6 m-auto pb-2">
+        <p class="w-4/12 md:w-1/2 text-center mb-6 m-auto pb-2 text-main-color">
           What Makes Us Different
         </p>
       </div>
@@ -195,3 +195,13 @@ const motionElement = ref(null);
 // useMotion handles the intersection observer logic
 const { observe } = useMotion(motionElement);
 </script>
+
+<style scoped>
+.text-main-color {
+  color: #24373d;
+}
+
+.text-color {
+  color: #5a5858;
+}
+</style>
