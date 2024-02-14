@@ -3,7 +3,7 @@
     <carousel
       items-to-show="3"
       :autoplay="5000"
-      class="w-full pt-10"
+      class="w-full pt-7"
       :wrap-around="true"
     >
       <slide v-for="slide in 1" :key="slide">
