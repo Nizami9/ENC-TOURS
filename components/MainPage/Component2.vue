@@ -5,7 +5,7 @@
           <p class="text-6xl font-thin text-main-color">Inspirations</p>
         </div>
         <div class="mt-5 mb-3 text-center m-auto">
-          <p class="border-b-4 w-40 m-auto border-orange-400"></p>
+          <p class="border-b-4 w-40 m-auto border-blue-900"></p>
         </div>
         <div class="w-full">
           <p>The excitement never ends with us!</p>

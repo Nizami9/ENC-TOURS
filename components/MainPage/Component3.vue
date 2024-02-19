@@ -2,21 +2,6 @@
   <div class="w-full mb-14 text-color">
     <div
       class="w-full"
-      v-motion
-      :initial="{
-        opacity: 0,
-        y: 100,
-      }"
-      :visible="{
-        opacity: 1,
-        y: 0,
-        transition: {
-          type: 'spring',
-          stiffness: 250,
-          damping: 70,
-          mass: 5,
-        },
-      }"
     >
       <div class="w-11/12 m-auto mt-6 text-6xl">
         <p class="w-4/12 md:w-1/2 text-center mb-4 m-auto pb-2 text-main-color">
@@ -24,7 +9,7 @@
         </p>
       </div>
       <div class="w-11/12 m-auto mb-4 text-center">
-        <p class="border-b-4 w-1/12 m-auto border-orange-400"></p>
+        <p class="border-b-4 w-1/12 m-auto border-blue-900"></p>
       </div>
       <div
         class="text-center text-gray-600 w-10/12 m-auto border-b pb-6 text-color"
@@ -41,21 +26,6 @@
     <div class="text-gray-600 md:text-sm lg:text-base xl:text-base">
       <div
         class="flex w-10/12 m-auto mt-4 text-center border-b pb-8"
-        v-motion
-        :initial="{
-          opacity: 0,
-          y: 100,
-        }"
-        :visible="{
-          opacity: 1,
-          y: 0,
-          transition: {
-            type: 'spring',
-            stiffness: 250,
-            damping: 70,
-            mass: 5,
-          },
-        }"
       >
         <div class="w-1/3 border-r">
           <img
@@ -104,22 +74,7 @@
       </div>
 
       <div
-        class="flex w-10/12 m-auto mt-4 text-center border-b-2 border-orange-200 pb-8"
-        v-motion
-        :initial="{
-          opacity: 0,
-          y: 100,
-        }"
-        :visible="{
-          opacity: 1,
-          y: 0,
-          transition: {
-            type: 'spring',
-            stiffness: 250,
-            damping: 70,
-            mass: 5,
-          },
-        }"
+        class="flex w-10/12 m-auto mt-4 text-center border-b-2 border-gray-100 pb-8"
       >
         <div class="w-1/3 border-r">
           <img

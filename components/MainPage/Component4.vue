@@ -7,7 +7,7 @@
         </p>
       </div>
       <div class="w-10/12 m-auto mt-6 mb-6 text-center">
-        <p class="border-b-4 w-1/12 m-auto border-orange-400"></p>
+        <p class="border-b-4 w-1/12 m-auto border-blue-900"></p>
       </div>
       <div class="text-center text-gray-500 w-10/12 m-auto mb-10">
         <p>
@@ -22,9 +22,11 @@
     <div class="text-gray-600 md:text-sm lg:text-base xl:text-base">
       <div class="flex w-10/12 m-auto text-center">
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold text-main-color">ACTIVE TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">
+            ACTIVE TRAILS
+          </p>
           <div class="w-full m-auto mt-3 mb-3 text-center">
-            <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
+            <p class="border-b-2 w-2/12 m-auto border-blue-900"></p>
           </div>
           <div class="relative group cursor-pointer">
             <img
@@ -34,7 +36,7 @@
             />
             <NuxtLink
               to="/your-link-here"
-              class="p-3 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 left-40 opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
+              class="p-3 pt-2 pb-2 left-40 w-44 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
             >
               Show Details
             </NuxtLink>
@@ -46,9 +48,11 @@
           </p>
         </div>
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold text-main-color">AUTHENTIC TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">
+            AUTHENTIC TRAILS
+          </p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
-            <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
+            <p class="border-b-2 w-2/12 m-auto border-blue-900"></p>
           </div>
           <div class="relative group cursor-pointer">
             <img
@@ -58,7 +62,7 @@
             />
             <NuxtLink
               to="/your-link-here"
-              class="p-3 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 left-40 opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
+              class="p-3 pt-2 pb-2 left-40 w-44 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
             >
               Show Details
             </NuxtLink>
@@ -70,9 +74,11 @@
           </p>
         </div>
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold text-main-color">CRUISING TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">
+            CRUISING TRAILS
+          </p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
-            <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
+            <p class="border-b-2 w-2/12 m-auto border-blue-900"></p>
           </div>
           <div class="relative group cursor-pointer">
             <img
@@ -82,7 +88,7 @@
             />
             <NuxtLink
               to="/your-link-here"
-              class="p-3 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 left-40 opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
+              class="p-3 pt-2 pb-2 left-40 w-44 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
             >
               Show Details
             </NuxtLink>
@@ -97,9 +103,11 @@
 
       <div class="flex w-10/12 m-auto mt-4 text-center pb-3">
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold text-main-color">CULINARY TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">
+            CULINARY TRAILS
+          </p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
-            <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
+            <p class="border-b-2 w-2/12 m-auto border-blue-900"></p>
           </div>
           <div class="relative group cursor-pointer">
             <img
@@ -109,7 +117,7 @@
             />
             <NuxtLink
               to="/your-link-here"
-              class="p-3 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 left-40 opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
+              class="p-3 pt-2 pb-2 left-40 w-44 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
             >
               Show Details
             </NuxtLink>
@@ -121,9 +129,11 @@
           </p>
         </div>
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold text-main-color">DIGITAL TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">
+            DIGITAL TRAILS
+          </p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
-            <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
+            <p class="border-b-2 w-2/12 m-auto border-blue-900"></p>
           </div>
           <div class="relative group cursor-pointer">
             <img
@@ -133,7 +143,7 @@
             />
             <NuxtLink
               to="/your-link-here"
-              class="p-3 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 left-40 opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
+              class="p-3 pt-2 pb-2 left-40 w-44 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
             >
               Show Details
             </NuxtLink>
@@ -145,9 +155,11 @@
           </p>
         </div>
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold text-main-color">ESSENTIAL TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">
+            ESSENTIAL TRAILS
+          </p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
-            <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
+            <p class="border-b-2 w-2/12 m-auto border-blue-900"></p>
           </div>
           <div class="relative group cursor-pointer">
             <img
@@ -157,7 +169,7 @@
             />
             <NuxtLink
               to="/your-link-here"
-              class="p-3 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 left-40 opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
+              class="p-3 pt-2 pb-2 left-40 w-44 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
             >
               Show Details
             </NuxtLink>
@@ -172,9 +184,11 @@
 
       <div class="flex w-10/12 m-auto mt-4 text-center pb-3">
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold text-main-color">FAMILY TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">
+            FAMILY TRAILS
+          </p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
-            <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
+            <p class="border-b-2 w-2/12 m-auto border-blue-900"></p>
           </div>
           <div class="relative group cursor-pointer">
             <img
@@ -184,7 +198,7 @@
             />
             <NuxtLink
               to="/your-link-here"
-              class="p-3 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 left-40 opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
+              class="p-3 pt-2 pb-2 left-40 w-44 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
             >
               Show Details
             </NuxtLink>
@@ -196,9 +210,11 @@
           </p>
         </div>
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold text-main-color">JOINT TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">
+            JOINT TRAILS
+          </p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
-            <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
+            <p class="border-b-2 w-2/12 m-auto border-blue-900"></p>
           </div>
           <div class="relative group cursor-pointer">
             <div class="relative group cursor-pointer">
@@ -209,7 +225,7 @@
               />
               <NuxtLink
                 to="/your-link-here"
-                class="p-3 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 left-40 opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
+                class="p-3 pt-2 pb-2 left-40 w-44 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
               >
                 Show Details
               </NuxtLink>
@@ -222,9 +238,11 @@
           </div>
         </div>
         <div class="w-1/3">
-          <p class="uppercase text-black font-semibold text-main-color">ROMANTIC TRAILS</p>
+          <p class="uppercase text-black font-semibold text-main-color">
+            ROMANTIC TRAILS
+          </p>
           <div class="w-12/12 m-auto mt-3 mb-3 text-center">
-            <p class="border-b-2 w-2/12 m-auto border-orange-400"></p>
+            <p class="border-b-2 w-2/12 m-auto border-blue-900"></p>
           </div>
           <div class="relative group cursor-pointer">
             <img
@@ -234,7 +252,7 @@
             />
             <NuxtLink
               to="/your-link-here"
-              class="p-3 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 left-40 opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
+              class="p-3 pt-2 pb-2 left-40 w-44 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
             >
               Show Details
             </NuxtLink>
