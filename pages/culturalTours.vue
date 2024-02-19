@@ -67,6 +67,7 @@
                 mass: 20,
               },
             }"
+            @click="navigateTo('../tours/Azerbaijan_10_days')"
             class="w-1/3 uppercase"
           >
             <div class="p-8 pb-2">
