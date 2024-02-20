@@ -185,7 +185,7 @@
           }"
           class="flex w-10/12 m-auto mb-6"
         >
-          <div class="w-1/3 uppercase">
+          <div class="w-1/3 uppercase" @click="navigateTo('../tours/Azerbaijan_10_days')">
             <div class="p-8 pb-2">
               <img
                 src="@/assets/images/az3.jpeg"

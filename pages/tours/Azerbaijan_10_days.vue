@@ -488,6 +488,82 @@
             </div>
           </div>
         </div>
+
+        <div class="w-10/12 m-auto h-200 mt-10 mb-10">
+          <div>
+            <h4 class="text-3xl">ACCOMMODATION USED ON THIS TOUR</h4>
+          </div>
+          <div>
+            <carouselAccomodation></carouselAccomodation>
+          </div>
+        </div>
+
+        <div class="w-8/12 m-auto">
+          <div>
+            <h4 class="text-3xl uppercase mb-2">DATES AND PRICES</h4>
+            <h5 class="w-2/3 m-auto text-center">
+              The prices below are based on two sharing and exclude
+              international flights. A 10% deposit of the tour price is required
+              at time of booking.
+            </h5>
+          </div>
+          <div class="border-b mb-5 mt-5 pb-3 flex justify-between w-full">
+            <div class="w-1/3 text-left">
+              <div class="w-1/3">
+                <p
+                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
+                >
+                  Available
+                </p>
+              </div>
+              <div>
+                <p class="uppercase text-xl text-yellow-900 mb-2">
+                  STANDARD DEPARTURE
+                </p>
+              </div>
+              <div>
+                <p>26th Apr 2024 - 10th May 2024</p>
+              </div>
+              <div>
+                <p class="text-sm">(15 Days)</p>
+              </div>
+            </div>
+            <div class="pt-12 w-1/3">
+              <div>
+                <p class="text-xl font-bold">£4,195</p>
+              </div>
+              <div>
+                <p class="text-sm">Optional Single Supplement: + £495</p>
+              </div>
+            </div>
+            <div class="w-1/3">
+              <div class="flex justify-end pt-12">
+                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">Send E-Mail</p>
+              </div>
+            </div>
+          </div>
+          <dates></dates>
+          <dates></dates>
+          <dates></dates>
+          <dates></dates>
+          <dates></dates>
+        </div>
+        <div class="w-10/12 bg-gray-200 m-auto mb-5 p-5">
+          <h3 class="text-3xl p-5">PRIVATE HOLIDAYS: DATES DON’T FIT?</h3>
+          <p>All group tours can be taken on a private basis.</p>
+          <div class="flex w-1/2 mt-4 m-auto justify-between pb-5">
+            <div class="flex">
+              <img src="@/assets/images/phone.png" class="max-w-6 mr-4" alt="" />
+              <p>Call +44 (0) 20 3925 9628</p>
+            </div>
+            <div class="flex">
+              <div class="flex">
+                <img src="@/assets/images/mail.png" class="max-w-6 mr-4" alt="" />
+                <p>Or ask an expert to tailor-make this trip</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </NuxtLayout>
@@ -495,6 +571,9 @@
 
 <script setup>
 import carousel from "@/components/Carousel_Az_10_Days";
+import carouselAccomodation from "@/components/Carousel_Accomodation";
+import dates from "@/components/Dates_Prices.vue";
+
 const Day1 = ref(false);
 const Day2 = ref(false);
 const Day3 = ref(false);

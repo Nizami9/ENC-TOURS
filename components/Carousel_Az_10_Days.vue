@@ -67,4 +67,3 @@
     padding-right: 6px;
   }
   </style>
-  
