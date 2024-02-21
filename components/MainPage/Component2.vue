@@ -2,7 +2,7 @@
     <div class="w-full pb-9 bg-rgba text-color">
       <div class="m-auto w-7/12 text-center pt-6">
         <div>
-          <p class="text-6xl font-thin text-main-color">Inspirations</p>
+          <p class="text-6xl font-thin text-main-color pt-16">Inspirations</p>
         </div>
         <div class="mt-5 mb-3 text-center m-auto">
           <p class="border-b-4 w-40 m-auto border-blue-900"></p>
