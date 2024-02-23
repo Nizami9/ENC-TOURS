@@ -66,10 +66,12 @@
               mass: 20,
             },
           }"
-          @click="navigateTo('../tours/Azerbaijan_10_days')"
           class="flex w-10/12 m-auto mt-10 uppercase mb-2"
         >
-          <div class="w-1/3 uppercase">
+          <div
+            class="w-1/3 uppercase"
+            @click="navigateTo('../tours/Azerbaijan_10_days')"
+          >
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/az3.jpeg"
@@ -90,7 +92,10 @@
               </p>
             </div>
           </div>
-          <div class="w-1/3 uppercase">
+          <div
+            class="w-1/3 uppercase"
+            @click="navigateTo('../tours/Explore_Caucasus')"
+          >
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/az5.jpeg"
@@ -111,7 +116,10 @@
               </p>
             </div>
           </div>
-          <div class="w-1/3 uppercase">
+          <div
+            class="w-1/3 uppercase"
+            @click="navigateTo('../tours/Perl_Of_Caspian')"
+          >
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/az10.jpeg"
@@ -133,10 +141,27 @@
             </div>
           </div>
         </div>
-        <div class="flex w-10/12 m-auto mb-6">
+        <div
+          class="flex w-10/12 m-auto mb-6"
+          v-motion
+          :initial="{
+            opacity: 0,
+            y: 100,
+          }"
+          :visible="{
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: 'spring',
+              stiffness: 250,
+              damping: 70,
+              mass: 20,
+            },
+          }"
+        >
           <div
             class="w-1/3 uppercase"
-            @click="navigateTo('../tours/Azerbaijan_10_days')"
+            @click="navigateTo('../tours/Salam_Azerbaijan')"
           >
             <div class="p-8 pb-2">
               <img
@@ -154,7 +179,7 @@
                 @mouseover="addBorder4"
                 @mouseout="removeBorder4"
               >
-                AZERBAIJAN 10 DAYS
+                Salam Azerbaijan
               </p>
             </div>
           </div>

@@ -3,12 +3,10 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-2/3 overlay m-auto pt-80 text-center z-10 uppercase text-white p-2"
+          class="w-2/3 m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text-7xl uppercase w-3/4 m-auto p-4 rounded-lg font-semibold">
-            EXPLORE CAUCASUS & ANCIENT GREAT SILK ROAD
-          </p>
-          <p class="rounded-md w-1/2 m-auto mt-10 text-center">
+          <p class="text-7xl uppercase font-semibold">AZERBAIJAN & GEORGIA</p>
+          <p class="rounded-md mt-20 text-center">
             Lauded for its extensive knowledge, its East-meets-West model and
             venturing responsibly into every corner of its destinations, it is
             our mission to show guests the beating heart of our Asia
@@ -39,10 +37,22 @@
           class="border w-1/2 m-auto p-8 text-customGray"
         >
           <p>
-            Unforgettable 9 day tour to these remote and mysterious countries of
-            the Caucasus. Explore Azerbaijan with its fascinating shores of the
-            Caspian Sea and countryside. Enjoy your tour to Georgia , visit
-            Tbilisi, the charming capital and all the major highlights
+            THIS OUTSTANDING TRIP TAKES IN FOUR OF THE MOST IMPORTANT CITIES OF
+            THE OLD SILK ROAD AND IS PERFECT IF CULTURE AND HISTORY ARE YOUR
+            REASONS FOR TRAVEL. STARTING OUR TRIP IN UZBEKISTAN, WE WILL FIRST
+            VISIT THE SPLENDOUR OF SAMARKAND AND BUKHARA BEFORE CROSSING THE
+            FAMOUS RIVER OXUS AND ENTERING TURKMENISTAN. WE THEN TRAVEL ON TO
+            MERV, ONE OF THE GREAT EMPORIUMS OF THE SILK ROAD (UNTIL A CERTAIN
+            GENGHIS KHAN FLATTENED MOST OF IT) AND MARGUSH, WHERE THE BRONZE AGE
+            ARCHAEOLOGICAL SITE OF GONUR DEPE LIES, BELIEVED BY SOME TO
+            REPRESENT THE CAPITAL OF THE FIFTH GREAT CIVILISATION OF THE ANCIENT
+            WORLD. AFTER THIS WE WILL TRAVEL TO THE CURIOUSLY NAMED AND TOTALLY
+            WEIRD MODERN CAPITAL OF ASHGABAT (THE CITY OF LOVE) BEFORE DRIVING
+            NORTH THROUGH THE KARAKUM DESERT TO SEE THE AMAZING DARVAZA GAS
+            CRATER. CONTINUING NORTH TO VISIT KONYA URGENCH, WE THEN CROSS BACK
+            INTO UZBEKISTAN AND ON TO KHIVA. THE TOUR ENDS WHERE IT STARTED
+            AMONGST THE LEAFY STREETS OF TASHKENT. THIS IS AN INTERESTING AND
+            ENTIRELY ORIGINAL ITINERARY YOU WILL FIND NOWHERE ELSE.
           </p>
         </div>
         <div class="flex w-11/12 m-auto mt-10 mb-6">
@@ -174,7 +184,7 @@
               </div>
               <div class="m-auto mt-5 mb-5 w-1/2">
                 <img
-                  src="@/assets/images/MapAzExplore.jpeg"
+                  src="@/assets/images/MapToGeo.jpeg"
                   class="border"
                   alt=""
                 />
@@ -189,30 +199,21 @@
               @click="clickOnDay1"
               class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
             >
-              <p class="mt-1 text-lg">DAY 1: ARRIVAL</p>
+              <p class="mt-1 text-lg">DAY 1: DEPART FROM GEORGIA</p>
               <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
             </div>
             <div
               class="mt-5 text-left transition-all duration-500 duration-500"
               v-if="Day1"
             >
-              <p class="transition-all animate-fadeIn duration-500">
-                Arrival to Baku. Transfer to the hotel. Baku is the capital and
-                largest city of Azerbaijan, as well as the largest city on the
-                Caspian Sea and of the Caucasus region. It is a large
-                scientific, cultural and industrial center. It was first
-                mentioned in the Book of the Dead by the Egyptian Pharaoh
-                Minesan in 3,500 BC. The ancient age of Baku is also evidenced
-                by stone carvings dating back to 12,000 years ago and
-                archeological excavations. Overnight in Baku
-              </p>
+              <p class="transition-all animate-fadeIn duration-500">---</p>
             </div>
             <div class="mb-6">
               <div
                 @click="clickOnDay2"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 2: BAKU</p>
+                <p class="mt-1 text-lg">DAY 2: TBILISI</p>
                 <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
               </div>
               <div
@@ -220,33 +221,18 @@
                 v-if="Day2"
               >
                 <p class="transition-all animate-fadeIn duration-500">
-                  After breakfast, visit Martyrs’ Alley, located on the higher
-                  slopes of the city's west-end; this is the best place for
-                  panorama view of the city and the Bay of Baku. Then your
-                  guided walking tour of Baku includes the medieval walled city
-                  "lcheri Sheher" with it is narrow alleyways, historic
-                  caravanserais, mosques and Palace of the Shirvan Shahs, UNESCO
-                  Heritage site. Visit the Maiden's Tower, UNESCO Heritage site
-                  the imposing mansions of the oil barons, built in the oil boom
-                  of 1870-1914 and Martyr's with its superb views over the Bay
-                  of Baku. Complex of Shirvanshahs Palace was the last residence
-                  of the rulers of Shirvan State with rich history. At mediaeval
-                  times this state was the most powerful state in Azerbaijan.
-                  The Shirvanshahs Palace is a two-storey building in an
-                  irregular, rectangular shape. In order to provide better
-                  illumination of the palace, the south-eastern part of the
-                  building was constructed on different levels. Then you will
-                  enjoy excursion to the Absheron Peninsula, visiting the
-                  Ateshgah (or place of fire) a Zoroastrian Fire Temple and
-                  Yanar Dag. The Temple of Eternal Fire - Ateshgah - is an
-                  authentic Azerbaijani exotic. This territory is known for such
-                  unique natural phenomenon as burning natural gas outlets
-                  (underground gas coming onto surface contacts oxygen and
-                  lights up). Yanar Dag is located 25 km to the north from Baku,
-                  in Mehemmedi village. From the year 2007 Yanar Dag is declared
-                  a state-protected conservation area. During the Absheron tour
-                  you will see Quadranqular Tower, one of the ancient Absheron
-                  towers located in Mardakan village. Overnight in Baku
+                  Arrival in Tiblisi in the morning and transfer to the hotel.
+                  We begin to explore the capital of Georgia - Tbilisi in all
+                  its beauty, with its narrow streets, colorful houses, carved
+                  balconies, old neighborhoods and excellent samples of modern
+                  architecture. We will stroll through the beautiful narrow
+                  streets and visit the main sights of the city. We will enjoy
+                  the magnificent panorama of the old city and passing through
+                  the old Narikala Fortress we will visit the historic Sulfur
+                  Baths, from which the name of the capital comes. Later, a
+                  visit to the stunning treasury of the Museum of History will
+                  assure us that Georgia truly is the country of the famous
+                  Golden Fleece. Overnight at the hotel. (D / - / -)
                 </p>
               </div>
             </div>
@@ -255,7 +241,9 @@
                 @click="clickOnDay3"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 3: BAKU – ABSHERON – BAKU</p>
+                <p class="mt-1 text-lg">
+                  DAY 3: TIBLISI - SIGNAGUI - KAJETIA REGION - TELAVI
+                </p>
                 <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
               </div>
               <div
@@ -263,12 +251,20 @@
                 v-if="Day3"
               >
                 <p class="transition-all animate-fadeIn duration-500">
-                  Today enjoy a half day excursion to the Absheron Peninsula,
-                  visiting the Ateshgah (or place of fire) a Zoroastrian Fire
-                  Temple, UNESCO Heritage site and natural burning mountain
-                  Yanardagh. Also see the medieval fortress in Mardakan, which
-                  in medieval times formed part of the defence system of the
-                  Peninsula and the attractive mosque at Amirjan.
+                  We head towards the most fertile and picturesque part of
+                  Georgia - Kajetia, the cradle of wine. We will arrive at
+                  Signagui - the “City of Love”, which will impress you with its
+                  amazing, old wall and small wooden houses. We will visit the
+                  Nunnery - Bodbe (11th century) with its beautiful garden,
+                  where the godmother of the Georgians - Santa Nino is buried.
+                  For lunch we will arrive at the village with a local family,
+                  where we will learn about the life of the peasants and we will
+                  see their gardens, vineyards and we will taste the delicious
+                  homemade dishes. In the wine tank we will taste some famous
+                  Georgian wines. At the end we will visit Gremi, 16th century
+                  architectural monument - its citadel and the Church of the
+                  Archangels in Kakheti. Arrival in Telavi, the main center of
+                  the region. Overnight at the hotel. (D/A/–)
                 </p>
               </div>
             </div>
@@ -277,7 +273,7 @@
                 @click="clickOnDay4"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 4: BAKU – SHAMAKHI – SHEKI</p>
+                <p class="mt-1 text-lg">DAY 4: TELAVI - MTSJETA - GUDAURI</p>
                 <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
               </div>
               <div
@@ -285,13 +281,19 @@
                 v-if="Day4"
               >
                 <p class="transition-all animate-fadeIn duration-500">
-                  Leaving Baku, depart with ENC guide for the Caucasus Mountains
-                  in the northwest of Azerbaijan. The dry landscape gives way to
-                  a densely forested mountain area. Visit the town of Shamakhi,
-                  once the capital of Shirvan, and the charming village of
-                  Lahij, a centre of Azerbaijani handicrafts, before arriving at
-                  the historic town of Sheki. Overnight with dinner at an
-                  atmospheric converted caravanserai.
+                  After breakfast we will visit the Shuamta nunnery - "between
+                  the mountains". Departure to the city-museum Mtsjeta,
+                  headquarters of the Georgian Orthodox and Apostolic Church,
+                  declared a World Heritage Site by UNESCO. We will visit the
+                  Cathedral of Svetitskhoveli ("Pillar that gives life") and the
+                  Jvari Monastery (6th - 7th centuries) "Church of the Holy
+                  Cross". We will travel north along the Georgia Military
+                  Highway and enjoy the spectacular scenery of the magnificent
+                  Caucasus Mountains. On the way we will pass by the Ananuri
+                  architectural complex and the Jinvaly water reservoir, of
+                  surprising beauty. Arrival in Gudauri, the famous ski resort
+                  located at 2 000 - 2 200 meters above sea level. Dinner and
+                  accommodation at the hotel. (D / - / C)
                 </p>
               </div>
             </div>
@@ -300,7 +302,9 @@
                 @click="clickOnDay5"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 5: SHEKI – KISH – SHEKI</p>
+                <p class="mt-1 text-lg">
+                  DAY 5: GUDAURI - STEPANTSMINDA - GUDAURI
+                </p>
                 <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
               </div>
               <div
@@ -308,16 +312,19 @@
                 v-if="Day5"
               >
                 <p class="transition-all animate-fadeIn duration-500">
-                  Visit the Royal Summer Palace of the Sheki Khans with its
-                  magnificent frescoes and stained glass as well as Sheki Museum
-                  and Fortress. In the afternoon drive into the countryside to
-                  the village of Kish with the oldest church in the Caucasus
-                  dating from the first century and enjoy a walk in the
-                  surrounding Caucasus foothills. Transfer to the border with
-                  Georgia. Change vehicle & guide. After crossing the border
-                  lunch with famous Georgian wine and shashlik in local family.
-                  Visit Gremi Complex before arriving in Telavi. Overnight in
-                  Telavi.
+                  After breakfast we will go to Kazbegui. An impressive road
+                  along the Terek river will take us to Kazbegui
+                  (Stepantsminda). From the center we will make a 1.5-hour walk
+                  (the climb and descent lasts 3 hours) to reach Guergueti, the
+                  church of the Trinity located at 2170m above sea level. If
+                  time permits you can take a look at one of the largest
+                  glaciers in the Caucasus - Mt Kazbegui (5047m). Return on foot
+                  to Kazbegui, where we will visit a local teacher who will
+                  explain to us about "Teka", artifacts made of cloth. Here we
+                  will taste the traditional sweets "Muraba". In the afternoon
+                  we will return to Gudauri. Dinner and accommodation at the
+                  hotel. Note: In Kazbegui you can rent the car (4X4) to go up
+                  to the Church of the Trinity. (D / - / C)
                 </p>
               </div>
             </div>
@@ -326,7 +333,9 @@
                 @click="clickOnDay6"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 6: TELAVI – MTSKHETA – GUDAURI</p>
+                <p class="mt-1 text-lg">
+                  DAY 6: GUDAURI - UPLISTSIJE - GORI - KUTAISI
+                </p>
                 <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
               </div>
               <div
@@ -334,16 +343,14 @@
                 v-if="Day6"
               >
                 <p class="transition-all animate-fadeIn duration-500">
-                  We travel to Kakheti - the famous wine-growing region. In the
-                  morning we visit Alaverdi Monastery. Visit local farmer's
-                  family to see aunique 300-years old wine cellar. Visit the
-                  ancient capital and religious centre of Georgia - Mtskheta and
-                  its historical places: Jvari Monastery and Svetitskhoveli
-                  Cathedral, where the Robe of Christ is buried. Both Jvari and
-                  Svetitskhoveli are UNESCO World Heritage sites. Afternoon we
-                  drive through the Great Caucasus along the Georgian Military
-                  highway en-route visiting Ananuri complex. In the evening we
-                  arrive in Gudauri skiresort.
+                  We will go to the small town of Gori. It is the hometown of
+                  the famous Soviet leader Joseph Stalin. We stopped near his
+                  museum to take photos. Arrival in the cave city of Uplistsije
+                  (literally “fortress of the Lord”), one of the oldest urban
+                  settlements in Georgia and a key point on the famous Silk Road
+                  for its strategic position. We will continue to the west of
+                  Georgia, to the land of the famous Golden Fleece. Arrival in
+                  Kutaisi. Overnight at the hotel. (D / - / -)
                 </p>
               </div>
             </div>
@@ -352,7 +359,7 @@
                 @click="clickOnDay7"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 7: GUDAURI – KAZBEGI – TBILISI</p>
+                <p class="mt-1 text-lg">DAY 7: KUTAISI – TSKALTUBO – TIBLISI</p>
                 <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
               </div>
               <div
@@ -360,15 +367,14 @@
                 v-if="Day7"
               >
                 <p class="transition-all animate-fadeIn duration-500">
-                  A stunning drive from Gudauri along the Tergi River will bring
-                  us to Kazbegi - the main town in the region. From Kazbegi 1.5
-                  hour walk up through beautiful valleys and woodland leads us
-                  to Gergeti Trinity Church located at 2170 m, offering
-                  beautiful views of the Caucasus Mountains and the town of
-                  Kazbegi. Weather permitting we may catch a glimpse of one of
-                  the highest glaciers in the Caucasus -Mt Kazbegi (5047m). We
-                  then drive through the dramatic Dariali Gorge before returning
-                  to Tbilisi.
+                  We will visit the spectacular Bagrati Cathedral - the
+                  masterpiece of medieval Georgian architecture and the
+                  impressive Monastery of the Virgin in Guelati, with its
+                  beautiful mosaic frescoes. Then we will see the Prometheus
+                  Grotto with its impressive stalactites and stalagmites,
+                  petrified waterfalls, cave pearls and underground lakes, which
+                  have stood for millennia of years. Return to Tiblisi. Hotel
+                  accommodation. (D / - / -)
                 </p>
               </div>
             </div>
@@ -377,7 +383,9 @@
                 @click="clickOnDay8"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 8: TBILISI</p>
+                <p class="mt-1 text-lg">
+                  DAY 8: TIBLISI - LAGODEJI (BORDER) - KISH - SHEKI
+                </p>
                 <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
               </div>
               <div
@@ -385,19 +393,18 @@
                 v-if="Day8"
               >
                 <p class="transition-all animate-fadeIn duration-500">
-                  Arrive in Tbilisi and transfer to hotel. Tbilisi sightseeing
-                  tour - the Old and New Towns. The city offers a great variety
-                  of sights, most of them very ancient. All the places of
-                  interest in the Old Town are very close to each other, within
-                  a few minutes' walk. We start our visit to Old Tbilisi from
-                  Metekhi Church, then walk up to the brick-domed Sulphur Baths.
-                  From the Baths we head up the hill to visit Narikala Fortress
-                  - one of the oldest fortifications in the city. Afterwards we
-                  continue to the Synagogue, Sioni Cathedral and Anchiskhati
-                  Church. This marks the end of the Old Town. After lunch we
-                  visit the stunning treasury of the Georgian National Museum,
-                  before taking a stroll along Rustaveli Avenue - the main
-                  street in Tbilisi.
+                  Transfer to the border of Georgia and Azerbaijan. Border
+                  formalities. After customs formalities we will drive to Sheki,
+                  150 km (2.5 hours) Arrival in Sheki. Sheki City Tour: We will
+                  start with the Sheki Khans Summer Palace with its magnificent
+                  frescoes and stained glass windows. We will visit the local
+                  Shebeke Stained Glass workshop where the famous handmade
+                  stained glass windows of Sheki are assembled, a medieval
+                  karavanserai that was one of the main stopping points for the
+                  large caravans traveling along the ancient Silk Road. We will
+                  continue to the town of Kish to visit the oldest church in the
+                  Caucasus area dating from the s. I-V. Accommodation in Sheki.
+                  (D/A/–)
                 </p>
               </div>
             </div>
@@ -406,7 +413,9 @@
                 @click="clickOnDay9"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 9: TBILISI – DEPARTURE</p>
+                <p class="mt-1 text-lg">
+                  DAY 9: SHEKI - LAHIJ - SHEMAKHA - MARAZA - BAKU, 350 KM
+                </p>
                 <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
               </div>
               <div
@@ -414,18 +423,93 @@
                 v-if="Day9"
               >
                 <p class="transition-all animate-fadeIn duration-500">
-                  Transfer to the airport and departure.
+                  In the morning we will visit the local bazaar, a show of
+                  colors and flavors in which we can interact with the local
+                  population. Departure for Baku, 350 kilometers, we will make
+                  several stops en route: visit the Lahij village, located in
+                  the largest mountains of the Caucasus and famous for its
+                  copper crafts recently included in the UNESCO heritage list.
+                  (The excursion to Lahij is done only when the roads are dry
+                  for safety reason). Another stop will be in Shemakha to visit
+                  the Juma Mosque and then the Diri Baba Mausoleum carved out of
+                  a rock in Maraza. Arrival in Baku. Night in Baku. (D/A/–)
                 </p>
               </div>
             </div>
-          </div>
-          <div class="pb-5">
-            <p class="text-2xl mb-3">* ADDITIONAL INFORMATION</p>
-            <p>
-              This tour is operated between April – October. Lahij and Mud
-              volcanoes are subject to whether conditions. Kazbegi is subject to
-              whether conditions
-            </p>
+            <div class="mb-6">
+              <div
+                @click="clickOnDay10"
+                class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
+              >
+                <p class="mt-1 text-lg">
+                  DAY 10: BAKU - GOBUSTAN - BAKU, 130 KM
+                </p>
+                <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
+              </div>
+              <div
+                class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
+                v-if="Day10"
+              >
+                <p class="transition-all animate-fadeIn duration-500">
+                  Today we will go to Gobustan, 65 km from Baku, an open-air
+                  museum of cave paintings, a World Heritage Site by UNESCO, an
+                  ancient settlement from the Neolithic period. We will continue
+                  12 km away to see active mud volcanoes. (The excursion to the
+                  volcanoes operates only when the roads are dry). Then in the
+                  afternoon your guided walking tour of Baku includes the walled
+                  medieval city "Icheri Sheher" with its narrow streets,
+                  historical caravanserais, mosques and the Palace of the
+                  Shirvan Shas. We will also visit the symbol of the city: the
+                  Tower of the Maiden, from the 12th century, from where we can
+                  admire the imposing mansions of the oil magnates, built in the
+                  oil boom of 1870-1914. We will continue along the Alley of the
+                  Martyrs with its magnificent views over Baku Bay. (D/A/–)
+                </p>
+              </div>
+            </div>
+            <div class="mb-6">
+              <div
+                @click="clickOnDay11"
+                class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
+              >
+                <p class="mt-1 text-lg">DAY 11: BAKU - ABSHERON - BAKU</p>
+                <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
+              </div>
+              <div
+                class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
+                v-if="Day11"
+              >
+                <p class="transition-all animate-fadeIn duration-500">
+                  In the morning visit to the Absheron peninsula, where we will
+                  visit Ateshgah the "temple of the eternal flame" (UNESCO
+                  Heritage), built in the 18th century for the prayers of the
+                  Zoroastrians who travel with commercial caravans through
+                  Azerbaijan. We will continue the visit with the Mardakan
+                  fortress that was part of the defense system of the peninsula
+                  in the medieval centuries. Finally we will go to Yanardagh the
+                  mountain of fire famous for its natural gas outlet. Return to
+                  the hotel and accommodation. (D/A/–)
+                </p>
+              </div>
+            </div>
+            <div class="mb-6">
+              <div
+                @click="clickOnDay12"
+                class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
+              >
+                <p class="mt-1 text-lg">DAY 12: BAKU - DEPARTURE</p>
+                <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
+              </div>
+              <div
+                class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
+                v-if="Day12"
+              >
+                <p class="transition-all animate-fadeIn duration-500">
+                  Breakfast and at the scheduled time transfer to the airport to
+                  catch the return flight. (- / - / -)
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -531,6 +615,9 @@ const Day6 = ref(false);
 const Day7 = ref(false);
 const Day8 = ref(false);
 const Day9 = ref(false);
+const Day10 = ref(false);
+const Day11 = ref(false);
+const Day12 = ref(false);
 
 const clickOnDay1 = () => {
   Day1.value = !Day1.value;
@@ -567,14 +654,24 @@ const clickOnDay8 = () => {
 const clickOnDay9 = () => {
   Day9.value = !Day9.value;
 };
+
+const clickOnDay10 = () => {
+  Day10.value = !Day10.value;
+};
+
+const clickOnDay11 = () => {
+  Day11.value = !Day11.value;
+};
+
+const clickOnDay12 = () => {
+  Day12.value = !Day12.value;
+};
 </script>
 
 <style scoped>
 .parallax {
+  position: relative;
   min-height: 100vh;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .parallax::before {
   content: "";
@@ -583,7 +680,7 @@ const clickOnDay9 = () => {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("@/assets/images/georg2.webp");
+  background-image: url("@/assets/images/georg.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -594,14 +691,4 @@ const clickOnDay9 = () => {
 .text-color {
   color: #5a5858;
 }
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
 </style>

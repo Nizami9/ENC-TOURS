@@ -90,7 +90,10 @@
               </p>
             </div>
           </div>
-          <div class="w-1/3 uppercase">
+          <div
+            class="w-1/3 uppercase"
+            @click="navigateTo('../tours/Explore_Caucasus')"
+          >
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/baku2.jpeg"
@@ -111,7 +114,10 @@
               </p>
             </div>
           </div>
-          <div class="w-1/3 uppercase">
+          <div
+            class="w-1/3 uppercase"
+            @click="navigateTo('../tours/Azerbaijan_Georgia')"
+          >
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/georg.jpeg"
