@@ -221,8 +221,11 @@
 <script setup></script>
 <style scoped>
 .parallax {
-  position: relative;
+  background-image: url("@/assets/images/newAz1.jpeg");
   min-height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .parallax::before {
   content: "";
@@ -231,7 +234,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("@/assets/images/sheki1.jpeg");
+  background-image: url("@/assets/images/newAz8.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

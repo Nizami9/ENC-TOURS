@@ -3,7 +3,7 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-1/3 m-auto pt-48 text-center z-10 uppercase text-white p-2"
+          class="w-1/3 m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
           <p class="text-7xl uppercase font-semibold">contact us</p>
         </div>
@@ -142,9 +142,8 @@
 <style scoped>
 .parallax {
   position: relative;
-  min-height: 800px;
+  min-height: 100vh;
 }
-
 .parallax::before {
   content: "";
   position: absolute;
@@ -156,7 +155,7 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  filter: brightness(90%);
+  filter: brightness(55%);
   z-index: -1;
 }
 </style>

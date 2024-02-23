@@ -3,10 +3,10 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-1/2 m-auto pt-48 text-center z-10 uppercase text-white p-2"
+          class="w-1/2 m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
           <p class="text-7xl uppercase font-semibold">
-            ENC TOURS nizami
+            About Us
           </p>
           <p class="rounded-md mt-2">
             Founded on the principle in offering seamless operational travel
@@ -241,9 +241,8 @@
 <style scoped>
 .parallax {
   position: relative;
-  min-height: 800px;
+  min-height: 100vh;
 }
-
 .parallax::before {
   content: "";
   position: absolute;
@@ -251,7 +250,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("@/assets/images/az7.jpeg");
+  background-image: url("@/assets/images/newAz1.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

@@ -16,7 +16,7 @@
       <div class="text-center">
         <div class="p-8">
           <p class="text-6xl">INTRO</p>
-          <p class="border-b-2 pt-4 w-20 border-orange-500 m-auto"></p>
+          <p class="border-b-2 pt-4 w-20 border-gray-400 m-auto"></p>
         </div>
         <div
           v-motion
@@ -71,7 +71,7 @@
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/oil.jpeg"
-                class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all cursor-pointer"
+                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
                 alt=""
                 @mouseover="addBorder1"
                 @mouseout="removeBorder1"
@@ -92,7 +92,7 @@
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/flowers.jpeg"
-                class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all cursor-pointer"
+                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
                 alt=""
                 @mouseover="addBorder2"
                 @mouseout="removeBorder2"
@@ -113,7 +113,7 @@
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/kish.jpeg"
-                class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all cursor-pointer"
+                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
                 alt=""
                 @mouseover="addBorder3"
                 @mouseout="removeBorder3"
@@ -153,7 +153,7 @@
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/cuisineaz.jpeg"
-                class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all cursor-pointer"
+                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
                 alt=""
                 @mouseover="addBorder4"
                 @mouseout="removeBorder4"
@@ -175,7 +175,7 @@
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/flamingo1.jpeg"
-                class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all cursor-pointer"
+                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
                 alt=""
                 @mouseover="addBorder5"
                 @mouseout="removeBorder5"
@@ -196,7 +196,7 @@
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/golf.jpeg"
-                class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all cursor-pointer"
+                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
                 alt=""
                 @mouseover="addBorder6"
                 @mouseout="removeBorder6"
@@ -236,7 +236,7 @@
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/pomegranate.avif"
-                class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all cursor-pointer"
+                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
                 alt=""
                 @mouseover="addBorder7"
                 @mouseout="removeBorder7"
@@ -258,7 +258,7 @@
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/tea.jpeg"
-                class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all cursor-pointer"
+                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
                 alt=""
                 @mouseover="addBorder8"
                 @mouseout="removeBorder8"
@@ -279,7 +279,7 @@
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/carpet1.jpeg"
-                class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all cursor-pointer"
+                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
                 alt=""
                 @mouseover="addBorder9"
                 @mouseout="removeBorder9"
@@ -305,11 +305,11 @@
 <script setup>
 const createHoverHandlers = (sectionRef) => {
   const addBorder = () => {
-    sectionRef.value.classList.add("border-b-2", "border-orange-400");
+    sectionRef.value.classList.add("border-b-2", "border-gray-400");
   };
 
   const removeBorder = () => {
-    sectionRef.value.classList.remove("border-b-2", "border-orange-400");
+    sectionRef.value.classList.remove("border-b-2", "border-gray-400");
   };
 
   return { addBorder, removeBorder };
@@ -343,12 +343,13 @@ const { addBorder: addBorder8, removeBorder: removeBorder8 } =
   createHoverHandlers(section8);
 const { addBorder: addBorder9, removeBorder: removeBorder9 } =
   createHoverHandlers(section9);
-
 </script>
 <style scoped>
 .parallax {
-  position: relative;
-  min-height: 800px;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .parallax::before {
   content: "";

@@ -16,7 +16,7 @@
       <div class="text-center">
         <div class="p-8">
           <p class="text-6xl">INTRO</p>
-          <p class="border-b-2 pt-4 w-20 border-orange-500 m-auto"></p>
+          <p class="border-b-2 pt-4 w-20 border-gray-400 m-auto"></p>
         </div>
         <div
           v-motion

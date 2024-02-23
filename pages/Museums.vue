@@ -3,7 +3,7 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-1/2 m-auto pt-48 text-center z-10 uppercase text-white p-2"
+          class="w-1/2 m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
           <p class="text-7xl uppercase font-semibold">museums</p>
           <p class="rounded-md mt-5 text-2xl text-center">
@@ -66,13 +66,13 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="border-b-2 pb-2 border-gray-400">
               MUSEUM OF MODERN ART
             </p>
             <div class="flex p-8 pl-0">
               <img
                 src="@/assets/images/museum1.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-orange-400"
+                class="h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
@@ -103,13 +103,13 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="border-b-2 pb-2 border-gray-400">
               AZERBAIJAN CARPET MUSEUM
             </p>
             <div class="flex p-8 pl-0">
               <img
                 src="@/assets/images/carpetmuseum2.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-orange-400"
+                class="h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
@@ -143,13 +143,13 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="border-b-2 pb-2 border-gray-400">
               NIZAMI GANJAVI MUSEUM
             </p>
             <div class="flex p-8 pl-0">
               <img
                 src="@/assets/images/museum2.webp"
-                class="h-60 border-4 w-96 rounded-md border-orange-400"
+                class="h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
@@ -183,13 +183,13 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="border-b-2 pb-2 border-gray-400">
               THE SHEKI KHANS HOUSE
             </p>
             <div class="flex p-8 pl-0">
               <img
                 src="@/assets/images/museum3.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-orange-400"
+                class="h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
@@ -220,13 +220,13 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="border-b-2 pb-2 border-gray-400">
               NATIONAL MUSEUM OF HISTORY
             </p>
             <div class="flex p-8 pl-0">
               <img
                 src="@/assets/images/museum4.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-orange-400"
+                class="h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
@@ -259,11 +259,11 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">ATASHGAH</p>
+            <p class="border-b-2 pb-2 border-gray-400">ATASHGAH</p>
             <div class="flex p-8 pl-0">
               <img
                 src="@/assets/images/museum51.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-orange-400"
+                class="h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
@@ -300,13 +300,13 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="border-b-2 pb-2 border-gray-400">
               SHIRVANSHAH'S PALACE
             </p>
             <div class="flex p-8 pl-0">
               <img
                 src="@/assets/images/museum6.webp"
-                class="h-60 border-4 w-96 rounded-md border-orange-400"
+                class="h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
@@ -347,11 +347,11 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">MAIDEN TOWER</p>
+            <p class="border-b-2 pb-2 border-gray-400">MAIDEN TOWER</p>
             <div class="flex p-8 pl-0">
               <img
                 src="@/assets/images/museum7.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-orange-400"
+                class="h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
@@ -389,13 +389,13 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="border-b-2 pb-2 border-gray-400">
               ALBANIAN TEMPLE - KISH
             </p>
             <div class="flex p-8 pl-0">
               <img
                 src="@/assets/images/kish.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-orange-400"
+                class="h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
@@ -429,13 +429,13 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="border-b-2 pb-2 border-gray-400">
               HEYDAR ALIYEV CENTER
             </p>
             <div class="flex p-8 pl-0">
               <img
                 src="@/assets/images/museum8.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-orange-400"
+                class="h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
@@ -469,11 +469,11 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">GOBUSTAN</p>
+            <p class="border-b-2 pb-2 border-gray-400">GOBUSTAN</p>
             <div class="flex p-8 pl-0">
               <img
                 src="@/assets/images/museum9.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-orange-400"
+                class="h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
@@ -532,11 +532,11 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">SHEKI KHANS PALACE</p>
+            <p class="border-b-2 pb-2 border-gray-400">SHEKI KHANS PALACE</p>
             <div class="flex p-8 pl-0">
               <img
                 src="@/assets/images/museum10.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-orange-400"
+                class="h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
@@ -558,9 +558,12 @@
 <script setup></script>
 
 <style scoped>
+
 .parallax {
-  position: relative;
-  min-height: 800px;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .parallax::before {
   content: "";

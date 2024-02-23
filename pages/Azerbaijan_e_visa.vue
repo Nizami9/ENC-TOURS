@@ -3,7 +3,7 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-1/2 m-auto pt-48 text-center z-10 uppercase text-white p-2"
+          class="w-1/2 m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
           <p class="text-7xl uppercase font-semibold">AZERBAIJAN E-VISA</p>
           <p class="rounded-md mt-2">
@@ -86,9 +86,8 @@
 <style scoped>
 .parallax {
   position: relative;
-  min-height: 800px;
+  min-height: 100vh;
 }
-
 .parallax::before {
   content: "";
   position: absolute;

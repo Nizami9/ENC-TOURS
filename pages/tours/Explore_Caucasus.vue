@@ -3,10 +3,12 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-2/3 m-auto pt-80 text-center z-10 uppercase text-white p-2"
+          class="w-2/3 overlay m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text-7xl uppercase font-semibold">AZERBAIJAN 10 DAYS</p>
-          <p class="rounded-md mt-20 text-center">
+          <p class="text-7xl uppercase w-3/4 m-auto p-4 rounded-lg font-semibold">
+            EXPLORE CAUCASUS & ANCIENT GREAT SILK ROAD
+          </p>
+          <p class="rounded-md w-1/2 m-auto mt-10 text-center">
             Lauded for its extensive knowledge, its East-meets-West model and
             venturing responsibly into every corner of its destinations, it is
             our mission to show guests the beating heart of our Asia
@@ -37,22 +39,10 @@
           class="border w-1/2 m-auto p-8 text-customGray"
         >
           <p>
-            THIS OUTSTANDING TRIP TAKES IN FOUR OF THE MOST IMPORTANT CITIES OF
-            THE OLD SILK ROAD AND IS PERFECT IF CULTURE AND HISTORY ARE YOUR
-            REASONS FOR TRAVEL. STARTING OUR TRIP IN UZBEKISTAN, WE WILL FIRST
-            VISIT THE SPLENDOUR OF SAMARKAND AND BUKHARA BEFORE CROSSING THE
-            FAMOUS RIVER OXUS AND ENTERING TURKMENISTAN. WE THEN TRAVEL ON TO
-            MERV, ONE OF THE GREAT EMPORIUMS OF THE SILK ROAD (UNTIL A CERTAIN
-            GENGHIS KHAN FLATTENED MOST OF IT) AND MARGUSH, WHERE THE BRONZE AGE
-            ARCHAEOLOGICAL SITE OF GONUR DEPE LIES, BELIEVED BY SOME TO
-            REPRESENT THE CAPITAL OF THE FIFTH GREAT CIVILISATION OF THE ANCIENT
-            WORLD. AFTER THIS WE WILL TRAVEL TO THE CURIOUSLY NAMED AND TOTALLY
-            WEIRD MODERN CAPITAL OF ASHGABAT (THE CITY OF LOVE) BEFORE DRIVING
-            NORTH THROUGH THE KARAKUM DESERT TO SEE THE AMAZING DARVAZA GAS
-            CRATER. CONTINUING NORTH TO VISIT KONYA URGENCH, WE THEN CROSS BACK
-            INTO UZBEKISTAN AND ON TO KHIVA. THE TOUR ENDS WHERE IT STARTED
-            AMONGST THE LEAFY STREETS OF TASHKENT. THIS IS AN INTERESTING AND
-            ENTIRELY ORIGINAL ITINERARY YOU WILL FIND NOWHERE ELSE.
+            Unforgettable 9 day tour to these remote and mysterious countries of
+            the Caucasus. Explore Azerbaijan with its fascinating shores of the
+            Caspian Sea and countryside. Enjoy your tour to Georgia , visit
+            Tbilisi, the charming capital and all the major highlights
           </p>
         </div>
         <div class="flex w-11/12 m-auto mt-10 mb-6">
@@ -183,7 +173,11 @@
                 </p>
               </div>
               <div class="m-auto mt-5 mb-5 w-1/2">
-                <img src="@/assets/images/MapAz10.jpeg" class="border" alt="" />
+                <img
+                  src="@/assets/images/MapAzExplore.jpeg"
+                  class="border"
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -261,9 +255,7 @@
                 @click="clickOnDay3"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">
-                  DAY 3: BAKU – SHEMAKHA – LAHIJ, 190 KM
-                </p>
+                <p class="mt-1 text-lg">DAY 3: BAKU – ABSHERON – BAKU</p>
                 <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
               </div>
               <div
@@ -271,23 +263,12 @@
                 v-if="Day3"
               >
                 <p class="transition-all animate-fadeIn duration-500">
-                  In the morning we will depart Baku and drive to Sheki. On the
-                  way from Baku to Shamakhi there is Maraza village known for
-                  its unique monument - two-storied mausoleum-mosque of the 15th
-                  century called Diri-Baba, located across from the old
-                  cemetery. For a long time the local residents have kept the
-                  legend that there imperishable Saint Diri-Baba had been buried
-                  there. Continue to Shamakha you will have a sightseeing of
-                  historical Juma Mosque (10th century, reconstructed in the 19
-                  th century), numerous ruins of the 10 th – 17 th centuries and
-                  Yeddi Gumbez Mausoleum. Drive through Girdimanchay River’s
-                  canyon to visit Lahij, the 5th century place rich in its
-                  historic and architectural values. Lahij is an ancient village
-                  with charming eye-catching sidewalks inlaid by stones. It is
-                  famous for medieval water supply and sewage systems as well as
-                  traditional workshops making jewelry, copperware, carpets,
-                  pottery, daggers, and iron tools. *Trip to Lahij is subject of
-                  weather conditions. Overnight in Lahij.
+                  Today enjoy a half day excursion to the Absheron Peninsula,
+                  visiting the Ateshgah (or place of fire) a Zoroastrian Fire
+                  Temple, UNESCO Heritage site and natural burning mountain
+                  Yanardagh. Also see the medieval fortress in Mardakan, which
+                  in medieval times formed part of the defence system of the
+                  Peninsula and the attractive mosque at Amirjan.
                 </p>
               </div>
             </div>
@@ -296,7 +277,7 @@
                 @click="clickOnDay4"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 4: LAHIJ – SHEKI</p>
+                <p class="mt-1 text-lg">DAY 4: BAKU – SHAMAKHI – SHEKI</p>
                 <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
               </div>
               <div
@@ -304,28 +285,13 @@
                 v-if="Day4"
               >
                 <p class="transition-all animate-fadeIn duration-500">
-                  In the morning we will leave Lahij for Sheki. On the way we
-                  will stop in Gabala to see the church of local Christian
-                  minority of udins in Nidj village. Upon arrival in Sheki visit
-                  the Sheki Khan Palace. The unique beauty two-storied building
-                  of the palace amazes with its magnificent interior and
-                  exterior. The facade of the palace is richly painted with
-                  anecdotal drawings displaying scenes of hunting and war as
-                  well as intricate geometrical and vegetative patterns. In the
-                  center is a huge stained-glass window from a multi-colored
-                  glass mosaic (It is remarkable up to 5,000 glass pieces were
-                  used per one square meter). Other smaller windows of the
-                  palace are also made of pieces of colored glass and covered
-                  with openwork stone lattices. The basic material for the
-                  Palace construction was raw bricks, river stones, plane trees
-                  and oaks. The most amazing is that not a single nail or glue
-                  drop was used for the construction! Everything is in place due
-                  to a special solution the formula of which was lost forever.
-                  Also we will visit Carvanserai of 18th century in Sheki. Then
-                  drive into the countryside to the village of Kish with the
-                  oldest church in the Caucasus dating from the first century
-                  and enjoy a walk in the surrounding Caucasus foothills.
-                  Overnight in Sheki.
+                  Leaving Baku, depart with ENC guide for the Caucasus Mountains
+                  in the northwest of Azerbaijan. The dry landscape gives way to
+                  a densely forested mountain area. Visit the town of Shamakhi,
+                  once the capital of Shirvan, and the charming village of
+                  Lahij, a centre of Azerbaijani handicrafts, before arriving at
+                  the historic town of Sheki. Overnight with dinner at an
+                  atmospheric converted caravanserai.
                 </p>
               </div>
             </div>
@@ -334,7 +300,7 @@
                 @click="clickOnDay5"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 5: SHEKI – GANJA, 150 KM</p>
+                <p class="mt-1 text-lg">DAY 5: SHEKI – KISH – SHEKI</p>
                 <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
               </div>
               <div
@@ -342,18 +308,16 @@
                 v-if="Day5"
               >
                 <p class="transition-all animate-fadeIn duration-500">
-                  This morning we will visit local Sheki bazar. Leave Sheki, for
-                  Ganja. Ganja is the second biggest city of Azerbaijan with
-                  more than a million populations. Ganja is the birthplace of
-                  the great Azerbaijani poet Nizami Ganjavi who made the
-                  invaluable contribution to the history of not only Azerbaijani
-                  literature but also the world literature. Nizami Ganjevi was
-                  born in Ganja in 1141. He was one of the most educated people
-                  of the time. Today we will visit the 17th century Shah Abbas
-                  Mosque, Javadkhan Mousaleum (XIX century), the Orthodox church
-                  ( 1815),Nizami Mousaleum and the "Bottle House", local icon in
-                  Ganja decorated with 50,000 glass bottles. Visit Imamzade
-                  Mosque. Free time in Ganja. Overnight in Ganja.
+                  Visit the Royal Summer Palace of the Sheki Khans with its
+                  magnificent frescoes and stained glass as well as Sheki Museum
+                  and Fortress. In the afternoon drive into the countryside to
+                  the village of Kish with the oldest church in the Caucasus
+                  dating from the first century and enjoy a walk in the
+                  surrounding Caucasus foothills. Transfer to the border with
+                  Georgia. Change vehicle & guide. After crossing the border
+                  lunch with famous Georgian wine and shashlik in local family.
+                  Visit Gremi Complex before arriving in Telavi. Overnight in
+                  Telavi.
                 </p>
               </div>
             </div>
@@ -362,7 +326,7 @@
                 @click="clickOnDay6"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 6: GANJA – BAKU, 360 KM</p>
+                <p class="mt-1 text-lg">DAY 6: TELAVI – MTSKHETA – GUDAURI</p>
                 <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
               </div>
               <div
@@ -370,15 +334,16 @@
                 v-if="Day6"
               >
                 <p class="transition-all animate-fadeIn duration-500">
-                  In the morning, leave Ganja and drive to Baku. On the way
-                  Baku, we will visit the Museum of Petroglyphs another name of
-                  which is Gobustan - a mountainous place in the southeast of
-                  the Major Caucasian ridge located 60 km from Baku. There are
-                  thousands of rock paintings from the early Stone Age depicting
-                  hunting scenes, animals, people and ships as well as graffiti
-                  left by Alexander the Great's army and Roman legionnaires. In
-                  2007 Gobustan was declared a UNESCO World Heritage Site.
-                  Arrival to Baku. Overnight in Baku.
+                  We travel to Kakheti - the famous wine-growing region. In the
+                  morning we visit Alaverdi Monastery. Visit local farmer's
+                  family to see aunique 300-years old wine cellar. Visit the
+                  ancient capital and religious centre of Georgia - Mtskheta and
+                  its historical places: Jvari Monastery and Svetitskhoveli
+                  Cathedral, where the Robe of Christ is buried. Both Jvari and
+                  Svetitskhoveli are UNESCO World Heritage sites. Afternoon we
+                  drive through the Great Caucasus along the Georgian Military
+                  highway en-route visiting Ananuri complex. In the evening we
+                  arrive in Gudauri skiresort.
                 </p>
               </div>
             </div>
@@ -387,7 +352,7 @@
                 @click="clickOnDay7"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 7: BAKU – LANKARAN, 300 KM</p>
+                <p class="mt-1 text-lg">DAY 7: GUDAURI – KAZBEGI – TBILISI</p>
                 <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
               </div>
               <div
@@ -395,24 +360,15 @@
                 v-if="Day7"
               >
                 <p class="transition-all animate-fadeIn duration-500">
-                  In the morning, check-out at the hotel and drive to Lankaran.
-                  En-route to Lankaran, we will visit one of the main
-                  attractions in Salyan, Shirvan National Park, created in 2003
-                  out of a nature reserve that has existed here since 1969. It
-                  covers the territory of 55 hectares and was founded to
-                  preserve the local flora and fauna, especially gazelles listed
-                  in the Red Book. Besides gazelles, there are 34 species of
-                  birds in the reserve, 14 of which are listed in the Red Book.
-                  After visiting the Shirvan National Park we will continue our
-                  tour in Lankaran. Lankaran is a subtropical paradise and
-                  resort. It is located in the southeast of Azerbaijan
-                  practically on the border with Iran. In the east the city is
-                  washed by the waters of the Caspian Sea. The nature of
-                  Lankaran harmoniously combines high mountain tops, fertile
-                  lowlands and pebbly sea coasts. Visit a local family to learn
-                  about the customs and traditions of the Talysh people in
-                  Lankaran. Later, enjoy the excursion of the tea plantation and
-                  have tea-ceremony here. Overnight in Lankaran.
+                  A stunning drive from Gudauri along the Tergi River will bring
+                  us to Kazbegi - the main town in the region. From Kazbegi 1.5
+                  hour walk up through beautiful valleys and woodland leads us
+                  to Gergeti Trinity Church located at 2170 m, offering
+                  beautiful views of the Caucasus Mountains and the town of
+                  Kazbegi. Weather permitting we may catch a glimpse of one of
+                  the highest glaciers in the Caucasus -Mt Kazbegi (5047m). We
+                  then drive through the dramatic Dariali Gorge before returning
+                  to Tbilisi.
                 </p>
               </div>
             </div>
@@ -421,7 +377,7 @@
                 @click="clickOnDay8"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 8: LANKARAN – BAKU, 300 KM</p>
+                <p class="mt-1 text-lg">DAY 8: TBILISI</p>
                 <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
               </div>
               <div
@@ -429,18 +385,19 @@
                 v-if="Day8"
               >
                 <p class="transition-all animate-fadeIn duration-500">
-                  Today you will depart with your driver and guide for Baku.
-                  Before the departure to Baku, we will drive to Astara. Here we
-                  will visit Yanar Bulaq. Yanar bulaq (Burning water) is fire
-                  phenomenon in Astara. Yanar Bulag or the 'burning spring' is
-                  located in the city of Astara in southern Azerbaijan. It
-                  consists of a metal stand pipe inside a small pavilion through
-                  which water comes gurgling out. It looks nothing unusual, but
-                  when you light a match and touch the water, the water itself
-                  is set ablaze. This occurs due to the water's high methane
-                  content. The locals believe the water from the spring has
-                  remedial properties, and would often take a drink while the
-                  flame is alight. Overnight in Baku.
+                  Arrive in Tbilisi and transfer to hotel. Tbilisi sightseeing
+                  tour - the Old and New Towns. The city offers a great variety
+                  of sights, most of them very ancient. All the places of
+                  interest in the Old Town are very close to each other, within
+                  a few minutes' walk. We start our visit to Old Tbilisi from
+                  Metekhi Church, then walk up to the brick-domed Sulphur Baths.
+                  From the Baths we head up the hill to visit Narikala Fortress
+                  - one of the oldest fortifications in the city. Afterwards we
+                  continue to the Synagogue, Sioni Cathedral and Anchiskhati
+                  Church. This marks the end of the Old Town. After lunch we
+                  visit the stunning treasury of the Georgian National Museum,
+                  before taking a stroll along Rustaveli Avenue - the main
+                  street in Tbilisi.
                 </p>
               </div>
             </div>
@@ -449,7 +406,7 @@
                 @click="clickOnDay9"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 9: BAKU</p>
+                <p class="mt-1 text-lg">DAY 9: TBILISI – DEPARTURE</p>
                 <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
               </div>
               <div
@@ -457,35 +414,18 @@
                 v-if="Day9"
               >
                 <p class="transition-all animate-fadeIn duration-500">
-                  In the morning visit Heydar Aliyev Cultural Center. Heydar
-                  Aliyev Center is a cultural center, projected as a complex
-                  structure that includes the auditorium (convention center), a
-                  museum, exhibition halls, administrative offices. The project
-                  of the center was designed by the winner of Pritzker prize and
-                  internationally recognized architect Zaha Hadid. *Heydar
-                  Aliyev Cultural Center is closed on Mondays. Then we will
-                  visit Villa Petrolea, the House Museum of Nobel brothers. Free
-                  time. Overnight at the hotel in Baku.
+                  Transfer to the airport and departure.
                 </p>
               </div>
             </div>
-            <div class="mb-6">
-              <div
-                @click="clickOnDay10"
-                class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
-              >
-                <p class="mt-1 text-lg">DAY 10: DEPARTURE</p>
-                <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
-              </div>
-              <div
-                class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
-                v-if="Day10"
-              >
-                <p class="transition-all animate-fadeIn duration-500">
-                  Meet your driver for the transfer to the airport. Departure.
-                </p>
-              </div>
-            </div>
+          </div>
+          <div class="pb-5">
+            <p class="text-2xl mb-3">* ADDITIONAL INFORMATION</p>
+            <p>
+              This tour is operated between April – October. Lahij and Mud
+              volcanoes are subject to whether conditions. Kazbegi is subject to
+              whether conditions
+            </p>
           </div>
         </div>
 
@@ -553,12 +493,20 @@
           <p>All group tours can be taken on a private basis.</p>
           <div class="flex w-1/2 mt-4 m-auto justify-between pb-5">
             <div class="flex">
-              <img src="@/assets/images/phone.png" class="max-w-6 mr-4" alt="" />
+              <img
+                src="@/assets/images/phone.png"
+                class="max-w-6 mr-4"
+                alt=""
+              />
               <p>Call +44 (0) 20 3925 9628</p>
             </div>
             <div class="flex">
               <div class="flex">
-                <img src="@/assets/images/mail.png" class="max-w-6 mr-4" alt="" />
+                <img
+                  src="@/assets/images/mail.png"
+                  class="max-w-6 mr-4"
+                  alt=""
+                />
                 <p>Or ask an expert to tailor-make this trip</p>
               </div>
             </div>
@@ -628,8 +576,11 @@ const clickOnDay10 = () => {
 
 <style scoped>
 .parallax {
-  position: relative;
+  background-image: url("@/assets/images/georg2.webp");
   min-height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .parallax::before {
   content: "";
@@ -638,7 +589,7 @@ const clickOnDay10 = () => {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("@/assets/images/sheki1.jpeg");
+  background-image: url("@/assets/images/georg2.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -649,4 +600,14 @@ const clickOnDay10 = () => {
 .text-color {
   color: #5a5858;
 }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 </style>

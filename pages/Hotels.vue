@@ -3,7 +3,7 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-1/2 m-auto pt-48 text-center z-10 uppercase text-white p-2"
+          class="w-1/2 m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
           <p class="text-7xl uppercase font-semibold">Hotels</p>
           <p class="rounded-md mt-5 text-center">
@@ -16,7 +16,7 @@
       <div class="text-center">
         <div class="p-8">
           <p class="text-6xl">INTRO</p>
-          <p class="border-b-2 pt-4 w-20 border-orange-500 m-auto"></p>
+          <p class="border-b-2 pt-4 w-20 border-gray-400 m-auto"></p>
         </div>
         <div
           v-motion
@@ -49,285 +49,229 @@
             an enriching experience for travelers.
           </p>
         </div>
-        <div class="w-10/12 m-auto mt-10">
-          <div class="flex w-full mb-6">
-            <div
-              class="w-1/3 uppercase cursor-pointer"
-              @click="navigateTo('/baku/bakuhotels')"
-              v-motion
-              :initial="{
-                opacity: 0,
-                y: 100,
-              }"
-              :visible="{
-                opacity: 1,
-                y: 0,
-                transition: {
-                  type: 'spring',
-                  stiffness: 250,
-                  damping: 70,
-                  mass: 20,
-                },
-              }"
-            >
-              <div class="p-8 pb-2">
-                <img
-                  src="@/assets/images/az21.jpeg"
-                  class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all"
-                  alt=""
-                  @mouseover="addBorder1"
-                  @mouseout="removeBorder1"
-                />
-              </div>
-              <div>
-                <p
-                  ref="section1"
-                  class="pb-1"
-                  @mouseover="addBorder1"
-                  @mouseout="removeBorder1"
-                >
-                  BAKU
-                </p>
-              </div>
+        <div
+          class="flex w-10/12 m-auto mt-10 uppercase mb-2"
+          v-motion
+          :initial="{
+            opacity: 0,
+            y: 100,
+          }"
+          :visible="{
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: 'spring',
+              stiffness: 250,
+              damping: 70,
+              mass: 5,
+            },
+          }"
+        >
+          <div
+            class="w-1/3 uppercase cursor-pointer"
+            @click="navigateTo('/baku/bakuhotels')"
+          >
+            <div class="pl-8 pb-2">
+              <img
+                src="@/assets/images/az21.jpeg"
+                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                alt=""
+                @mouseover="addBorder1"
+                @mouseout="removeBorder1"
+              />
             </div>
-            <div
-              class="w-1/3 uppercase cursor-pointer"
-              @click="navigateTo('/gabala/gabalahotels')"
-              v-motion
-              :initial="{
-                opacity: 0,
-                y: 100,
-              }"
-              :visible="{
-                opacity: 1,
-                y: 0,
-                transition: {
-                  type: 'spring',
-                  stiffness: 250,
-                  damping: 70,
-                  mass: 20,
-                },
-              }"
-            >
-              <div class="p-8 pb-2">
-                <img
-                  src="@/assets/images/gabala.jpeg"
-                  class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all"
-                  alt=""
-                  @mouseover="addBorder2"
-                  @mouseout="removeBorder2"
-                />
-              </div>
-              <div>
-                <p
-                  ref="section2"
-                  class="pb-1"
-                  @mouseover="addBorder2"
-                  @mouseout="removeBorder2"
-                >
-                  GABALA
-                </p>
-              </div>
-            </div>
-            <div
-              class="w-1/3 uppercase cursor-pointer"
-              @click="navigateTo('/sheki/shekihotels')"
-              v-motion
-              :initial="{
-                opacity: 0,
-                y: 100,
-              }"
-              :visible="{
-                opacity: 1,
-                y: 0,
-                transition: {
-                  type: 'spring',
-                  stiffness: 250,
-                  damping: 70,
-                  mass: 20,
-                },
-              }"
-            >
-              <div class="p-8 pb-2">
-                <img
-                  src="@/assets/images/sheki5.jpeg"
-                  class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all"
-                  alt=""
-                  @mouseover="addBorder3"
-                  @mouseout="removeBorder3"
-                />
-              </div>
-              <div>
-                <p
-                  ref="section3"
-                  class="pb-1"
-                  @mouseover="addBorder3"
-                  @mouseout="removeBorder3"
-                >
-                  SHEKI
-                </p>
-              </div>
+            <div class="pl-8 pb-8 text-left">
+              <p
+                ref="section1"
+                class="pb-1"
+                @mouseover="addBorder1"
+                @mouseout="removeBorder1"
+              >
+                BAKU
+              </p>
             </div>
           </div>
-          <div class="w-full flex mb-6">
-            <div
-              class="w-1/3 uppercase cursor-pointer"
-              @click="navigateTo('/ganja/ganjahotels')"
-              v-motion
-              :initial="{
-                opacity: 0,
-                y: 100,
-              }"
-              :visible="{
-                opacity: 1,
-                y: 0,
-                transition: {
-                  type: 'spring',
-                  stiffness: 250,
-                  damping: 70,
-                  mass: 20,
-                },
-              }"
-            >
-              <div class="p-8 pb-2">
-                <img
-                  src="@/assets/images/ganja.jpeg"
-                  class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all"
-                  alt=""
-                  @mouseover="addBorder4"
-                  @mouseout="removeBorder4"
-                />
-              </div>
-              <div>
-                <p
-                  ref="section4"
-                  class="pb-1"
-                  @mouseover="addBorder4"
-                  @mouseout="removeBorder4"
-                >
-                  GANJA
-                </p>
-              </div>
+          <div
+            class="w-1/3 uppercase cursor-pointer"
+            @click="navigateTo('/gabala/gabalahotels')"
+          >
+            <div class="pl-8 pb-2">
+              <img
+                src="@/assets/images/gabala.jpeg"
+                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                alt=""
+                @mouseover="addBorder2"
+                @mouseout="removeBorder2"
+              />
             </div>
-            <div
-              class="w-1/3 uppercase cursor-pointer"
-              @click="navigateTo('/guba/gubahotels')"
-              v-motion
-              :initial="{
-                opacity: 0,
-                y: 100,
-              }"
-              :visible="{
-                opacity: 1,
-                y: 0,
-                transition: {
-                  type: 'spring',
-                  stiffness: 250,
-                  damping: 70,
-                  mass: 20,
-                },
-              }"
-            >
-              <div class="p-8 pb-2">
-                <img
-                  src="@/assets/images/guba.jpeg"
-                  class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all"
-                  alt=""
-                  @mouseover="addBorder5"
-                  @mouseout="removeBorder5"
-                />
-              </div>
-              <div>
-                <p
-                  ref="section5"
-                  class="pb-1"
-                  @mouseover="addBorder5"
-                  @mouseout="removeBorder5"
-                >
-                  GUBA
-                </p>
-              </div>
-            </div>
-            <div
-              class="w-1/3 uppercase cursor-pointer"
-              @click="navigateTo('/lankaran/lankaranhotels')"
-              v-motion
-              :initial="{
-                opacity: 0,
-                y: 100,
-              }"
-              :visible="{
-                opacity: 1,
-                y: 0,
-                transition: {
-                  type: 'spring',
-                  stiffness: 250,
-                  damping: 70,
-                  mass: 20,
-                },
-              }"
-            >
-              <div class="p-8 pb-2">
-                <img
-                  src="@/assets/images/lankaran.jpeg"
-                  class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all"
-                  alt=""
-                  @mouseover="addBorder6"
-                  @mouseout="removeBorder6"
-                />
-              </div>
-              <div>
-                <p
-                  ref="section6"
-                  class="pb-1"
-                  @mouseover="addBorder6"
-                  @mouseout="removeBorder6"
-                >
-                  LANKARAN
-                </p>
-              </div>
+            <div class="pl-8 pb-8 text-left">
+              <p
+                ref="section2"
+                class="pb-1"
+                @mouseover="addBorder2"
+                @mouseout="removeBorder2"
+              >
+                GABALA
+              </p>
             </div>
           </div>
-          <div class="w-full flex mb-6">
-            <div
-              class="w-1/3 uppercase cursor-pointer"
-              @click="navigateTo('/shahdag/shahdaghotels')"
-              v-motion
-              :initial="{
-                opacity: 0,
-                y: 100,
-              }"
-              :visible="{
-                opacity: 1,
-                y: 0,
-                transition: {
-                  type: 'spring',
-                  stiffness: 250,
-                  damping: 70,
-                  mass: 20,
-                },
-              }"
-            >
-              <div class="p-8 pb-2">
-                <img
-                  src="@/assets/images/shahdag.jpeg"
-                  class="h-60 w-full border-4 rounded-md border-orange-400 hover:scale-95 duration-300 transition-all"
-                  alt=""
-                  @mouseover="addBorder7"
-                  @mouseout="removeBorder7"
-                />
-              </div>
-              <div>
-                <p
-                  ref="section7"
-                  class="pb-1"
-                  @mouseover="addBorder7"
-                  @mouseout="removeBorder7"
-                >
-                  SHAHDAG
-                </p>
-              </div>
+          <div
+            class="w-1/3 uppercase cursor-pointer"
+            @click="navigateTo('/sheki/shekihotels')"
+          >
+            <div class="pl-8 pb-2">
+              <img
+                src="@/assets/images/sheki5.jpeg"
+                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                alt=""
+                @mouseover="addBorder3"
+                @mouseout="removeBorder3"
+              />
             </div>
+            <div class="pl-8 pb-8 text-left">
+              <p
+                ref="section3"
+                class="pb-1"
+                @mouseover="addBorder3"
+                @mouseout="removeBorder3"
+              >
+                SHEKI
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex w-10/12 m-auto mt-10 uppercase mb-2"
+          v-motion
+          :initial="{
+            opacity: 0,
+            y: 100,
+          }"
+          :visible="{
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: 'spring',
+              stiffness: 250,
+              damping: 70,
+              mass: 5,
+            },
+          }"
+        >
+          <div
+            class="w-1/3 uppercase cursor-pointer"
+            @click="navigateTo('/ganja/ganjahotels')"
+          >
+            <div class="pl-8 pb-2">
+              <img
+                src="@/assets/images/ganja.jpeg"
+                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                alt=""
+                @mouseover="addBorder4"
+                @mouseout="removeBorder4"
+              />
+            </div>
+            <div class="pl-8 pb-8 text-left">
+              <p
+                ref="section4"
+                class="pb-1"
+                @mouseover="addBorder4"
+                @mouseout="removeBorder4"
+              >
+                GANJA
+              </p>
+            </div>
+          </div>
+          <div
+            class="w-1/3 uppercase cursor-pointer"
+            @click="navigateTo('/guba/gubahotels')"
+          >
+            <div class="pl-8 pb-2">
+              <img
+                src="@/assets/images/guba.jpeg"
+                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                alt=""
+                @mouseover="addBorder5"
+                @mouseout="removeBorder5"
+              />
+            </div>
+            <div class="pl-8 pb-8 text-left">
+              <p
+                ref="section5"
+                class="pb-1"
+                @mouseover="addBorder5"
+                @mouseout="removeBorder5"
+              >
+                GUBA
+              </p>
+            </div>
+          </div>
+          <div
+            class="w-1/3 uppercase cursor-pointer"
+            @click="navigateTo('/lankaran/lankaranhotels')"
+          >
+            <div class="pl-8 pb-2">
+              <img
+                src="@/assets/images/lankaran.jpeg"
+                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                alt=""
+                @mouseover="addBorder6"
+                @mouseout="removeBorder6"
+              />
+            </div>
+            <div class="pl-8 pb-8 text-left">
+              <p
+                ref="section6"
+                class="pb-1"
+                @mouseover="addBorder6"
+                @mouseout="removeBorder6"
+              >
+                LANKARAN
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex w-10/12 m-auto mt-10 uppercase mb-2"
+        v-motion
+        :initial="{
+          opacity: 0,
+          y: 100,
+        }"
+        :visible="{
+          opacity: 1,
+          y: 0,
+          transition: {
+            type: 'spring',
+            stiffness: 250,
+            damping: 70,
+            mass: 5,
+          },
+        }"
+      >
+        <div
+          class="w-1/3 uppercase cursor-pointer"
+          @click="navigateTo('/shahdag/shahdaghotels')"
+        >
+          <div class="pl-8 pb-2">
+            <img
+              src="@/assets/images/shahdag.jpeg"
+              class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+              alt=""
+              @mouseover="addBorder7"
+              @mouseout="removeBorder7"
+            />
+          </div>
+          <div class="pl-8 pb-8 text-left">
+            <p
+              ref="section7"
+              class="pb-1"
+              @mouseover="addBorder7"
+              @mouseout="removeBorder7"
+            >
+              SHAHDAG
+            </p>
           </div>
         </div>
       </div>
@@ -338,11 +282,11 @@
 <script setup>
 const createHoverHandlers = (sectionRef) => {
   const addBorder = () => {
-    sectionRef.value.classList.add("border-b-2", "border-orange-400");
+    sectionRef.value.classList.add("border-b-2", "border-gray-400");
   };
 
   const removeBorder = () => {
-    sectionRef.value.classList.remove("border-b-2", "border-orange-400");
+    sectionRef.value.classList.remove("border-b-2", "border-gray-400");
   };
 
   return { addBorder, removeBorder };
@@ -375,7 +319,7 @@ const { addBorder: addBorder7, removeBorder: removeBorder7 } =
 <style scoped>
 .parallax {
   position: relative;
-  min-height: 800px;
+  min-height: 100vh;
 }
 .parallax::before {
   content: "";
@@ -390,10 +334,5 @@ const { addBorder: addBorder7, removeBorder: removeBorder7 } =
   background-attachment: fixed;
   filter: brightness(55%);
   z-index: -1;
-}
-* {
-  font-family: "Questrial", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 </style>
