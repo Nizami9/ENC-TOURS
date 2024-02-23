@@ -2,15 +2,17 @@
   <NuxtLayout>
     <div>
       <div>
-        <div class="parallax h-full w-full flex flex-col items-center relative">
-          <div class="overlay flex-col flex items-center">
+        <div
+          class="parallax h-full w-full flex flex-col items-center justify-between relative"
+        >
+          <div class="overlay flex-col justify-evenly flex items-center">
             <p
-              class="text2 w-full p-3 mt-60 text-center text-7xl text-white uppercase"
+              class="text2 w-full pt-80 text-center text-7xl text-white uppercase"
             >
               enc cultural and heritage tours
             </p>
             <p
-              class="uppercase text-center w-1/3 text-xs leading-5 rounded-md p-2 top-96 pt-10 text-center text-white"
+              class="uppercase text-center w-1/3 pt-20 text-xs leading-5 rounded-md text-center text-white"
             >
               As an award-winning destination management company since 1999,
               Asian Trails has led the way in designing and executing travel
@@ -19,7 +21,7 @@
             </p>
             <img
               src="@/assets/images/arrowDown.png"
-              class="w-20 mt-96"
+              class="w-20 pt-40"
               alt=""
               @click="scrollToComponent2"
             />
