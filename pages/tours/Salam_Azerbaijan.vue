@@ -184,7 +184,7 @@
               </div>
               <div class="m-auto mt-5 mb-5 w-1/2">
                 <img
-                  src="@/assets/images/MapSalam.jpeg"
+                  src="@/assets/images/MapSalam.jpg"
                   class="border"
                   alt=""
                 />
