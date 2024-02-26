@@ -5,7 +5,7 @@
         <div
           class="w-1/2 m-auto pt-48 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text-7xl uppercase font-semibold">SPECIAL INTEREST TOURS</p>
+          <p class="text-7xl uppercase font-semibold">TOURIST REGIONS</p>
           <p class="rounded-md mt-5 text-center">
             Lauded for its extensive knowledge, its East-meets-West model and
             venturing responsibly into every corner of its destinations, it is
@@ -67,10 +67,13 @@
           }"
           class="flex w-10/12 m-auto mt-10 uppercase mb-2"
         >
-          <div class="w-1/3 uppercase">
+          <div
+            class="w-1/3 uppercase cursor-pointer"
+            @click="navigateTo('../Regions/central-region')"
+          >
             <div class="pl-8 pb-2">
               <img
-                src="@/assets/images/oil.jpeg"
+                src="@/assets/images/reg1.png"
                 class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder1"
@@ -84,14 +87,17 @@
                 @mouseover="addBorder1"
                 @mouseout="removeBorder1"
               >
-                OIL BOOM AND ARCHITECTURE TOUR
+                CENTRAL REGIONS
               </p>
             </div>
           </div>
-          <div class="w-1/3 uppercase">
+          <div
+            class="w-1/3 uppercase"
+            @click="navigateTo('../Regions/northern-region')"
+          >
             <div class="pl-8 pb-2">
               <img
-                src="@/assets/images/flowers.jpeg"
+                src="@/assets/images/reg2.png"
                 class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder2"
@@ -105,14 +111,17 @@
                 @mouseover="addBorder2"
                 @mouseout="removeBorder2"
               >
-                FLOWER WATCHING TOURS
+                NORTHERN REGIONS
               </p>
             </div>
           </div>
-          <div class="w-1/3 uppercase">
+          <div
+            class="w-1/3 uppercase"
+            @click="navigateTo('../Regions/northern-west-region')"
+          >
             <div class="pl-8 pb-2">
               <img
-                src="@/assets/images/kish.jpeg"
+                src="@/assets/images/reg3.png"
                 class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder3"
@@ -126,7 +135,7 @@
                 @mouseover="addBorder3"
                 @mouseout="removeBorder3"
               >
-                RELIGIOUS TOURS
+                NORTHERN-WEST REGIONS
               </p>
             </div>
           </div>
@@ -149,10 +158,13 @@
           }"
           class="flex w-10/12 m-auto mb-2 uppercase"
         >
-          <div class="w-1/3 uppercase">
+          <div
+            class="w-1/3 uppercase"
+            @click="navigateTo('../Regions/western-region')"
+          >
             <div class="pl-8 pb-2">
               <img
-                src="@/assets/images/cuisineaz.jpeg"
+                src="@/assets/images/reg4.png"
                 class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder4"
@@ -166,15 +178,18 @@
                 @mouseover="addBorder4"
                 @mouseout="removeBorder4"
               >
-                GOURMET TOUR
+                WESTERN REGION
               </p>
             </div>
           </div>
 
-          <div class="w-1/3 uppercase">
+          <div
+            class="w-1/3 uppercase"
+            @click="navigateTo('../Regions/southern-region')"
+          >
             <div class="pl-8 pb-2">
               <img
-                src="@/assets/images/flamingo1.jpeg"
+                src="@/assets/images/reg5.png"
                 class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder5"
@@ -188,14 +203,17 @@
                 @mouseover="addBorder5"
                 @mouseout="removeBorder5"
               >
-                BIRD WATCHING TOUR
+                SOUTHERN REGION
               </p>
             </div>
           </div>
-          <div class="w-1/3 uppercase">
+          <div
+            class="w-1/3 uppercase"
+            @click="navigateTo('../Regions/baku-absheron')"
+          >
             <div class="pl-8 pb-2">
               <img
-                src="@/assets/images/golf.jpeg"
+                src="@/assets/images/reg6.png"
                 class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder6"
@@ -209,90 +227,7 @@
                 @mouseover="addBorder6"
                 @mouseout="removeBorder6"
               >
-                GOLF TOUR
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          v-motion
-          :initial="{
-            opacity: 0,
-            y: 100,
-          }"
-          :visible="{
-            opacity: 1,
-            y: 0,
-            transition: {
-              type: 'spring',
-              stiffness: 250,
-              damping: 70,
-              mass: 20,
-            },
-          }"
-          class="flex w-10/12 m-auto mb-6"
-        >
-          <div class="w-1/3 uppercase">
-            <div class="pl-8 pb-2">
-              <img
-                src="@/assets/images/pomegranate.avif"
-                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder7"
-                @mouseout="removeBorder7"
-              />
-            </div>
-            <div class="pl-8 pb-8 text-left">
-              <p
-                ref="section7"
-                class="pb-1"
-                @mouseover="addBorder7"
-                @mouseout="removeBorder7"
-              >
-                POMEGRANATE TOUR
-              </p>
-            </div>
-          </div>
-
-          <div class="w-1/3 uppercase">
-            <div class="pl-8 pb-2">
-              <img
-                src="@/assets/images/tea.jpeg"
-                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder8"
-                @mouseout="removeBorder8"
-              />
-            </div>
-            <div class="pl-8 pb-8 text-left">
-              <p
-                ref="section8"
-                class="pb-1"
-                @mouseover="addBorder8"
-                @mouseout="removeBorder8"
-              >
-                AGRICULTURAL TOUR
-              </p>
-            </div>
-          </div>
-          <div class="w-1/3 uppercase">
-            <div class="pl-8 pb-2">
-              <img
-                src="@/assets/images/carpet1.jpeg"
-                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder9"
-                @mouseout="removeBorder9"
-              />
-            </div>
-            <div class="pl-8 pb-8 text-left">
-              <p
-                ref="section9"
-                class="pb-1"
-                @mouseover="addBorder9"
-                @mouseout="removeBorder9"
-              >
-                CARPET AND LOCAL HERITAGE TOURS
+                BAKU - ABSHERON
               </p>
             </div>
           </div>
@@ -358,7 +293,7 @@ const { addBorder: addBorder9, removeBorder: removeBorder9 } =
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("@/assets/images/carpet3.jpeg");
+  background-image: url("@/assets/images/newAz10.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

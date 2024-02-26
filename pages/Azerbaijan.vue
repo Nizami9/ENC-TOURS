@@ -191,7 +191,7 @@
           }"
           class="flex w-10/12 m-auto mb-6"
         >
-          <div class="w-1/3" @click="navigateTo('/')">
+          <div class="w-1/3" @click="navigateTo('/Tourist-regions')">
             <div class="pb-5 pl-8 pr-8 cursor-pointer">
               <p class="uppercase mb-3">Toursit Regions</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
