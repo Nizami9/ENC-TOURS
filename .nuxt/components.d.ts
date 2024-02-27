@@ -3,6 +3,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     'CarouselAccomodation': typeof import("../components/Carousel_Accomodation.vue")['default']
     'CarouselAz10Days': typeof import("../components/Carousel_Az_10_Days.vue")['default']
+    'CarouselMiceHotels': typeof import("../components/Carousel_Mice_Hotels.vue")['default']
     'CompFooter': typeof import("../components/CompFooter.vue")['default']
     'DatesPrices': typeof import("../components/Dates_Prices.vue")['default']
     'MainPageComponent2': typeof import("../components/MainPage/Component2.vue")['default']
@@ -32,6 +33,7 @@ declare module 'vue' {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyCarouselAccomodation': typeof import("../components/Carousel_Accomodation.vue")['default']
     'LazyCarouselAz10Days': typeof import("../components/Carousel_Az_10_Days.vue")['default']
+    'LazyCarouselMiceHotels': typeof import("../components/Carousel_Mice_Hotels.vue")['default']
     'LazyCompFooter': typeof import("../components/CompFooter.vue")['default']
     'LazyDatesPrices': typeof import("../components/Dates_Prices.vue")['default']
     'LazyMainPageComponent2': typeof import("../components/MainPage/Component2.vue")['default']
@@ -64,6 +66,7 @@ declare module 'vue' {
 
 export const CarouselAccomodation: typeof import("../components/Carousel_Accomodation.vue")['default']
 export const CarouselAz10Days: typeof import("../components/Carousel_Az_10_Days.vue")['default']
+export const CarouselMiceHotels: typeof import("../components/Carousel_Mice_Hotels.vue")['default']
 export const CompFooter: typeof import("../components/CompFooter.vue")['default']
 export const DatesPrices: typeof import("../components/Dates_Prices.vue")['default']
 export const MainPageComponent2: typeof import("../components/MainPage/Component2.vue")['default']
@@ -93,6 +96,7 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyCarouselAccomodation: typeof import("../components/Carousel_Accomodation.vue")['default']
 export const LazyCarouselAz10Days: typeof import("../components/Carousel_Az_10_Days.vue")['default']
+export const LazyCarouselMiceHotels: typeof import("../components/Carousel_Mice_Hotels.vue")['default']
 export const LazyCompFooter: typeof import("../components/CompFooter.vue")['default']
 export const LazyDatesPrices: typeof import("../components/Dates_Prices.vue")['default']
 export const LazyMainPageComponent2: typeof import("../components/MainPage/Component2.vue")['default']

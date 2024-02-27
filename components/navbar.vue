@@ -22,7 +22,7 @@
           <NuxtLink to="/ourservices" class="nav-link">Our Services</NuxtLink>
           <NuxtLink to="/" class="nav-link">Photogallery</NuxtLink>
           <NuxtLink to="/luxury" class="nav-link">enc luxury</NuxtLink>
-          <NuxtLink to="/" class="nav-link">Mice</NuxtLink>
+          <NuxtLink to="/mice" class="nav-link">Mice</NuxtLink>
         </div>
         <div class="w-1/5 notmain-nav-custom flex uppercase justify-between">
           <NuxtLink to="/aboutUs" class="nav-link">About Us</NuxtLink>
