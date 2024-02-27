@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div
     class="main-section text-white bg-gray-50 md:text-xs w-full lg:text-sm xl:text-sm transition"
     :style="{
@@ -171,4 +171,127 @@ watchEffect(() => {
     padding: 0px;
   }
 }
-</style>
+</style> -->
+
+<template>
+  <header
+    class="bg-gray-50 text-white"
+    :style="{
+      backgroundColor: navbarBackgroundColor,
+      transition: 'background-color 0.5s ease',
+    }"
+  >
+    <nav
+      class="mx-auto flex max-w-8xl items-center justify-between p-2 lg:px-8"
+      aria-label="Global"
+    >
+      <div class="flex items-center gap-x-12">
+        <a href="#" class="-m-1.5 p-1.5">
+          <span class="sr-only">Your Company</span>
+          <img class="h-14 w-auto" src="@/assets/images/enclogo.png" alt="" />
+        </a>
+        <div class="hidden lg:flex lg:gap-x-12">
+          <a
+            v-for="item in navigation"
+            :key="item.name"
+            :href="item.href"
+            class="text-sm font-semibold leading-6 text-white"
+            >{{ item.name }}</a
+          >
+        </div>
+      </div>
+      <div class="flex lg:hidden">
+        <button
+          type="button"
+          class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+          @click="mobileMenuOpen = true"
+        >
+          <span class="sr-only">Open main menu</span>
+          <Bars3Icon class="h-6 w-6" aria-hidden="true" />
+        </button>
+      </div>
+    </nav>
+    <Dialog
+      as="div"
+      class="lg:hidden"
+      @close="mobileMenuOpen = false"
+      :open="mobileMenuOpen"
+    >
+      <div class="fixed inset-0 z-10" />
+      <DialogPanel
+        class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+      >
+        <div class="flex items-center justify-between">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            <img
+              class="h-8 w-auto"
+              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+              alt=""
+            />
+          </a>
+          <button
+            type="button"
+            class="-m-2.5 rounded-md p-2.5 text-gray-700"
+            @click="mobileMenuOpen = false"
+          >
+            <span class="sr-only">Close menu</span>
+            <XMarkIcon class="h-6 w-6" aria-hidden="true" />
+          </button>
+        </div>
+        <div class="mt-6 flow-root">
+          <div class="-my-6 divide-y divide-gray-500/10">
+            <div class="space-y-2 py-6">
+              <a
+                v-for="item in navigation"
+                :key="item.name"
+                :href="item.href"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >{{ item.name }}</a
+              >
+            </div>
+          </div>
+        </div>
+      </DialogPanel>
+    </Dialog>
+  </header>
+</template>
+
+<script setup>
+import { ref } from "vue";
+import { Dialog, DialogPanel } from "@headlessui/vue";
+import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
+import { onMounted, onUnmounted, watchEffect, getCurrentInstance } from "vue";
+const navigation = [
+  { name: "HOME", href: "/" },
+  { name: "AZERBAIJAN", href: "azerbaijan" },
+  { name: "TOURS", href: "tours" },
+  { name: "OUR SERVICES", href: "ourservices" },
+  { name: "PHOTOGALLERY", href: "/" },
+  { name: "ENC LUXURY", href: "/luxury" },
+  { name: "MICE", href: "/mice" },
+];
+const { emit } = getCurrentInstance();
+const mobileMenuOpen = ref(false);
+const navbarBackgroundColor = ref("rgba(199, 191, 191, 0.5)");
+const scrolled = ref(false);
+
+const handleScroll = () => {
+  scrolled.value = document.documentElement.scrollTop > 0;
+  emit("scroll", scrolled.value);
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
+
+watchEffect(() => {
+  navbarBackgroundColor.value = scrolled.value
+    ? "rgba(0, 0, 0, 0.9)"
+    : "rgba(0, 0, 0, 0)";
+});
+</script>

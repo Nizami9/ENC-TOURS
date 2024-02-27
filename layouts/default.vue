@@ -4,7 +4,7 @@
       <img src="@/assets/images/enc.png" alt="Logo" class="loading-logo" />
     </div>
     <div v-if="!loading" class="relative">
-      <navbar @scroll="updateNavbarBackground" class="fixed z-10"></navbar>
+      <navbar @scroll="updateNavbarBackground" class="fixed z-10 w-full"></navbar>
       <slot></slot>
       <comp-footer></comp-footer>
     </div>
