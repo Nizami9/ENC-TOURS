@@ -21,7 +21,7 @@
             </p>
             <img
               src="@/assets/images/arrowDown.png"
-              class="w-20 pt-40"
+              class="w-20 pt-24"
               alt=""
               @click="scrollToComponent2"
             />
