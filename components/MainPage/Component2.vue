@@ -28,6 +28,9 @@
 <style scoped>
 .text-main-color {
   color: #24373d;
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: xx-large;
+  }
 }
 
 .text-color {

@@ -7,12 +7,12 @@
         >
           <div class="overlay flex-col justify-evenly flex items-center">
             <p
-              class="text2 w-full pt-80 text-center text-7xl text-white uppercase"
+              class="text2 w-full pt-64 text-center text-7xl text-white uppercase"
             >
               enc cultural and heritage tours
             </p>
             <p
-              class="uppercase text-center w-1/3 pt-20 text-xs leading-5 rounded-md text-center text-white"
+              class="uppercase text-center w-2/3 pt-20 text-xs leading-5 rounded-md text-center text-white"
             >
               As an award-winning destination management company since 1999,
               Asian Trails has led the way in designing and executing travel
@@ -32,7 +32,7 @@
       <component-3></component-3>
       <component-4></component-4>
       <component-6></component-6>
-      <component-5></component-5>
+      <!-- <component-5></component-5> -->
     </div>
   </NuxtLayout>
 </template>
@@ -106,5 +106,8 @@ const scrollToComponent2 = () => {
 
 .text2 {
   font-weight: 600;
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: xx-large;
+  }
 }
 </style>

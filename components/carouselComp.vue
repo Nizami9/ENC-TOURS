@@ -1,9 +1,9 @@
 <template>
-  <div class="ml-6 mr-4">
+  <div class="ml-6 mr-4 mainCarousel">
     <carousel
-      items-to-show="3"
+      :items-to-show="dynamicItemsToShow"
       :autoplay="5000"
-      class="w-full pt-7"
+      class="w-12/12 pt-7"
       :wrap-around="true"
     >
       <slide v-for="slide in 1" :key="slide">
@@ -58,6 +58,27 @@
 <script setup>
 import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
+const dynamicItemsToShow = ref(3);
+
+const state = reactive({
+  itemsToShow: 3,
+});
+
+const updateItemsToShow = () => {
+  const screenWidth = window.innerWidth;
+  console.log("Screen Width:", screenWidth);
+  dynamicItemsToShow.value = screenWidth >= 320 && screenWidth <= 820 ? 1 : 3;
+  console.log("Dynamic Items to Show:", dynamicItemsToShow.value);
+};
+
+onMounted(() => {
+  updateItemsToShow();
+  window.addEventListener("resize", updateItemsToShow);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener("resize", updateItemsToShow);
+});
 </script>
 
 <style scoped>
@@ -65,5 +86,11 @@ import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
   height: 310px;
   width: 100%;
   padding-right: 6px;
+}
+
+.mainCarousel {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+  }
 }
 </style>

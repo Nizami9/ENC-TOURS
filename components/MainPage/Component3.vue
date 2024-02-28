@@ -1,10 +1,8 @@
 <template>
   <div class="w-full mb-14 text-color">
-    <div
-      class="w-full"
-    >
-      <div class="w-11/12 m-auto mt-6 text-6xl">
-        <p class="w-4/12 md:w-1/2 text-center mb-4 m-auto pb-2 text-main-color">
+    <div class="w-full">
+      <div class="w-11/12 m-auto mt-10 text-6xl">
+        <p class="text-center mb-4 m-auto pb-2 text-main-color">
           What Makes Us Different
         </p>
       </div>
@@ -24,10 +22,8 @@
       </div>
     </div>
     <div class="text-gray-600 md:text-sm lg:text-base xl:text-base">
-      <div
-        class="flex w-10/12 m-auto mt-4 text-center border-b pb-8"
-      >
-        <div class="w-1/3 border-r">
+      <div class="flex sections w-10/12 m-auto mt-4 text-center border-b pb-8">
+        <div class="w-1/3 sectionDiv border-r">
           <img
             src="@/assets/images/icon1.png"
             class="w-20 m-auto mb-6 mt-10"
@@ -42,7 +38,7 @@
             quality assurance.
           </p>
         </div>
-        <div class="w-1/3 border-r">
+        <div class="w-1/3 sectionDiv border-r">
           <img
             src="@/assets/images/icon2.png"
             class="w-20 m-auto mb-6 mt-10"
@@ -56,7 +52,7 @@
             with the aim to exceed expectations.
           </p>
         </div>
-        <div class="w-1/3">
+        <div class="w-1/3 sectionDiv">
           <img
             src="@/assets/images/icon3.webp"
             class="w-20 m-auto mb-6 mt-10"
@@ -74,9 +70,9 @@
       </div>
 
       <div
-        class="flex w-10/12 m-auto mt-4 text-center border-b-2 border-gray-100 pb-8"
+        class="flex sections w-10/12 m-auto mt-4 text-center border-b-2 border-gray-100 pb-8"
       >
-        <div class="w-1/3 border-r">
+        <div class="w-1/3 sectionDiv border-r">
           <img
             src="@/assets/images/icon4.png"
             class="w-20 m-auto mb-6 mt-10"
@@ -91,7 +87,7 @@
             standards.
           </p>
         </div>
-        <div class="w-1/3 border-r">
+        <div class="w-1/3 sectionDiv border-r">
           <img
             src="@/assets/images/icon5.svg"
             class="w-20 m-auto mb-6 mt-10"
@@ -107,7 +103,7 @@
             condition.
           </p>
         </div>
-        <div class="w-1/3">
+        <div class="w-1/3 sectionDiv">
           <img
             src="@/assets/images/icon6.jpg"
             class="w-20 m-auto mb-6 mt-10"
@@ -157,10 +153,27 @@ const { observe } = useMotion(motionElement);
 .text-main-color {
   color: #24373d;
   font-weight: 200;
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: xx-large;
+  }
 }
 
 .text-color {
   color: #5a5858;
   font-weight: 200;
+}
+
+.sections {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: medium;
+    display: block;
+  }
+}
+
+.sectionDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 100%;
+    border-right: none;
+    }
 }
 </style>
