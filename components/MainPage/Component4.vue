@@ -31,7 +31,7 @@
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/baku1.jpeg"
-              class="h-20 w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="imageStyle w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <!-- <NuxtLink
@@ -57,7 +57,7 @@
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/az11.jpg"
-              class="h-20 w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="imageStyle w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <!-- <NuxtLink
@@ -83,7 +83,7 @@
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/baku7.jpeg"
-              class="h-20 w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="imageStyle w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <!-- <NuxtLink
@@ -112,7 +112,7 @@
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/az22.jpeg"
-              class="h-20 w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="imageStyle w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <!-- <NuxtLink
@@ -138,7 +138,7 @@
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/baku6.jpeg"
-              class="h-20 w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="imageStyle w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <!-- <NuxtLink
@@ -164,7 +164,7 @@
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/baku4.jpeg"
-              class="h-20 w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="imageStyle w-11/12 imageStyle group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <!-- <NuxtLink
@@ -193,7 +193,7 @@
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/baku2.jpeg"
-              class="h-20 w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="imageStyle w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <!-- <NuxtLink
@@ -220,7 +220,7 @@
             <div class="relative group cursor-pointer">
               <img
                 src="@/assets/images/aze1.jpg"
-                class="h-20 w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+                class="imageStyle w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
                 alt=""
               />
               <!-- <NuxtLink
@@ -247,7 +247,7 @@
           <div class="relative group cursor-pointer">
             <img
               src="@/assets/images/aze12.jpg"
-              class="h-20 w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
+              class="imageStyle w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
             <!-- <NuxtLink
@@ -295,10 +295,22 @@
   }
 }
 
+.imageStyle {
+  @media (min-width: 320px) and (max-width: 425px) {
+    height: 160px;
+  }
+  @media (min-width: 426px) and (max-width: 768px) {
+    height: 300px;
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    height: 180px;
+  }
+}
+
 .sectionDiv {
   @media (min-width: 320px) and (max-width: 820px) {
     width: 100%;
     border-right: none;
-    }
+  }
 }
 </style>

@@ -7,7 +7,7 @@
         >
           <div class="overlay flex-col justify-evenly flex items-center">
             <p
-              class="text2 w-full pt-64 text-center text-7xl text-white uppercase"
+              class="text2 w-full pt-60 text-center text-7xl text-white uppercase"
             >
               enc cultural and heritage tours
             </p>

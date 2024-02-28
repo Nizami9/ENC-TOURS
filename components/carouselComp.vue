@@ -86,6 +86,12 @@ onBeforeUnmount(() => {
   height: 310px;
   width: 100%;
   padding-right: 6px;
+  @media (min-width: 320px) and (max-width: 425px) {
+    height: 200px;
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    height: 240px;
+  }
 }
 
 .mainCarousel {
