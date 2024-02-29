@@ -41,7 +41,6 @@
 import Component2 from "@/components/MainPage/Component2.vue";
 import Component3 from "@/components/MainPage/Component3.vue";
 import Component4 from "@/components/MainPage/Component4.vue";
-import Component5 from "@/components/MainPage/Component6.vue";
 import Component6 from "@/components/MainPage/Component5.vue";
 
 const component2Ref = ref(null);
@@ -50,23 +49,13 @@ onMounted(() => {
   component2Ref.value = ref.component2Ref;
 });
 
-// const scrollToComponent2 = () => {
-//   if (component2Ref.value) {
-//     component2Ref.value.$el.scrollIntoView({
-//       behavior: "smooth",
-//       block: "start",
-//       inline: "nearest",
-//     });
-//   }
-// };
-
 const scrollToComponent2 = () => {
   if (component2Ref.value) {
     const targetElement = component2Ref.value.$el;
     const targetPosition = targetElement.offsetTop;
     const startPosition = window.pageYOffset;
     const distance = targetPosition - startPosition;
-    const duration = 1000; // 3 seconds
+    const duration = 1000;
 
     let startTimestamp;
 

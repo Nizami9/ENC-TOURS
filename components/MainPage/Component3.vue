@@ -145,7 +145,6 @@ const enter = {
 
 const motionElement = ref(null);
 
-// useMotion handles the intersection observer logic
 const { observe } = useMotion(motionElement);
 </script>
 
