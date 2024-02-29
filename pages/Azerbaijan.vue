@@ -3,10 +3,10 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-1/2 m-auto pt-80 text-center z-10 uppercase text-white p-2"
+          class="w-1/2 m-auto mainDiv pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text-8xl uppercase font-semibold">Azerbaijan</p>
-          <p class="rounded-md mt-20 text-center">
+          <p class="text2 text-8xl uppercase font-semibold">Azerbaijan</p>
+          <p class="rounded-md mt-20 text-center textP">
             Lauded for its extensive knowledge, its East-meets-West model and
             venturing responsibly into every corner of its destinations, it is
             our mission to show guests the beating heart of our Asia
@@ -34,7 +34,7 @@
               mass: 5,
             },
           }"
-          class="border w-1/2 m-auto p-8 text-customGray"
+          class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
             ENC Tours experience in designing exceptional experiences continues
@@ -48,7 +48,7 @@
             for an exceeding expectations’experience.
           </p>
         </div>
-        <div class="flex w-10/12 m-auto mt-10 mb-6">
+        <div class="mainSection flex w-10/12 m-auto mt-10 mb-6">
           <div
             v-motion
             :initial="{
@@ -65,7 +65,7 @@
                 mass: 20,
               },
             }"
-            class="w-1/3"
+            class="w-1/3 sectionDiv"
           >
             <div
               class="pb-5 pl-8 pr-8 cursor-pointer"
@@ -75,7 +75,7 @@
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
                 src="@/assets/images/az17.jpg"
-                class="h-60 w-full hover:scale-105 duration-300 transition-all"
+                class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all"
                 alt=""
               />
             </div>
@@ -105,7 +105,7 @@
                 mass: 20,
               },
             }"
-            class="w-1/3"
+            class="w-1/3 sectionDiv"
           >
             <div
               class="pb-5 pl-8 pr-8 cursor-pointer"
@@ -115,7 +115,7 @@
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
                 src="@/assets/images/map.jpeg"
-                class="h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
                 alt=""
               />
             </div>
@@ -146,7 +146,7 @@
                 mass: 20,
               },
             }"
-            class="w-1/3"
+            class="w-1/3 sectionDiv"
           >
             <div
               class="pb-5 pl-8 pr-8 cursor-pointer"
@@ -157,7 +157,7 @@
 
               <img
                 src="@/assets/images/visa.avif"
-                class="h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
                 alt=""
               />
             </div>
@@ -189,16 +189,16 @@
               mass: 20,
             },
           }"
-          class="flex w-10/12 m-auto mb-6"
+          class="mainSection flex w-10/12 m-auto mb-6"
         >
-          <div class="w-1/3" @click="navigateTo('/Tourist-regions')">
+          <div class="w-1/3 sectionDiv" @click="navigateTo('/Tourist-regions')">
             <div class="pb-5 pl-8 pr-8 cursor-pointer">
               <p class="uppercase mb-3">Toursit Regions</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
 
               <img
                 src="@/assets/images/guba.jpeg"
-                class="h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
                 alt=""
               />
             </div>
@@ -212,46 +212,84 @@
               </p>
             </div>
           </div>
-          <div class="w-1/3" @click="navigateTo('/cuisine')">
-            <div class="pb-5 pl-8 pr-8 cursor-pointer">
-              <p class="uppercase mb-3">Azerbaijan Cuisines</p>
-              <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <div class="w-1/3 sectionDiv" @click="navigateTo('/cuisine')">
+              <div class="pb-5 pl-8 pr-8 cursor-pointer">
+                <p class="uppercase mb-3">Azerbaijan Cuisines</p>
+                <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
 
-              <img
-                src="@/assets/images/cuisineaz.jpeg"
-                class="h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
-                alt=""
-              />
-            </div>
-            <div>
-              <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
-                VIETNAM Vietnam The country’s expansive coastline and towering
-                mountain ranges have shaped Vietnam into the harmonious country
-                it is now. Meandering rivers, an abundance of beaches, happing
-                cities and remote villages in the vastness of its mountain
-                ranges form the backbone of its ever-present popularity.
-              </p>
+                <img
+                  src="@/assets/images/cuisineaz.jpeg"
+                  class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                  alt=""
+                />
+              </div>
+              <div>
+                <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
+                  VIETNAM Vietnam The country’s expansive coastline and towering
+                  mountain ranges have shaped Vietnam into the harmonious
+                  country it is now. Meandering rivers, an abundance of beaches,
+                  happing cities and remote villages in the vastness of its
+                  mountain ranges form the backbone of its ever-present
+                  popularity.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="w-1/3" @click="navigateTo('/events')">
-            <div class="pb-5 pl-8 pr-8 cursor-pointer">
-              <p class="uppercase mb-3">Events & Festivals</p>
-              <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <div class="w-1/3 sectionDiv" @click="navigateTo('/events')">
+              <div class="pb-5 pl-8 pr-8 cursor-pointer">
+                <p class="uppercase mb-3">Events & Festivals</p>
+                <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
 
-              <img
-                src="@/assets/images/event6.jpeg"
-                class="h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
-                alt=""
-              />
-            </div>
-            <div>
-              <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
-                VIETNAM Vietnam The country’s expansive coastline and towering
-                mountain ranges have shaped Vietnam into the harmonious country
-                it is now. Meandering rivers, an abundance of beaches, happing
-                cities and remote villages in the vastness of its mountain
-                ranges form the backbone of its ever-present popularity.
-              </p>
+                <img
+                  src="@/assets/images/event6.jpeg"
+                  class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                  alt=""
+                />
+              </div>
+              <div>
+                <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
+                  VIETNAM Vietnam The country’s expansive coastline and towering
+                  mountain ranges have shaped Vietnam into the harmonious
+                  country it is now. Meandering rivers, an abundance of beaches,
+                  happing cities and remote villages in the vastness of its
+                  mountain ranges form the backbone of its ever-present
+                  popularity.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -271,16 +309,19 @@
               mass: 20,
             },
           }"
-          class="flex w-10/12 justify-center m-auto mb-6"
+          class="mainSection flex w-10/12 justify-center m-auto mb-6"
         >
-          <div class="w-1/3" @click="navigateTo('/unesco-heritage-list')">
+          <div
+            class="w-1/3 sectionDiv"
+            @click="navigateTo('/unesco-heritage-list')"
+          >
             <div class="pb-5 pl-8 pr-8 cursor-pointer">
               <p class="uppercase mb-3">UNESCO Heritage Sites</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
 
               <img
                 src="@/assets/images/unesco.png"
-                class="h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
                 alt=""
               />
             </div>
@@ -323,5 +364,63 @@
 
 .text-color {
   color: #5a5858;
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+    font-size: small;
+  }
+}
+
+.text2 {
+  font-weight: 600;
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: x-large;
+  }
+}
+
+.introText {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+    font-size: small;
+  }
+}
+
+.textP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: small;
+    margin-top: 40px;
+  }
+}
+
+.mainDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    padding-top: 220px;
+    width: 80%;
+  }
+}
+
+.mainSection {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: medium;
+    display: block;
+  }
+}
+
+.sectionDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 100%;
+    border-right: none;
+  }
+}
+
+.imageStyle {
+  @media (min-width: 320px) and (max-width: 425px) {
+    height: 160px;
+  }
+  @media (min-width: 426px) and (max-width: 768px) {
+    height: 300px;
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    height: 180px;
+  }
 }
 </style>
