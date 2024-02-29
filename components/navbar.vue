@@ -210,6 +210,14 @@ watchEffect(() => {
           <Bars3Icon class="h-6 w-6" aria-hidden="true" />
         </button>
       </div>
+      <div class="hidden lg:flex uppercase">
+        <a href="./aboutUs" class="text-sm font-semibold leading-6 mr-10"
+          >About Us</a
+        >
+        <a href="./contactUs" class="text-sm font-semibold leading-6"
+          >Contacts</a
+        >
+      </div>
     </nav>
     <Dialog
       as="div"
@@ -244,6 +252,18 @@ watchEffect(() => {
                 :href="item.href"
                 class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >{{ item.name }}</a
+              >
+            </div>
+            <div class="py-6 uppercase">
+              <a
+                href="./aboutUs.vue"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50"
+                >about us</a
+              >
+              <a
+                href="./contactUs.vue"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50"
+                >contacts</a
               >
             </div>
           </div>

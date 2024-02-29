@@ -45,7 +45,7 @@
             alt=""
           />
           <h4>CUSTOMER FOCUSED</h4>
-          <p class="p-6 leading-7">
+          <p class="p-6 leading-7 text-color">
             We speak your language! Our value-for-money approach with (y)our
             customer at heart has been at the forefront since our inception. We
             are driven in igniting the wanderlust in travellers, in every aspect
@@ -59,7 +59,7 @@
             alt=""
           />
           <h4>GLOBAL REPRESENTATION</h4>
-          <p class="p-6 leading-7">
+          <p class="p-6 leading-7 text-color">
             Asian Trails prides itself on being present in every corner of ‘our
             Asia’ with our own dedicated offices and professionally-trained
             travel experts, backed by representative offices across the globe
@@ -79,7 +79,7 @@
             alt=""
           />
           <h4>NO COMPROMISES</h4>
-          <p class="p-6 leading-7">
+          <p class="p-6 leading-7 text-color">
             We take guests to the ‘Real Asia’ so they touch, taste and
             experience the beating heart of every destination they visit. This
             comes with the assurance of operating in line with our core value of
@@ -94,7 +94,7 @@
             alt=""
           />
           <h4>RESPONSIBLE OPERATIONS</h4>
-          <p class="p-6 leading-7">
+          <p class="p-6 leading-7 text-color">
             Choosing carefully, our approach in operating sustainably and
             supporting the right causes are recognized throughout the travel
             industry. From treading lightly where needed, to adhering to global
@@ -110,7 +110,7 @@
             alt=""
           />
           <h4>PASSIONATE ABOUT TRAVEL</h4>
-          <p class="p-6 leading-7">
+          <p class="p-6 leading-7 text-color">
             Our offices span all the corners of our destinations, guided by the
             principle that travel is more than just an experience. Engrained in
             our DNA, no stone is left unturned to deliver exploratory memories
@@ -160,6 +160,8 @@ const { observe } = useMotion(motionElement);
 .text-color {
   color: #5a5858;
   font-weight: 200;
+  font-size: small;
+  line-height: 180%;
 }
 
 .sections {

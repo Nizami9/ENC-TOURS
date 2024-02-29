@@ -41,7 +41,7 @@
               Show Details
             </NuxtLink> -->
           </div>
-          <p class="p-6 leading-7">
+          <p class="p-6 leading-7 textP">
             Put on your adventure cap and roam responsibly through nature, cycle
             where no cars are allowed and get that slight feeling of adrenaline
             rushed through your veins.
@@ -67,7 +67,7 @@
               Show Details
             </NuxtLink> -->
           </div>
-          <p class="p-6 leading-7">
+          <p class="p-6 leading-7 textP">
             Journeys that touch the soul of Asia from a purer perspective with
             often little conformity in our approach – experiences that rarely
             touch existing paths and are treaded lightly.
@@ -93,7 +93,7 @@
               Show Details
             </NuxtLink> -->
           </div>
-          <p class="p-6 leading-7">
+          <p class="p-6 leading-7 textP">
             Feel the breeze of Asia’s numerous waterways across rivers, seas and
             canals. Let the waves and the aquatic surface guide you to wondrous
             landmarks.
@@ -122,7 +122,7 @@
               Show Details
             </NuxtLink> -->
           </div>
-          <p class="p-6 leading-7">
+          <p class="p-6 leading-7 textP">
             Interested in what’s cooking in our Asia? From street food galore to
             fine-dining degustation, it’s the smell and taste that matters the
             most.
@@ -148,7 +148,7 @@
               Show Details
             </NuxtLink> -->
           </div>
-          <p class="p-6 leading-7">
+          <p class="p-6 leading-7 textP">
             Combining guided and self-guided excursions, our Digital Trails
             allow travellers to plan their own journeys, explore at their own
             pace and blaze their own trails across Asia.
@@ -174,7 +174,7 @@
               Show Details
             </NuxtLink> -->
           </div>
-          <p class="p-6 leading-7 ext-color">
+          <p class="p-6 leading-7 textP">
             The bucket list essentials for any traveller –no visit to our Asia
             is complete with venturing through these landmarks that shapes each
             destination in the best possible way.
@@ -203,7 +203,7 @@
               Show Details
             </NuxtLink> -->
           </div>
-          <p class="p-6 leading-7">
+          <p class="p-6 leading-7 textP">
             Aiming to deliver fun-filled activities for the whole family from
             sunrise to sunset, the name says it all. Traveling with kids made
             easier!
@@ -230,7 +230,7 @@
                 Show Details
               </NuxtLink> -->
             </div>
-            <p class="p-6 leading-7">
+            <p class="p-6 leading-7 textP">
               Carefully crafted and with regular guaranteed departures, our
               Seat-in-Coach excursions and multi-day tour options in several
               languages are among the most sought-after Asian experiences.
@@ -257,7 +257,7 @@
               Show Details
             </NuxtLink> -->
           </div>
-          <p class="p-6 leading-7">
+          <p class="p-6 leading-7 textP">
             All you need is the right company, the right setting and an intimate
             touch to get that ‘just the two of us’ moment. Trails that affirm
             the love you have for each other and Asia
@@ -311,6 +311,14 @@
   @media (min-width: 320px) and (max-width: 820px) {
     width: 100%;
     border-right: none;
+  }
+}
+
+.textP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: small;
+    line-height: 160%;
+    padding-top: 0px;
   }
 }
 </style>

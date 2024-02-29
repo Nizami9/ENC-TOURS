@@ -12,7 +12,7 @@
               enc cultural and heritage tours
             </p>
             <p
-              class="uppercase text-center w-2/3 pt-20 text-xs leading-5 rounded-md text-center text-white"
+              class="uppercase textP text-center w-2/3 text leading-5 rounded-md text-center text-white"
             >
               As an award-winning destination management company since 1999,
               Asian Trails has led the way in designing and executing travel
@@ -21,7 +21,7 @@
             </p>
             <img
               src="@/assets/images/arrowDown.png"
-              class="w-20 pt-24"
+              class="buttonImage w-20 pt-40"
               alt=""
               @click="scrollToComponent2"
             />
@@ -96,7 +96,21 @@ const scrollToComponent2 = () => {
 .text2 {
   font-weight: 600;
   @media (min-width: 320px) and (max-width: 820px) {
-    font-size: xx-large;
+    font-size: x-large;
+  }
+}
+
+.textP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: x-small;
+    margin-top: 40px;
+  }
+}
+
+.buttonImage {
+  @media (min-width: 320px) and (max-width: 820px) {
+    padding-top: 32px;
+    width: 50px;
   }
 }
 </style>
