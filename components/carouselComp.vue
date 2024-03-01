@@ -60,10 +60,6 @@ import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 const dynamicItemsToShow = ref(3);
 
-const state = reactive({
-  itemsToShow: 3,
-});
-
 const updateItemsToShow = () => {
   const screenWidth = window.innerWidth;
   console.log("Screen Width:", screenWidth);

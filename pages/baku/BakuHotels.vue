@@ -66,7 +66,7 @@
               },
             }"
           >
-            <p class="text-color text-color border-b-2 pb-2 border-gray-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               City Park Hotel 4*
             </p>
             <div class="eachMuseum flex p-8 pl-0">

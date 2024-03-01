@@ -3,12 +3,10 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-1/2 m-auto pt-80 text-center z-10 uppercase text-white p-2"
+          class="w-1/2 m-auto mainDiv pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text-7xl uppercase font-semibold">
-            About Us
-          </p>
-          <p class="rounded-md mt-2">
+          <p class="text-7xl uppercase font-semibold text2">About Us</p>
+          <p class="rounded-md mt-2 textP">
             Founded on the principle in offering seamless operational travel
             standards throughout Asia, ENC Tours is a company managed by
             passionate travelers who know the ins and outs of their respective
@@ -18,8 +16,8 @@
       </div>
       <div class="text-center">
         <div class="p-8">
-          <p class="text-6xl">About Us</p>
-          <p class="border-b-2 pt-4 w-20 border-orange-500 m-auto"></p>
+          <p class="text-6xl mainP">About Us</p>
+          <p class="border-b-2 pt-4 w-20 border-gray-500 m-auto"></p>
         </div>
         <div
           v-motion
@@ -37,7 +35,7 @@
               mass: 5,
             },
           }"
-          class="border w-2/3 m-auto p-8 text-customGray"
+          class="border introText w-2/3 m-auto p-8 text-customGray"
         >
           <p class="pb-4">
             Founded in 1999, ENC Tours prides itself on its extensive
@@ -57,10 +55,28 @@
             Myanmar, Singapore, Thailand and Vietnam.
           </p>
         </div>
-        <p class="border-b pt-12 w-10/12 border-orange-500 m-auto"></p>
+        <p class="border-b pt-12 w-10/12 border-gray-500 m-auto"></p>
 
-        <div class="flex w-10/12 m-auto border-b border-orange-400">
-          <div class="m-10">
+        <div class="flex mainSection w-10/12 m-auto border-b border-gray-400">
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              delay: 1000,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 5,
+              },
+            }"
+            class="m-10 imageStyle2"
+          >
             <img src="@/assets/images/encTeam.jpeg" alt="" />
           </div>
           <div
@@ -79,7 +95,7 @@
                 mass: 5,
               },
             }"
-            class="flex flex-wrap w-9/12 flex-col justify-evenly h-80 text-center m-auto"
+            class="flex sections text-color flex-wrap w-9/12 flex-col justify-evenly h-80 text-center m-auto"
           >
             <h2 class="w-full font-semibold text-2xl">
               OUR PEOPLE ARE OUR GREATEST ASSET
@@ -101,7 +117,7 @@
             </p>
           </div>
         </div>
-        <div class="flex w-10/12 m-auto border-b border-orange-400">
+        <div class="flex mainSection w-10/12 m-auto border-b border-gray-400">
           <div
             v-motion
             :initial="{
@@ -118,7 +134,7 @@
                 mass: 5,
               },
             }"
-            class="flex flex-wrap flex-col justify-evenly h-80 text-center m-auto"
+            class="flex sections text-color flex-wrap flex-col justify-evenly h-80 text-center m-auto"
           >
             <h2 class="w-full font-semibold text-2xl">
               EYES TOWARDS THE FUTURE
@@ -138,13 +154,53 @@
               requirements without losing the human touch.
             </p>
           </div>
-          <div class="m-10">
-            <img src="@/assets/images/team.jpeg" alt="" />
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              delay: 1000,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 5,
+              },
+            }"
+            class="m-10 imageStyle2"
+          >
+            <img src="@/assets/images/team.jpeg" class="imageStyle" alt="" />
           </div>
         </div>
-        <div class="flex w-10/12 m-auto border-b border-orange-400">
-          <div class="m-10">
-            <img src="@/assets/images/team3.jpeg" class="w-11/12" alt="" />
+        <div class="flex mainSection w-10/12 m-auto border-b border-gray-400">
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              delay: 1000,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 5,
+              },
+            }"
+            class="m-10 imageStyle2"
+          >
+            <img
+              src="@/assets/images/team3.jpeg"
+              class="imageStyle w-11/12"
+              alt=""
+            />
           </div>
           <div
             v-motion
@@ -162,7 +218,7 @@
                 mass: 5,
               },
             }"
-            class="flex flex-wrap w-9/12 flex-col justify-evenly h-80 text-center m-auto"
+            class="flex flex-wrap sections text-color w-9/12 flex-col justify-evenly h-80 text-center m-auto"
           >
             <h2 class="w-full font-semibold text-2xl">
               OUR PEOPLE ARE OUR GREATEST ASSET
@@ -185,48 +241,117 @@
           </div>
         </div>
       </div>
-      <div
-        v-motion
-        :initial="{
-          opacity: 0,
-          y: 100,
-        }"
-        :visible="{
-          opacity: 1,
-          delay: 1000,
-          y: 0,
-          transition: {
-            type: 'spring',
-            stiffness: 250,
-            damping: 70,
-            mass: 5,
-          },
-        }"
-      >
+      <div>
         <div class="text-center m-auto">
           <p class="text-2xl font-semibold m-4">Our Team</p>
           <p class="text-gray-400">Family of ENC Tours</p>
         </div>
-        <div class="flex justify-around m-5">
-          <div>
-            <img src="@/assets/images/emil.jpeg" class="w-60" alt="" />
+        <div class="flex ourTeam justify-around m-5">
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              delay: 1000,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 5,
+              },
+            }"
+          >
+            <img
+              src="@/assets/images/emil.jpeg"
+              class="imageStyle w-60"
+              alt=""
+            />
             <h5 class="uppercase text-xl mt-3 font-semibold">Emil Nasibov</h5>
             <p>CEO and Founder</p>
           </div>
-          <div>
-            <img src="@/assets/images/rasim.jpg" class="w-60" alt="" />
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              delay: 1000,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 5,
+              },
+            }"
+          >
+            <img
+              src="@/assets/images/rasim.jpg"
+              class="imageStyle w-60"
+              alt=""
+            />
             <h5 class="uppercase text-xl mt-3 font-semibold">
               Rasim Farzaliyev
             </h5>
             <p>Head of Operations</p>
           </div>
-          <div>
-            <img src="@/assets/images/sabina.jpeg" class="w-60" alt="" />
-            <h5 class="uppercase text-xl mt-3 font-semibold">Sabina Rustamova</h5>
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              delay: 1000,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 5,
+              },
+            }"
+          >
+            <img
+              src="@/assets/images/sabina.jpeg"
+              class="imageStyle w-60"
+              alt=""
+            />
+            <h5 class="uppercase text-xl mt-3 font-semibold">
+              Sabina Rustamova
+            </h5>
             <p>Senior Product Manager</p>
           </div>
-          <div>
-            <img src="@/assets/images/amina.jpeg" class="w-60" alt="" />
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              delay: 1000,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 5,
+              },
+            }"
+          >
+            <img
+              src="@/assets/images/amina.jpeg"
+              class="imageStyle w-60"
+              alt=""
+            />
             <h5 class="uppercase text-xl mt-3 font-semibold">Amina Hasanova</h5>
             <p>Product Manager</p>
           </div>
@@ -256,5 +381,81 @@
   background-attachment: fixed;
   filter: brightness(55%);
   z-index: -1;
+}
+
+.text-color {
+  color: #5a5858;
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+    font-size: small;
+  }
+}
+
+.text2 {
+  font-weight: 600;
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: x-large;
+  }
+}
+.introText {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+    font-size: small;
+  }
+}
+.textP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: small;
+    margin-top: 40px;
+  }
+}
+.mainDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    padding-top: 220px;
+    width: 80%;
+  }
+}
+.mainSection {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: medium;
+    display: block;
+  }
+}
+.sectionDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 100%;
+    border-right: none;
+  }
+}
+.sections {
+  @media (min-width: 320px) and (max-width: 820px) {
+    display: block;
+    height: 400px;
+  }
+}
+.mainP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: xx-large;
+  }
+}
+
+.ourTeam {
+  @media (min-width: 320px) and (max-width: 820px) {
+    display: block;
+  }
+}
+
+.imageStyle {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 100%;
+  }
+}
+
+.imageStyle2 {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
 }
 </style>

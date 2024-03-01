@@ -1,7 +1,7 @@
 <template>
   <div class="w-10/12 m-auto mb-10">
     <carousel
-      items-to-show="5"
+    :items-to-show="dynamicItemsToShow"
       :autoplay="5000"
       class="w-full pt-7"
       :wrap-around="true"
@@ -54,12 +54,46 @@
 <script setup>
 import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
+const dynamicItemsToShow = ref(5);
+
+const updateItemsToShow = () => {
+  const screenWidth = window.innerWidth;
+  console.log("Screen Width:", screenWidth);
+  dynamicItemsToShow.value = screenWidth >= 320 && screenWidth <= 820 ? 1 : 5;
+  console.log("Dynamic Items to Show:", dynamicItemsToShow.value);
+};
+
+onMounted(() => {
+  updateItemsToShow();
+  window.addEventListener("resize", updateItemsToShow);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener("resize", updateItemsToShow);
+});
 </script>
 
 <style scoped>
 .imageStyle {
-  height: 210px;
+  height: 200px;
   width: 100%;
-  padding-right: 10px;
+  padding-right: 6px;
+  @media (min-width: 320px) and (max-width: 425px) {
+    height: 180px;
+    padding-right: 0px;
+  }
+  @media (min-width: 426px) and (max-width: 768px) {
+    height: 340px;
+    padding-right: 0px;
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    height: 120px;
+  }
+}
+
+.mainCarousel {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+  }
 }
 </style>

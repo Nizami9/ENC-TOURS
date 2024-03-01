@@ -211,10 +211,10 @@ watchEffect(() => {
         </button>
       </div>
       <div class="hidden lg:flex uppercase">
-        <a href="./aboutUs" class="text-sm font-semibold leading-6 mr-10"
+        <a href="../../aboutUs" class="text-sm font-semibold leading-6 mr-10"
           >About Us</a
         >
-        <a href="./contactUs" class="text-sm font-semibold leading-6"
+        <a href="../../contactUs" class="text-sm font-semibold leading-6"
           >Contacts</a
         >
       </div>
@@ -256,12 +256,12 @@ watchEffect(() => {
             </div>
             <div class="py-6 uppercase">
               <a
-                href="./aboutUs.vue"
+                href="../../aboutUs.vue"
                 class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50"
                 >about us</a
               >
               <a
-                href="./contactUs.vue"
+                href="../../contactUs.vue"
                 class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50"
                 >contacts</a
               >
@@ -280,12 +280,12 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 import { onMounted, onUnmounted, watchEffect, getCurrentInstance } from "vue";
 const navigation = [
   { name: "HOME", href: "/" },
-  { name: "AZERBAIJAN", href: "azerbaijan" },
-  { name: "TOURS", href: "tours" },
-  { name: "SERVICES", href: "ourservices" },
+  { name: "AZERBAIJAN", href: "../../azerbaijan" },
+  { name: "TOURS", href: "../../tours" },
+  { name: "SERVICES", href: "../../ourservices" },
   { name: "PHOTOGALLERY", href: "/" },
-  { name: "ENC LUXURY", href: "/luxury" },
-  { name: "MICE", href: "/mice" },
+  { name: "ENC LUXURY", href: "../../luxury" },
+  { name: "MICE", href: "../../mice" },
 ];
 const { emit } = getCurrentInstance();
 const mobileMenuOpen = ref(false);

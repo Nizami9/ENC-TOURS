@@ -3,10 +3,10 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-1/2 m-auto pt-80 text-center z-10 uppercase text-white p-2"
+          class="w-1/2 mainDiv m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text-8xl uppercase font-semibold">Hotels</p>
-          <p class="rounded-md mt-20 text-center">
+          <p class="text2 text-7xl uppercase font-semibold">Hotels</p>
+          <p class="rounded-md mt-20 text-center textP">
             Lauded for its extensive knowledge, its East-meets-West model and
             venturing responsibly into every corner of its destinations, it is
             our mission to show guests the beating heart of our Asia
@@ -120,7 +120,22 @@ import carousel from "../../components/Carousel_Mice_Hotels";
   z-index: -1;
 }
 
-.text-color {
-  color: #5a5858;
+.text2 {
+  font-weight: 600;
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: x-large;
+  }
+}
+.textP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: small;
+    margin-top: 40px;
+  }
+}
+.mainDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    padding-top: 220px;
+    width: 80%;
+  }
 }
 </style>
