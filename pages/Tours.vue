@@ -5,7 +5,7 @@
         <div
           class="w-1/2 m-auto mainDiv pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-8xl uppercase font-semibold">TOURS</p>
+          <p class="text2 text-7xl uppercase font-semibold">TOURS</p>
           <p class="rounded-md mt-20 text-center textP">
             Lauded for its extensive knowledge, its East-meets-West model and
             venturing responsibly into every corner of its destinations, it is
