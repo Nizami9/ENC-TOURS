@@ -3,9 +3,11 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-1/2 m-auto pt-48 text-center z-10 uppercase text-white p-2"
+          class="w-1/2 m-auto mainDiv pt-48 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text-7xl w-2/3 m-auto uppercase font-semibold spacing-2">
+          <p
+            class="text2 text-7xl w-full m-auto uppercase font-semibold spacing-2"
+          >
             GENERAL FACTS about azerbaijan
           </p>
         </div>
@@ -30,7 +32,7 @@
               mass: 5,
             },
           }"
-          class="border w-5/6 m-auto p-8 text-customGray"
+          class="border introText w-5/6 m-auto p-8 text-customGray"
         >
           <p class="mb-5">
             Welcome to Azerbaijan! This is the Land of Fire and the Pearl of the
@@ -112,8 +114,11 @@
               <p>Area</p>
               <img src="@/assets/images/plus.png" class="w-8" alt="" />
             </div>
-            <div class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500" v-if="showArea">
-              <p class="transition-all animate-fadeIn duration-500">
+            <div
+              class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
+              v-if="showArea"
+            >
+              <p class="textP transition-all animate-fadeIn duration-500">
                 Azerbaijan is situated in the Caucasus region of Eurasia. Three
                 physical features dominate Azerbaijan: the Caspian Sea, whose
                 shoreline forms a natural boundary to the east; the Greater
@@ -134,7 +139,7 @@
               <img src="@/assets/images/plus.png" class="w-8" alt="" />
             </div>
             <div class="mt-5 text-left" v-if="showPopulation">
-              <p>
+              <p class="textP">
                 The current population of Azerbaijan is 10,126,684 as of Monday,
                 May 11, 2020, based on the latest United Nations estimates.
                 Azerbaijan population is equivalent to 0.13% of the total world
@@ -151,7 +156,7 @@
               <img src="@/assets/images/plus.png" class="w-8" alt="" />
             </div>
             <div class="mt-5 text-left" v-if="showCapital">
-              <p>
+              <p class="textP">
                 Baku is the capital and largest city of Azerbaijan, as well as
                 the largest city on the Caspian Sea and of the Caucasus region.
                 Baku is located 28 meters below sea level, which also makes it
@@ -168,7 +173,7 @@
               <img src="@/assets/images/plus.png" class="w-8" alt="" />
             </div>
             <div class="mt-5 text-left" v-if="showLanguage">
-              <p>
+              <p class="textP">
                 Azerbaijani is the official language of Azerbaijan. It is also
                 the language of the majority population of the country. Russian
                 and English are widely spoken as well.
@@ -184,7 +189,7 @@
               <img src="@/assets/images/plus.png" class="w-8" alt="" />
             </div>
             <div class="mt-5 text-left" v-if="showReligion">
-              <p>
+              <p class="textP">
                 Majority of population is Muslim. Other religions are also
                 practiced such as Judaism, Orthodox and Catholic. The country is
                 tolerant and apart from the mosques you can find churches and
@@ -202,7 +207,7 @@
               <img src="@/assets/images/plus.png" class="w-8" alt="" />
             </div>
             <div class="mt-5 text-left" v-if="showCurrency">
-              <p>
+              <p class="textP">
                 The Azerbaijan Manat is the currency of Azerbaijan. The current
                 exchange rate is 1 USD is 1.70 AZN, 1 Euro is 1.84 AZN. Dollar
                 and Euro can be easily exchanged at the local banks and airport.
@@ -218,7 +223,7 @@
               <img src="@/assets/images/plus.png" class="w-8" alt="" />
             </div>
             <div class="mt-5 text-left" v-if="showTime">
-              <p>
+              <p class="textP">
                 AZT – Azerbaijan Time (Standard Time) currently has same time
                 zone offset as AZT (UTC +4) but different time zone name.
                 Azerbaijan Time (AZT) is 4 hours ahead of Coordinated Universal
@@ -236,7 +241,7 @@
               <img src="@/assets/images/plus.png" class="w-8" alt="" />
             </div>
             <div class="mt-5 text-left" v-if="showClimate">
-              <p>
+              <p class="textP">
                 9 out of 11 climate zones are available in Azerbaijan, from
                 Subtropics to Alpine climates can be witnessed.
               </p>
@@ -251,7 +256,7 @@
               <img src="@/assets/images/plus.png" class="w-8" alt="" />
             </div>
             <div class="mt-5 text-left" v-if="showAirport">
-              <p>
+              <p class="textP">
                 International Airports: Baku, Ganja, Lankaran, Naxchivan, Gabala
               </p>
             </div>
@@ -265,7 +270,7 @@
               <img src="@/assets/images/plus.png" class="w-8" alt="" />
             </div>
             <div class="mt-5 text-left" v-if="showCities">
-              <p>
+              <p class="textP">
                 Baku, Ganja, Sumqayit, Shamakhi, Quba, Sheki, Qabala, Lankaran
               </p>
             </div>
@@ -279,7 +284,7 @@
               <img src="@/assets/images/plus.png" class="w-8" alt="" />
             </div>
             <div class="mt-5 text-left" v-if="showPoints">
-              <p>
+              <p class="textP">
                 The highest peaks in the Republic of Azerbaijan are situated in
                 the Greater Caucasus, the Lesser Caucasus and Talysh mountain
                 systems. The highest peak in the Republic of Azerbaijan is
@@ -296,7 +301,7 @@
               <img src="@/assets/images/plus.png" class="w-8" alt="" />
             </div>
             <div class="mt-5 text-left" v-if="showRivers">
-              <p>
+              <p class="textP">
                 The rivers of Azerbaijan can be divided into three groups: the
                 rivers of the Kursk basin (Kaniks, Kabirri, Turyan, Agstafa,
                 Shekir, Terter, Khachin, etc.). the Rivers of the Araks basin
@@ -315,7 +320,7 @@
               <img src="@/assets/images/plus.png" class="w-8" alt="" />
             </div>
             <div class="mt-5 text-left" v-if="showLakes">
-              <p>
+              <p class="textP">
                 The list includes only natural lakes. Artificial lakes, such as
                 reservoirs, are excluded from this list. The Caspian sea, which
                 is the largest lake on Earth, both in area and volume, and which
@@ -333,7 +338,7 @@
               <img src="@/assets/images/plus.png" class="w-8" alt="" />
             </div>
             <div class="mt-5 text-left" v-if="showElectricity">
-              <p>
+              <p class="textP">
                 Non-grounded outlets are more common than grounded ones. It is
                 recommend both styles of adapters be taken. Azerbaijan has 220
                 volt electricity, meaning unless your computer or appliance is
@@ -351,7 +356,7 @@
               <img src="@/assets/images/plus.png" class="w-8" alt="" />
             </div>
             <div class="mt-5 text-left" v-if="showVisa">
-              <p>Please, apply for e-Visa at www.evisa.gov.az</p>
+              <p class="textP">Please, apply for e-Visa at www.evisa.gov.az</p>
             </div>
           </div>
         </div>
@@ -440,8 +445,10 @@ const clickOnLanguage = () => {
 
 <style scoped>
 .parallax {
-  position: relative;
-  min-height: 800px;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .parallax::before {
   content: "";
@@ -456,5 +463,38 @@ const clickOnLanguage = () => {
   background-attachment: fixed;
   filter: brightness(55%);
   z-index: -1;
+}
+
+.text-color {
+  color: #5a5858;
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+    font-size: small;
+  }
+}
+
+.text2 {
+  font-weight: 600;
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: x-large;
+  }
+}
+.introText {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+    font-size: small;
+  }
+}
+.textP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: small;
+    margin-top: 20px;
+  }
+}
+.mainDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    padding-top: 220px;
+    width: 80%;
+  }
 }
 </style>
