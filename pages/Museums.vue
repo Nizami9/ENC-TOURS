@@ -3,18 +3,18 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-1/2 m-auto pt-80 text-center z-10 uppercase text-white p-2"
+          class="w-1/2 mainDiv m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text-7xl uppercase font-semibold">museums</p>
+          <p class="text2 text-7xl uppercase font-semibold">museums</p>
           <p class="rounded-md mt-5 text-2xl text-center">
             Journey Through Time: ENC Tours
           </p>
-          <p class="text-2xl">Curated Museum Exploration in Azerbaijan</p>
+          <p class="text-2xl textP">Curated Museum Exploration in Azerbaijan</p>
         </div>
       </div>
       <div class="text-center">
         <div class="p-8">
-          <p class="text-6xl">INTRO</p>
+          <p class="text-6xl mainP">INTRO</p>
           <p class="border-b-2 pt-4 w-20 border-orange-500 m-auto"></p>
         </div>
         <div
@@ -33,7 +33,7 @@
               mass: 5,
             },
           }"
-          class="border w-1/2 m-auto p-8 text-customGray"
+          class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
             ENC Tours in Azerbaijan offers an immersive museum service, guiding
@@ -47,7 +47,7 @@
             connect with the vibrant heritage of this fascinating destination.
           </p>
         </div>
-        <div class="w-10/12 m-auto mt-10">
+        <div class="mainSection w-10/12 m-auto mt-10">
           <div
             class="w-full mb-4 text-left"
             v-motion
@@ -66,16 +66,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-gray-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               MUSEUM OF MODERN ART
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/museum1.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-gray-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 The Museum of Contemporary Art in Baku was opened on March 20,
                 2009. The museum has a collection of over 800 works by
                 Azerbaijani artists and sculptors, mostly working in the
@@ -103,16 +103,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-gray-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               AZERBAIJAN CARPET MUSEUM
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/carpetmuseum2.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-gray-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
                 The Azerbaijan Carpet Museum was created in 1967. The museum’s
                 new home was built within the National Seaside Park by decree of
                 the President of the Republic of Azerbaijan Ilham Aliyev, signed
@@ -143,16 +143,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-gray-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               NIZAMI GANJAVI MUSEUM
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/museum2.webp"
-                class="h-60 border-4 w-96 rounded-md border-gray-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
                 National Museum of Azerbaijani Literature named after Nizami
                 Ganjavi was founded in 1939. The museum is located in the center
                 of Baku, near the Fountain Square and next to the entrance of
@@ -183,16 +183,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-gray-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               THE SHEKI KHANS HOUSE
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/museum3.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-gray-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
                 Built in the 18th century and recently thoroughly restored the
                 house of Sheki Khans, owned by relatives of the Khans, is a
                 transitional link from a national house to a palace type
@@ -220,16 +220,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-gray-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               NATIONAL MUSEUM OF HISTORY
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/museum4.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-gray-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
                 The National Museum of History of Azerbaijan has been operating
                 since 1920 in the mansion of the well-known oil industrialist
                 and philanthropist Haji Zeynalabdin Tagiyev. In May 1921 the
@@ -259,14 +259,14 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-gray-400">ATASHGAH</p>
-            <div class="flex p-8 pl-0">
+            <p class="text-color border-b-2 pb-2 border-gray-400">ATASHGAH</p>
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/museum51.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-gray-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
                 Historical monument. The temple of fire worshippers Ateshgah,
                 located on the Absheron peninsula on the outskirts of Surakhani
                 village was revered in different times by Zoroastrians, Hindus
@@ -300,16 +300,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-gray-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               SHIRVANSHAH'S PALACE
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/museum6.webp"
-                class="h-60 border-4 w-96 rounded-md border-gray-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
                 The palace was the former residence of the rulers of the
                 Shirvanshahs. It is a complex where, in addition to the palace
                 itself, can also be found a courtyard of the Diwankhana, the
@@ -347,14 +347,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-gray-400">MAIDEN TOWER</p>
-            <div class="flex p-8 pl-0">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              MAIDEN TOWER
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/museum7.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-gray-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
                 The exact date of construction of the Maiden Tower is unknown.
                 In the 12th century the Maiden Tower became part of the
                 defensive system of Baku and was the main stronghold of the Baku
@@ -389,16 +391,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-gray-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               ALBANIAN TEMPLE - KISH
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/kish.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-gray-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
                 In the villages of Sheki region there are several Christian
                 architectural monuments of Caucasian Albania, the most famous of
                 which is the church in the village of Kish. The official date of
@@ -429,16 +431,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-gray-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               HEYDAR ALIYEV CENTER
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/museum8.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-gray-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
                 The cultural center includes an auditorium (congress center), a
                 museum, exhibition halls, administrative offices. The project of
                 the center was developed in 2007 by the famous architect Zaha
@@ -469,14 +471,14 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-gray-400">GOBUSTAN</p>
-            <div class="flex p-8 pl-0">
+            <p class="text-color border-b-2 pb-2 border-gray-400">GOBUSTAN</p>
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/museum9.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-gray-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
                 A reserva de Gobustan está localizada na parte oriental do
                 Azerbaijão, na área das montanhas Boyukdash, Gobustan preserve
                 is located in the eastern part of Azerbaijan, in the area of the
@@ -532,14 +534,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-gray-400">SHEKI KHANS PALACE</p>
-            <div class="flex p-8 pl-0">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              SHEKI KHANS PALACE
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/museum10.jpeg"
-                class="h-60 border-4 w-96 rounded-md border-gray-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
                 Unique in the architecture Sheki Khans Palace was built in 1762
                 by Huseyn-khan. The palace has its own special original
                 construction techniques. It is enough to say for example that
@@ -558,7 +562,6 @@
 <script setup></script>
 
 <style scoped>
-
 .parallax {
   min-height: 100vh;
   background-attachment: fixed;
@@ -578,5 +581,79 @@
   background-attachment: fixed;
   filter: brightness(55%);
   z-index: -1;
+}
+
+.text-color {
+  color: #5a5858;
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 100%;
+    font-size: small;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+.text2 {
+  font-weight: 600;
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: x-large;
+  }
+}
+.introText {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+    font-size: small;
+  }
+}
+.textP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: small;
+    margin-top: 40px;
+  }
+}
+.mainDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    padding-top: 220px;
+    width: 80%;
+  }
+}
+.mainSection {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: medium;
+    display: block;
+  }
+}
+.sectionDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 100%;
+    border-right: none;
+  }
+}
+.imageStyle {
+  @media (min-width: 320px) and (max-width: 374px) {
+    height: 160px;
+  }
+  @media (min-width: 375px) and (max-width: 425px) {
+    height: 200px;
+  }
+  @media (min-width: 426px) and (max-width: 768px) {
+    height: 300px;
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    height: 180px;
+  }
+}
+.mainP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: xx-large;
+  }
+}
+
+.eachMuseum {
+  @media (min-width: 320px) and (max-width: 820px) {
+    display: block;
+    margin-bottom: 40px;
+    padding: 0px;
+  }
 }
 </style>
