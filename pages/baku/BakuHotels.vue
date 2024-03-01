@@ -3,19 +3,19 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-1/2 m-auto pt-48 text-center z-10 uppercase text-white p-2"
+          class="w-1/2 mainDiv m-auto pt-48 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text-7xl uppercase font-semibold">Hotels in BAKU</p>
+          <p class="text2 text-7xl uppercase font-semibold">Hotels in BAKU</p>
           <p class="rounded-md mt-5 text-2xl text-center">
             Journey Through Time: ENC Tours
           </p>
-          <p class="text-2xl">Curated Museum Exploration in Azerbaijan</p>
+          <p class="text-2xl textP">Curated Museum Exploration in Azerbaijan</p>
         </div>
       </div>
       <div class="text-center">
         <div class="p-8">
-          <p class="text-6xl">INTRO</p>
-          <p class="border-b-2 pt-4 w-20 border-orange-500 m-auto"></p>
+          <p class="text-6xl mainP">INTRO</p>
+          <p class="text-color border-b-2 pt-4 w-20 border-gray-500 m-auto"></p>
         </div>
         <div
           v-motion
@@ -33,7 +33,7 @@
               mass: 5,
             },
           }"
-          class="border w-1/2 m-auto p-8 text-customGray"
+          class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
             ENC Tours in Azerbaijan offers an immersive museum service, guiding
@@ -47,7 +47,7 @@
             connect with the vibrant heritage of this fascinating destination.
           </p>
         </div>
-        <div class="w-10/12 m-auto mt-10">
+        <div class="mainSection w-10/12 m-auto mt-10">
           <div
             class="w-full mb-4 text-left"
             v-motion
@@ -66,14 +66,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">City Park Hotel 4*</p>
-            <div class="flex p-8 pl-0">
+            <p class="text-color text-color border-b-2 pb-2 border-gray-400">
+              City Park Hotel 4*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotel1.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 The Museum of Contemporary Art in Baku was opened on March 20,
                 2009. The museum has a collection of over 800 works by
                 Azerbaijani artists and sculptors, mostly working in the
@@ -101,14 +103,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">Aksent Hotel 4*</p>
-            <div class="flex p-8 pl-0">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Aksent Hotel 4*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotel3.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 Aksent Hotel lies 1100 meters away from Park of Officers,
                 offering 24 rooms and featuring a beauty salon and a barber
                 shop. It features airport shuttle service, laundry service and
@@ -142,14 +146,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">New Baku Hotel 4*</p>
-            <div class="flex p-8 pl-0">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              New Baku Hotel 4*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotel4.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 New Baku Hotel is situated near the Embassies of Russian
                 Federation, The Republic of Turkey and United States of America
                 in the center of Baku. It takes 25 minutes to arrive at the
@@ -180,16 +186,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               Central Park Hotel 4*
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotel5.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 The hotel is located five minutes walk from the marvelous
                 Fountains Square and the Nizami Promenade where world famous
                 brand boutiques are waiting to tempt you. Nearby, a brisk 20
@@ -219,16 +225,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               Qafqaz Baku City Hotel 4*
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotel6.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 The “Qafqaz Baku City Hotel & Residences” is the biggest four
                 star hotel in Azerbaijan located in the centre of Baku city and
                 in the vicinities of the leading business and commercial
@@ -260,16 +266,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               Sapphire Inn Hotel 4*
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotel7.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 Sapphire Inn Hotel is located in the very center of the city,
                 which will allow you to see the sights of the city, visit trade
                 and business centers.Modern style Sapphire Inn Hotel is a
@@ -298,16 +304,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               Holiday Inn Hotel Baku 4*
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/holiday.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 Set in a sleek building, this polished hotel is 4 km from the
                 Old City and 5 km from the 15th-century Palace of the
                 Shirvanshahs. The contemporary rooms with colorful artwork come
@@ -337,16 +343,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               Park Inn By Radisson Hotel 4*
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotel9.avif"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 With a central location, our Park Inn by Radisson in Baku is
                 well placed for enjoying all that the Azerbaijan capital city
                 has to offer. Next to the hotel, you’ll find the waterfront
@@ -376,16 +382,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               Pullman Baku Hotel 5*
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotel10.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 Pullman Baku is ideal for business and leisure. The hotel is
                 located only 110 yards from the Botanical Garden and a 10-minute
                 drive from the old city and Caspian coast and is the only resort
@@ -419,16 +425,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               ART Gallery Boutique Hotel 5*
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotel11.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 Art Gallery Boutique Hotel is located in the center of Baku,
                 next to the old city wall. The property is located in the
                 historical center of Baku just 25 m from Maiden Tower. The
@@ -462,16 +468,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               Boutique 19 Hotel 5*
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotelbout.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 Boutique 19 is a cozy hotel with the great location – Old City
                 and a popular Fountain Square is just a short walk away from our
                 boutique! The property lies within 200 meters from Maiden Tower.
@@ -506,16 +512,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               Sheraton Baku Intourist Hotel 5*
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotel13.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 Discover an uncommon blend of style and substance at the
                 Sheraton Baku Intourist Hotel. This 5-star hotel provides the
                 ultimate in luxury accommodation, with spacious, elegantly
@@ -544,16 +550,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               JW Marriott Absheron Hotel Baku 5*
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotel14.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 Discover an uncommon blend of style and substance at the
                 Sheraton Baku Intourist Hotel. This 5-star hotel provides the
                 ultimate in luxury accommodation, with spacious, elegantly
@@ -582,16 +588,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               Bilgah Beach Hotel 5*
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotel15.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 Your journey begins with the premier accommodations‚ all with
                 sea-facing balconies and thoughtful amenities ranging from
                 complimentary wireless Internet access to spacious bathrooms
@@ -623,16 +629,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               Baku Marriott Hotel Boulevard 5*
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotel16.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 Baku Marriott Hotel Boulevard is located in the heart of Baku
                 White City district, along one of the main routes connecting the
                 city center with Heydar Aliyev International Airport. Upscale
@@ -671,16 +677,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               Hilton Baku Hotel 5*
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotel17.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 Overlooking the Caspian Sea, this upscale, glass-sided hotel is
                 1 km from the Baku Central Railway Station. The elegant rooms
                 feature free Wi-Fi, flat-screens, minibars and sitting areas.
@@ -710,16 +716,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               Fairmont Baku Hotel 5*
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotelfair.avif"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 Fairmont Baku, Flame Towers designed to exceed five-star
                 standards and services, brings 318 superbly appointed guest
                 rooms, suites, serviced apartments and an array of Fairmont Gold
@@ -750,16 +756,16 @@
               },
             }"
           >
-            <p class="border-b-2 pb-2 border-orange-400">
+            <p class="text-color border-b-2 pb-2 border-gray-400">
               Four Seasons Hotel 5*
             </p>
-            <div class="flex p-8 pl-0">
+            <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/hotel19.jpeg"
-                class="border-4 w-1/3 rounded-md border-orange-400"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class="w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 Overlooking the Caspian Sea, this elegant luxury hotel in a
                 beaux arts building is an 8-minute walk from the Old City and a
                 metro stop. Most have balconies offering Old City or sea views.
@@ -780,8 +786,10 @@
 
 <style scoped>
 .parallax {
-  position: relative;
-  min-height: 800px;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .parallax::before {
   content: "";
@@ -796,5 +804,79 @@
   background-attachment: fixed;
   filter: brightness(55%);
   z-index: -1;
+}
+
+.text-color {
+  color: #5a5858;
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 100%;
+    font-size: small;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+.text2 {
+  font-weight: 600;
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: x-large;
+  }
+}
+.introText {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+    font-size: small;
+  }
+}
+.textP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: small;
+    margin-top: 40px;
+  }
+}
+.mainDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    padding-top: 220px;
+    width: 80%;
+  }
+}
+.mainSection {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: medium;
+    display: block;
+  }
+}
+.sectionDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 100%;
+    border-right: none;
+  }
+}
+.imageStyle {
+  @media (min-width: 320px) and (max-width: 374px) {
+    height: 160px;
+  }
+  @media (min-width: 375px) and (max-width: 425px) {
+    height: 200px;
+  }
+  @media (min-width: 426px) and (max-width: 768px) {
+    height: 300px;
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    height: 180px;
+  }
+}
+.mainP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: xx-large;
+  }
+}
+
+.eachMuseum {
+  @media (min-width: 320px) and (max-width: 820px) {
+    display: block;
+    margin-bottom: 40px;
+    padding: 0px;
+  }
 }
 </style>
