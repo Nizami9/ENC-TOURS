@@ -18,7 +18,7 @@
       </div>
       <div class="text-center">
         <div class="p-8">
-          <p class="text-6xl">About Us</p>
+          <p class="text-6xl mainP">About Us</p>
           <p class="border-b-2 pt-4 w-20 border-orange-500 m-auto"></p>
         </div>
         <div
@@ -229,6 +229,12 @@
     display: block;
     width: 90%;
     margin-bottom: 10px;
+  }
+}
+
+.mainP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: xx-large;
   }
 }
 </style>

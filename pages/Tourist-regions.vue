@@ -3,10 +3,10 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-1/2 m-auto pt-48 text-center z-10 uppercase text-white p-2"
+          class="w-1/2 m-auto mainDiv pt-48 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text-7xl uppercase font-semibold">TOURIST REGIONS</p>
-          <p class="rounded-md mt-5 text-center">
+          <p class="text2 text-7xl uppercase font-semibold">TOURIST REGIONS</p>
+          <p class="rounded-md mt-5 text-center textP">
             Lauded for its extensive knowledge, its East-meets-West model and
             venturing responsibly into every corner of its destinations, it is
             our mission to show guests the beating heart of our Asia
@@ -34,7 +34,7 @@
               mass: 5,
             },
           }"
-          class="border w-1/2 m-auto p-8 text-customGray"
+          class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
             ENC Tours in Azerbaijan specializes in curated, special-interest
@@ -65,16 +65,16 @@
               mass: 20,
             },
           }"
-          class="flex w-10/12 m-auto mt-10 uppercase mb-2"
+          class="flex mainSection w-10/12 m-auto mt-10 uppercase mb-2"
         >
           <div
-            class="w-1/3 uppercase cursor-pointer"
+            class="w-1/3 sectionDiv uppercase cursor-pointer"
             @click="navigateTo('../Regions/central-region')"
           >
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/reg1.png"
-                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                class="imageStyle h-64 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder1"
                 @mouseout="removeBorder1"
@@ -92,13 +92,13 @@
             </div>
           </div>
           <div
-            class="w-1/3 uppercase"
+            class="w-1/3 uppercase sectionDiv"
             @click="navigateTo('../Regions/northern-region')"
           >
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/reg2.png"
-                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                class="imageStyle h-64 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder2"
                 @mouseout="removeBorder2"
@@ -116,13 +116,13 @@
             </div>
           </div>
           <div
-            class="w-1/3 uppercase"
+            class="w-1/3 sectionDiv uppercase"
             @click="navigateTo('../Regions/northern-west-region')"
           >
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/reg3.png"
-                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                class="imageStyle h-64 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder3"
                 @mouseout="removeBorder3"
@@ -156,16 +156,16 @@
               mass: 20,
             },
           }"
-          class="flex w-10/12 m-auto mb-2 uppercase"
+          class="flex mainSection w-10/12 m-auto mb-2 uppercase"
         >
           <div
-            class="w-1/3 uppercase"
+            class="w-1/3 sectionDiv uppercase"
             @click="navigateTo('../Regions/western-region')"
           >
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/reg4.png"
-                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                class="imageStyle h-64 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder4"
                 @mouseout="removeBorder4"
@@ -184,13 +184,13 @@
           </div>
 
           <div
-            class="w-1/3 uppercase"
+            class="w-1/3 sectionDiv uppercase"
             @click="navigateTo('../Regions/southern-region')"
           >
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/reg5.png"
-                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                class="imageStyle h-64 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder5"
                 @mouseout="removeBorder5"
@@ -208,13 +208,13 @@
             </div>
           </div>
           <div
-            class="w-1/3 uppercase"
+            class="w-1/3 sectionDiv uppercase"
             @click="navigateTo('../Regions/baku-absheron')"
           >
             <div class="pl-8 pb-2">
               <img
                 src="@/assets/images/reg6.png"
-                class="h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                class="imageStyle h-64 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder6"
                 @mouseout="removeBorder6"
@@ -299,5 +299,53 @@ const { addBorder: addBorder9, removeBorder: removeBorder9 } =
   background-attachment: fixed;
   filter: brightness(55%);
   z-index: -1;
+}
+
+.text2 {
+  font-weight: 600;
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: x-large;
+  }
+}
+.introText {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+    font-size: small;
+  }
+}
+.textP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: small;
+    margin-top: 40px;
+  }
+}
+.mainDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    padding-top: 220px;
+    width: 80%;
+  }
+}
+.mainSection {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: medium;
+    display: block;
+  }
+}
+.sectionDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 100%;
+    border-right: none;
+  }
+}
+.imageStyle {
+  @media (min-width: 320px) and (max-width: 425px) {
+    height: 200px;
+  }
+  @media (min-width: 426px) and (max-width: 767px) {
+    height: 320px;
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    height: 370px;
+  }
 }
 </style>

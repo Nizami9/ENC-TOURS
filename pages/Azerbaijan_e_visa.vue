@@ -3,10 +3,12 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-1/2 m-auto pt-80 text-center z-10 uppercase text-white p-2"
+          class="w-1/2 m-auto mainDiv pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text-7xl uppercase font-semibold">AZERBAIJAN E-VISA</p>
-          <p class="rounded-md mt-2">
+          <p class="text2 text-7xl uppercase font-semibold">
+            AZERBAIJAN E-VISA
+          </p>
+          <p class="textP rounded-md mt-2">
             Founded on the principle in offering seamless operational travel
             standards throughout Asia, ENC Tours is a company managed by
             passionate travelers who know the ins and outs of their respective
@@ -16,7 +18,7 @@
       </div>
       <div class="text-left mb-8">
         <div class="p-8 text-center">
-          <p class="text-6xl">About E-Visa</p>
+          <p class="text-6xl mainP">About E-Visa</p>
           <p class="border-b-2 pt-4 w-20 border-orange-500 m-auto"></p>
         </div>
         <div
@@ -35,7 +37,7 @@
               mass: 5,
             },
           }"
-          class="border w-2/3 m-auto p-8 text-customGray"
+          class="border introText w-2/3 m-auto p-8 text-customGray"
         >
           <p class="pb-4">
             Azerbaijan offers an electronic visa (e-visa) system for travelers
@@ -102,4 +104,44 @@
   filter: brightness(55%);
   z-index: -1;
 }
+
+.text-color {
+  color: #5a5858;
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+    font-size: small;
+  }
+}
+
+.text2 {
+  font-weight: 600;
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: x-large;
+  }
+}
+.introText {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+    font-size: small;
+  }
+}
+.textP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: small;
+    margin-top: 40px;
+  }
+}
+.mainDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    padding-top: 220px;
+    width: 80%;
+  }
+}
+
+.mainP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: xx-large;
+  }
+}
+
 </style>
