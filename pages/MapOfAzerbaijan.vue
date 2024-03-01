@@ -3,10 +3,12 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-1/2 m-auto pt-80 text-center z-10 uppercase text-white p-2"
+          class="w-1/2 m-auto mainDiv pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text-7xl uppercase font-semibold">Map of Azerbaijan</p>
-          <p class="rounded-md mt-2">
+          <p class="text2 text-7xl uppercase font-semibold">
+            Map of Azerbaijan
+          </p>
+          <p class="textP rounded-md mt-2">
             Founded on the principle in offering seamless operational travel
             standards throughout Asia, ENC Tours is a company managed by
             passionate travelers who know the ins and outs of their respective
@@ -35,7 +37,7 @@
               mass: 5,
             },
           }"
-          class="border w-2/3 m-auto p-8 text-customGray"
+          class="border introText w-2/3 m-auto p-8 text-customGray"
         >
           <p class="pb-4">
             Founded in 1999, ENC Tours prides itself on its extensive
@@ -57,7 +59,7 @@
         </div>
         <p class="border-b pt-12 w-10/12 border-orange-500 m-auto"></p>
 
-        <div class="flex w-1/2 m-auto border-b border-orange-400">
+        <div class="flex firstMap w-1/2 m-auto border-b border-orange-400">
           <div
             v-motion
             :initial="{
@@ -83,7 +85,7 @@
             />
           </div>
         </div>
-        <div class="flex w-11/12 m-auto border-b border-orange-400">
+        <div class="maps flex w-11/12 m-auto border-b border-orange-400">
           <div
             v-motion
             :initial="{
@@ -158,5 +160,75 @@
   background-attachment: fixed;
   filter: brightness(55%);
   z-index: -1;
+}
+
+.text-color {
+  color: #5a5858;
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+    font-size: small;
+  }
+}
+
+.text2 {
+  font-weight: 600;
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: x-large;
+  }
+}
+.introText {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+    font-size: small;
+  }
+}
+.textP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: small;
+    margin-top: 40px;
+  }
+}
+.mainDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    padding-top: 220px;
+    width: 80%;
+  }
+}
+.mainSection {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: medium;
+    display: block;
+  }
+}
+.sectionDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 100%;
+    border-right: none;
+  }
+}
+.imageStyle {
+  @media (min-width: 320px) and (max-width: 425px) {
+    height: 160px;
+  }
+  @media (min-width: 426px) and (max-width: 768px) {
+    height: 300px;
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    height: 180px;
+  }
+}
+
+.maps {
+  @media (min-width: 320px) and (max-width: 820px) {
+    display: block;
+  }
+}
+
+.firstMap {
+  @media (min-width: 320px) and (max-width: 820px) {
+    display: block;
+    width: 90%;
+    margin-bottom: 10px;
+  }
 }
 </style>
