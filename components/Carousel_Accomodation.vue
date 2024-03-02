@@ -1,16 +1,16 @@
 <template>
-  <div class="ml-6 mr-4">
-    <carousel
-      items-to-show="1"
-      class="w-full pt-7 carouselHeight"
-      :wrap-around="true"
-    >
+  <div class="ml-6 mr-4 allSec">
+    <carousel items-to-show="1" class="w-full pt-7" :wrap-around="true">
       <slide v-for="slide in 1" :key="slide">
-        <div class="w-full flex">
-          <div class="w-2/3">
-            <img src="@/assets/images/hotel2.jpeg" class="w-full" alt="photo" />
+        <div class="w-full flex eachSection">
+          <div class="w-2/3 eachImage">
+            <img
+              src="@/assets/images/hotel2.jpeg"
+              class="imageStyle w-full"
+              alt="photo"
+            />
           </div>
-          <div class="w-2/3 bg-gray-200">
+          <div class="w-2/3 eachText bg-gray-200">
             <h3 class="uppercase text-left pt-5 pl-5 text-xl font-bold">
               Sheki Park, Sheki
             </h3>
@@ -35,11 +35,15 @@
         </div>
       </slide>
       <slide v-for="slide in 1" :key="slide">
-        <div class="w-full flex">
-          <div class="w-2/3">
-            <img src="@/assets/images/hotel3.jpeg" class="w-full" alt="photo" />
+        <div class="w-full eachSection flex">
+          <div class="w-2/3 eachImage">
+            <img
+              src="@/assets/images/hotel3.jpeg"
+              class="imageStyle w-full"
+              alt="photo"
+            />
           </div>
-          <div class="w-2/3 bg-gray-200">
+          <div class="w-2/3 eachText bg-gray-200">
             <h3 class="uppercase text-left pt-5 pl-5 text-xl font-bold">
               Aksent Hotel, Baku
             </h3>
@@ -64,15 +68,15 @@
         </div>
       </slide>
       <slide v-for="slide in 1" :key="slide">
-        <div class="w-full flex">
-          <div class="w-2/3">
+        <div class="w-full eachSection flex">
+          <div class="w-2/3 eachImage">
             <img
               src="@/assets/images/hotelbout.jpeg"
-              class="w-full"
+              class="w-full imageStyle"
               alt="photo"
             />
           </div>
-          <div class="w-2/3 bg-gray-200">
+          <div class="w-2/3 eachText bg-gray-200">
             <h3 class="uppercase text-left pt-5 pl-5 text-xl font-bold">
               Boutique 19 Hotel, Baku
             </h3>
@@ -97,11 +101,15 @@
         </div>
       </slide>
       <slide v-for="slide in 1" :key="slide">
-        <div class="w-full flex">
-          <div class="w-2/3">
-            <img src="@/assets/images/hotel7.jpeg" class="w-full" alt="photo" />
+        <div class="w-full eachSection flex">
+          <div class="w-2/3 eachImage">
+            <img
+              src="@/assets/images/hotel7.jpeg"
+              class="w-full imageStyle"
+              alt="photo"
+            />
           </div>
-          <div class="w-2/3 bg-gray-200">
+          <div class="w-2/3 eachText bg-gray-200">
             <h3 class="uppercase text-left pt-5 pl-5 text-xl font-bold">
               Sapphire Inn Hotel 4*, Baku
             </h3>
@@ -126,15 +134,15 @@
         </div>
       </slide>
       <slide v-for="slide in 1" :key="slide">
-        <div class="w-full flex">
-          <div class="w-2/3">
+        <div class="w-full eachSection flex">
+          <div class="w-2/3 eachImage">
             <img
               src="@/assets/images/hotel11.jpeg"
-              class="w-full"
+              class="imageStyle w-full"
               alt="photo"
             />
           </div>
-          <div class="w-2/3 bg-gray-200">
+          <div class="w-2/3 eachText bg-gray-200">
             <h3 class="uppercase text-left pt-5 pl-5 text-xl font-bold">
               ART Gallery Boutique Hotel 5*, Baku
             </h3>
@@ -159,15 +167,15 @@
         </div>
       </slide>
       <slide v-for="slide in 1" :key="slide">
-        <div class="w-full flex">
-          <div class="w-2/3">
+        <div class="w-full eachSection flex">
+          <div class="w-2/3 eachImage">
             <img
               src="@/assets/images/hotelfair.avif"
-              class="w-full"
+              class="imageStyle w-full"
               alt="photo"
             />
           </div>
-          <div class="w-2/3 bg-gray-200">
+          <div class="w-2/3 eachText bg-gray-200">
             <h3 class="uppercase text-left pt-5 pl-5 text-xl font-bold">
               Fairmont Baku Hotel 5*, Baku
             </h3>
@@ -196,7 +204,7 @@
       </template>
     </carousel>
     <div>
-      <p class="text-xs">
+      <p class="text-xs mt-5 endText">
         Accommodation displayed here should be taken as a guide only. *Please
         refer to the Detailed Itinerary of your individual departure for more
         information.
@@ -213,10 +221,54 @@ import { Carousel, Slide, Navigation } from "vue3-carousel";
 <style scoped>
 .imageStyle {
   width: 100%;
+  padding-right: 6px;
+  @media (min-width: 320px) and (max-width: 425px) {
+    height: 180px;
+    padding-right: 0px;
+  }
+  @media (min-width: 426px) and (max-width: 768px) {
+    height: 340px;
+    padding-right: 0px;
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    height: 440px;
+  }
+  @media (min-width: 1025px) and (max-width: 1440px) {
+    height: 450px;
+  }
 }
 
-.carousel__slide,
-.carousel__slide--active {
-  max-height: 500px;
+.eachSection {
+  @media (min-width: 320px) and (max-width: 1024px) {
+    display: block;
+  }
+}
+
+.eachText {
+  @media (min-width: 320px) and (max-width: 1024px) {
+    width: 100%;
+    font-size: smaller;
+    max-height: 200px;
+    overflow-y: scroll;
+    margin-top: 10px;
+  }
+}
+
+.eachImage {
+  @media (min-width: 320px) and (max-width: 1024px) {
+    width: 100%;
+  }
+}
+
+.allSec {
+  @media (min-width: 320px) and (max-width: 1024px) {
+    margin: 0px;
+  }
+}
+
+.endText {
+  @media (min-width: 320px) and (max-width: 1024px) {
+    margin-top: 20px;
+  }
 }
 </style>

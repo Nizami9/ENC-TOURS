@@ -3,10 +3,12 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-2/3 m-auto pt-80 text-center z-10 uppercase text-white p-2"
+          class="w-2/3 mainDiv m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text-7xl uppercase font-semibold">AZERBAIJAN & GEORGIA</p>
-          <p class="rounded-md mt-20 text-center">
+          <p class="text2 text-7xl uppercase font-semibold">
+            AZERBAIJAN & GEORGIA
+          </p>
+          <p class="rounded-md mt-20 text-center textP">
             Lauded for its extensive knowledge, its East-meets-West model and
             venturing responsibly into every corner of its destinations, it is
             our mission to show guests the beating heart of our Asia
@@ -15,7 +17,7 @@
       </div>
       <div class="text-center">
         <div class="p-8">
-          <p class="text-6xl">INTRO</p>
+          <p class="text-6xl mainP">INTRO</p>
           <p class="border-b-2 pt-4 w-20 border-orange-500 m-auto"></p>
         </div>
         <div
@@ -34,7 +36,7 @@
               mass: 5,
             },
           }"
-          class="border w-1/2 m-auto p-8 text-customGray"
+          class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
             THIS OUTSTANDING TRIP TAKES IN FOUR OF THE MOST IMPORTANT CITIES OF
@@ -55,7 +57,7 @@
             ENTIRELY ORIGINAL ITINERARY YOU WILL FIND NOWHERE ELSE.
           </p>
         </div>
-        <div class="flex w-11/12 m-auto mt-10 mb-6">
+        <div class="flex mainSection w-11/12 m-auto mt-10 mb-6">
           <div
             v-motion
             :initial="{
@@ -82,8 +84,10 @@
             <div class="m-auto mt-10">
               <p class="uppercase text-3xl">AT A GLANCE</p>
               <div class="mt-10 mb-10">
-                <div class="flex w-full justify-between mb-4">
-                  <div class="bg-gray-400 text-white w-1/4 mr-4 p-5">
+                <div class="flex section2 w-full justify-between mb-4">
+                  <div
+                    class="bg-gray-400 text-white eachSection w-1/4 mr-4 p-5"
+                  >
                     <div class="m-auto w-6 mb-5">
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
@@ -94,7 +98,9 @@
                       <p>12 x Dinners</p>
                     </div>
                   </div>
-                  <div class="bg-gray-400 text-white w-1/4 mr-4 p-5">
+                  <div
+                    class="bg-gray-400 eachSection text-white w-1/4 mr-4 p-5"
+                  >
                     <div class="m-auto w-6 mb-5">
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
@@ -106,7 +112,9 @@
                       </p>
                     </div>
                   </div>
-                  <div class="bg-gray-400 text-white w-1/4 mr-4 p-5">
+                  <div
+                    class="bg-gray-400 eachSection text-white w-1/4 mr-4 p-5"
+                  >
                     <div class="m-auto w-6 mb-5">
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
@@ -115,7 +123,9 @@
                       <p>Maximum: 12</p>
                     </div>
                   </div>
-                  <div class="bg-gray-400 text-white w-1/4 mr-4 p-5">
+                  <div
+                    class="bg-gray-400 eachSection text-white w-1/4 mr-4 p-5"
+                  >
                     <div class="m-auto w-6 mb-5">
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
@@ -128,8 +138,10 @@
                     </div>
                   </div>
                 </div>
-                <div class="flex w-full justify-between">
-                  <div class="bg-gray-400 text-white w-1/4 mr-4 p-5">
+                <div class="flex section2 w-full justify-between">
+                  <div
+                    class="bg-gray-400 eachSection text-white w-1/4 mr-4 p-5"
+                  >
                     <div class="m-auto w-6 mb-5">
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
@@ -140,7 +152,9 @@
                       <p>1 night x Basic</p>
                     </div>
                   </div>
-                  <div class="bg-gray-400 text-white w-1/4 mr-4 p-5">
+                  <div
+                    class="bg-gray-400 eachSection text-white w-1/4 mr-4 p-5"
+                  >
                     <div class="m-auto w-6 mb-5">
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
@@ -151,7 +165,9 @@
                       </p>
                     </div>
                   </div>
-                  <div class="bg-gray-400 text-white w-1/4 mr-4 p-5">
+                  <div
+                    class="bg-gray-400 eachSection text-white w-1/4 mr-4 p-5"
+                  >
                     <div class="m-auto w-6 mb-5">
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
@@ -160,7 +176,9 @@
                       <p>Low</p>
                     </div>
                   </div>
-                  <div class="bg-gray-400 text-white w-1/4 mr-4 p-5">
+                  <div
+                    class="bg-gray-400 eachSection text-white w-1/4 mr-4 p-5"
+                  >
                     <div class="m-auto w-6 mb-5">
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
@@ -182,7 +200,7 @@
                   section below
                 </p>
               </div>
-              <div class="m-auto mt-5 mb-5 w-1/2">
+              <div class="m-auto mapSection mt-5 mb-5 w-1/2">
                 <img
                   src="@/assets/images/MapToGeo.jpeg"
                   class="border"
@@ -193,14 +211,14 @@
           </div>
         </div>
 
-        <div class="bg-gray-200 w-ful">
+        <div class="bg-gray-200 w-full">
           <div class="w-10/12 m-auto pt-10 pb-10">
             <div
               @click="clickOnDay1"
               class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
             >
-              <p class="mt-1 text-lg">DAY 1: DEPART FROM GEORGIA</p>
-              <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
+              <p class="text mt-1 text-lg">DAY 1: DEPART FROM GEORGIA</p>
+              <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
             </div>
             <div
               class="mt-5 text-left transition-all duration-500 duration-500"
@@ -213,14 +231,14 @@
                 @click="clickOnDay2"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 2: TBILISI</p>
-                <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
+                <p class="text mt-1 text-lg">DAY 2: TBILISI</p>
+                <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
               <div
                 class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
                 v-if="Day2"
               >
-                <p class="transition-all animate-fadeIn duration-500">
+                <p class="text transition-all animate-fadeIn duration-500">
                   Arrival in Tiblisi in the morning and transfer to the hotel.
                   We begin to explore the capital of Georgia - Tbilisi in all
                   its beauty, with its narrow streets, colorful houses, carved
@@ -241,16 +259,16 @@
                 @click="clickOnDay3"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">
+                <p class="text mt-1 text-lg">
                   DAY 3: TIBLISI - SIGNAGUI - KAJETIA REGION - TELAVI
                 </p>
-                <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
+                <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
               <div
                 class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
                 v-if="Day3"
               >
-                <p class="transition-all animate-fadeIn duration-500">
+                <p class="text transition-all animate-fadeIn duration-500">
                   We head towards the most fertile and picturesque part of
                   Georgia - Kajetia, the cradle of wine. We will arrive at
                   Signagui - the “City of Love”, which will impress you with its
@@ -273,14 +291,16 @@
                 @click="clickOnDay4"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 4: TELAVI - MTSJETA - GUDAURI</p>
-                <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
+                <p class="text mt-1 text-lg">
+                  DAY 4: TELAVI - MTSJETA - GUDAURI
+                </p>
+                <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
               <div
                 class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
                 v-if="Day4"
               >
-                <p class="transition-all animate-fadeIn duration-500">
+                <p class="text transition-all animate-fadeIn duration-500">
                   After breakfast we will visit the Shuamta nunnery - "between
                   the mountains". Departure to the city-museum Mtsjeta,
                   headquarters of the Georgian Orthodox and Apostolic Church,
@@ -302,16 +322,16 @@
                 @click="clickOnDay5"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">
+                <p class="text mt-1 text-lg">
                   DAY 5: GUDAURI - STEPANTSMINDA - GUDAURI
                 </p>
-                <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
+                <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
               <div
                 class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
                 v-if="Day5"
               >
-                <p class="transition-all animate-fadeIn duration-500">
+                <p class="text transition-all animate-fadeIn duration-500">
                   After breakfast we will go to Kazbegui. An impressive road
                   along the Terek river will take us to Kazbegui
                   (Stepantsminda). From the center we will make a 1.5-hour walk
@@ -333,16 +353,16 @@
                 @click="clickOnDay6"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">
+                <p class="text mt-1 text-lg">
                   DAY 6: GUDAURI - UPLISTSIJE - GORI - KUTAISI
                 </p>
-                <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
+                <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
               <div
                 class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
                 v-if="Day6"
               >
-                <p class="transition-all animate-fadeIn duration-500">
+                <p class="text transition-all animate-fadeIn duration-500">
                   We will go to the small town of Gori. It is the hometown of
                   the famous Soviet leader Joseph Stalin. We stopped near his
                   museum to take photos. Arrival in the cave city of Uplistsije
@@ -359,14 +379,16 @@
                 @click="clickOnDay7"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 7: KUTAISI – TSKALTUBO – TIBLISI</p>
-                <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
+                <p class="text mt-1 text-lg">
+                  DAY 7: KUTAISI – TSKALTUBO – TIBLISI
+                </p>
+                <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
               <div
                 class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
                 v-if="Day7"
               >
-                <p class="transition-all animate-fadeIn duration-500">
+                <p class="text transition-all animate-fadeIn duration-500">
                   We will visit the spectacular Bagrati Cathedral - the
                   masterpiece of medieval Georgian architecture and the
                   impressive Monastery of the Virgin in Guelati, with its
@@ -383,16 +405,16 @@
                 @click="clickOnDay8"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">
+                <p class="text mt-1 text-lg">
                   DAY 8: TIBLISI - LAGODEJI (BORDER) - KISH - SHEKI
                 </p>
-                <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
+                <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
               <div
                 class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
                 v-if="Day8"
               >
-                <p class="transition-all animate-fadeIn duration-500">
+                <p class="text transition-all animate-fadeIn duration-500">
                   Transfer to the border of Georgia and Azerbaijan. Border
                   formalities. After customs formalities we will drive to Sheki,
                   150 km (2.5 hours) Arrival in Sheki. Sheki City Tour: We will
@@ -413,16 +435,16 @@
                 @click="clickOnDay9"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">
+                <p class="text mt-1 text-lg">
                   DAY 9: SHEKI - LAHIJ - SHEMAKHA - MARAZA - BAKU, 350 KM
                 </p>
-                <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
+                <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
               <div
                 class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
                 v-if="Day9"
               >
-                <p class="transition-all animate-fadeIn duration-500">
+                <p class="text transition-all animate-fadeIn duration-500">
                   In the morning we will visit the local bazaar, a show of
                   colors and flavors in which we can interact with the local
                   population. Departure for Baku, 350 kilometers, we will make
@@ -441,16 +463,16 @@
                 @click="clickOnDay10"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">
+                <p class="text mt-1 text-lg">
                   DAY 10: BAKU - GOBUSTAN - BAKU, 130 KM
                 </p>
-                <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
+                <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
               <div
                 class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
                 v-if="Day10"
               >
-                <p class="transition-all animate-fadeIn duration-500">
+                <p class="text transition-all animate-fadeIn duration-500">
                   Today we will go to Gobustan, 65 km from Baku, an open-air
                   museum of cave paintings, a World Heritage Site by UNESCO, an
                   ancient settlement from the Neolithic period. We will continue
@@ -472,14 +494,14 @@
                 @click="clickOnDay11"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 11: BAKU - ABSHERON - BAKU</p>
-                <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
+                <p class="text mt-1 text-lg">DAY 11: BAKU - ABSHERON - BAKU</p>
+                <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
               <div
                 class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
                 v-if="Day11"
               >
-                <p class="transition-all animate-fadeIn duration-500">
+                <p class="text transition-all animate-fadeIn duration-500">
                   In the morning visit to the Absheron peninsula, where we will
                   visit Ateshgah the "temple of the eternal flame" (UNESCO
                   Heritage), built in the 18th century for the prayers of the
@@ -497,14 +519,14 @@
                 @click="clickOnDay12"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="mt-1 text-lg">DAY 12: BAKU - DEPARTURE</p>
-                <img src="@/assets/images/plus-button.png" class="w-8" alt="" />
+                <p class="text mt-1 text-lg">DAY 12: BAKU - DEPARTURE</p>
+                <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
               <div
                 class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
                 v-if="Day12"
               >
-                <p class="transition-all animate-fadeIn duration-500">
+                <p class="text transition-all animate-fadeIn duration-500">
                   Breakfast and at the scheduled time transfer to the airport to
                   catch the return flight. (- / - / -)
                 </p>
@@ -515,14 +537,14 @@
 
         <div class="w-10/12 m-auto h-200 mt-10 mb-10">
           <div>
-            <h4 class="text-3xl">ACCOMMODATION USED ON THIS TOUR</h4>
+            <h4 class="text-3xl text2">ACCOMMODATION USED ON THIS TOUR</h4>
           </div>
           <div>
             <carouselAccomodation></carouselAccomodation>
           </div>
         </div>
 
-        <div class="w-8/12 m-auto">
+        <div class="w-8 plusButton/12 section4 m-auto">
           <div>
             <h4 class="text-3xl uppercase mb-2">DATES AND PRICES</h4>
             <h5 class="w-2/3 m-auto text-center">
@@ -531,9 +553,11 @@
               at time of booking.
             </h5>
           </div>
-          <div class="border-b mb-5 mt-5 pb-3 flex justify-between w-full">
-            <div class="w-1/3 text-left">
-              <div class="w-1/3">
+          <div
+            class="border-b mb-5 mt-5 pb-3 section5 flex justify-between w-full"
+          >
+            <div class="w-1/3 sec51 text-left">
+              <div class="w-1/3 secAvailable">
                 <p
                   class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
                 >
@@ -552,7 +576,7 @@
                 <p class="text-sm">(15 Days)</p>
               </div>
             </div>
-            <div class="pt-12 w-1/3">
+            <div class="sec51 sec51Pt pt-12 w-1/3">
               <div>
                 <p class="text-xl font-bold">£4,195</p>
               </div>
@@ -560,35 +584,215 @@
                 <p class="text-sm">Optional Single Supplement: + £495</p>
               </div>
             </div>
-            <div class="w-1/3">
-              <div class="flex justify-end pt-12">
+            <div class="sec51 w-1/3">
+              <div class="flex sec5end sec51Pt justify-end pt-12">
                 <p class="bg-yellow-500 p-3 w-52 rounded-3xl">Send E-Mail</p>
               </div>
             </div>
           </div>
-          <dates></dates>
-          <dates></dates>
-          <dates></dates>
-          <dates></dates>
-          <dates></dates>
+          <div
+            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
+          >
+            <div class="w-1/3 sec51 text-left">
+              <div class="w-1/3 secAvailable">
+                <p
+                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
+                >
+                  Available
+                </p>
+              </div>
+              <div>
+                <p class="uppercase text-xl text-yellow-900 mb-2">
+                  STANDARD DEPARTURE
+                </p>
+              </div>
+              <div>
+                <p>26th Apr 2024 - 10th May 2024</p>
+              </div>
+              <div>
+                <p class="text-sm">(15 Days)</p>
+              </div>
+            </div>
+            <div class="sec51 sec51Pt pt-12 w-1/3">
+              <div>
+                <p class="text-xl font-bold">£4,195</p>
+              </div>
+              <div>
+                <p class="text-sm">Optional Single Supplement: + £495</p>
+              </div>
+            </div>
+            <div class="sec51 w-1/3">
+              <div class="flex sec5end sec51Pt justify-end pt-12">
+                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">Send E-Mail</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
+          >
+            <div class="w-1/3 sec51 text-left">
+              <div class="w-1/3 secAvailable">
+                <p
+                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
+                >
+                  Available
+                </p>
+              </div>
+              <div>
+                <p class="uppercase text-xl text-yellow-900 mb-2">
+                  STANDARD DEPARTURE
+                </p>
+              </div>
+              <div>
+                <p>26th Apr 2024 - 10th May 2024</p>
+              </div>
+              <div>
+                <p class="text-sm">(15 Days)</p>
+              </div>
+            </div>
+            <div class="sec51 sec51Pt pt-12 w-1/3">
+              <div>
+                <p class="text-xl font-bold">£4,195</p>
+              </div>
+              <div>
+                <p class="text-sm">Optional Single Supplement: + £495</p>
+              </div>
+            </div>
+            <div class="sec51 w-1/3">
+              <div class="flex sec5end sec51Pt justify-end pt-12">
+                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">Send E-Mail</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
+          >
+            <div class="w-1/3 sec51 text-left">
+              <div class="w-1/3 secAvailable">
+                <p
+                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
+                >
+                  Available
+                </p>
+              </div>
+              <div>
+                <p class="uppercase text-xl text-yellow-900 mb-2">
+                  STANDARD DEPARTURE
+                </p>
+              </div>
+              <div>
+                <p>26th Apr 2024 - 10th May 2024</p>
+              </div>
+              <div>
+                <p class="text-sm">(15 Days)</p>
+              </div>
+            </div>
+            <div class="sec51 sec51Pt pt-12 w-1/3">
+              <div>
+                <p class="text-xl font-bold">£4,195</p>
+              </div>
+              <div>
+                <p class="text-sm">Optional Single Supplement: + £495</p>
+              </div>
+            </div>
+            <div class="sec51 w-1/3">
+              <div class="flex sec5end sec51Pt justify-end pt-12">
+                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">Send E-Mail</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
+          >
+            <div class="w-1/3 sec51 text-left">
+              <div class="w-1/3 secAvailable">
+                <p
+                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
+                >
+                  Available
+                </p>
+              </div>
+              <div>
+                <p class="uppercase text-xl text-yellow-900 mb-2">
+                  STANDARD DEPARTURE
+                </p>
+              </div>
+              <div>
+                <p>26th Apr 2024 - 10th May 2024</p>
+              </div>
+              <div>
+                <p class="text-sm">(15 Days)</p>
+              </div>
+            </div>
+            <div class="sec51 sec51Pt pt-12 w-1/3">
+              <div>
+                <p class="text-xl font-bold">£4,195</p>
+              </div>
+              <div>
+                <p class="text-sm">Optional Single Supplement: + £495</p>
+              </div>
+            </div>
+            <div class="sec51 w-1/3">
+              <div class="flex sec5end sec51Pt justify-end pt-12">
+                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">Send E-Mail</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
+          >
+            <div class="w-1/3 sec51 text-left">
+              <div class="w-1/3 secAvailable">
+                <p
+                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
+                >
+                  Available
+                </p>
+              </div>
+              <div>
+                <p class="uppercase text-xl text-yellow-900 mb-2">
+                  STANDARD DEPARTURE
+                </p>
+              </div>
+              <div>
+                <p>26th Apr 2024 - 10th May 2024</p>
+              </div>
+              <div>
+                <p class="text-sm">(15 Days)</p>
+              </div>
+            </div>
+            <div class="sec51 sec51Pt pt-12 w-1/3">
+              <div>
+                <p class="text-xl font-bold">£4,195</p>
+              </div>
+              <div>
+                <p class="text-sm">Optional Single Supplement: + £495</p>
+              </div>
+            </div>
+            <div class="sec51 w-1/3">
+              <div class="flex sec5end sec51Pt justify-end pt-12">
+                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">Send E-Mail</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="w-10/12 bg-gray-200 m-auto mb-5 p-5">
-          <h3 class="text-3xl p-5">PRIVATE HOLIDAYS: DATES DON’T FIT?</h3>
-          <p>All group tours can be taken on a private basis.</p>
-          <div class="flex w-1/2 mt-4 m-auto justify-between pb-5">
-            <div class="flex">
+          <h3 class="text-3xl p-5 text2">PRIVATE HOLIDAYS: DATES DON’T FIT?</h3>
+          <p class="text">All group tours can be taken on a private basis.</p>
+          <div class="flex endSection w-1/2 mt-4 m-auto justify-between pb-5">
+            <div class="flex text justify-around w-full">
               <img
                 src="@/assets/images/phone.png"
-                class="max-w-6 mr-4"
+                class="h-6"
                 alt=""
               />
               <p>Call +44 (0) 20 3925 9628</p>
             </div>
-            <div class="flex">
-              <div class="flex">
+            <div class="flex text w-full justify-around">
+              <div class="flex justify-around w-full">
                 <img
                   src="@/assets/images/mail.png"
-                  class="max-w-6 mr-4"
+                  class="h-6"
                   alt=""
                 />
                 <p>Or ask an expert to tailor-make this trip</p>
@@ -688,7 +892,121 @@ const clickOnDay12 = () => {
   z-index: -1;
 }
 
-.text-color {
-  color: #5a5858;
+.text2 {
+  font-weight: 600;
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: x-large;
+  }
+}
+.introText {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+    font-size: small;
+  }
+}
+.textP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: small;
+    margin-top: 40px;
+  }
+}
+.mainDiv {
+  @media (min-width: 320px) and (max-width: 820px) {
+    padding-top: 220px;
+    width: 80%;
+  }
+}
+.mainSection {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: medium;
+    display: block;
+  }
+}
+.mainP {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: xx-large;
+  }
+}
+
+.section2 {
+  @media (min-width: 320px) and (max-width: 820px) {
+    display: block;
+  }
+}
+
+.section5 {
+  @media (min-width: 320px) and (max-width: 820px) {
+    display: block;
+  }
+}
+
+.eachSection {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.sec51 {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+.sec51Pt {
+  @media (min-width: 320px) and (max-width: 820px) {
+    padding-top: 15px;
+  }
+}
+
+.secAvailable {
+  width: 120px;
+  margin: auto;
+}
+
+.sec5end {
+  @media (min-width: 320px) and (max-width: 820px) {
+    justify-content: center;
+  }
+}
+
+.mapSection {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 100%;
+  }
+}
+
+.section3 {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 100%;
+  }
+}
+
+.section4 {
+  @media (min-width: 320px) and (max-width: 820px) {
+    width: 90%;
+  }
+}
+
+.text {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: small;
+    width: 100%;
+  }
+}
+
+.plusButton {
+  @media (min-width: 320px) and (max-width: 820px) {
+    height: 28px;
+    width: auto;
+  }
+}
+
+.endSection {
+  @media (min-width: 320px) and (max-width: 820px) {
+    display: block;
+  }
 }
 </style>
