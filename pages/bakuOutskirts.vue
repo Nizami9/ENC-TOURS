@@ -185,7 +185,7 @@ const { addBorder: addBorder3, removeBorder: removeBorder3 } =
 .text-color {
   color: #5a5858;
   @media (min-width: 320px) and (max-width: 820px) {
-    width: 90%;
+    width: 100%;
     font-size: small;
   }
 }
@@ -198,7 +198,7 @@ const { addBorder: addBorder3, removeBorder: removeBorder3 } =
 }
 .introText {
   @media (min-width: 320px) and (max-width: 820px) {
-    width: 90%;
+    width: 80%;
     font-size: small;
   }
 }

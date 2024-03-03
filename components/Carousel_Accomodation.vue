@@ -250,7 +250,7 @@ import { Carousel, Slide, Navigation } from "vue3-carousel";
     font-size: smaller;
     max-height: 200px;
     overflow-y: scroll;
-    margin-top: 10px;
+    margin-top: 4px;
   }
 }
 

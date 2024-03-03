@@ -16,7 +16,7 @@
       <div class="text-center">
         <div class="p-8">
           <p class="text-6xl mainP">INTRO</p>
-          <p class="border-b-2 pt-4 w-20 border-orange-500 m-auto"></p>
+          <p class="border-b-2 pt-4 w-20 border-gray-400 m-auto"></p>
         </div>
         <div
           v-motion
@@ -48,27 +48,27 @@
             for an exceeding expectations’experience.
           </p>
         </div>
-        <div
-          v-motion
-          :initial="{
-            opacity: 0,
-            y: 100,
-          }"
-          :visible="{
-            opacity: 1,
-            y: 0,
-            transition: {
-              type: 'spring',
-              stiffness: 250,
-              damping: 70,
-              mass: 20,
-            },
-          }"
-          class="mainSection flex w-10/12 m-auto mt-10 mb-6"
-        >
-          <div class="w-1/3 sectionDiv">
+        <div class="mainSection flex w-10/12 m-auto mt-10 mb-6">
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 200,
+                damping: 50,
+                mass: 10,
+              },
+            }"
+            class="w-1/3 sectionDiv"
+          >
             <div
-              class="pb-5 pl-8 pr-8 cursor-pointer"
+              class="pb-5 divImage pl-8 pr-8 cursor-pointer"
               @click="navigateTo('/bakuoutskirts')"
             >
               <p class="uppercase mb-3">Baku and Outskirts</p>
@@ -89,9 +89,26 @@
               </p>
             </div>
           </div>
-          <div class="w-1/3 sectionDiv">
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 200,
+                damping: 50,
+                mass: 10,
+              },
+            }"
+            class="w-1/3 sectionDiv"
+          >
             <div
-              class="pb-5 pl-8 pr-8 cursor-pointer"
+              class="pb-5 divImage pl-8 pr-8 cursor-pointer"
               @click="navigateTo('/specialinteresttours')"
             >
               <p class="uppercase mb-3">Special Interest Tours</p>
@@ -113,9 +130,26 @@
               </p>
             </div>
           </div>
-          <div class="w-1/3 sectionDiv">
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 200,
+                damping: 50,
+                mass: 10,
+              },
+            }"
+            class="w-1/3 sectionDiv"
+          >
             <div
-              class="pb-5 pl-8 pr-8 cursor-pointer"
+              class="pb-5 divImage pl-8 pr-8 cursor-pointer"
               @click="navigateTo('/culturaltours')"
             >
               <p class="uppercase mb-3">Cultural and Heritage</p>
@@ -139,26 +173,27 @@
             </div>
           </div>
         </div>
-        <div
-          v-motion
-          :initial="{
-            opacity: 0,
-            y: 100,
-          }"
-          :visible="{
-            opacity: 1,
-            y: 0,
-            transition: {
-              type: 'spring',
-              stiffness: 250,
-              damping: 70,
-              mass: 20,
-            },
-          }"
-          class="mainSection flex justify-center w-10/12 m-auto mb-6"
-        >
-          <div class="w-1/3 sectionDiv" @click="navigateTo('/combinedtours')">
-            <div class="pb-5 pl-8 pr-8 cursor-pointer">
+        <div class="mainSection flex justify-center w-10/12 m-auto mb-6">
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 200,
+                damping: 50,
+                mass: 10,
+              },
+            }"
+            class="w-1/3 sectionDiv"
+            @click="navigateTo('/combinedtours')"
+          >
+            <div class="pb-5 divImage pl-8 pr-8 cursor-pointer">
               <p class="uppercase mb-3">Combined Tours</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
 
@@ -211,7 +246,7 @@
 .text-color {
   color: #5a5858;
   @media (min-width: 320px) and (max-width: 820px) {
-    width: 90%;
+    width: 100%;
     font-size: small;
   }
 }
@@ -253,19 +288,32 @@
   }
 }
 .imageStyle {
-  @media (min-width: 320px) and (max-width: 425px) {
+  @media (min-width: 320px) and (max-width: 374px) {
     height: 160px;
   }
-  @media (min-width: 426px) and (max-width: 768px) {
-    height: 300px;
+  @media (min-width: 375px) and (max-width: 424px) {
+    height: 200px;
   }
-  @media (min-width: 769px) and (max-width: 1024px) {
-    height: 180px;
+  @media (min-width: 425px) and (max-width: 767px) {
+    height: 230px;
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    height: 400px;
+  }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    height: 150px;
   }
 }
 .mainP {
   @media (min-width: 320px) and (max-width: 820px) {
     font-size: xx-large;
+  }
+}
+
+.divImage {
+  @media (min-width: 320px) and (max-width: 820px) {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 </style>

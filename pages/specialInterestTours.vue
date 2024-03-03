@@ -473,7 +473,7 @@ const { addBorder: addBorder9, removeBorder: removeBorder9 } =
 .text-color {
   color: #5a5858;
   @media (min-width: 320px) and (max-width: 820px) {
-    width: 90%;
+    width: 100%;
     font-size: small;
   }
 }
