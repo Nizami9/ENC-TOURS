@@ -207,7 +207,7 @@ watchEffect(() => {
           @click="mobileMenuOpen = true"
         >
           <span class="sr-only">Open main menu</span>
-          <Bars3Icon class="h-6 w-6" aria-hidden="true" />
+          <Bars3Icon class="h-6 w-6 text-white" aria-hidden="true" />
         </button>
       </div>
       <div class="hidden lg:flex uppercase">
@@ -240,7 +240,7 @@ watchEffect(() => {
             @click="mobileMenuOpen = false"
           >
             <span class="sr-only">Close menu</span>
-            <XMarkIcon class="h-6 w-6" aria-hidden="true" />
+            <XMarkIcon class="qXMarkIcon h-6 w-6" aria-hidden="true" />
           </button>
         </div>
         <div class="mt-6 flow-root">
@@ -308,6 +308,7 @@ onUnmounted(() => {
 watchEffect(() => {
   navbarBackgroundColor.value = scrolled.value
     ? "rgba(0, 0, 0, 0.9)"
-    : "rgba(0, 0, 0, 0)";
+    : "rgba(0, 0, 0, 0.4)";
 });
+
 </script>
