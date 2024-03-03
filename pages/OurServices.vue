@@ -115,7 +115,7 @@
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
                 src="@/assets/images/mugam.webp"
-                class="h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
                 alt=""
               />
             </div>
