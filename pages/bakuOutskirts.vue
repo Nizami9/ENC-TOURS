@@ -70,7 +70,7 @@
             <div class="pb-2">
               <img
                 src="@/assets/images/az3.jpeg"
-                class="imageStyle h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
+                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
                 alt=""
                 @mouseover="addBorder1"
                 @mouseout="removeBorder1"
@@ -91,7 +91,7 @@
             <div class="pb-2">
               <img
                 src="@/assets/images/az5.jpeg"
-                class="imageStyle h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
+                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
                 alt=""
                 @mouseover="addBorder2"
                 @mouseout="removeBorder2"
@@ -112,7 +112,7 @@
             <div class="pb-2">
               <img
                 src="@/assets/images/az10.jpeg"
-                class="imageStyle h-60 w-full border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
+                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
                 alt=""
                 @mouseover="addBorder3"
                 @mouseout="removeBorder3"

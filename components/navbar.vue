@@ -283,7 +283,7 @@ const navigation = [
   { name: "AZERBAIJAN", href: "../../azerbaijan" },
   { name: "TOURS", href: "../../tours" },
   { name: "SERVICES", href: "../../ourservices" },
-  { name: "PHOTOGALLERY", href: "/" },
+  { name: "PHOTOGALLERY", href: "../../photos" },
   { name: "ENC LUXURY", href: "../../luxury" },
   { name: "MICE", href: "../../mice" },
 ];
