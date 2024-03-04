@@ -185,12 +185,12 @@ watchEffect(() => {
       class="mx-auto flex w-8xl items-center justify-between p-2 lg:px-8"
       aria-label="Global"
     >
-      <div class="flex items-center gap-x-12">
+      <div class="flex items-center gap-x-14">
         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
           <img class="h-14 w-auto" src="@/assets/images/enclogo.png" alt="" />
         </a>
-        <div class="hidden lg:flex lg:gap-x-12">
+        <div class="hidden lg:flex lg:gap-x-14">
           <a
             v-for="item in navigation"
             :key="item.name"
@@ -210,7 +210,17 @@ watchEffect(() => {
           <Bars3Icon class="h-6 w-6 text-white" aria-hidden="true" />
         </button>
       </div>
-      <div class="hidden lg:flex uppercase">
+      <div class="hidden lg:flex">
+          <select v-model="locale" class="mr-10 pl-0.5 bg-gray-100 bg-opacity-50">
+            <option value="en">🇬🇧</option>
+            <option value="de">🇩🇪</option>
+            <option value="uk">🇯🇵</option>
+            <option value="es">🇪🇦</option>
+            <option value="tr">🇮🇹</option>
+            <option value="az">🇫🇷</option>
+            <option value="uk">🇵🇹</option>
+            <option value="uk">🇰🇷</option>
+          </select>
         <a href="../../aboutUs" class="text-sm font-semibold leading-6 mr-10"
           >About Us</a
         >
@@ -255,6 +265,18 @@ watchEffect(() => {
               >
             </div>
             <div class="py-6 uppercase">
+              <div class="">
+                <select v-model="locale" class="bg-opacity-10 bg-white">
+                  <option value="en">🇬🇧</option>
+                  <option value="de">🇩🇪</option>
+                  <option value="uk">🇯🇵</option>
+                  <option value="es">🇪🇦</option>
+                  <option value="tr">🇮🇹</option>
+                  <option value="az">🇫🇷</option>
+                  <option value="uk">🇵🇹</option>
+                  <option value="uk">🇰🇷</option>
+                </select>
+              </div>
               <a
                 href="../../aboutUs.vue"
                 class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50"
@@ -278,6 +300,9 @@ import { ref } from "vue";
 import { Dialog, DialogPanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 import { onMounted, onUnmounted, watchEffect, getCurrentInstance } from "vue";
+const { locale } = useI18n();
+import { useI18n } from "#imports";
+
 const navigation = [
   { name: "HOME", href: "/" },
   { name: "AZERBAIJAN", href: "../../azerbaijan" },
@@ -310,5 +335,4 @@ watchEffect(() => {
     ? "rgba(0, 0, 0, 0.9)"
     : "rgba(0, 0, 0, 0.4)";
 });
-
 </script>
