@@ -15,7 +15,6 @@
 import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 const { locale, setLocale } = useI18n();
-
 const loading = ref(true);
 const navbarBackgroundColor = ref("rgba(199, 191, 191, 0.5)");
 

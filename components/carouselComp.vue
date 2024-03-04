@@ -62,9 +62,7 @@ const dynamicItemsToShow = ref(3);
 
 const updateItemsToShow = () => {
   const screenWidth = window.innerWidth;
-  console.log("Screen Width:", screenWidth);
   dynamicItemsToShow.value = screenWidth >= 320 && screenWidth <= 820 ? 1 : 3;
-  console.log("Dynamic Items to Show:", dynamicItemsToShow.value);
 };
 
 onMounted(() => {

@@ -1,26 +1,25 @@
 <template>
-    <div class="w-full pb-9 bg-rgba text-color">
-      <div class="m-auto w-7/12 text-center pt-6">
-        <div>
-          <p class="text-6xl font-thin text-main-color pt-16">Inspirations</p>
-        </div>
-        <div class="mt-5 mb-3 text-center m-auto">
-          <p class="border-b-4 w-40 m-auto border-blue-900"></p>
-        </div>
-        <div class="w-full">
-          <p>The excitement never ends with us!</p>
-          <p class="leading-7">
-            Inspired by the abundance of travel options in our Asia, we have
-            travelled to every nook and corner of our beloved destinations to
-            find what we define as exemplary tours for discerning travel
-            connoisseurs.
-          </p>
-        </div>
+  <div class="w-full pb-9 bg-rgba text-color">
+    <div class="m-auto w-7/12 text-center pt-6">
+      <div>
+        <p class="text-6xl font-thin text-main-color pt-16">
+          {{ $t("comp2p1") }}
+        </p>
       </div>
-      <div class="mb-8"> 
-        <CarouselComp />
+      <div class="mt-5 mb-3 text-center m-auto">
+        <p class="border-b-4 w-40 m-auto border-blue-900"></p>
       </div>
-    </div>    
+      <div class="w-full">
+        <p>{{ $t("comp2p2") }}</p>
+        <p class="leading-7">
+          {{ $t("comp2p3") }}
+        </p>
+      </div>
+    </div>
+    <div class="mb-8">
+      <CarouselComp />
+    </div>
+  </div>
 </template>
 
 <script setup></script>

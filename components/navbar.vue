@@ -214,16 +214,16 @@ watchEffect(() => {
         <select v-model="locale" class="mr-10 pl-0.5 bg-gray-800 bg-opacity-50">
           <option value="en">🇬🇧</option>
           <option value="de">🇩🇪</option>
-          <option value="uk">🇯🇵</option>
+          <option value="jp">🇯🇵</option>
           <option value="es">🇪🇦</option>
-          <option value="tr">🇮🇹</option>
-          <option value="az">🇫🇷</option>
-          <option value="uk">🇵🇹</option>
-          <option value="uk">🇰🇷</option>
+          <option value="it">🇮🇹</option>
+          <option value="fr">🇫🇷</option>
+          <option value="pt">🇵🇹</option>
+          <option value="kr">🇰🇷</option>
         </select>
-        <a href="../../aboutUs" class="text-sm font-semibold leading-6 mr-10"
-          >{{ $t("aboutUs") }}</a
-        >
+        <a href="../../aboutUs" class="text-sm font-semibold leading-6 mr-10">{{
+          $t("aboutUs")
+        }}</a>
         <a href="../../contactUs" class="text-sm font-semibold leading-6">
           <p>{{ $t("contacts") }}</p>
         </a>
