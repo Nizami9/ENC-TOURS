@@ -188,7 +188,7 @@ watchEffect(() => {
       <div class="flex items-center gap-x-14">
         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
-          <img class="h-14 w-auto" src="@/assets/images/enclogo.png" alt="" />
+          <img class="h-14 w-auto" src="@/assets/images/enclogo2.png" alt="" />
         </a>
         <div class="hidden lg:flex lg:gap-x-14">
           <a

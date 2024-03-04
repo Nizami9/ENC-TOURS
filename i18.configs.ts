@@ -13,6 +13,18 @@ export default {
         comp2p2: "The excitement never ends with us!",
         comp2p3:
           "Inspired by the abundance of travel options in our Asia, we have travelled to every nook and corner of our beloved destinations to find what we define as exemplary tours for discerning travel connoisseurs",
+        specialP1: "OIL BOOM AND ARCHITECTURE TOUR",
+        specialP2: "FLOWER WATCHING TOURS",
+        specialP3: "RELIGIOUS TOURS",
+        specialP4: "GOURMET TOUR",
+        specialP5: "BIRD WATCHING TOUR",
+        specialP6: "GOLF TOUR",
+        specialP7: "POMEGRANATE TOUR",
+        specialP8: "AGRICULTURAL TOUR",
+        specialP9: "CARPET AND LOCAL HERITAGE TOURS",
+        specialH1: "SPECIAL INTEREST TOURS",
+        specailH2:
+          "LAUDED FOR ITS EXTENSIVE KNOWLEDGE, ITS EAST-MEETS-WEST MODEL AND VENTURING RESPONSIBLY INTO EVERY CORNER OF ITS DESTINATIONS, IT IS OUR MISSION TO SHOW GUESTS THE BEATING HEART OF OUR ASIA",
       },
       de: {
         home: "Startseite",
@@ -24,6 +36,18 @@ export default {
         comp2p2: "Bei uns hört die Aufregung nie auf!",
         comp2p3:
           "Inspiriert von der Fülle an Reisemöglichkeiten in unserem Asien sind wir in jeden Winkel unserer geliebten Reiseziele gereist, um das zu finden, was wir als beispielhafte Touren für anspruchsvolle Reisekenner bezeichnen",
+        specialP1: "OIL BOOM AND ARCHITECTURE TOUR",
+        specialP2: "FLOWER WATCHING TOURS",
+        specialP3: "RELIGIOUS TOURS",
+        specialP4: "GOURMET TOUR",
+        specialP5: "BIRD WATCHING TOUR",
+        specialP6: "GOLF TOUR",
+        specialP7: "POMEGRANATE TOUR",
+        specialP8: "AGRICULTURAL TOUR",
+        specialP9: "CARPET AND LOCAL HERITAGE TOURS",
+        specialH1: "SPECIAL INTEREST TOURS",
+        specailH2:
+          "LAUDED FOR ITS EXTENSIVE KNOWLEDGE, ITS EAST-MEETS-WEST MODEL AND VENTURING RESPONSIBLY INTO EVERY CORNER OF ITS DESTINATIONS, IT IS OUR MISSION TO SHOW GUESTS THE BEATING HEART OF OUR ASIA",
       },
       es: {
         home: "Startpagina",
