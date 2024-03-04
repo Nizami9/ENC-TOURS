@@ -14,10 +14,12 @@
             <p
               class="uppercase textP text-center w-2/3 text leading-5 rounded-md text-center text-white"
             >
-              As an award-winning destination management company since 1999,
-              Asian Trails has led the way in designing and executing travel
-              services through its extensive network of offices across East and
-              South-East Asia.
+            {{ $t("mainPageH1") }}
+              Being internationally connected, creative and advanced, ENC travel
+              is intended to provide a legacy of solid reputation with high
+              degree excellence and responsibility. The company was established
+              in 2008 with the vision to be chosen as the most trusted source of
+              travel for people who wish to have life lasting memories.
             </p>
             <img
               src="@/assets/images/arrowDown.png"

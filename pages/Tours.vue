@@ -5,7 +5,7 @@
         <div
           class="w-1/2 m-auto mainDiv pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-7xl uppercase font-semibold">TOURS</p>
+          <p class="text2 text-7xl uppercase font-semibold">{{ $t("tours") }}</p>
           <p class="rounded-md mt-20 text-center textP">
             Lauded for its extensive knowledge, its East-meets-West model and
             venturing responsibly into every corner of its destinations, it is
@@ -71,7 +71,7 @@
               class="pb-5 divImage pl-8 pr-8 cursor-pointer"
               @click="navigateTo('/bakuoutskirts')"
             >
-              <p class="uppercase mb-3">Baku and Outskirts</p>
+              <p class="uppercase mb-3">{{ $t("bakuAndOut") }}</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
                 src="@/assets/images/az3.jpeg"
@@ -111,7 +111,7 @@
               class="pb-5 divImage pl-8 pr-8 cursor-pointer"
               @click="navigateTo('/specialinteresttours')"
             >
-              <p class="uppercase mb-3">Special Interest Tours</p>
+              <p class="uppercase mb-3">{{ $t("specialH1") }}</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
                 src="@/assets/images/flamingo1.jpeg"
@@ -152,7 +152,7 @@
               class="pb-5 divImage pl-8 pr-8 cursor-pointer"
               @click="navigateTo('/culturaltours')"
             >
-              <p class="uppercase mb-3">Cultural and Heritage</p>
+              <p class="uppercase mb-3">{{ $t("cultAndHerit") }}</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
 
               <img
@@ -194,7 +194,7 @@
             @click="navigateTo('/combinedtours')"
           >
             <div class="pb-5 divImage pl-8 pr-8 cursor-pointer">
-              <p class="uppercase mb-3">Combined Tours</p>
+              <p class="uppercase mb-3">{{ $t("combTours") }}</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
 
               <img
