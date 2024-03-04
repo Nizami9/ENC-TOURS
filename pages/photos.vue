@@ -30,7 +30,7 @@
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz1.jpeg" alt="" />
+                  <img src="@/assets/images/baku1.jpeg" alt="" />
                 </div>
                 <figcaption class="max-h-2/3 overflow-scroll">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
@@ -50,231 +50,420 @@
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz2.jpeg" alt="" />
+                  <img src="@/assets/images/baku3.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Christian Joudrey</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz3.jpeg" alt="" />
+                  <img src="@/assets/images/baku4.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Steve Carter</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz4.jpeg" alt="" />
+                  <img src="@/assets/images/baku6.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Aleksandra Boguslawska</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz5.jpeg" alt="" />
+                  <img src="@/assets/images/wine.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Rosan Harmens</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz6.jpeg" alt="" />
+                  <img src="@/assets/images/absheron.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz7.jpeg" alt="" />
+                  <img src="@/assets/images/tea.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz8.jpeg" alt="" />
+                  <img src="@/assets/images/sheki6.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz9.jpeg" alt="" />
+                  <img src="@/assets/images/sheki4.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz10.jpeg" alt="" />
+                  <img src="@/assets/images/pakhlava.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz11.jpeg" alt="" />
+                  <img src="@/assets/images/novruz2.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz11.jpeg" alt="" />
+                  <img src="@/assets/images/north.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz10.jpeg" alt="" />
+                  <img src="@/assets/images/museum8.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz9.jpeg" alt="" />
+                  <img src="@/assets/images/museum7.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz8.jpeg" alt="" />
+                  <img src="@/assets/images/mosque.webp" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz7.jpeg" alt="" />
+                  <img src="@/assets/images/map5.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz6.jpeg" alt="" />
+                  <img src="@/assets/images/lerik.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz5.jpeg" alt="" />
+                  <img src="@/assets/images/kish.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz4.jpeg" alt="" />
+                  <img src="@/assets/images/ismayilli.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz3.jpeg" alt="" />
+                  <img src="@/assets/images/goygol2.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz2.jpeg" alt="" />
+                  <img src="@/assets/images/ganja2.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
             <li class="carousel__slide">
               <figure>
                 <div>
-                  <img src="@/assets/images/newAz1.jpeg" alt="" />
+                  <img src="@/assets/images/carpet1.jpeg" alt="" />
                 </div>
-                <figcaption>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <span class="credit">Photo: Annie Spratt</span>
+                <figcaption class="max-h-2/3 overflow-scroll">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
+                  iste amet voluptatibus mollitia illum, ipsum autem earum
+                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
+                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
+                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
+                  totam dicta, voluptas quaerat alias recusandae provident, cum
+                  itaque impedit eligendi minima exercitationem obcaecati!
+                  Labore nulla re cum sit dolorem?
+                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
@@ -282,112 +471,112 @@
           <ul class="carousel__thumbnails">
             <li>
               <label for="slide-1"
-                ><img src="@/assets/images/newAz1.jpeg" alt=""
+                ><img src="@/assets/images/baku1.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-2"
-                ><img src="@/assets/images/newAz2.jpeg" alt=""
+                ><img src="@/assets/images/baku3.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-3"
-                ><img src="@/assets/images/newAz3.jpeg" alt=""
+                ><img src="@/assets/images/baku4.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-4"
-                ><img src="@/assets/images/newAz4.jpeg" alt=""
+                ><img src="@/assets/images/baku6.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-5"
-                ><img src="@/assets/images/newAz5.jpeg" alt=""
+                ><img src="@/assets/images/wine.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-6"
-                ><img src="@/assets/images/newAz6.jpeg" alt=""
+                ><img src="@/assets/images/absheron.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-7"
-                ><img src="@/assets/images/newAz7.jpeg" alt=""
+                ><img src="@/assets/images/tea.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-8"
-                ><img src="@/assets/images/newAz8.jpeg" alt=""
+                ><img src="@/assets/images/sheki6.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-9"
-                ><img src="@/assets/images/newAz9.jpeg" alt=""
+                ><img src="@/assets/images/sheki4.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-10"
-                ><img src="@/assets/images/newAz10.jpeg" alt=""
+                ><img src="@/assets/images/pakhlava.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-11"
-                ><img src="@/assets/images/newAz11.jpeg" alt=""
+                ><img src="@/assets/images/novruz2.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-12"
-                ><img src="@/assets/images/newAz11.jpeg" alt=""
+                ><img src="@/assets/images/north.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-13"
-                ><img src="@/assets/images/newAz10.jpeg" alt=""
+                ><img src="@/assets/images/museum8.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-14"
-                ><img src="@/assets/images/newAz9.jpeg" alt=""
+                ><img src="@/assets/images/museum7.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-15"
-                ><img src="@/assets/images/newAz8.jpeg" alt=""
+                ><img src="@/assets/images/mosque.webp" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-16"
-                ><img src="@/assets/images/newAz7.jpeg" alt=""
+                ><img src="@/assets/images/map5.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-17"
-                ><img src="@/assets/images/newAz6.jpeg" alt=""
+                ><img src="@/assets/images/lerik.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-18"
-                ><img src="@/assets/images/newAz5.jpeg" alt=""
+                ><img src="@/assets/images/kish.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-19"
-                ><img src="@/assets/images/newAz4.jpeg" alt=""
+                ><img src="@/assets/images/ismayilli.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-20"
-                ><img src="@/assets/images/newAz3.jpeg" alt=""
+                ><img src="@/assets/images/goygol2.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-21"
-                ><img src="@/assets/images/newAz2.jpeg" alt=""
+                ><img src="@/assets/images/ganja2.jpeg" alt=""
               /></label>
             </li>
             <li>
               <label for="slide-22"
-                ><img src="@/assets/images/newAz1.jpeg" alt=""
+                ><img src="@/assets/images/carpet1.jpeg" alt=""
               /></label>
             </li>
           </ul>
@@ -466,7 +655,7 @@ section {
   > input:nth-of-type(17):checked
   ~ .carousel__slides
   .carousel__slide:first-of-type {
-  margin-left: -1000%;
+  margin-left: -1600%;
 }
 
 .carousel
