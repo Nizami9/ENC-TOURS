@@ -211,22 +211,22 @@ watchEffect(() => {
         </button>
       </div>
       <div class="hidden lg:flex">
-          <select v-model="locale" class="mr-10 pl-0.5 bg-gray-800 bg-opacity-50">
-            <option value="en">🇬🇧</option>
-            <option value="de">🇩🇪</option>
-            <option value="uk">🇯🇵</option>
-            <option value="es">🇪🇦</option>
-            <option value="tr">🇮🇹</option>
-            <option value="az">🇫🇷</option>
-            <option value="uk">🇵🇹</option>
-            <option value="uk">🇰🇷</option>
-          </select>
+        <select v-model="locale" class="mr-10 pl-0.5 bg-gray-800 bg-opacity-50">
+          <option value="en">🇬🇧</option>
+          <option value="de">🇩🇪</option>
+          <option value="uk">🇯🇵</option>
+          <option value="es">🇪🇦</option>
+          <option value="tr">🇮🇹</option>
+          <option value="az">🇫🇷</option>
+          <option value="uk">🇵🇹</option>
+          <option value="uk">🇰🇷</option>
+        </select>
         <a href="../../aboutUs" class="text-sm font-semibold leading-6 mr-10"
-          >About Us</a
+          >{{ $t("aboutUs") }}</a
         >
-        <a href="../../contactUs" class="text-sm font-semibold leading-6"
-          >Contacts</a
-        >
+        <a href="../../contactUs" class="text-sm font-semibold leading-6">
+          <p>{{ $t("contacts") }}</p>
+        </a>
       </div>
     </nav>
     <Dialog
@@ -280,12 +280,12 @@ watchEffect(() => {
               <a
                 href="../../aboutUs.vue"
                 class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50"
-                >about us</a
+                >{{ $t("aboutUs") }}</a
               >
               <a
                 href="../../contactUs.vue"
                 class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50"
-                >contacts</a
+                >{{ $t("contacts") }}</a
               >
             </div>
           </div>

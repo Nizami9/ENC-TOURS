@@ -9,7 +9,7 @@
             <p
               class="text2 w-full pt-60 text-center text-7xl text-white uppercase"
             >
-              enc cultural and heritage tours
+              {{ $t("mainPageH1") }}
             </p>
             <p
               class="uppercase textP text-center w-2/3 text leading-5 rounded-md text-center text-white"
@@ -32,7 +32,6 @@
       <component-3></component-3>
       <component-4></component-4>
       <component-6></component-6>
-      <!-- <component-5></component-5> -->
     </div>
   </NuxtLayout>
 </template>
@@ -42,6 +41,8 @@ import Component2 from "@/components/MainPage/Component2.vue";
 import Component3 from "@/components/MainPage/Component3.vue";
 import Component4 from "@/components/MainPage/Component4.vue";
 import Component6 from "@/components/MainPage/Component5.vue";
+import { useI18n } from "#imports";
+const { locale } = useI18n();
 
 const component2Ref = ref(null);
 
