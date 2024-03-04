@@ -211,7 +211,7 @@ watchEffect(() => {
         </button>
       </div>
       <div class="hidden lg:flex">
-          <select v-model="locale" class="mr-10 pl-0.5 bg-gray-100 bg-opacity-50">
+          <select v-model="locale" class="mr-10 pl-0.5 bg-gray-800 bg-opacity-50">
             <option value="en">🇬🇧</option>
             <option value="de">🇩🇪</option>
             <option value="uk">🇯🇵</option>
