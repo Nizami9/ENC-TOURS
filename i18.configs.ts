@@ -25,6 +25,60 @@ export default {
         specialH1: "SPECIAL INTEREST TOURS",
         specailH2:
           "LAUDED FOR ITS EXTENSIVE KNOWLEDGE, ITS EAST-MEETS-WEST MODEL AND VENTURING RESPONSIBLY INTO EVERY CORNER OF ITS DESTINATIONS, IT IS OUR MISSION TO SHOW GUESTS THE BEATING HEART OF OUR ASIA",
+        genFacts: "GENERAL FACTS",
+        genP1:
+          "Welcome to Azerbaijan! This is the Land of Fire and the Pearl of the Caucasus, a land where eastern colors combine magnificently with western progress. Azerbaijan is a country of unique nature, unmatched culture, centuries of history with its customs and traditions and fine cuisine; a place which will satisfy the expectations of the most sophisticated gastronomists, and finally, it is the country of Caucasian hospitality and friendliness.",
+        genP2:
+          "Azerbaijan is situated at the eastern side of the Transcaucasia (or South Caucasus) on the shores of the Caspian Sea. The population of Azerbaijan exceeds 9.8 million and the territory covers an area of 86 600 square kilometers. According to both of these figures, Azerbaijan is the largest country of the South Caucasus. The City of Baku is the capital and the country’s largest city. The National language here is Azerbaijani. However, Russian is also widely used and many younger residents also speak English. Azerbaijan shares borders with Iran (765 km), Turkey (15 km), Russia (390 km), Georgia (480 km) and Armenia (1007 km). The eastern shores of the country are washed by the waters of the Caspian Sea.",
+        genP3:
+          "Historically a part of the Great Silk Road and situated at the crossroads of the geopolitical, economic and cultural interests of many nations and civilizations, Azerbaijan has, since ancient times, aroused the interests of great minds, scientists, travelers and historians. References to this amazing land, located on the western coast of the Caspian Sea and in the eastern part of the South Caucasus, can be found in the ancient writings of Herodotus, Strabo, and Claudius Ptolemy. Azerbaijan has an amazing historical and cultural heritage with more than 7500 natural, archeological, architectural, and historical monuments. Cave drawings at Gobustan, Momine-Khatun and Garabaghlar mausoleums, the Palace of Sheki Khans, the Maiden Tower, the castles of Absheron, medieval manuscripts decorated with magnificent miniature paintings, antique rugs, and works of literature, arts and sculpture – all of this is just a small part of the country’s rich and priceless heritage.",
+        genP4:
+          "Azerbaijan is often referred to as the “Land of Fire”. It is known that the majority of those residing on this territory before the Common Era were fire worshippers. Since then, the country has preserved the ancient evidence of that era: cave paintings, statues of gods and ancient temples. Two of the most vivid examples of this heritage are the temple of fire-worshippers (“Ateshgah”) at Surakhani near Baku and “Yanardagh”, translated as the “burning mountain”. According to legend, “Ateshgah” temple was built by Indian fire worshippers, who arrived here after learning about the eternally burning fire, emitted from the ground, and were so amazed by what they had seen, that they decided to build a temple on this very place. These lands were considered to be sacred for centuries and throughout history were worshipped by the followers of Zoroastrianism, Hinduism and Sikhism.",
+        genP5:
+          "The fire rhetoric, passed from generation to generation, has been reflected in the many artistic works of Azerbaijani masters throughout the centuries, and has recently reached its culmination in the form of The “Flame Towers” complex. Constructed in Baku not long ago, the Flame Towers have, in very a short period of time, become a breathtaking architectural landmark of the capital city, embodying a tribute to our history, and representing contemporary Azerbaijan – a new, ambitious country, developing and progressive, but still loyal to its roots and origins.",
+        genP6:
+          "Azerbaijan is the West in the East and the East in the West! Welcome!",
+        area: "AREA",
+        areaP:
+          "Azerbaijan is situated in the Caucasus region of Eurasia. Three physical features dominate Azerbaijan: the Caspian Sea, whose shoreline forms a natural boundary to the east; the Greater Caucasus mountain range to the north; and the extensive flatlands at the country’s center. About the size of Portugal or the state of Maine, Azerbaijan has a total land area of approximately 86,600 square kilometers, less than 1% of the land area of the former Soviet Union.",
+        population: "POPULATION",
+        popP: "The current population of Azerbaijan is 10,126,684 as of Monday, May 11, 2020, based on the latest United Nations estimates. Azerbaijan population is equivalent to 0.13% of the total world population.",
+        capital: "CAPITAL",
+        capP: "Baku is the capital and largest city of Azerbaijan, as well as the largest city on the Caspian Sea and of the Caucasus region. Baku is located 28 meters below sea level, which also makes it the lowest lying national capital in the world.",
+        lang: "LANGUAGE",
+        langP:
+          "Azerbaijani is the official language of Azerbaijan. It is also the language of the majority population of the country. Russian and English are widely spoken as well.",
+        religion: "RELIGION",
+        religP:
+          "Majority of population is Muslim. Other religions are also practiced such as Judaism, Orthodox and Catholic. The country is tolerant and apart from the mosques you can find churches and synagogues both in the capital city Baku and the countryside as well.",
+        currency: "CURRENCY",
+        currencyP:
+          "The Azerbaijan Manat is the currency of Azerbaijan. The current exchange rate is 1 USD is 1.70 AZN, 1 Euro is 1.84 AZN. Dollar and Euro can be easily exchanged at the local banks and airport.",
+        time: "TIME",
+        timeP:
+          "AZT – Azerbaijan Time (Standard Time) currently has same time zone offset as AZT (UTC +4) but different time zone name. Azerbaijan Time (AZT) is 4 hours ahead of Coordinated Universal Time (UTC). This time zone is in use during standard time in: Asia.",
+        climate: "CLIMATE",
+        climP:
+          "9 out of 11 climate zones are available in Azerbaijan, from Subtropics to Alpine climates can be witnessed.",
+        airports: "AIRPORTS",
+        airP: "International Airports: Baku, Ganja, Lankaran, Naxchivan, Gabala",
+        mainCities: "MAIN CITIES",
+        citiesP:
+          "Baku, Ganja, Sumqayit, Shamakhi, Quba, Sheki, Qabala, Lankaran",
+        points: "HIGHEST POINTS",
+        pointsP:
+          "The highest peaks in the Republic of Azerbaijan are situated in the Greater Caucasus, the Lesser Caucasus and Talysh mountain systems. The highest peak in the Republic of Azerbaijan is Bazarduzu (Bigger Caucasus) (4,466 metres (14,656 ft)",
+        mainRivers: "MAIN RIVERS",
+        riversP:
+          "The rivers of Azerbaijan can be divided into three groups: the rivers of the Kursk basin (Kaniks, Kabirri, Turyan, Agstafa, Shekir, Terter, Khachin, etc.). the Rivers of the Araks basin (Arpachay, Nakhchivan, Ohchu, Hekeri). , Kondelenchay, etc.), which flows directly into the Caspian sea (Samur, Gudyal, Velvele, Vilesh, Lankaran, etc.)",
+        mainLakes: "MAIN LAKES",
+        lakesP:
+          "The list includes only natural lakes. Artificial lakes, such as reservoirs, are excluded from this list. The Caspian sea, which is the largest lake on Earth, both in area and volume, and which borders Azerbaijan to the East, is also excluded from this list. There are about 450 lakes in Azerbaijan.",
+        electricity: "ELECTRICITY",
+        elecP:
+          "Non-grounded outlets are more common than grounded ones. It is recommend both styles of adapters be taken. Azerbaijan has 220 volt electricity, meaning unless your computer or appliance is dual voltage or designed for 220 volts, you will need a converter or transformer. The cycles (Hz) are 50 per second.",
+        reqVisa: "REQUIREMENTS OF VISA",
+        reqVisaP: "Please, apply for e-Visa at www.evisa.gov.az",
       },
       de: {
         home: "Startseite",
@@ -36,16 +90,16 @@ export default {
         comp2p2: "Bei uns hört die Aufregung nie auf!",
         comp2p3:
           "Inspiriert von der Fülle an Reisemöglichkeiten in unserem Asien sind wir in jeden Winkel unserer geliebten Reiseziele gereist, um das zu finden, was wir als beispielhafte Touren für anspruchsvolle Reisekenner bezeichnen",
-        specialP1: "OIL BOOM AND ARCHITECTURE TOUR",
-        specialP2: "FLOWER WATCHING TOURS",
-        specialP3: "RELIGIOUS TOURS",
+        specialP1: "ÖLBOOM UND ARCHITEKTUR-TOUR",
+        specialP2: "BLUMEN BEOBACHTEN TOUREN",
+        specialP3: "RELIGIÖSE TOUREN",
         specialP4: "GOURMET TOUR",
-        specialP5: "BIRD WATCHING TOUR",
-        specialP6: "GOLF TOUR",
-        specialP7: "POMEGRANATE TOUR",
-        specialP8: "AGRICULTURAL TOUR",
-        specialP9: "CARPET AND LOCAL HERITAGE TOURS",
-        specialH1: "SPECIAL INTEREST TOURS",
+        specialP5: "VOGELBEOBACHTUNGSTOUR",
+        specialP6: "GOLFTOUR",
+        specialP7: "GRANATAPFEL TOUR",
+        specialP8: "LANDWIRTSCHAFTLICHE TOUR",
+        specialP9: "TEPPICH UND LOKALE ERBE TOUREN",
+        specialH1: "BESONDERE INTERRESE TOUREN",
         specailH2:
           "LAUDED FOR ITS EXTENSIVE KNOWLEDGE, ITS EAST-MEETS-WEST MODEL AND VENTURING RESPONSIBLY INTO EVERY CORNER OF ITS DESTINATIONS, IT IS OUR MISSION TO SHOW GUESTS THE BEATING HEART OF OUR ASIA",
       },
@@ -57,9 +111,20 @@ export default {
         mainPageH1: "ENC Tours culturales y patrimoniales",
         comp2p1: "Inspiraciones",
         comp2p2: "¡La emoción nunca termina con nosotros!",
-
         comp2p3:
           "Inspirándonos en la abundancia de opciones de viaje en nuestra Asia, hemos viajado a cada rincón de nuestros queridos destinos para encontrar lo que definimos como recorridos ejemplares para los conocedores de viajes más exigentes.",
+        specialP1: "VIAJE DEL BOOM PETROLERO",
+        specialP2: "VIAJE DE OBSERVACIÓN DE FLORES",
+        specialP3: "VIAJE RELIGIOSO",
+        specialP4: "VIAJE DE GOURMET",
+        specialP5: "TOUR DE OBSERVACIÓN DE AVES",
+        specialP6: "TOUR DE GOLF",
+        specialP7: "VIAJE DE GRANADA",
+        specialP8: "VIAJE DE AGRICULTURA",
+        specialP9: "VIAJE DE ALFOMBRAS",
+        specialH1: "VIAJES DE INTERÉS ESPECIAL",
+        specailH2:
+          "LAUDED FOR ITS EXTENSIVE KNOWLEDGE, ITS EAST-MEETS-WEST MODEL AND VENTURING RESPONSIBLY INTO EVERY CORNER OF ITS DESTINATIONS, IT IS OUR MISSION TO SHOW GUESTS THE BEATING HEART OF OUR ASIA",
       },
       it: {
         home: "Startpagina",
@@ -69,21 +134,44 @@ export default {
         mainPageH1: "ENC Tours culturali e patrimoniali",
         comp2p1: "Ispirazioni",
         comp2p2: "Da noi l'emozione non finisce mai!",
-
         comp2p3:
           "Ispirati dall'abbondanza di opzioni di viaggio nella nostra Asia, abbiamo viaggiato in ogni angolo delle nostre amate destinazioni per trovare quelli che definiamo tour esemplari per intenditori di viaggi esigenti",
+        specialP1: "TOUR DEL BOOM PETROLIFERO",
+        specialP2: "TOUR D’AMMIRAZIONE DEI FLOR",
+        specialP3: "TOUR RELIGIOS",
+        specialP4: "TOUR GOURMET",
+        specialP5: "TOUR DI OSSERVAZIONE DEGLI UCCELLI",
+        specialP6: "GOLF TOUR",
+        specialP7: "TOUR DEL MELOGRANO",
+        specialP8: "AGRICOLES TOUR",
+        specialP9: "TOUR DI TAPPETTI",
+        specialH1: "TOUR DI INTERESSE SPECIALE",
+        specailH2:
+          "LAUDED FOR ITS EXTENSIVE KNOWLEDGE, ITS EAST-MEETS-WEST MODEL AND VENTURING RESPONSIBLY INTO EVERY CORNER OF ITS DESTINATIONS, IT IS OUR MISSION TO SHOW GUESTS THE BEATING HEART OF OUR ASIA",
       },
       jp: {
-        home: "Startpagina",
-        aboutUs: "Sobre nosotros",
-        contact: "Contactos",
-        services: "Servicios",
+        home: "家",
+        aboutUs: "私たちについて",
+        contact: "連絡先",
+        services: "サービス",
         mainPageH1: "ENC ツアーの文化と伝統",
         comp2p1: "インスピレーション",
         comp2p2: "私たちの興奮は決して終わりません！",
 
         comp2p3:
           "アジアの豊富な旅行オプションに触発され、私たちは目の肥えた旅行愛好家のための模範的なツアーと定義するものを見つけるために、愛する目的地の隅々まで旅してきました。",
+        specialP1: "オイルブームと建築ツアー",
+        specialP2: "花見ツアー",
+        specialP3: "宗教ツアー",
+        specialP4: "グルメツアー",
+        specialP5: "バードウォッチングツアー",
+        specialP6: "ゴルフツアー",
+        specialP7: "ザクロツアー",
+        specialP8: "農業ツアー",
+        specialP9: "カーペットと地元遺産ツアー",
+        specialH1: "特別ツアー",
+        specailH2:
+          "LAUDED FOR ITS EXTENSIVE KNOWLEDGE, ITS EAST-MEETS-WEST MODEL AND VENTURING RESPONSIBLY INTO EVERY CORNER OF ITS DESTINATIONS, IT IS OUR MISSION TO SHOW GUESTS THE BEATING HEART OF OUR ASIA",
       },
       fr: {
         home: "Startpagina",
@@ -93,9 +181,20 @@ export default {
         mainPageH1: "ENC Tours culturais e patrimoniais",
         comp2p1: "Inspirations",
         comp2p2: "L'excitation ne s'arrête jamais chez nous !",
-
         comp2p3:
           "Inspirés par l'abondance d'options de voyage dans notre Asie, nous avons voyagé dans tous les coins et recoins de nos destinations préférées pour trouver ce que nous définissons comme des circuits exemplaires pour les connaisseurs de voyages exigeants.",
+        specialP1: "CIRCUIT DE BOOM PÉTROLIER",
+        specialP2: "CIRCUIT D’OBSERVATION DES FLEURS",
+        specialP3: "CIRCUITS RELIGIEUX",
+        specialP4: "VISITES GASTRONOMIQUES",
+        specialP5: "VISITE D'OBSERVATION DES OISEAUX",
+        specialP6: "TOUR DE GOLF",
+        specialP7: "GRENADE TOUR",
+        specialP8: "L'AGRICULTURE TOURNÉE",
+        specialP9: "VISITE GUIDÉE DES TAPIS",
+        specialH1: "DES EXCURSIONS THÉMATIQUES SPÉCIALES",
+        specailH2:
+          "LAUDED FOR ITS EXTENSIVE KNOWLEDGE, ITS EAST-MEETS-WEST MODEL AND VENTURING RESPONSIBLY INTO EVERY CORNER OF ITS DESTINATIONS, IT IS OUR MISSION TO SHOW GUESTS THE BEATING HEART OF OUR ASIA",
       },
       pt: {
         home: "Startpagina",
@@ -105,20 +204,43 @@ export default {
         mainPageH1: "ENC Tours culturais e patrimoniais",
         comp2p1: "Inspirações",
         comp2p2: "A emoção nunca acaba conosco!",
-
         comp2p3:
           "Inspirados pela abundância de opções de viagem na nossa Ásia, viajamos por todos os cantos dos nossos amados destinos para encontrar o que definimos como passeios exemplares para os conhecedores de viagens mais exigentes.",
+        specialP1: "TOUR DE BOOM DO PETRÓLEO",
+        specialP2: "VIAGENS DE OBSERVAÇÃO DE FLORES",
+        specialP3: "VIAGENS RELIGIOSAS",
+        specialP4: "TOUR GOURMET",
+        specialP5: "OBSERVAÇÃO DE PÁSSAR",
+        specialP6: "TOUR DE GOLFE",
+        specialP7: "VIAGEM DO ROMÃZEIRA",
+        specialP8: "TOUR AGRÍCOLA",
+        specialP9: "TOUR DE CARPETE",
+        specialH1: "VIAGENS DO INTERESSE ESPECIAL",
+        specailH2:
+          "LAUDED FOR ITS EXTENSIVE KNOWLEDGE, ITS EAST-MEETS-WEST MODEL AND VENTURING RESPONSIBLY INTO EVERY CORNER OF ITS DESTINATIONS, IT IS OUR MISSION TO SHOW GUESTS THE BEATING HEART OF OUR ASIA",
       },
       kr: {
-        home: "Startpagina",
-        aboutUs: "Sobre nosotros",
-        contact: "Contactos",
+        home: "집",
+        aboutUs: "회사 소개",
+        contact: "콘택트 렌즈",
         services: "Servicios",
         mainPageH1: "ENC 투어 문화와 유산",
         comp2p1: "영감",
         comp2p2: "흥분은 결코 끝나지 않습니다!",
         comp2p3:
           "아시아의 다양한 여행 옵션에서 영감을 받아, 우리는 안목 있는 여행 감정가들을 위한 모범적인 여행으로 정의하는 것을 찾기 위해 우리가 사랑하는 목적지의 구석구석을 여행했습니다.",
+        specialP1: "오일 붐과 건축 투어",
+        specialP2: "꽃 감상 투어",
+        specialP3: "종교 투어",
+        specialP4: "미식가 투어",
+        specialP5: "조류 관찰 투어",
+        specialP6: "골프 투어",
+        specialP7: "석류 투어",
+        specialP8: "농업관광",
+        specialP9: "카펫 및 지역 문화유산 투어",
+        specialH1: "특별 테마 여행",
+        specailH2:
+          "LAUDED FOR ITS EXTENSIVE KNOWLEDGE, ITS EAST-MEETS-WEST MODEL AND VENTURING RESPONSIBLY INTO EVERY CORNER OF ITS DESTINATIONS, IT IS OUR MISSION TO SHOW GUESTS THE BEATING HEART OF OUR ASIA",
       },
     },
   },

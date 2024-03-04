@@ -6,7 +6,7 @@
           class="w-1/2 m-auto mainDiv pt-80 text-center z-10 uppercase text-white p-2"
         >
           <p class="text2 text-7xl uppercase font-semibold">
-            SPECIAL INTEREST TOURS
+            {{ $t("specialH1") }}
           </p>
           <p class="rounded-md mt-5 text-center textP">
             Lauded for its extensive knowledge, its East-meets-West model and
@@ -86,7 +86,7 @@
                 @mouseover="addBorder1"
                 @mouseout="removeBorder1"
               >
-                OIL BOOM AND ARCHITECTURE TOUR
+                {{ $t("specialP1") }}
               </p>
             </div>
           </div>
@@ -124,7 +124,7 @@
                 @mouseover="addBorder2"
                 @mouseout="removeBorder2"
               >
-                FLOWER WATCHING TOURS
+                {{ $t("specialP2") }}
               </p>
             </div>
           </div>
@@ -162,7 +162,7 @@
                 @mouseover="addBorder3"
                 @mouseout="removeBorder3"
               >
-                RELIGIOUS TOURS
+                {{ $t("specialP3") }}
               </p>
             </div>
           </div>
@@ -202,7 +202,7 @@
                 @mouseover="addBorder4"
                 @mouseout="removeBorder4"
               >
-                GOURMET TOUR
+                {{ $t("specialP4") }}
               </p>
             </div>
           </div>
@@ -241,7 +241,7 @@
                 @mouseover="addBorder5"
                 @mouseout="removeBorder5"
               >
-                BIRD WATCHING TOUR
+                {{ $t("specialP5") }}
               </p>
             </div>
           </div>
@@ -279,7 +279,7 @@
                 @mouseover="addBorder6"
                 @mouseout="removeBorder6"
               >
-                GOLF TOUR
+                {{ $t("specialP6") }}
               </p>
             </div>
           </div>
@@ -319,7 +319,7 @@
                 @mouseover="addBorder7"
                 @mouseout="removeBorder7"
               >
-                POMEGRANATE TOUR
+                {{ $t("specialP7") }}
               </p>
             </div>
           </div>
@@ -358,7 +358,7 @@
                 @mouseover="addBorder8"
                 @mouseout="removeBorder8"
               >
-                AGRICULTURAL TOUR
+                {{ $t("specialP8") }}
               </p>
             </div>
           </div>
@@ -396,7 +396,7 @@
                 @mouseover="addBorder9"
                 @mouseout="removeBorder9"
               >
-                CARPET AND LOCAL HERITAGE TOURS
+                {{ $t("specialP9") }}
               </p>
             </div>
           </div>
