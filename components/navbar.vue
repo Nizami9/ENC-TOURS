@@ -301,7 +301,7 @@ import { Dialog, DialogPanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 import { onMounted, onUnmounted, watchEffect, getCurrentInstance } from "vue";
 const { locale } = useI18n();
-import { useI18n } from "#imports";
+import { useI18n } from "vue-i18n";
 
 const navigation = [
   { name: "HOME", href: "/" },
