@@ -6,7 +6,7 @@
           class="w-3/4 mainDiv m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
           <p class="text2 text-7xl uppercase font-semibold">
-            THE CULTURAL AND HERITAGE TOURS
+            {{ $t("cultHeritTours") }}
           </p>
           <p class="rounded-md mt-5 w-2/3 m-auto text-center textP">
             Lauded for its extensive knowledge, its East-meets-West model and
@@ -86,7 +86,7 @@
                 @mouseover="addBorder1"
                 @mouseout="removeBorder1"
               >
-                AZERBAIJAN 10 DAYS
+                {{ $t("az10Days") }}
               </p>
             </div>
           </div>
@@ -125,7 +125,7 @@
                 @mouseover="addBorder2"
                 @mouseout="removeBorder2"
               >
-                EXPLORE CAUCASUS & ANCIENT GREAT SILK ROAD
+                {{ $t("exploreCau") }}
               </p>
             </div>
           </div>
@@ -164,7 +164,7 @@
                 @mouseover="addBorder3"
                 @mouseout="removeBorder3"
               >
-                PEARL OF CASPIAN
+                {{ $t("pearl") }}
               </p>
             </div>
           </div>
@@ -205,7 +205,7 @@
                 @mouseover="addBorder4"
                 @mouseout="removeBorder4"
               >
-                Salam Azerbaijan
+                {{ $t("salamAz") }}
               </p>
             </div>
           </div>

@@ -279,12 +279,12 @@ watchEffect(() => {
               </div>
               <a
                 href="../../aboutUs.vue"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50"
+                class="-mx-3 uppercase block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50"
                 >{{ $t("aboutUs") }}</a
               >
               <a
                 href="../../contactUs.vue"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50"
+                class="-mx-3 uppercase block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50"
                 >{{ $t("contacts") }}</a
               >
             </div>
@@ -307,8 +307,7 @@ const navigation = [
   { name: "HOME", href: "/" },
   { name: "AZERBAIJAN", href: "../../azerbaijan" },
   { name: "TOURS", href: "../../tours" },
-  { name: "SERVICES", href: "../../ourservices" },
-  { name: "PHOTOGALLERY", href: "../../photos" },
+  { name: "OUR SERVICES", href: "../../ourservices" },
   { name: "ENC LUXURY", href: "../../luxury" },
   { name: "MICE", href: "../../mice" },
 ];
