@@ -182,7 +182,7 @@ watchEffect(() => {
     }"
   >
     <nav
-      class="mx-auto flex w-8xl items-center justify-between p-2 lg:px-8"
+      class="mx-auto flex w-8xl items-center justify-between p-0.5 lg:px-8"
       aria-label="Global"
     >
       <div class="flex items-center gap-x-14">
@@ -190,16 +190,19 @@ watchEffect(() => {
           <span class="sr-only">Your Company</span>
           <img class="h-14 w-auto" src="@/assets/images/enclogo2.png" alt="" />
         </a>
-        <div class="hidden lg:flex lg:gap-x-14">
-          <a
-            v-for="item in navigation"
-            :key="item.name"
-            :href="item.href"
-            class="text-sm font-semibold leading-6 text-white"
-            >{{ item.name }}</a
-          >
+        <div class="hidden lg:flex lg:gap-x-8">
+          <template v-for="(item, index) in navigation" :key="item.name">
+            <a
+              :href="item.href"
+              class="text-sm font-semibold leading-6 text-white"
+            >
+              {{ item.name }}
+            </a>
+            {{ index < navigation.length - 1 ? "|" : "" }}
+          </template>
         </div>
       </div>
+
       <div class="flex lg:hidden">
         <button
           type="button"
