@@ -70,7 +70,6 @@
               <p class="uppercase text-3xl">{{ $t("highlites") }}</p>
               <carousel></carousel>
             </div>
-
             <div class="m-auto mt-10">
               <p class="uppercase text-3xl">{{ $t("atAGlance") }}</p>
               <div class="mt-10 mb-10">

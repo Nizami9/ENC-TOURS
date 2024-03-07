@@ -5,7 +5,9 @@
         <div
           class="w-1/2 mainDiv m-auto pt-48 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-7xl uppercase font-semibold">Hotels in SHAHDAG</p>
+          <p class="text2 text-7xl uppercase font-semibold">
+            {{ $t("hotelsShahdag") }}
+          </p>
           <p class="rounded-md mt-5 text-2xl text-center">
             Journey Through Time: ENC Tours
           </p>
@@ -76,11 +78,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                Each one of Park Chalet’s 164 elegant guest rooms reflects the
-                perfect mix of rustic yet luxury design teamed with stunning
-                mountain views. Custom furnishings include bespoke carpeting,
-                lime washed oak panels and an oversized working desk. Standard
-                rooms feature King or Twin Beds with all comforts.
+                {{ $t("HotelsShah1") }}
               </p>
             </div>
           </div>
@@ -112,11 +110,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                Set amid majestic mountains, The Pik Palace Shahdag Hotel offers
-                167 spacious bedrooms and suites with stunning views over the
-                mountains Rooms feature large king-size beds, comfortable
-                seating and working areas, and floor-to-ceiling windows with
-                French balconies.
+                {{ $t("HotelsShah1") }}
               </p>
             </div>
           </div>

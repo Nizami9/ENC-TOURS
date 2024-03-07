@@ -5,7 +5,9 @@
         <div
           class="w-1/2 mainDiv m-auto pt-48 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-7xl uppercase font-semibold">Hotels in GUBA</p>
+          <p class="text2 text-7xl uppercase font-semibold">
+            {{ $t("hotelsGuba") }}
+          </p>
           <p class="rounded-md mt-5 text-2xl text-center">
             Journey Through Time: ENC Tours
           </p>
@@ -47,7 +49,7 @@
             connect with the vibrant heritage of this fascinating destination.
           </p>
         </div>
-        <div class=" mainSection w-10/12 m-auto mt-10">
+        <div class="mainSection w-10/12 m-auto mt-10">
           <div
             class="w-full mb-4 text-left"
             v-motion
@@ -66,7 +68,9 @@
               },
             }"
           >
-            <p class="text-color border-b-2 pb-2 border-gray-400">Rixos Quba Hotel 5*</p>
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Rixos Quba Hotel 5*
+            </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/rixos.jpeg"
@@ -74,12 +78,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                Rixos Quba Azerbaijan offers Rixos quality in four different
-                types of villas complying to all your needs and wants. Embraced
-                by the emerald-green natural beauties of Caucasia, you will
-                experience an actual holiday in nature. RixosQuba Azerbaijan
-                offers a deluxe holiday beyond five-star quality standards with
-                all its privileged details.
+                {{ $t("HotelGuba1") }}
               </p>
             </div>
           </div>
@@ -187,4 +186,3 @@
   }
 }
 </style>
-

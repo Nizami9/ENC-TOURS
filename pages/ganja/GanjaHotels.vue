@@ -5,7 +5,7 @@
         <div
           class="w-1/2 mainDiv m-auto pt-48 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-7xl uppercase font-semibold">Hotels in Ganja</p>
+          <p class="text2 text-7xl uppercase font-semibold">{{ $t("hotelsGanja") }}</p>
           <p class="rounded-md mt-5 text-2xl text-center">
             Journey Through Time: ENC Tours
           </p>
@@ -74,11 +74,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                Vego Hotel features 33 elegant rooms for business and tourist
-                accommodation. There are 4 Suite rooms, 1 Junior Suite rooms,2
-                Deluxe rooms and 26 Standard Single and Standard Double or Twin
-                rooms as well as to Hotel’s Turkish Bath , lobby , restaurant
-                and cafe by ensuring utmost guest comfort.
+                {{ $t("HotelGanja1") }}
               </p>
             </div>
           </div>
@@ -110,11 +106,7 @@
                 alt=""
               />
               <p class=" text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                Our Ramada Plaza Gence hotel is designed to make your trip more
-                relaxing. With thoughtful amenities and unique personal touches,
-                we offer elegant comfort and modern accommodations. Whether you
-                are our guest for just one night or an extended stay, we offer
-                comfortable accommodations at a great price.
+                {{ $t("HotelGanja2") }}
               </p>
             </div>
           </div>

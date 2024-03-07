@@ -5,7 +5,9 @@
         <div
           class="w-1/2 mainDiv m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-7xl uppercase font-semibold">Hotels in GABALA</p>
+          <p class="text2 text-7xl uppercase font-semibold">
+            {{ $t("hotelsGabala") }}
+          </p>
           <p class="rounded-md mt-5 text-2xl text-center">
             Journey Through Time: ENC Tours
           </p>
@@ -15,9 +17,7 @@
       <div class="text-center">
         <div class="p-8">
           <p class="text-6xl mainP">INTRO</p>
-          <p
-            class="text-color border-b-2 pt-4 w-20 border-gray-500 m-auto"
-          ></p>
+          <p class="text-color border-b-2 pt-4 w-20 border-gray-500 m-auto"></p>
         </div>
         <div
           v-motion
@@ -78,10 +78,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                Sophisticated rooms, elegantly decorated with plush fabrics,
-                mirrored accents and warm tones, feature Wi-Fi and flat-screen
-                TVs. Posh suites include living rooms, dining areas and city
-                views.
+                {{ $t("HotelGabala1") }}
               </p>
             </div>
           </div>
@@ -113,12 +110,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                Qafqaz Karvansaray Hotel is a five star hotel located in the
-                city center of Gabala. The hotel, operating since August 2013,
-                is designed and built in “the Modern Art Deco” Style. The
-                “Qafqaz Karvansaray” is a unique property that successfully
-                combines the modernity and antiquity and it offers guests a
-                delicious variation of the world and Azerbaijani cuisine.
+                {{ $t("HotelGabala2") }}
               </p>
             </div>
           </div>
@@ -150,16 +142,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                The “Qafqaz Sport” is a five star hotel located in a quiet area
-                and in the lap of nature near the city of Gabala which lies at
-                the foot of mountains. Our hotel offers high standard
-                hospitality services delivered to all categories of the
-                visitors, including solo travelers, family travelers and
-                collectives. We offer tastefully decorated accommodation (rooms
-                and cottages) at affordable prices, restaurants serving rich
-                domestic and international cuisine, Spa and fitness centers
-                equipped with all facilities necessary for health recovery, and
-                a big conference hall for organizing various events
+                {{ $t("HotelGabala3") }}
               </p>
             </div>
           </div>
@@ -191,11 +174,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                The Qafqaz Riverside Resort Hotel is a five star luxurious hotel
-                located at the foothills of the Caucasus on the bank of the
-                river Damiraparan. The hotel has 164 modern and spacious guest
-                rooms and nice cottages ideally suited for long weekends with
-                friends and family.
+                {{ $t("HotelGabala4") }}
               </p>
             </div>
           </div>
@@ -227,12 +206,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                Qafqaz Thermal & Spa Resort Hotel is a four star hotel located
-                in the Yengidje village of Gabala district which started to
-                operate in 2014. Our guests may wish to benefit from the thermal
-                water and Naftalan oil treatment services offered by our hotel,
-                besides taking a good and enjoyable rest in the lap of
-                fascinatingly beautiful nature.
+                {{ $t("HotelGabala5") }}
               </p>
             </div>
           </div>

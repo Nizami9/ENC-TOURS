@@ -5,7 +5,9 @@
         <div
           class="w-1/2 mainDiv m-auto pt-48 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-7xl uppercase font-semibold">Hotels in Sheki</p>
+          <p class="text2 text-7xl uppercase font-semibold">
+            {{ $t("hotelsSheki") }} Hotels in Sheki
+          </p>
           <p class="rounded-md mt-5 text-2xl text-center">
             Journey Through Time: ENC Tours
           </p>
@@ -66,7 +68,9 @@
               },
             }"
           >
-            <p class="text-color border-b-2 pb-2 border-gray-400">Sheki Park Hotel 4*</p>
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Sheki Park Hotel 4*
+            </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/shekihotel.jpeg"
@@ -74,21 +78,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                The resort offers comfortable, standard, and luxurious rooms,
-                one of the most up-to-date standards in the hotel building, 1,
-                2, 3 – bedrooms cottages, indoor and outdoor restaurants with
-                access to the beauty of the mysterious nature. Of course, in
-                this restaurant, along with the delicious dishes of Azerbaijan,
-                especially the Shaki cuisine, European cuisine will also be
-                offered to you. Breakfast is included in a room booking cost.
-                “Housekeeping” service is available daily to keep your room
-                clean and tidy. The hotel has a fitness room, sauna, healing
-                massage, billiard room, karaoke – bar, volleyball court, tennis
-                court and outdoor swimming pool for your guests’ leisure time.
-                There is also a special meeting room for business meetings in
-                “Sheki Park” Hotel. We have not forgotten to create a special
-                corner for children to ensure that their parents are
-                comfortable.
+                {{ $t("HotelsSheki1") }}
               </p>
             </div>
           </div>
@@ -110,7 +100,9 @@
               },
             }"
           >
-            <p class="text-color border-b-2 pb-2 border-gray-400">Sheki Palace 4*</p>
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Sheki Palace 4*
+            </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/shekihotel2.jpeg"
@@ -118,13 +110,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                The extraordinary and elegant Sheki Palace Hotel has opened its
-                doors in the unique historic part of Sheki – Old City. The
-                architecture successfully combines classical and national
-                patterns. The Hotel is luxuriously decorated with marble and
-                stone. Sheki Palace Hotel provides excellent business
-                facilities. Businessmen are offered up to date office amenities,
-                internet access and meeting room.
+                {{ $t("HotelsSheki2") }}
               </p>
             </div>
           </div>
@@ -156,11 +142,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                The Sheki Saray Hotel is a four star deluxe hotel which offers
-                leisure and business visitors to Sheki an entirely unique
-                experience. The Sheki Saray Hotel enjoys uninterrupted views of
-                the Caucasus Mountains and has been sensitively designed in a
-                modern style.
+                {{ $t("HotelsSheki3") }}
               </p>
             </div>
           </div>
@@ -192,12 +174,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                Marxal Hotel and Spa Complex is above of the sea level
-                surrounded by mountains in the mysterious corner of Sheki. The
-                geographical location of the Hotel makes it unique and
-                special.The hotel is placed 80 km away from Gabala Airport, 300
-                km away from Baku International Airport, 14 km away from Sheki
-                Railway Station and 4 km away from Sheki City Center.
+                {{ $t("HotelsSheki4") }}
               </p>
             </div>
           </div>
@@ -305,4 +282,3 @@
   }
 }
 </style>
-

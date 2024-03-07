@@ -5,7 +5,9 @@
         <div
           class="w-1/2 m-auto mainDiv pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-7xl uppercase font-semibold">ENC LUXURy</p>
+          <p class="text2 text-7xl uppercase font-semibold">
+            ENC {{ $t("lux") }}
+          </p>
           <p class="rounded-md mt-5 text-center textP">
             Lauded for its extensive knowledge, its East-meets-West model and
             venturing responsibly into every corner of its destinations, it is
@@ -83,7 +85,7 @@
               @mouseover="addBorder1"
               @mouseout="removeBorder1"
             >
-              PRIVATE CASPIAN CRUISE
+              {{ $t("lux1") }}
             </p>
           </div>
 
@@ -118,7 +120,7 @@
               @mouseover="addBorder2"
               @mouseout="removeBorder2"
             >
-              HELICOPTER AND PRIVATE JET TOURS
+              {{ $t("lux2") }}
             </p>
           </div>
 
@@ -153,7 +155,7 @@
               @mouseover="addBorder3"
               @mouseout="removeBorder3"
             >
-              RETRO CARS RALLY
+              {{ $t("lux3") }}
             </p>
           </div>
         </div>
@@ -189,7 +191,7 @@
               @mouseover="addBorder4"
               @mouseout="removeBorder4"
             >
-              BLACK CAVIAR DEGUSTATION
+              {{ $t("lux4") }}
             </p>
           </div>
           <div
@@ -223,7 +225,7 @@
               @mouseover="addBorder5"
               @mouseout="removeBorder5"
             >
-              EXCLUSIVE VENUES AND EVENTS
+              {{ $t("lux5") }}
             </p>
           </div>
           <div
@@ -257,7 +259,7 @@
               @mouseover="addBorder6"
               @mouseout="removeBorder6"
             >
-              GOLF TOUR
+              {{ $t("lux6") }}
             </p>
           </div>
         </div>

@@ -5,7 +5,9 @@
         <div
           class="w-1/2 mainDiv m-auto pt-48 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-7xl uppercase font-semibold">Hotels in Lankaran</p>
+          <p class="text2 text-7xl uppercase font-semibold">
+            {{ $t("hotelsLankaran") }}
+          </p>
           <p class="rounded-md mt-5 text-2xl text-center">
             Journey Through Time: ENC Tours
           </p>
@@ -15,7 +17,7 @@
       <div class="text-center">
         <div class="p-8">
           <p class="text-6xl mainP">INTRO</p>
-          <p class=" text-color border-b-2 pt-4 w-20 border-gray-500 m-auto"></p>
+          <p class="text-color border-b-2 pt-4 w-20 border-gray-500 m-auto"></p>
         </div>
         <div
           v-motion
@@ -76,11 +78,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                There is a place in the Southern part of Lankaran which you can
-                be sure that you’ll be having a great traditional hospitality.
-                That place is called the Khan Lankaran hotel and restaurant. The
-                hotel is located in the territory involving attention by
-                grandiose beauty of the Lankaran city.
+                {{ $t("HotelLankaran1") }}
               </p>
             </div>
           </div>

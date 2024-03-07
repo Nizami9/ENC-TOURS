@@ -1,68 +1,4 @@
 <template>
-  <!-- <div class="w-full h-full bg-footer">
-    <div class="w-10/12 h-auto m-auto flex justify-between text-customGray pb-20">
-      <div class="w-1/5 bg-footer2 h-fit p-5">
-        <div class="flex pt-5 align-middle items-end">
-          <img src="@/assets/images/enclogo.png" class="h-12 mr-4" alt="" />
-          <p>ENC Tours</p>
-        </div>
-        <p class="">> Contact Us</p>
-        <p class="borderUtility">> Regional Offices</p>
-        <p class="borderUtility">> International Offices</p>
-        <p class="borderUtility">> Careers</p>
-      </div>
-      <div class="w-1/5 pl-10 pt-8">
-        <div class="pt-5">
-          <p class="text-white font-semibold text-xl">About Us</p>
-        </div>
-        <div>
-          <p class="borderUtility">> History</p>
-          <p class="borderUtility">> Services</p>
-          <p class="borderUtility">> Corporate</p>
-          <p class="borderUtility">> Why Us</p>
-          <p class="borderUtility">> Responsible Travel</p>
-          <p class="borderUtility">> Our People</p>
-          <p class="borderUtility">> Conditions</p>
-          <p class="borderUtility">> Privacy</p>
-        </div>
-      </div>
-      <div class="w-1/3 pt-8">
-        <div class="pt-5">
-          <p class="text-white font-semibold text-xl">Our Destinations</p>
-        </div>
-        <div class="flex justify-between">
-        <div class="mr-5">
-          <p class="borderUtility">> History</p>
-          <p class="borderUtility">> Services</p>
-          <p class="borderUtility">> Corporate</p>
-          <p class="borderUtility">> Why Us</p>
-          <p class="borderUtility">> Responsible Travel</p>
-        </div>
-        <div>
-          <p class="borderUtility">> History</p>
-          <p class="borderUtility">> Services</p>
-          <p class="borderUtility">> Corporate</p>
-          <p class="borderUtility">> Why Us</p>
-          <p class="borderUtility">> Responsible Travel</p>
-        </div>
-        </div>
-      </div>
-      <div class="w-1/6 pt-8">
-        <div class="pt-5">
-          <p class="text-white font-semibold text-xl">Agents & Press</p>
-        </div>
-        <div>
-          <p class="borderUtility">> News</p>
-          <p class="borderUtility">> Newsletter</p>
-          <p class="borderUtility">> Videos</p>
-          <p class="borderUtility">> Collateral</p>
-          <p class="borderUtility">> Awards</p>
-          <p class="borderUtility">> Cloud Tariff</p>
-          <p class="borderUtility">> eConnect Login</p>
-        </div>
-      </div>
-    </div>
-  </div> -->
   <footer class="bg-gray-900" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-14">
@@ -122,9 +58,7 @@
           </div>
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 class="text-sm font-semibold leading-6 text-white">
-                Tours
-              </h3>
+              <h3 class="text-sm font-semibold leading-6 text-white">Tours</h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.company" :key="item.name">
                   <a
@@ -136,7 +70,9 @@
               </ul>
             </div>
             <div class="mt-10 md:mt-0">
-              <h3 class="text-sm font-semibold leading-6 text-white">ENC Tours</h3>
+              <h3 class="text-sm font-semibold leading-6 text-white">
+                ENC Tours
+              </h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.legal" :key="item.name">
                   <a
@@ -158,9 +94,7 @@
     </div>
   </footer>
 </template>
-<!-- <script setup>
-const borderUtility = "borderUtility";
-</script> -->
+
 <script setup>
 import { defineComponent, h } from "vue";
 
@@ -170,7 +104,6 @@ const navigation = {
     { name: "Tourist Regions", href: "../../tourist-regions" },
     { name: "Events & Festivals", href: "../../events" },
     { name: "UNESCO", href: "../../unesco-heritage-list" },
-
   ],
   support: [
     { name: "Museums", href: "../../museums" },
