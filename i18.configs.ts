@@ -183,11 +183,56 @@ export default {
         ExplD7: "DAY 7: GUDAURI – KAZBEGI – TBILISI",
         ExplD8: "DAY 8: TBILISI",
         ExplD9: "DAY 9: TBILISI – DEPARTURE",
+
+        ourSer: "Our Services",
+        museums: "Museums",
+        rest: "Restaurants",
+        hotels: "Hotels",
+        vehicFleet: "Vehicle Fleet",
+        museumsP1: "Journey Through Time: ENC Tours",
+        museumsP2: "Curated Museum Exploration in Azerbaijan",
+        musModern: "MUSEUM OF MODERN ART",
+        musModernP:
+          "The Museum of Contemporary Art in Baku was opened on March 20, 2009. The museum has a collection of over 800 works by Azerbaijani artists and sculptors, mostly working in the avant-garde style. Responsible for the museum’s design is the well-known artist Altay Sadykhzadeh. The museum has a children’s art room, a library, a video room, a restaurant and an art cafe.",
+        musCarpet: "AZERBAIJAN CARPET MUSEUM",
+        musCarpetP:
+          "The Azerbaijan Carpet Museum was created in 1967. The museum’s new home was built within the National Seaside Park by decree of the President of the Republic of Azerbaijan Ilham Aliyev, signed in 2007. and was designed  based on  the plans of the Austrian architect, Franz Yants. It  opened its doors in 2014. Today, the museum, an example of modern Baku architecture, functions not only as a storehouse for art and carpets, but also as a center for research in the field of carpet weaving and a place to exhibit the high level skills of our people.",
+        musNizami: "NIZAMI GANJAVI MUSEUM",
+        musNizamiP:
+          "National Museum of Azerbaijani Literature named after Nizami Ganjavi was founded in 1939. The museum is located in the center of Baku, near the Fountain Square and next to the entrance of Icheri Sheher. To date, this museum is one of the largest and richest treasuries of Azerbaijani spiritual culture. In 30 main and 10 auxiliary rooms of the museum there are more than 3 thousand manuscripts, rare books, illustrations, portraits, sculptures, miniatures, memoirs of writers and other expositions. Part of the building is allocated for a bookstore.",
+        musShekiKhans: "THE SHEKI KHANS HOUSE",
+        musShekiKhansP:
+          "Built in the 18th century and recently thoroughly restored the house of Sheki Khans, owned by relatives of the Khans, is a transitional link from a national house to a palace type building. The interiors are richly decorated with murals and colorful shabaka, made by the same artists who painted the Palace of Sheki Khans.",
+        musNational: "NATIONAL MUSEUM OF HISTORY",
+        musNationalP:
+          "The National Museum of History of Azerbaijan has been operating since 1920 in the mansion of the well-known oil industrialist and philanthropist Haji Zeynalabdin Tagiyev. In May 1921 the museum received its first visitors. Until 1936 it was called the State Museum of the Azerbaijan SSR and was  later  renamed the Museum of History of Azerbaijan. The total number of museum items exceeds 300,000. 20 000 of them are exhibited; the rest  are kept in scientific storage.",
+        musAtash: "ATASHGAH",
+        musAtashP:
+          "Historical monument. The temple of fire worshippers Ateshgah, located on the Absheron peninsula on the outskirts of Surakhani village was revered in different times by Zoroastrians, Hindus and Sikhs. The current constructions of the temple date back to the XVII century. As a result of excavations, far more ancient artifacts were discovered here. The pentagonal complex has an open courtyard with temple-altar in the center which was the place of pilgrimage for worshippers. By the decree of the President of Azerbaijan Ateshgah was declared a State historical-architectural reserve. This open-air museum has been  recently restored. Different workshops and souvenir galleries are located here now.",
+        musShir: "SHIRVANSHAH'S PALACE",
+        musShirP:
+          "The palace was the former residence of the rulers of the Shirvanshahs. It is a complex where, in addition to the palace itself, can also be found a courtyard of the Diwankhana, the courthouse,  the Shirvanshahs’ burial vault, the palace mosque of 1441 with its  minaret, the bathhouse and the mausoleum of the court scholar,  Sayid Yahya Bakuvi. The palace complex was built in the period from the XIII to the XVI century. On the palace itself, no inscriptions have survived. Therefore, the time of its construction is determined by the dates on the inscriptions on various architectural monuments, which relate to the palace complex. In 1964, the palace complex was declared a museum-preserve. In 2000, a unique architectural and cultural ensemble, along with the fortified walls enclosed by the historic part of the city and the Maiden Tower, was included in the UNESCO World Heritage List. The Shirvanshahs Palace is considered one of the pearls of the architecture of Azerbaijan.",
+        musMaiden: "MAIDEN TOWER",
+        musMaidenP:
+          "The exact date of construction of the Maiden Tower is unknown. In the 12th century the Maiden Tower became part of the defensive system of Baku and was the main stronghold of the Baku fortress – one of the most powerful fortresses of the Shirvanshahs. But later studies of the Maiden Tower completely refuted all previous assumptions about its defensive purpose. In the XVIII-XIX centuries, the Maiden Tower was used as a beacon. On the facade of the tower from the entrance side there is a stone with an inscription in Kufic handwriting which says: «The Tower of Masud, the son of Dawood. » Since 2010, with the aim of popularizing the Maiden Tower, the International Festival of Art «The Maiden’s Tower» is held, in which artists from various countries adorn the tower with mock-ups.",
+        musKish: "ALBANIAN TEMPLE - KISH",
+        musKishP:
+          "In the villages of Sheki region there are several Christian architectural monuments of Caucasian Albania, the most famous of which is the church in the village of Kish. The official date of the laying of foundational stone of it is 1st century AD, the time when the territory of Azerbaijan was a part of the Caucasian Albania.Kish temple, built of limestone, is the first temple of hall type with a dome, created in the early Middle Ages. Currently, the historical and architectural monument works as a museum.",
+        musHeydar: "HEYDAR ALIYEV CENTER",
+        musHeydarP:
+          "The cultural center includes an auditorium (congress center), a museum, exhibition halls, administrative offices. The project of the center was developed in 2007 by the famous architect Zaha Hadid. The construction of the building was covered on the channels of Discovery and Science Channel, dedicated to the most courageous engineering projects of modernity and architectural masterpieces of the world. The opening took place on May 10, 2012. In 2014, the Heydar Aliyev Center was awarded the Design of the Year. It is considered one of the symbols of modern Baku",
+        musGob: "GOBUSTAN",
+        musGobP:
+          "Gobustan preserve is located in the eastern part of Azerbaijan, in the area  of the Boyukdash, Kichikdash and Jingirdagh Mountains of Greater Gobustan. The Gobustan preserve is widely known,not only in our Republic but also worldwide, for its rock engravings and monuments of primitive culture. These monuments are ancient drawings, cupules for preparing drinks and gathering  rain water, two-sided hollows for tying-up animals, signs, tamgas, ancient inscriptions and so on. Revealed and registered on more than a thousand rocks  and stones these monuments were created by  ancient man and are the reflection of his agricultural and intellectual activity. The Petroglyphs of Gobustan are artistic chronicles of the past. They bear  great importance both for the study of the pre-history of humanity and for the study of lots of spheres of primitive art: graphics, music, dance,  stone processing, etc. Gobustan’s monuments cover a period of approximately 20 thousands years beginning from the end of Upper Paleolith till the beginning of our era.",
+        musShekiPalace: "SHEKI KHANS PALACE",
+        musShekiPalaceP:
+          "Unique in the architecture Sheki Khans Palace was built in 1762 by Huseyn-khan. The palace has its own special original construction techniques. It is enough to say for example that each square meter of shabaka (box of small wooden parts to be filled with colored glass) consists of five thousand parts, connected with each other without nails!",
       },
+
       de: {
         home: "Startseite",
-        aboutUs: "Über Uns",
-        contact: "Kontakt",
+        aboutUs: "ÜBER UNS",
+        contact: "KONTAKT",
         services: "Dienstleistungen",
         mainPageH1: "ENC Kultur- und Kulturerbetouren",
         mainPageH2:
@@ -350,8 +395,7 @@ export default {
         privatHolidaysP2: "Anruf",
         privatHolidaysP3:
           "Oder bitten Sie einen Experten, diese Reise individuell zusammenzustellen",
-        contacts: "CONTACTOS",
-
+        contacts: "KONTAKTE",
         azGeo: "ASERBAIDSCHAN & GEORGIEN",
         AzGeoD1: "TAG 1: Abreise aus Georgien",
         AzGeoD2: "TAG 2: TBILISI",
@@ -372,11 +416,55 @@ export default {
         ExplD7: "TAG 7: GUDAURI – KAZBEGI – TBILISI",
         ExplD8: "TAG 8: TBILISI",
         ExplD9: "TAG 9: TBILISI – ABFAHRT",
+
+        ourSer: "Our Services",
+        museums: "MUSEEN",
+        rest: "Restaurants",
+        hotels: "Hotels",
+        vehicFleet: "Fahrzeugflotte",
+        museumsP1: "Reise durch die Zeit: ENC Tours",
+        museumsP2: "Kuratierte Museumserkundung in Aserbaidschan",
+        musModern: "MUSEUM FÜR ZEITGENÖSSISCHE KUNST",
+        musModernP:
+          "Das Museum für Zeitgenössische Kunst in Baku wurde am 20. Das museum hat eine Sammlung von über 800 Werken Aserbaidschanischer Künstler und Bildhauer, die meist im avantgardistischen Stil arbeiten. Verantwortlich für das Design des Museums ist der bekannte Künstler Altay Sadykhzadeh. Das museum verfügt über einen kinderkunstraum, eine Bibliothek, einen Videoraum, ein restaurant und ein kunstcafé.",
+        musCarpet: "ASERBAIDSCHANISCHE TEPPICHMUSEUM",
+        musCarpetP:
+          "Das Aserbaidschanische Teppichmuseum wurde 1967 gegründet. Das neue Haus des Museums wurde im Rahmen des 2007 unterzeichneten Dekrets des Präsidenten der Republik Aserbaidschan Ilham Aliyev im Seenationalpark gebaut. und wurde nach den Plänen des österreichischen Architekten Franz Yants entworfen. Es öffnete seine Türen im Jahr 2014. Heute dient das museum, ein Beispiel der modernen Baku-Architektur, nicht nur als Lagerhaus für Kunst und Teppiche, sondern auch als Forschungszentrum auf dem Gebiet der Teppichweberei und als Ort, um die hohen Fähigkeiten unseres Volkes zu zeigen.",
+        musNizami: "NIZAMI GANJAVI MUSEUM",
+        musNizamiP:
+          "Das Nationalmuseum für Aserbaidschanische Literatur, benannt nach Nizami Ganjavi, wurde 1939 gegründet. Das museum befindet sich im Zentrum von Baku, in der Nähe des Brunnenplatzes und neben dem Eingang von Icheri Sheher. Bis heute ist dieses Museum eines der größten und reichsten Schätze der aserbaidschanischen Geistlichen Kultur. In 30 Haupt-und 10 Nebenräumen des Museums gibt es mehr als 3000 Manuskripte, seltene Bücher, Illustrationen, Porträts, Skulpturen, miniaturen, Memoiren von Schriftstellern und anderen Ausstellungen. Ein Teil des Gebäudes ist für eine Buchhandlung reserviert.TH",
+        musShekiKhans: "HAUS VON SHEKI KHANS",
+        musShekiKhansP:
+          "Jahrhundert erbaut und kürzlich gründlich restauriert das Haus von Sheki Khans, im Besitz von verwandten der Khane, ist eine übergangsverbindung von einem nationalhaus zu einem Palastgebäude. Die Innenräume sind Reich mit Wandmalereien und bunten shabaka, von den gleichen Künstlern, die den Palast von Sheki Khans gemalt gemacht dekoriert.",
+        musNational: "NATIONALMUSEUM FÜR GESCHICHTE ASERBAIDSCHAN",
+        musNationalP:
+          "Das Nationalmuseum für Geschichte Aserbaidschans ist seit 1920 im Herrenhaus des bekannten ölindustriellen und Philanthropen Haji Zeynalabdin Tagiyev tätig. Im Mai 1921 erhielt das museum seine ersten Besucher. Bis 1936 hieß es Staatliches Museum der aserbaidschanischen SSR und wurde später in Museum für Geschichte Aserbaidschans umbenannt. Die Gesamtzahl der Museumsgegenstände übersteigt 300.000. 20 000 von Ihnen sind ausgestellt; der rest wird in wissenschaftlichen lagern aufbewahrt.ATASHGAH",
+        musAtash: "ATESHGAH Feuertempel",
+        musAtashP:
+          "Denkmalschutz. Der Tempel der Feueranbeter Ateshgah, auf der Halbinsel Absheron am Rande des Dorfes Surakhani gelegen, wurde zu verschiedenen Zeiten von Zoroastriern, Hindus und Sikhs verehrt. Die aktuellen Bauten des Tempels stammen aus dem XVII Jahrhundert. Als Folge von Ausgrabungen wurden hier weitaus uraltere Artefakte entdeckt. Der fünfeckige Komplex hat einen offenen Hof mit Tempel-altar in der Mitte, die der Wallfahrtsort für die Gläubigen war. Mit dem Dekret des Präsidenten von Aserbaidschan wurde Ateshgah zum staatlichen historisch-architektonischen Reservat erklärt. Dieses Freilichtmuseum wurde kürzlich restauriert. Verschiedene workshops und souvenirgalerien befinden sich hier.SHIRVANSHAH’S",
+        musShir: "SHIRVANSHAHS PALAST",
+        musShirP:
+          "Der Palast war die ehemalige Residenz der Herrscher der Shirvanshahs. Es ist ein Komplex, in dem neben dem Palast selbst auch ein Hof des Diwankhana, das Gerichtsgebäude, das Grabgewölbe der Shirvanshahs, die palastmoschee von 1441 mit Ihrem Minarett, das Badehaus und das mausoleum des hofgelehrten Sayid Yahya Bakuvi zu finden sind. Der Palastkomplex wurde in der Zeit vom XIII bis zum XVI Jahrhundert gebaut. Auf dem Palast selbst haben keine Inschriften überlebt. Daher wird die Zeit seiner Konstruktion durch die Daten auf den Inschriften auf verschiedenen Baudenkmälern bestimmt, die sich auf den Palastkomplex beziehen. Im Jahr 1964 wurde der Palastkomplex zum Museumsreservat erklärt. Im Jahr 2000 wurde ein einzigartiges architektonisches und kulturelles ensemble zusammen mit den Festungsmauern des historischen Teils der Stadt und dem Jungfrauenturm in die UNESCO-Welterbeliste aufgenommen. Der Shirvanshahs Palast gilt als eine der Perlen der Architektur Aserbaidschans.",
+        musMaiden: "JUNGFRAUENTURM",
+        musMaidenP:
+          "Das genaue Datum des Baus des Jungfrauenturms ist unbekannt. Jahrhundert wurde der Jungfrauenturm Teil des Verteidigungssystems von Baku und war die Hauptfestung der Baku – Festung-eine der mächtigsten Festungen der Shirvanshahs. Aber spätere Studien des Jungfrauenturms widerlegten alle früheren Annahmen über seinen verteidigungszweck vollständig. Jahrhundert wurde der Jungfrauenturm als Leuchtturm verwendet. An der Fassade des Turms von der Eingangsseite gibt es einen Stein mit einer Inschrift in Kufic Handschrift, die sagt: „Der Turm von Masud, der Sohn von Dawood.» Seit 2010, mit dem Ziel der Popularisierung der Maiden Tower, das Internationale Festival der Kunst » The Maiden ’s Tower“ findet statt, in dem Künstler aus verschiedenen Ländern den Turm mit mock-ups schmücken.ALBANIAN",
+        musKish: "KISH DER ALTE ALBANISCHE TEMPEL",
+        musKishP:
+          "In den Dörfern der region Sheki gibt es mehrere christliche Baudenkmäler des kaukasischen Albanien, von denen die berühmteste die Kirche im Dorf Kish ist. Das offizielle Datum der Grundsteinlegung ist das 1. Jahrhundert N. CHR., als das Territorium Aserbaidschans Teil des kaukasischen Albaniens war.Kish Tempel, aus Kalkstein gebaut, ist der erste Tempel des hallentyps mit einer Kuppel, im frühen Mittelalter geschaffen. Derzeit arbeitet das historische und architektonische Denkmal als museum.HEYDAR ALIYEV CENTER",
+        musHeydar: "Haydar Aliyew Kulturzentrum",
+        musHeydarP:
+          "Das Kulturzentrum umfasst ein auditorium( Kongresszentrum), ein museum, Ausstellungshallen, Verwaltungsbüros. Das Projekt des Zentrums wurde 2007 von der berühmten Architektin Zaha Hadid entwickelt. Der Bau des Gebäudes wurde auf den Kanälen der Entdeckung und Wissenschaft Kanal abgedeckt, zu den Mutigsten engineering-Projekte der moderne und architektonische Meisterwerke der Welt gewidmet. Die Eröffnung fand am 10. Im Jahr 2014 wurde das Heydar Aliyev Zentrum mit dem Design des Jahres ausgezeichnet. Es gilt als eines der Symbole des modernen BakuGOBUSTAN",
+        musGob: "GOBUSTAN FELSKULTURELLE LANDSCHAFT",
+        musGobP:
+          "Gobustan preserve befindet sich im östlichen Teil von Aserbaidschan, im Bereich der Boyukdash, Kichikdash und Jingirdagh Berge von Greater Gobustan. Die Gobustan preserve ist weithin bekannt,nicht nur in unserer Republik, sondern auch weltweit, für seine Felsgravuren und Denkmäler der primitiven Kultur. Diese Denkmäler sind alte Zeichnungen, Kuppeln für die Zubereitung von Getränken und das sammeln von Regenwasser, zweiseitige Höhlen zum binden von Tieren, Schilder, tamgas, alte Inschriften und so weiter. Diese Denkmäler sind alte Zeichnungen, Kuppeln für die Zubereitung von Getränken und das sammeln von Regenwasser, zweiseitige Höhlen zum binden von Tieren, Schilder, tamgas, alte Inschriften und so weiter. Die Petroglyphen von Gobustan sind Künstlerische Chroniken der Vergangenheit. Sie haben große Bedeutung sowohl für das Studium der Vorgeschichte der Menschheit als auch für das Studium vieler Bereiche primitiver Kunst: Grafik, Musik, Tanz, Steinbearbeitung usw.Gobustan Denkmäler decken einen Zeitraum von etwa 20 Tausende von Jahren ab dem Ende des Oberen Paläolith bis zum Beginn unserer Ära.SHEKI KHANS PALACE",
+        musShekiPalace: "PALAST VON SHEKI KHANS",
+        musShekiPalaceP:
+          "Einzigartig in der Architektur Sheki Khans Palace wurde 1762 von Huseyn-khan gebaut.Der Palast hat seine eigenen speziellen originellen Bautechniken. Es genügt zu sagen, dass zum Beispiel jeder Quadratmeter shabaka (Schachtel mit kleinen Holzteilen, die mit farbigem Glas gefüllt werden) besteht aus fünftausend teilen, die ohne Nägel miteinander verbunden sind!",
       },
       es: {
         home: "Startpagina",
-        aboutUs: "Sobre nosotros",
-        contact: "Contactos",
+        aboutUs: "SOBRE NOSOTROS",
+        contact: "CONTACTOS",
         services: "Servicios",
         mainPageH1: "ENC Tours culturales y patrimoniales",
         mainPageH2:
@@ -558,12 +646,56 @@ export default {
         ExplD7: "DÍA 7: GUDAURI – KAZBEGI – TBILISI",
         ExplD8: "DÍA 8: TBILISI",
         ExplD9: "DÍA 9: TBILISI – SALIDA",
-        contacts: "CONTACTS",
+        contacts: "CONTACTOS",
+
+        ourSer: "Nuestros servicios",
+        museums: "Museos",
+        rest: "Restaurantes",
+        hotels: "Hoteles",
+        vehicFleet: "Flota de vehiculos",
+        museumsP1: "Viaje a través del tiempo: ENC Tours",
+        museumsP2: "Exploración de museos curados en Azerbaiyán",
+        musModern: "EL MUSEO DEL ARTE MODERNO DE AZERBAIYÁN",
+        musModernP:
+          "El Museo de Arte Modernode Bakú fue inaugurado el 20 de marzo de 2009. El Museo cuenta con una colección de más de 800 obras de artistas y escultores azerbaiyanos, en su mayoría son de estilo vanguardista. El conocido artista, Altay Sadykhzadeh, es el responsable del diseño del Museo. El Museo tiene  una sala de arte para niños, una biblioteca, una sala de vídeo, un restaurante y un café de arte.",
+        musCarpet: "MUSEO DE ALFOMBRAS",
+        musCarpetP:
+          "El Museo de Alfombras de Azerbaiyán fue creado en 1967. La nueva casa del Museo fue construida dentro del parque nacional de la costa por decreto del Presidente de la República de Azerbaiyán, Ilham Aliyev, firmado en 2007. Fue diseñado basado en los planos del arquitecto austriaco, Franz Yants. Abrió sus puertas en 2014. Hoy en día, el Museo, un ejemplo de la arquitectura moderna de Bakú, funciona no sólo como un almacén de arte y alfombras, sino también como un centro de investigación en el campo del tejido de alfombras y un lugar para exhibir las habilidades de alto nivel de nuestra gente.",
+        musNizami: "MUSEO DE LA LITERATURA",
+        musNizamiP:
+          "Museo Nacional de la Literatura Azerbaiyana llamado así por Nizami Ganjavi fue fundado en 1939. El Museo está situado en el centro de Bakú, cerca de la Plaza de la Fuente y junto a la entrada de Icheri Sheher. Hasta ahora este museo es uno de los mayores y más ricos tesoros de la cultura espiritual de Azerbaiyán. En 30 salas principales y 10 auxiliares del museo hay más de 3 mil manuscritos, libros raros, ilustraciones, retratos, esculturas, miniaturas, memorias de escritores y otras exposiciones. Parte del edificio se destina a una librería.",
+        musShekiKhans: "CASA DE SHEKİ KHANS",
+        musShekiKhansP:
+          "La casa de Sheki Khans fue construido en el siglo XVIII y recientemente completamente fue restaurado la Propiedad de los parientes de los Khans, es un enlace de transición de una casa nacional a un edificio tipo Palacio. El interior está ricamente decorado con murales y shabaka colorido, fue hecho por los mismos artistas que pintaron el Palacio de Sheki Khans.",
+        musNational: "MUSEO NACİONAL DE HİSTORİA",
+        musNationalP:
+          "El Museo Nacional de Historia de Azerbaiyán funciona desde 1920 en la mansión del conocido petrolero y filántropo, Haji Zeynalabdin Tagiyev. El Mayo de 1921 el Museo recibió sus primeros visitantes. Hasta 1936 fue llamado Museo Estatal de la RSS de Azerbaiyán y más tarde fue renombrado Museo de Historia de Azerbaiyán. El número total de objetos del Museo supera los 300.000. 20 000 de ellos están expuestos; el resto se guardan en almacenamiento científico.",
+        musAtash: "ATASHGAH",
+        musAtashP:
+          "El templo de los adoradores del fuego de Ateshgah, situado en la península de Absheron en las afueras de la aldea de Surakhani, fue reverenciado en diferentes épocas por zoroastrianos, hindúes y Sikhs. Las construcciones actuales del templo datan del siglo XVII. Como resultado de las excavaciones, después aquí  fueron descubiertos los artefactos más antiguos. El complejo pentagonal tiene un patio abierto con templo-altar en el centro que era el lugar de peregrinación para los adoradores. Por decreto del presidente de Azerbaiyán, Ateshgah fue declarada como la reserva histórica y arquitectónica del Estado. Este Museo al aire libre ha sido recientemente restaurado. Diferentes talleres y galerías de souvenirs se encuentran aquí ahora.",
+        musShir: "PALACİO DE LOS SHIRVANSHAH",
+        musShirP:
+          "El Palacio era la antigua residencia de los gobernantes de los Shirvanshahs. Es un complejo donde, además del propio Palacio, también se puede encontrar un patio de la Divankhana, el Palacio de Justicia, la bóveda funeraria de los Shirvanshahs, la Mezquita del Palacio de 1441 con su alminar, la casa de baños y el mausoleo del erudito de la corte, Sayid Yahya Bakuvi. El complejo del Palacio fue construido en el período del XIII al XVI siglo. Las inscripciones no sobrevivieron en el Palacio mismo. Por lo tanto el tiempo de su construcción está determinado por las fechas en las inscripciones de varios monumentos arquitectónicos, que relacionan con el complejo del Palacio. En 1964 el complejo del  Palacio fue declarado como reserva-museo. En 2000, un conjunto arquitectónico y único cultural junto con las murallas fortificadas, que rodean la parte histórica de la ciudad y la Torre de Doncella, fue incluido en la lista del Patrimonio mundial de la UNESCO. El Palacio de Shirvanshahs se considera una de las perlas de la arquitectura de Azerbaiyán.",
+        musMaiden: "TORRE DE LA DONCELLA",
+        musMaidenP:
+          "Se desconoce la fecha exacta de la construcción de la Torre de la Doncella. En el siglo XII la Torre de la Doncella se convirtió en  la parte del sistema defensivo de Bakú y fue la fortaleza principal de la fortaleza de Bakú – una de las fortalezas más poderosas de los Shirvanshahs. Pero estudios posteriores de la Torre refutaron completamente todas las suposiciones anteriores sobre su propósito defensivo. En los siglos XVIII-XIX la Torre de la Doncella fue utilizada como  el faro. En la fachada de la Torre (del lado de la entrada) hay una piedra con una inscripción en letra cúfica que dice: “La Torre de Masud, el hijo de David”. A partir de 2010 con el objetivo de popularizar la Torre de la Doncella se celebra  el Festival Internacional de Arte “La Torre de la Doncella”, en la que artistas de varios países adornan la Torre con maquetas.",
+        musKish: "TEMPLO DE LA IGLESIA ALBANESA EN KISH",
+        musKishP:
+          "En las aldeas de la región de Sheki hay varios monumentos cristianos  arquitectónicos de Albania de Cáucaso, el más famoso de los cuales es la iglesia en el pueblo de Kish. La fecha oficial de la colocación de la piedra fundacional es el 1 siglo. El tiempo, cuando el territorio de Azerbaiyán fue una parte de la Albania Caucásica. El templo de Kish que fue construido de piedra caliza, es el primer templo de tipo con una cúpula total, creado en la alta Edad Media. Actualmente, el monumento histórico y arquitectónico funciona como un museo",
+        musHeydar: "CENTRO HEYDAR ALIYEV",
+        musHeydarP:
+          "El centro cultural incluye un auditorio (centro de congresos), un museo, salas de exposiciones, oficinas administrativas. El proyecto del centro fue desarrollado en 2007 por el famoso arquitecto, Zaha Hadid. La construcción del edificio fue mostrada en los canales de Discovery y Science Channel, dedicada a los proyectos más valientes de ingeniería de la modernidad y obras maestras arquitectónicas del mundo. La inauguración tuvo lugar el 10 de Mayo de 2012. En 2014 el Centro de Heydar Aliyev fue galardonado con el Diseño del Año. Se considera como uno de los símbolos del Bakú moderno.",
+        musGob: "GOBUSTAN",
+        musGobP:
+          "La reserva Gobustán se encuentra en la parte Oriental de Azerbaiyán, en la zona de las  montañas Boyukdash, Kichikdash y Jingirdagh del gran Gobustán. La reserva Gobustan es muy conocida no sólo en nuestra República, sino también en todo el mundo, por sus grabados rupestres y monumentos de la cultura primitiva. Estos monumentos incluyen los dibujos antiguos, cúpulas para preparar bebidas y recoger agua de lluvia, huecos de dos lados para atar a los animales, signos, tamgas, inscripciones antiguas y etc. Estos monumentos fueron creados por el hombre antiguo y son el reflejo de su actividad agrícola e intelectual. Los petroglifos de Gobustán son crónicas artísticas del pasado. Tienen gran importancia tanto para el estudio de la prehistoria de la humanidad como para el estudio de muchas esferas del arte primitivo: gráfica, música, danza, procesamiento de la piedra, etc. Los monumentos de Gobustan cubren un periodo de aproximadamente 20 mil años, desde el final del Paleolito Superior hasta el comienzo de nuestra era.",
+        musShekiPalace: "PALACİO DE LOS KHANES DE SHEKI",
+        musShekiPalaceP:
+          "El único de la arquitectura, Sheki Khans Palacio fue construido en 1762 por Huseyn-khan. El Palacio tiene sus propias técnicas originales de construcción. ¡Es suficiente decir, por ejemplo, que cada metro cuadrado de shabaka (caja de pequeñas piezas de madera que se llena con vidrio de color) se compone de cinco mil partes, conectadas entre sí sin clavos!",
       },
       it: {
         home: "Startpagina",
-        aboutUs: "Sobre nosotros",
-        contact: "Contactos",
+        aboutUs: "CHI SIAMO",
+        contact: "CONTATTI",
         services: "Servicios",
         mainPageH1: "ENC Tours culturali e patrimoniali",
         mainPageH2:
@@ -740,7 +872,50 @@ export default {
         ExplD7: "GIORNO 7: GUDAURI – KAZBEGI – TBILISI",
         ExplD8: "GIORNO 8: TBILISI",
         ExplD9: "GIORNO 9: TBILISI – PARTENZA",
-        contacts: "CONTACTS",
+        contacts: "CONTATTI",
+
+        ourSer: "I nostri servizi",
+        museums: "MUSEI",
+        rest: "Ristoranti",
+        hotels: "Alberghi",
+        vehicFleet: "Flotta di veicoli",
+        museumsP1: "Viaggio nel tempo: tour ENC",
+        museumsP2: "Esplorazione museale curata in Azerbaigian",
+        musModern: "MUSEO DELL’ARTE MODERNA",
+        musModernP: "",
+        musCarpet: "MUSEO DI TAPPETTI DELL’AZERBAIGIAN",
+        musCarpetP:
+          "Il Museo di Tappetti dell’Azerbaijan è stato fondato nel 1967. L’edificio del museo è stato costruito all’interno del National Seaside Park in base al decreto del Presidente della Repubblica dell’Azerbaigian Ilham Aliyev, firmato nel 2007. ed è stato progettato sulla base dei piani dell’architetto austriaco Franz Yants. Ha aperto le sue porte nel 2014. Oggi, il museo, un esempio dell’architettura moderna di Baku, funziona non solo come magazzino per l’arte e i tappeti, ma anche come centro di ricerca nel campo della tessitura dei tappeti e un luogo dove vengono esposte competenze di alto livello del nostro popolo.",
+        musNizami: "MUSEO NIZAMI GANJAVI",
+        musNizamiP:
+          "Il Museo Nazionale della Letteratura Azerbaigiana intitolato a Nizami Ganjavi è stato fondato nel 1939. Il museo si trova nel centro di Baku, vicino alla Piazza della Fontana e vicino all’entrata di Icheri Sheher. Oggi, questo museo è uno dei più grandi e ricchi tesori della cultura spirituale dell’Azerbaigian. In 30 stanze principali e 10 stanze ausiliarie del museo ci sono più di 3 mila manoscritti, libri rari, illustrazioni, ritratti, sculture, miniature, memorie di scrittori e altre esposizioni. L’altra parte dell’edificio è destinata a una libreria.",
+        musShekiKhans: "CASA DEI KHAN DI SHEKI",
+        musShekiKhansP:
+          "La casa dei Khan di Sheki, costruita nel XVIII secolo e recentemente restaurata completamente, , di proprietà dei parenti dei Khan, è un collegamento di transizione da una casa nazionale a un edificio di tipo palazzo. Gli interni sono riccamente decorati con murales e shabaka colorati, realizzati dagli stessi artisti che hanno dipinto il Palazzo di Sheki Khan.",
+        musNational: "MUSEO DI STORIA NAZIONALE",
+        musNationalP:
+          "ll Museo Nazionale di Storia dell’Azerbaigian è attivo dal 1920 nella residenza del noto industriale e filantropo petrolifero Haji Zeynalabdin Tagiyev. Nel maggio del 1921 il museo ricevette i suoi primi visitatori. Fino al 1936 fu chiamato Museo Statale della RSSA e fu in seguito ribattezzato Museo della Storia dell’Azerbaigian. Il numero totale di oggetti del museo supera i 300.000. 20.000 di questi sono esposti; il resto è tenuto in deposito scientifico.",
+        musAtash: "ATASHGAH",
+        musAtashP:
+          "Il tempio degli adoratori del fuoco Ateshgah, monumento storico situato nella penisola di Absheron alla periferia del distretto di Surakhani, era venerato in tempi diversi da zoroastriani, indù e sikh. Le attuali costruzioni del tempio risalgono al XVII secolo. Come risultato degli scavi, qui sono stati scoperti manufatti molto più antichi. Il complesso pentagonale ha un cortile aperto con altare del tempio nel centro che era il luogo di pellegrinaggio per i fedeli. Con il decreto del Presidente dell’Azerbaigian, Ateshgah è stata dichiarata riserva storico-architettonica statale. Questo museo all’aperto è stato recentemente restaurato. Qui si trovano diversi laboratori e gallerie di souvenir.",
+        musShir: "SHIRVANS",
+        musShirP:
+          "Il palazzo era l’ex residenza dei sovrani degli Shirvanshah. È un complesso in cui, oltre al palazzo stesso, si trova anche un cortile del Diwankhana- tribunale, la tomba degli Shirvanshah, la moschea del palazzo del 1441 con il suo minareto, le terme e il mausoleo dello studioso di corte , Sayid Yahya Bakuvi. Il complesso del palazzo fu costruito nel periodo dal XIII al XVI secolo. Sul palazzo stesso, nessuna iscrizione è sopravvissuta. Pertanto, il tempo della sua costruzione è determinato dalle date sulle iscrizioni su vari monumenti architettonici, che riguardano il complesso del palazzo. Nel 1964, il complesso del palazzo fu dichiarato un museo-riserva. Nel 2000, un patrimonio architettonico e culturale unico, insieme alle mura fortificate racchiuse dalla parte storica della città e la Torre della Vergine, è stato incluso nella lista del patrimonio mondiale dell’UNESCO. Il Palazzo degli Shirvanshah è considerato una delle perle dell’architettura dell’Azerbaigian.",
+        musMaiden: "TORRE DELLA VERGINE",
+        musMaidenP:
+          "La data esatta di costruzione della Torre della Vergine è sconosciuta. Nel 12 ° secolo la Torre divenne parte del sistema difensivo di Baku ed era la roccaforte principale della fortezza di Baku – una delle fortezze più potenti degli Shirvanshah. Ma studi successivi della Torre della Vergine hanno completamente confutato tutte le ipotesi precedenti sul suo scopo difensivo. Nei secoli XVIII-XIX, la Torre della Vergine fu usata come faro. Sulla facciata della torre dal lato dell’entrata c’è una pietra con un’iscrizione in calligrafia cufica che dice: «La Torre di Masud, il figlio di Davud.» Dal 2010, con l’obiettivo di divulgare si svolge il Festival Internazionale dell’Arte la «Torre della Vergine», in cui artisti di vari paesi adornano la torre con i modelli",
+        musKish: "TEMPIO D’ALBANIA –KISH",
+        musKishP:
+          "Nei villaggi della regione di Sheki ci sono diversi monumenti architettonici cristiani dell’Albania caucasica, la più famosa delle quali è la chiesa nel villaggio di Kish. La data ufficiale della posa della prima pietra è il 1 ° secolo d.C., il tempo in cui il territorio dell’Azerbaijan faceva parte dell’Albania Caucasica. Il tempio Kish, costruito in pietra calcarea, è il primo tempio di tipo di sala con una cupola, creato nell’alto medioevo. Attualmente, il monumento storico e architettonico funziona come un museo.",
+        musHeydar: "CENTRO HEYDER ALIYEV",
+        musHeydarP:
+          "Il centro culturale comprende un auditorium (centro congressi), un museo, sale espositive, uffici amministrativi. Il progetto del centro è stato sviluppato nel 2007 dal famoso architetto Zaha Hadid. La costruzione dell’edificio è stata descritta dai canali di Discovery e Science Channel, dedicati ai più coraggiosi progetti ingegneristici di modernità e capolavori architettonici del mondo. L’inaugurazione è avvenuta il 10 maggio 2012. Nel 2014, il Centro Heydar Aliyev è stato insignito del Design dell’Anno. È considerato uno dei simboli della moderna Baku.",
+        musGob: "GOBUSTAN",
+        musGobP:
+          "Nostra Repubblica ma anche in tutto il mondo, per le sue incisioni rupestri e monumenti di cultura primitiva. Questi monumenti sono disegni antichi, coppette per preparare bevande e raccogliere acqua piovana, cavità a due lati per legare animali, segni, tamgas, antiche iscrizioni e così via. Rivelato e registrato su più di mille rocce e pietre, questi monumenti sono stati creati dall’uomo antico e sono il riflesso della sua attività agricola e intellettuale. I petroglifi di Gobustan sono cronache artistiche del passato. Hanno una grande importanza sia per lo studio della preistoria dell’umanità che per lo studio di molte sfere dell’arte primitiva: grafica, musica, danza, lavorazione della pietra, ecc. I monumenti di Gobustan coprono un periodo di circa 20 mila anni a partire dalla fine del Paleolitico superiore fino all’inizio della nostra era.",
+        musShekiPalace: "PALAZZO DEI KHAN DI SHEKI",
+        musShekiPalaceP:
+          "L’Unico Palazzo dei Khan di Sheki nell’architettura fu costruito nel 1762 da Huseyn-khan. Il palazzo ha le sue tecniche di costruzione originali speciali. È sufficiente dire ad esempio che ogni metro quadrato di shabaka (incastro di piccole parti in legno da riempire con vetri colorati) composta da cinquemila parti, collegate tra loro senza chiodi!",
       },
       jp: {
         home: "家",
@@ -913,7 +1088,7 @@ export default {
         AzGeoD10: "DAY 10: BAKU - GOBUSTAN - BAKU",
         AzGeoD11: "DAY 11: BAKU - ABSHERON - BAKU",
         AzGeoD12: "DAY 12: BAKU - DEPARTURE",
-        contacts: "CONTACTS",
+        contacts: "連絡先",
         ExplD3: "DAY 3: BAKU – ABSHERON – BAKU",
         ExplD4: "DAY 4: BAKU – SHAMAKHI – SHEKI",
         ExplD5: "DAY 5: SHEKI – KISH – SHEKI",
@@ -921,13 +1096,57 @@ export default {
         ExplD7: "DAY 7: GUDAURI – KAZBEGI – TBILISI",
         ExplD8: "DAY 8: TBILISI",
         ExplD9: "DAY 9: TBILISI – DEPARTURE",
+
+        ourSer: "Our Services",
+        museums: "Museums",
+        rest: "Restaurants",
+        hotels: "Hotels",
+        vehicFleet: "Vehicle Fleet",
+        museumsP1: "Journey Through Time: ENC Tours",
+        museumsP2: "Curated Museum Exploration in Azerbaijan",
+        musModern: "MUSEUM OF MODERN ART",
+        musModernP:
+          "The Museum of Contemporary Art in Baku was opened on March 20, 2009. The museum has a collection of over 800 works by Azerbaijani artists and sculptors, mostly working in the avant-garde style. Responsible for the museum’s design is the well-known artist Altay Sadykhzadeh. The museum has a children’s art room, a library, a video room, a restaurant and an art cafe.",
+        musCarpet: "AZERBAIJAN CARPET MUSEUM",
+        musCarpetP:
+          "The Azerbaijan Carpet Museum was created in 1967. The museum’s new home was built within the National Seaside Park by decree of the President of the Republic of Azerbaijan Ilham Aliyev, signed in 2007. and was designed  based on  the plans of the Austrian architect, Franz Yants. It  opened its doors in 2014. Today, the museum, an example of modern Baku architecture, functions not only as a storehouse for art and carpets, but also as a center for research in the field of carpet weaving and a place to exhibit the high level skills of our people.",
+        musNizami: "NIZAMI GANJAVI MUSEUM",
+        musNizamiP:
+          "National Museum of Azerbaijani Literature named after Nizami Ganjavi was founded in 1939. The museum is located in the center of Baku, near the Fountain Square and next to the entrance of Icheri Sheher. To date, this museum is one of the largest and richest treasuries of Azerbaijani spiritual culture. In 30 main and 10 auxiliary rooms of the museum there are more than 3 thousand manuscripts, rare books, illustrations, portraits, sculptures, miniatures, memoirs of writers and other expositions. Part of the building is allocated for a bookstore.",
+        musShekiKhans: "THE SHEKI KHANS HOUSE",
+        musShekiKhansP:
+          "Built in the 18th century and recently thoroughly restored the house of Sheki Khans, owned by relatives of the Khans, is a transitional link from a national house to a palace type building. The interiors are richly decorated with murals and colorful shabaka, made by the same artists who painted the Palace of Sheki Khans.",
+        musNational: "NATIONAL MUSEUM OF HISTORY",
+        musNationalP:
+          "The National Museum of History of Azerbaijan has been operating since 1920 in the mansion of the well-known oil industrialist and philanthropist Haji Zeynalabdin Tagiyev. In May 1921 the museum received its first visitors. Until 1936 it was called the State Museum of the Azerbaijan SSR and was  later  renamed the Museum of History of Azerbaijan. The total number of museum items exceeds 300,000. 20 000 of them are exhibited; the rest  are kept in scientific storage.",
+        musAtash: "ATASHGAH",
+        musAtashP:
+          "Historical monument. The temple of fire worshippers Ateshgah, located on the Absheron peninsula on the outskirts of Surakhani village was revered in different times by Zoroastrians, Hindus and Sikhs. The current constructions of the temple date back to the XVII century. As a result of excavations, far more ancient artifacts were discovered here. The pentagonal complex has an open courtyard with temple-altar in the center which was the place of pilgrimage for worshippers. By the decree of the President of Azerbaijan Ateshgah was declared a State historical-architectural reserve. This open-air museum has been  recently restored. Different workshops and souvenir galleries are located here now.",
+        musShir: "SHIRVANSHAH'S PALACE",
+        musShirP:
+          "The palace was the former residence of the rulers of the Shirvanshahs. It is a complex where, in addition to the palace itself, can also be found a courtyard of the Diwankhana, the courthouse,  the Shirvanshahs’ burial vault, the palace mosque of 1441 with its  minaret, the bathhouse and the mausoleum of the court scholar,  Sayid Yahya Bakuvi. The palace complex was built in the period from the XIII to the XVI century. On the palace itself, no inscriptions have survived. Therefore, the time of its construction is determined by the dates on the inscriptions on various architectural monuments, which relate to the palace complex. In 1964, the palace complex was declared a museum-preserve. In 2000, a unique architectural and cultural ensemble, along with the fortified walls enclosed by the historic part of the city and the Maiden Tower, was included in the UNESCO World Heritage List. The Shirvanshahs Palace is considered one of the pearls of the architecture of Azerbaijan.",
+        musMaiden: "MAIDEN TOWER",
+        musMaidenP:
+          "The exact date of construction of the Maiden Tower is unknown. In the 12th century the Maiden Tower became part of the defensive system of Baku and was the main stronghold of the Baku fortress – one of the most powerful fortresses of the Shirvanshahs. But later studies of the Maiden Tower completely refuted all previous assumptions about its defensive purpose. In the XVIII-XIX centuries, the Maiden Tower was used as a beacon. On the facade of the tower from the entrance side there is a stone with an inscription in Kufic handwriting which says: «The Tower of Masud, the son of Dawood. » Since 2010, with the aim of popularizing the Maiden Tower, the International Festival of Art «The Maiden’s Tower» is held, in which artists from various countries adorn the tower with mock-ups.",
+        musKish: "ALBANIAN TEMPLE - KISH",
+        musKishP:
+          "In the villages of Sheki region there are several Christian architectural monuments of Caucasian Albania, the most famous of which is the church in the village of Kish. The official date of the laying of foundational stone of it is 1st century AD, the time when the territory of Azerbaijan was a part of the Caucasian Albania.Kish temple, built of limestone, is the first temple of hall type with a dome, created in the early Middle Ages. Currently, the historical and architectural monument works as a museum.",
+        musHeydar: "HEYDAR ALIYEV CENTER",
+        musHeydarP:
+          "The cultural center includes an auditorium (congress center), a museum, exhibition halls, administrative offices. The project of the center was developed in 2007 by the famous architect Zaha Hadid. The construction of the building was covered on the channels of Discovery and Science Channel, dedicated to the most courageous engineering projects of modernity and architectural masterpieces of the world. The opening took place on May 10, 2012. In 2014, the Heydar Aliyev Center was awarded the Design of the Year. It is considered one of the symbols of modern Baku",
+        musGob: "GOBUSTAN",
+        musGobP:
+          "Gobustan preserve is located in the eastern part of Azerbaijan, in the area  of the Boyukdash, Kichikdash and Jingirdagh Mountains of Greater Gobustan. The Gobustan preserve is widely known,not only in our Republic but also worldwide, for its rock engravings and monuments of primitive culture. These monuments are ancient drawings, cupules for preparing drinks and gathering  rain water, two-sided hollows for tying-up animals, signs, tamgas, ancient inscriptions and so on. Revealed and registered on more than a thousand rocks  and stones these monuments were created by  ancient man and are the reflection of his agricultural and intellectual activity. The Petroglyphs of Gobustan are artistic chronicles of the past. They bear  great importance both for the study of the pre-history of humanity and for the study of lots of spheres of primitive art: graphics, music, dance,  stone processing, etc. Gobustan’s monuments cover a period of approximately 20 thousands years beginning from the end of Upper Paleolith till the beginning of our era.",
+        musShekiPalace: "SHEKI KHANS PALACE",
+        musShekiPalaceP:
+          "Unique in the architecture Sheki Khans Palace was built in 1762 by Huseyn-khan. The palace has its own special original construction techniques. It is enough to say for example that each square meter of shabaka (box of small wooden parts to be filled with colored glass) consists of five thousand parts, connected with each other without nails!",
       },
 
       fr: {
-        home: "Startpagina",
-        aboutUs: "Sobre nosotros",
-        contact: "Contactos",
-        services: "Servicios",
+        home: "Acceuil",
+        aboutUs: "À PROPOS DE NOUS",
+        contact: "Contacts",
+        services: "Prestations de service",
         mainPageH1: "ENC Tours culturais e patrimoniais",
         mainPageH2:
           "Etant connectés au niveau international, créatifs et avancés, ENC Tours sont destinés à fournir un héritage de réputation solide avec un degré d’excellence et de responsabilité. L’entreprise a été créée en 2008 avec la vision d’être choisie comme la source de voyages la plus fiable pour les personnes souhaitant garder des souvenirs impérissables.",
@@ -1104,12 +1323,55 @@ export default {
         ExplD8: "JOUR 8: TBILISI",
         ExplD9: "JOUR 9: TBILISI – DÉPART",
         contacts: "CONTACTS",
+        ourSer: "Our Services",
+        museums: "Museums",
+        rest: "Restaurants",
+        hotels: "Hotels",
+        vehicFleet: "Vehicle Fleet",
+        museumsP1: "Journey Through Time: ENC Tours",
+        museumsP2: "Curated Museum Exploration in Azerbaijan",
+        musModern: "MUSEUM OF MODERN ART",
+        musModernP:
+          "The Museum of Contemporary Art in Baku was opened on March 20, 2009. The museum has a collection of over 800 works by Azerbaijani artists and sculptors, mostly working in the avant-garde style. Responsible for the museum’s design is the well-known artist Altay Sadykhzadeh. The museum has a children’s art room, a library, a video room, a restaurant and an art cafe.",
+        musCarpet: "AZERBAIJAN CARPET MUSEUM",
+        musCarpetP:
+          "The Azerbaijan Carpet Museum was created in 1967. The museum’s new home was built within the National Seaside Park by decree of the President of the Republic of Azerbaijan Ilham Aliyev, signed in 2007. and was designed  based on  the plans of the Austrian architect, Franz Yants. It  opened its doors in 2014. Today, the museum, an example of modern Baku architecture, functions not only as a storehouse for art and carpets, but also as a center for research in the field of carpet weaving and a place to exhibit the high level skills of our people.",
+        musNizami: "NIZAMI GANJAVI MUSEUM",
+        musNizamiP:
+          "National Museum of Azerbaijani Literature named after Nizami Ganjavi was founded in 1939. The museum is located in the center of Baku, near the Fountain Square and next to the entrance of Icheri Sheher. To date, this museum is one of the largest and richest treasuries of Azerbaijani spiritual culture. In 30 main and 10 auxiliary rooms of the museum there are more than 3 thousand manuscripts, rare books, illustrations, portraits, sculptures, miniatures, memoirs of writers and other expositions. Part of the building is allocated for a bookstore.",
+        musShekiKhans: "THE SHEKI KHANS HOUSE",
+        musShekiKhansP:
+          "Built in the 18th century and recently thoroughly restored the house of Sheki Khans, owned by relatives of the Khans, is a transitional link from a national house to a palace type building. The interiors are richly decorated with murals and colorful shabaka, made by the same artists who painted the Palace of Sheki Khans.",
+        musNational: "NATIONAL MUSEUM OF HISTORY",
+        musNationalP:
+          "The National Museum of History of Azerbaijan has been operating since 1920 in the mansion of the well-known oil industrialist and philanthropist Haji Zeynalabdin Tagiyev. In May 1921 the museum received its first visitors. Until 1936 it was called the State Museum of the Azerbaijan SSR and was  later  renamed the Museum of History of Azerbaijan. The total number of museum items exceeds 300,000. 20 000 of them are exhibited; the rest  are kept in scientific storage.",
+        musAtash: "ATASHGAH",
+        musAtashP:
+          "Historical monument. The temple of fire worshippers Ateshgah, located on the Absheron peninsula on the outskirts of Surakhani village was revered in different times by Zoroastrians, Hindus and Sikhs. The current constructions of the temple date back to the XVII century. As a result of excavations, far more ancient artifacts were discovered here. The pentagonal complex has an open courtyard with temple-altar in the center which was the place of pilgrimage for worshippers. By the decree of the President of Azerbaijan Ateshgah was declared a State historical-architectural reserve. This open-air museum has been  recently restored. Different workshops and souvenir galleries are located here now.",
+        musShir: "SHIRVANSHAH'S PALACE",
+        musShirP:
+          "The palace was the former residence of the rulers of the Shirvanshahs. It is a complex where, in addition to the palace itself, can also be found a courtyard of the Diwankhana, the courthouse,  the Shirvanshahs’ burial vault, the palace mosque of 1441 with its  minaret, the bathhouse and the mausoleum of the court scholar,  Sayid Yahya Bakuvi. The palace complex was built in the period from the XIII to the XVI century. On the palace itself, no inscriptions have survived. Therefore, the time of its construction is determined by the dates on the inscriptions on various architectural monuments, which relate to the palace complex. In 1964, the palace complex was declared a museum-preserve. In 2000, a unique architectural and cultural ensemble, along with the fortified walls enclosed by the historic part of the city and the Maiden Tower, was included in the UNESCO World Heritage List. The Shirvanshahs Palace is considered one of the pearls of the architecture of Azerbaijan.",
+        musMaiden: "MAIDEN TOWER",
+        musMaidenP:
+          "The exact date of construction of the Maiden Tower is unknown. In the 12th century the Maiden Tower became part of the defensive system of Baku and was the main stronghold of the Baku fortress – one of the most powerful fortresses of the Shirvanshahs. But later studies of the Maiden Tower completely refuted all previous assumptions about its defensive purpose. In the XVIII-XIX centuries, the Maiden Tower was used as a beacon. On the facade of the tower from the entrance side there is a stone with an inscription in Kufic handwriting which says: «The Tower of Masud, the son of Dawood. » Since 2010, with the aim of popularizing the Maiden Tower, the International Festival of Art «The Maiden’s Tower» is held, in which artists from various countries adorn the tower with mock-ups.",
+        musKish: "ALBANIAN TEMPLE - KISH",
+        musKishP:
+          "In the villages of Sheki region there are several Christian architectural monuments of Caucasian Albania, the most famous of which is the church in the village of Kish. The official date of the laying of foundational stone of it is 1st century AD, the time when the territory of Azerbaijan was a part of the Caucasian Albania.Kish temple, built of limestone, is the first temple of hall type with a dome, created in the early Middle Ages. Currently, the historical and architectural monument works as a museum.",
+        musHeydar: "HEYDAR ALIYEV CENTER",
+        musHeydarP:
+          "The cultural center includes an auditorium (congress center), a museum, exhibition halls, administrative offices. The project of the center was developed in 2007 by the famous architect Zaha Hadid. The construction of the building was covered on the channels of Discovery and Science Channel, dedicated to the most courageous engineering projects of modernity and architectural masterpieces of the world. The opening took place on May 10, 2012. In 2014, the Heydar Aliyev Center was awarded the Design of the Year. It is considered one of the symbols of modern Baku",
+        musGob: "GOBUSTAN",
+        musGobP:
+          "Gobustan preserve is located in the eastern part of Azerbaijan, in the area  of the Boyukdash, Kichikdash and Jingirdagh Mountains of Greater Gobustan. The Gobustan preserve is widely known,not only in our Republic but also worldwide, for its rock engravings and monuments of primitive culture. These monuments are ancient drawings, cupules for preparing drinks and gathering  rain water, two-sided hollows for tying-up animals, signs, tamgas, ancient inscriptions and so on. Revealed and registered on more than a thousand rocks  and stones these monuments were created by  ancient man and are the reflection of his agricultural and intellectual activity. The Petroglyphs of Gobustan are artistic chronicles of the past. They bear  great importance both for the study of the pre-history of humanity and for the study of lots of spheres of primitive art: graphics, music, dance,  stone processing, etc. Gobustan’s monuments cover a period of approximately 20 thousands years beginning from the end of Upper Paleolith till the beginning of our era.",
+        musShekiPalace: "SHEKI KHANS PALACE",
+        musShekiPalaceP:
+          "Unique in the architecture Sheki Khans Palace was built in 1762 by Huseyn-khan. The palace has its own special original construction techniques. It is enough to say for example that each square meter of shabaka (box of small wooden parts to be filled with colored glass) consists of five thousand parts, connected with each other without nails!",
       },
       pt: {
-        home: "Startpagina",
-        aboutUs: "Sobre nosotros",
-        contact: "Contactos",
-        services: "Servicios",
+        home: "Pagina inicial",
+        aboutUs: "SOBRE NÓS",
+        contact: "Contatos",
+        services: "Serviços",
         mainPageH1: "ENC Tours culturais e patrimoniais",
         mainPageH2:
           "Sendo conectado internacionalmente, criativo e avançado, ENC TOURS tem a intenção de fornecer um legado da reputação sólida com excelência e responsabilidade do grau alto. A empresa foi criada em 2008 com a visão de ser escolhida como a fonte mais confiável de viagens para pessoas que desejam ter memórias duradouras.",
@@ -1283,7 +1545,51 @@ export default {
         ExplD7: "DIA 7: GUDAURI – KAZBEGI – TBILISI",
         ExplD8: "DIA 8: TBILISI",
         ExplD9: "DIA 9: TBILISI – PARTIDA",
-        contacts: "CONTACTS",
+        contacts: "CONTATOS",
+
+        ourSer: "Nossos serviços",
+        museums: "MUSEUS",
+        rest: "Restaurantes",
+        hotels: "Hotéis",
+        vehicFleet: "Frota de veículos",
+        museumsP1: "Viagem no tempo: passeios ENC",
+        museumsP2: "Exploração de museu com curadoria no Azerbaijão",
+        musModern: "MUSEU DE ARTE MODERNA",
+        musModernP:
+          "O Museu de Arte Contemporânea de Baku foi inaugurado em 20 de março de 2009. O museu possui uma coleção de mais de 800 obras de artistas e escultores azerbaijanos, a maioria trabalhando no estilo vanguardista. O responsável pelo design do museu é o conhecido artista Altay Sadykhzadeh. O museu tem uma sala de artes infantis, uma biblioteca, uma sala de vídeo, um restaurante e um café de arte.",
+        musCarpet: "MUSEU DO TAPETE DO AZERBAIJÃO",
+        musCarpetP:
+          "O Museu do Tapete do Azerbaijão foi criado em 1967. A nova casa do museu foi construída dentro do Bulevar de Baku por decreto do Presidente da República do Azerbaijão Ilham Aliyev, assinado em 2007. e foi projetado com base nos planos do arquiteto austríaco, Franz Yants. Abriu suas portas em 2014. Hoje, o museu, um exemplo da arquitetura moderna de Baku, funciona não apenas como um depósito de arte e tapetes, mas também como um centro de pesquisas na área de tecelagem de tapetes e um local para exibir o alto nível de habilidades de nosso pessoal.",
+        musNizami: "MUSEU NIZAMI GANJAVI",
+        musNizamiP:
+          "O Museu Nacional de Literatura do Azerbaijão em homenagem a Nizami Ganjavi foi fundado em 1939. O museu está localizado no centro de Baku, perto da Praça da Fonte e ao lado da entrada de Icherisheher. Até o momento, este museu é um dos maiores e mais ricos tesouros da cultura espiritual do Azerbaijão. Em 30 salas principais e 10 auxiliares do museu, são mais de 3 mil manuscritos, livros raros, ilustrações, retratos, esculturas, miniaturas, memórias de escritores e outras exposições. Parte do edifício está destinada a uma livraria.",
+        musShekiKhans: "A CASA DE KHANS DE SHEKI",
+        musShekiKhansP:
+          "Construída no século XVIII e recentemente restaurada por completo, a Casa dos Khans de Sheki, de propriedade de parentes dos Khans, é um elo de transição de uma casa nacional para um edifício do tipo palácio. Os interiores são ricamente decorados com murais e shabaka coloridos, feitos pelos mesmos artistas que pintaram o Palácio dos Khans de Sheki.",
+        musNational: "MUSEU NACIONAL DE HISTÓRIA",
+        musNationalP:
+          "O Museu Nacional de História do Azerbaijão funciona desde 1920 na mansão do conhecido industrial do petróleo e filantropo Haji Zeynalabdin Tagiyev. Em maio de 1921, o museu recebeu seus primeiros visitantes. Até 1936, era chamado de Museu do Estado do Azerbaijão SSR e mais tarde foi renomeado Museu de História do Azerbaijão. O número total de itens de museu ultrapassa 300.000. 20 000 deles estão expostos; o resto é mantido em armazenamento científico.",
+        musAtash: "ATASHGAH",
+        musAtashP:
+          "Monumento histórico. O templo dos adoradores do fogo Ateshgah, localizado na península de Absheron, nos arredores da vila de Surakhani, foi reverenciado em diferentes épocas por zoroastrianos, hindus e sikhs. As construções atuais do templo datam do século XVII. Como resultado das escavações, muito mais artefatos antigos foram descobertos aqui. O complexo pentagonal possui um pátio aberto com templo-altar no centro que era o local de peregrinação dos fiéis. Por decreto do Presidente do Azerbaijão, Ateshgah foi declarada reserva histórico-arquitetônica do Estado. Este museu ao ar livre foi restaurado recentemente. Diferentes workshops e galerias de souvenirs estão localizados aqui agora.",
+        musShir: "PALÁCIO DE SHIRVANSHAHS",
+        musShirP:
+          "O palácio foi a antiga residência dos governantes dos Shirvanshahss. É um complexo onde, além do próprio palácio, também pode ser encontrado um pátio do Diwankhana, o tribunal, o túmulo dos Shirvanshahs, a mesquita do palácio de 1441 com seu minarete, o balneário e o mausoléu do sábio da corte, Sayid Yahya Bakuvi. O complexo do palácio foi construído no período do século XIII ao século XVI. No próprio palácio, nenhuma inscrição sobreviveu. Portanto, o momento da sua construção é determinado pelas datas das inscrições nos vários monumentos arquitetônicos, que dizem respeito ao conjunto do palácio. Em 1964, o complexo do palácio foi declarado uma reserva de museu. Em 2000, um conjunto arquitetônico e cultural único, juntamente com as muralhas cercadas pela parte histórica da cidade e a Torre da Donzela, foram incluídos na Lista do Patrimônio Mundial da UNESCO. O Palácio Shirvanshahs é considerado uma das pérolas da arquitetura do Azerbaijão.",
+        musMaiden: "TORRE DA DONZELA",
+        musMaidenP:
+          "A data exata da construção da Torre da Donzela é desconhecida. No século 12, a Torre da Donzela tornou-se parte do sistema defensivo de Baku e era a principal fortaleza da fortaleza de Baku – uma das fortalezas mais poderosas dos Shirvanshahs. Mas estudos posteriores da Torre da Donzela refutaram completamente todas as suposições anteriores sobre seu propósito defensivo. Nos séculos XVIII-XIX, a Torre da Donzela foi usada como um farol. Na fachada da torre, do lado da entrada, há uma pedra com uma inscrição em caligrafia cúfica que diz: «A Torre de Masud, filho de Dawood. »Desde 2010, com o objetivo de popularizar a Torre da Donzela, é realizado o Festival Internacional de Arte« A Torre da Donzela », no qual artistas de vários países adornam a torre com maquetes.",
+        musKish: "TEMPLO ALBÂNIA NO - KISH",
+        musKishP:
+          "Nas aldeias da região de Sheki, existem vários monumentos arquitetônicos cristãos da Albânia do Cáucaso, o mais famoso dos quais é a igreja na aldeia de Kish. A data oficial do lançamento da pedra fundamental é o século I DC, época em que o território do Azerbaijão fazia parte da Albânia caucasiana. O templo de Kish, construído em calcário, é o primeiro templo do tipo salão com uma cúpula, criado no início da Idade Média. Atualmente, o monumento histórico e arquitetônico funciona como um museu.",
+        musHeydar: "HEYDAR ALIYEV CENTER",
+        musHeydarP:
+          "O centro cultural inclui um auditório (centro de congressos), um museu, salas de exposições, escritórios administrativos. O projeto do centro foi desenvolvido em 2007 pela famosa arquiteta Zaha Hadid. A construção do prédio foi percorrida nos canais do Discovery and Science Channel, dedicado aos mais corajosos projetos de engenharia da modernidade e obras-primas arquitetônicas do mundo. A inauguração ocorreu em 10 de maio de 2012. Em 2014, o Centro Heydar Aliyev foi premiado com o Design do Ano. É considerado um dos símbolos da moderna Baku",
+        musGob: "GOBUSTAN",
+        musGobP:
+          "A reserva de Gobustan está localizada na parte oriental do Azerbaijão, na área das montanhas Boyukdash, Kichikdash e Jingirdagh da Grande Gobustan. A reserva Gobustan é amplamente conhecida, não apenas em nossa República, mas também em todo o mundo, por suas gravuras rupestres e monumentos da cultura primitiva. Esses monumentos são desenhos antigos, cúpulas para preparar bebidas e coletar água da chuva, cavidades nos dois lados para amarrar animais, sinais, tamgas, inscrições antigas e assim por diante. Revelados e registrados em mais de mil rochas e pedras, esses monumentos foram criados pelo homem antigo e são o reflexo de sua atividade agrícola e intelectual. Os petróglifos de Gobustan são crônicas artísticas do passado. Eles têm grande importância tanto para o estudo da pré-história da humanidade quanto para o estudo de muitas esferas da arte primitiva: gráficos, música, dança, processamento de pedra etc. Os monumentos de Gobustan cobrem um período de aproximadamente 20 mil anos a partir de o fim do Paleolítico Superior até o início de nossa era.",
+        musShekiPalace: "PALÁCIO DOS KHANS DE SHEKI",
+        musShekiPalaceP:
+          "Único na arquitetura, o Palácio dos Khans de Sheki foi construído em 1762 por Huseyn Cã. O palácio tem suas próprias técnicas especiais de construção originais. Basta dizer, por exemplo, que cada metro quadrado de shabaka (caixa de pequenas peças de madeira para encher com vidro colorido) é composta por cinco mil peças, ligadas entre si sem pregos!",
       },
       kr: {
         home: "집",
@@ -1461,7 +1767,51 @@ export default {
         ExplD7: "DIA 7: GUDAURI – KAZBEGI – TBILISI",
         ExplD8: "DIA 8: TBILISI",
         ExplD9: "DIA 9: TBILISI – PARTIDA",
-        contacts: "CONTACTS",
+        contacts: "콘택트 렌즈",
+
+        ourSer: "Our Services",
+        museums: "Museums",
+        rest: "Restaurants",
+        hotels: "Hotels",
+        vehicFleet: "Vehicle Fleet",
+        museumsP1: "Journey Through Time: ENC Tours",
+        museumsP2: "Curated Museum Exploration in Azerbaijan",
+        musModern: "MUSEUM OF MODERN ART",
+        musModernP:
+          "The Museum of Contemporary Art in Baku was opened on March 20, 2009. The museum has a collection of over 800 works by Azerbaijani artists and sculptors, mostly working in the avant-garde style. Responsible for the museum’s design is the well-known artist Altay Sadykhzadeh. The museum has a children’s art room, a library, a video room, a restaurant and an art cafe.",
+        musCarpet: "AZERBAIJAN CARPET MUSEUM",
+        musCarpetP:
+          "The Azerbaijan Carpet Museum was created in 1967. The museum’s new home was built within the National Seaside Park by decree of the President of the Republic of Azerbaijan Ilham Aliyev, signed in 2007. and was designed  based on  the plans of the Austrian architect, Franz Yants. It  opened its doors in 2014. Today, the museum, an example of modern Baku architecture, functions not only as a storehouse for art and carpets, but also as a center for research in the field of carpet weaving and a place to exhibit the high level skills of our people.",
+        musNizami: "NIZAMI GANJAVI MUSEUM",
+        musNizamiP:
+          "National Museum of Azerbaijani Literature named after Nizami Ganjavi was founded in 1939. The museum is located in the center of Baku, near the Fountain Square and next to the entrance of Icheri Sheher. To date, this museum is one of the largest and richest treasuries of Azerbaijani spiritual culture. In 30 main and 10 auxiliary rooms of the museum there are more than 3 thousand manuscripts, rare books, illustrations, portraits, sculptures, miniatures, memoirs of writers and other expositions. Part of the building is allocated for a bookstore.",
+        musShekiKhans: "THE SHEKI KHANS HOUSE",
+        musShekiKhansP:
+          "Built in the 18th century and recently thoroughly restored the house of Sheki Khans, owned by relatives of the Khans, is a transitional link from a national house to a palace type building. The interiors are richly decorated with murals and colorful shabaka, made by the same artists who painted the Palace of Sheki Khans.",
+        musNational: "NATIONAL MUSEUM OF HISTORY",
+        musNationalP:
+          "The National Museum of History of Azerbaijan has been operating since 1920 in the mansion of the well-known oil industrialist and philanthropist Haji Zeynalabdin Tagiyev. In May 1921 the museum received its first visitors. Until 1936 it was called the State Museum of the Azerbaijan SSR and was  later  renamed the Museum of History of Azerbaijan. The total number of museum items exceeds 300,000. 20 000 of them are exhibited; the rest  are kept in scientific storage.",
+        musAtash: "ATASHGAH",
+        musAtashP:
+          "Historical monument. The temple of fire worshippers Ateshgah, located on the Absheron peninsula on the outskirts of Surakhani village was revered in different times by Zoroastrians, Hindus and Sikhs. The current constructions of the temple date back to the XVII century. As a result of excavations, far more ancient artifacts were discovered here. The pentagonal complex has an open courtyard with temple-altar in the center which was the place of pilgrimage for worshippers. By the decree of the President of Azerbaijan Ateshgah was declared a State historical-architectural reserve. This open-air museum has been  recently restored. Different workshops and souvenir galleries are located here now.",
+        musShir: "SHIRVANSHAH'S PALACE",
+        musShirP:
+          "The palace was the former residence of the rulers of the Shirvanshahs. It is a complex where, in addition to the palace itself, can also be found a courtyard of the Diwankhana, the courthouse,  the Shirvanshahs’ burial vault, the palace mosque of 1441 with its  minaret, the bathhouse and the mausoleum of the court scholar,  Sayid Yahya Bakuvi. The palace complex was built in the period from the XIII to the XVI century. On the palace itself, no inscriptions have survived. Therefore, the time of its construction is determined by the dates on the inscriptions on various architectural monuments, which relate to the palace complex. In 1964, the palace complex was declared a museum-preserve. In 2000, a unique architectural and cultural ensemble, along with the fortified walls enclosed by the historic part of the city and the Maiden Tower, was included in the UNESCO World Heritage List. The Shirvanshahs Palace is considered one of the pearls of the architecture of Azerbaijan.",
+        musMaiden: "MAIDEN TOWER",
+        musMaidenP:
+          "The exact date of construction of the Maiden Tower is unknown. In the 12th century the Maiden Tower became part of the defensive system of Baku and was the main stronghold of the Baku fortress – one of the most powerful fortresses of the Shirvanshahs. But later studies of the Maiden Tower completely refuted all previous assumptions about its defensive purpose. In the XVIII-XIX centuries, the Maiden Tower was used as a beacon. On the facade of the tower from the entrance side there is a stone with an inscription in Kufic handwriting which says: «The Tower of Masud, the son of Dawood. » Since 2010, with the aim of popularizing the Maiden Tower, the International Festival of Art «The Maiden’s Tower» is held, in which artists from various countries adorn the tower with mock-ups.",
+        musKish: "ALBANIAN TEMPLE - KISH",
+        musKishP:
+          "In the villages of Sheki region there are several Christian architectural monuments of Caucasian Albania, the most famous of which is the church in the village of Kish. The official date of the laying of foundational stone of it is 1st century AD, the time when the territory of Azerbaijan was a part of the Caucasian Albania.Kish temple, built of limestone, is the first temple of hall type with a dome, created in the early Middle Ages. Currently, the historical and architectural monument works as a museum.",
+        musHeydar: "HEYDAR ALIYEV CENTER",
+        musHeydarP:
+          "The cultural center includes an auditorium (congress center), a museum, exhibition halls, administrative offices. The project of the center was developed in 2007 by the famous architect Zaha Hadid. The construction of the building was covered on the channels of Discovery and Science Channel, dedicated to the most courageous engineering projects of modernity and architectural masterpieces of the world. The opening took place on May 10, 2012. In 2014, the Heydar Aliyev Center was awarded the Design of the Year. It is considered one of the symbols of modern Baku",
+        musGob: "GOBUSTAN",
+        musGobP:
+          "Gobustan preserve is located in the eastern part of Azerbaijan, in the area  of the Boyukdash, Kichikdash and Jingirdagh Mountains of Greater Gobustan. The Gobustan preserve is widely known,not only in our Republic but also worldwide, for its rock engravings and monuments of primitive culture. These monuments are ancient drawings, cupules for preparing drinks and gathering  rain water, two-sided hollows for tying-up animals, signs, tamgas, ancient inscriptions and so on. Revealed and registered on more than a thousand rocks  and stones these monuments were created by  ancient man and are the reflection of his agricultural and intellectual activity. The Petroglyphs of Gobustan are artistic chronicles of the past. They bear  great importance both for the study of the pre-history of humanity and for the study of lots of spheres of primitive art: graphics, music, dance,  stone processing, etc. Gobustan’s monuments cover a period of approximately 20 thousands years beginning from the end of Upper Paleolith till the beginning of our era.",
+        musShekiPalace: "SHEKI KHANS PALACE",
+        musShekiPalaceP:
+          "Unique in the architecture Sheki Khans Palace was built in 1762 by Huseyn-khan. The palace has its own special original construction techniques. It is enough to say for example that each square meter of shabaka (box of small wooden parts to be filled with colored glass) consists of five thousand parts, connected with each other without nails!",
       },
     },
   },

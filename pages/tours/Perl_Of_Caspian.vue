@@ -8,6 +8,7 @@
           <p
             class="text2 text-7xl uppercase w-3/4 m-auto p-4 rounded-lg font-semibold"
           >
+            {{ $t("azGeo") }}
             PEARL OF CASPIAN
           </p>
           <p class="rounded-md w-1/2 m-auto mt-10 text-center textP">
@@ -67,12 +68,12 @@
             class="w-11/12 m-auto"
           >
             <div>
-              <p class="uppercase text-3xl">HIGHLIGHTS</p>
+              <p class="uppercase text-3xl">{{ $t("azGeo") }} HIGHLIGHTS</p>
               <carousel></carousel>
             </div>
 
             <div class="m-auto mt-10">
-              <p class="uppercase text-3xl">AT A GLANCE</p>
+              <p class="uppercase text-3xl">{{ $t("azGeo") }} AT A GLANCE</p>
               <div class="mt-10 mb-10">
                 <div class="flex section2 w-full justify-between mb-4">
                   <div
@@ -82,10 +83,10 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase text-lg mb-5">MEALS</p>
-                      <p>14 x Breakfasts</p>
-                      <p>13 x Lunches</p>
-                      <p>12 x Dinners</p>
+                      <p class="uppercase text-lg mb-5">{{ $t("azGeo") }}MEALS</p>
+                      <p>14 x {{ $t("azGeo") }}Breakfasts</p>
+                      <p>13 x {{ $t("azGeo") }}Lunches</p>
+                      <p>12 x {{ $t("azGeo") }}Dinners</p>
                     </div>
                   </div>
                   <div
@@ -95,9 +96,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">TRANSPORT</p>
+                      <p class="uppercase mb-5 text-lg">{{ $t("azGeo") }}TRANSPORT</p>
                       <p class="leading-6">
-                        On this tour we will use a high-speed train, coaster
+                        {{ $t("azGeo") }}On this tour we will use a high-speed train, coaster
                         buses, 4WD Jeeps and internal flights.
                       </p>
                     </div>
@@ -109,8 +110,8 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">GROUP SIZE</p>
-                      <p>Maximum: 12</p>
+                      <p class="uppercase mb-5 text-lg">{{ $t("azGeo") }}GROUP SIZE</p>
+                      <p>{{ $t("azGeo") }}Maximum: 12</p>
                     </div>
                   </div>
                   <div
@@ -120,9 +121,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">EXPERT TEAM</p>
+                      <p class="uppercase mb-5 text-lg">{{ $t("azGeo") }}EXPERT TEAM</p>
                       <p class="leading-6">
-                        The full services of a Wild Frontiers Tour Leader with
+                        {{ $t("azGeo") }}The full services of a Wild Frontiers Tour Leader with
                         local guides where appropriate
                       </p>
                     </div>
@@ -136,10 +137,10 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">ACCOMMODATION</p>
-                      <p>7 nights x Premium</p>
-                      <p>6 nights x Superior</p>
-                      <p>1 night x Basic</p>
+                      <p class="uppercase mb-5 text-lg">{{ $t("azGeo") }}ACCOMMODATION</p>
+                      <p>7 {{ $t("azGeo") }}nights x {{ $t("azGeo") }}Premium</p>
+                      <p>6 {{ $t("azGeo") }}nights x {{ $t("azGeo") }}Superior</p>
+                      <p>1 {{ $t("azGeo") }}night x {{ $t("azGeo") }}Basic</p>
                     </div>
                   </div>
                   <div
@@ -149,9 +150,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">ENTRANCE FEES</p>
+                      <p class="uppercase mb-5 text-lg">{{ $t("azGeo") }}ENTRANCE FEES</p>
                       <p class="leading-6">
-                        All entrance fees for sights mentioned in the itinerary
+                        {{ $t("azGeo") }}All entrance fees for sights mentioned in the itinerary
                       </p>
                     </div>
                   </div>
@@ -162,7 +163,7 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">FITNESS RATING</p>
+                      <p class="uppercase mb-5 text-lg">{{ $t("azGeo") }}FITNESS RATING</p>
                       <p>Low</p>
                     </div>
                   </div>
@@ -173,8 +174,8 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">WILD MILES</p>
-                      <p>This tour will earn you 6518 Wild Miles</p>
+                      <p class="uppercase mb-5 text-lg">{{ $t("azGeo") }}WILD MILES</p>
+                      <p>{{ $t("azGeo") }}This tour will earn you 6518 Wild Miles</p>
                     </div>
                   </div>
                 </div>
@@ -183,9 +184,9 @@
 
             <div class="w-full">
               <div>
-                <h3 class="mb-5 text-3xl">MAP & ITINERARY</h3>
+                <h3 class="mb-5 text-3xl">{{ $t("azGeo") }}MAP & ITINERARY</h3>
                 <p>
-                  Individual departures may vary so please refer to the
+                  {{ $t("azGeo") }}Individual departures may vary so please refer to the
                   information in the tour specific links in the Dates and Prices
                   section below
                 </p>
@@ -207,7 +208,7 @@
               @click="clickOnDay1"
               class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
             >
-              <p class="text mt-1 text-lg">DAY 1: ARRIVAL</p>
+              <p class="text mt-1 text-lg">{{ $t("azGeo") }}DAY 1: ARRIVAL</p>
               <img
                 src="@/assets/images/plus-button.png"
                 class="plusButton w-8"
@@ -234,7 +235,7 @@
                 @click="clickOnDay2"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="text mt-1 text-lg">DAY 2: BAKU– GOBUSTAN – BAKU</p>
+                <p class="text mt-1 text-lg">{{ $t("azGeo") }}DAY 2: BAKU– GOBUSTAN – BAKU</p>
                 <img
                   src="@/assets/images/plus-button.png"
                   class="plusButton w-8"
@@ -242,7 +243,7 @@
                 />
               </div>
               <div
-                class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
+                class="mt-5 text-left transition-all animate-fadeIn"
                 v-if="Day2"
               >
                 <p class="text transition-all animate-fadeIn duration-500">
@@ -274,7 +275,7 @@
                 @click="clickOnDay3"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="text mt-1 text-lg">DAY 3: BAKU – ABSHERON – BAKU</p>
+                <p class="text mt-1 text-lg">{{ $t("azGeo") }}DAY 3: BAKU – ABSHERON – BAKU</p>
                 <img
                   src="@/assets/images/plus-button.png"
                   class="plusButton w-8"

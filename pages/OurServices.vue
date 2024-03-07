@@ -5,7 +5,7 @@
         <div
           class="w-1/2 m-auto mainDiv pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-8xl uppercase font-semibold">Our Services</p>
+          <p class="text2 text-8xl uppercase font-semibold">{{ $t("ourSer") }}</p>
           <p class="rounded-md mt-20 text-center textP">
             Lauded for its extensive knowledge, its East-meets-West model and
             venturing responsibly into every corner of its destinations, it is
@@ -71,7 +71,7 @@
               class="pb-5 divImage pl-8 pr-8 cursor-pointer"
               @click="navigateTo('/museums')"
             >
-              <p class="uppercase mb-3">Museums</p>
+              <p class="uppercase mb-3">{{ $t("museums") }}</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
                 src="@/assets/images/museum8.jpeg"
@@ -111,7 +111,7 @@
               class="pb-5 divImage pl-8 pr-8 cursor-pointer"
               @click="navigateTo('/restaurants')"
             >
-              <p class="uppercase mb-3">Restaurants</p>
+              <p class="uppercase mb-3">{{ $t("rest") }}</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
                 src="@/assets/images/mugam.webp"
@@ -152,7 +152,7 @@
               class="pb-5 divImage pl-8 pr-8 cursor-pointer"
               @click="navigateTo('/hotels')"
             >
-              <p class="uppercase mb-3">Hotels</p>
+              <p class="uppercase mb-3">{{ $t("hotels") }}</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
 
               <img
@@ -193,7 +193,7 @@
         >
           <div class="w-1/3 sectionDiv" @click="navigateTo('/vehiclefleet')">
             <div class="pb-5 divImage pl-8 pr-8 cursor-pointer">
-              <p class="uppercase mb-3">Vehicle Fleet</p>
+              <p class="uppercase mb-3">{{ $t("vehicFleet") }}</p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
 
               <img
