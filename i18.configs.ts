@@ -226,7 +226,21 @@ export default {
         musShekiPalace: "SHEKI KHANS PALACE",
         musShekiPalaceP:
           "Unique in the architecture Sheki Khans Palace was built in 1762 by Huseyn-khan. The palace has its own special original construction techniques. It is enough to say for example that each square meter of shabaka (box of small wooden parts to be filled with colored glass) consists of five thousand parts, connected with each other without nails!",
-      },
+        
+        
+        
+        
+        
+        perlD1: "DAY 1: ARRIVAL",
+        perlD1P: "Arrival to Baku. Transfer to the hotel. Baku is the capital and largest city of Azerbaijan, as well as the largest city on the Caspian Sea and of the Caucasus region. It is a large scientific, cultural and industrial center. It was first mentioned in the Book of the Dead by the Egyptian Pharaoh Minesan in 3,500 BC. The ancient age of Baku is also evidenced by stone carvings dating back to 12,000 years ago and archeological excavations. Overnight in Baku",
+        perlD2: "DAY 2: BAKU– GOBUSTAN – BAKU",
+        perlD2P: "After breakfast we will drive to Gobustan rock paintings museum in the open air | UNESCO Heritage site which is situated in 65 km from Baku. The museum is opened on the base of one of the ancient settlements of neolith period. Then visit active mud volcanoes plateau located in 12 km distance from the museum. Drive back to the city. Lunch at local restaurant. Then visit Martyrs’ Alley, enjoy panoramic view of Baku bay. Then we continue the tour and visit famous Icheri Shekher (Inner town) with its historical buildings and narrow lanes. Enter the town through Shemakha gates, visit the Palace of Shirvanshakhs’ 14-17 CC, the residence of one of the powerful dynasties in the history of Azerbaijan. Then we walk to medieval caravansaray that was one of the main stop points for great caravans travelling along the ancient Great Silk Road. After that we will see the charming Maiden Tower 09-12 cc, the symbol of city of Baku. The history of the tower is full of many legends up to nowadays. You can see old medieval bathes surrounding the tower. Enjoy the view of the imposing mansions of the oil barons, built in the oil boom of 1870-1914. Overnight at the hotel.",
+        perlD3: "DAY 3: BAKU – ABSHERON – BAKU",
+        perlD3P: "After breakfast you will enjoy half day excursion to the Absheron Peninsula (30 km away from the city center), visiting the Ateshgah (or place of fire) a Zoroastrian Fire Temple and Yanar Dag. The Temple of Eternal Fire - Ateshgah - is an authentic Azerbaijani exotic. This territory is known for such unique natural phenomenon as burning natural gas outlets (underground gas coming onto surface contacts oxygen and lights up). Yanar Dag is located 25 km to the north from Baku, in Mehemmedi village. From the year 2007 Yanar Dag is declared a state-protected conservation area. Visit Mardakan Tower. Visit Heydar Aliyev Cultural Center. Heydar Aliyev Center is a cultural center, projected as a complex structure that includes the auditorium (convention center), a museum, exhibition halls, administrative offices. The project of the center was designed by the winner of Pritzker prize and internationally recognized architect Zaha Hadid. Free time. Overnight in Baku.",
+        perlD4: "DAY 4: DEPARTURE",
+        perlD4P: "Breakfast at hotel Guided transfer to Baku Heydar Aliyev Airport. Departure.",
+        
+        },
       de: {
         home: "Startseite",
         aboutUs: "Über Uns",
