@@ -6,7 +6,7 @@
           class="w-2/3 mainDiv m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
           <p class="text2 text-7xl uppercase font-semibold">
-            AZERBAIJAN & GEORGIA
+            {{ $t("azGeo") }}
           </p>
           <p class="rounded-md mt-20 text-center textP">
             Lauded for its extensive knowledge, its East-meets-West model and
@@ -77,12 +77,12 @@
             class="w-11/12 m-auto"
           >
             <div>
-              <p class="uppercase text-3xl">HIGHLIGHTS</p>
+              <p class="uppercase text-3xl">{{ $t("highlites") }}</p>
               <carousel></carousel>
             </div>
 
             <div class="m-auto mt-10">
-              <p class="uppercase text-3xl">AT A GLANCE</p>
+              <p class="uppercase text-3xl">{{ $t("atAGlance") }}</p>
               <div class="mt-10 mb-10">
                 <div class="flex section2 w-full justify-between mb-4">
                   <div
@@ -92,10 +92,10 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase text-lg mb-5">MEALS</p>
-                      <p>14 x Breakfasts</p>
-                      <p>13 x Lunches</p>
-                      <p>12 x Dinners</p>
+                      <p class="uppercase text-lg mb-5">{{ $t("meals") }}</p>
+                      <p>14 x {{ $t("breakfast") }}</p>
+                      <p>13 x {{ $t("lunches") }}</p>
+                      <p>12 x {{ $t("dinners") }}</p>
                     </div>
                   </div>
                   <div
@@ -105,10 +105,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">TRANSPORT</p>
+                      <p class="uppercase mb-5 text-lg">{{ $t("transportP") }}</p>
                       <p class="leading-6">
-                        On this tour we will use a high-speed train, coaster
-                        buses, 4WD Jeeps and internal flights.
+                        {{ $t("transportP") }}
                       </p>
                     </div>
                   </div>
@@ -119,8 +118,8 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">GROUP SIZE</p>
-                      <p>Maximum: 12</p>
+                      <p class="uppercase mb-5 text-lg">{{ $t("groupSize") }}</p>
+                      <p>{{ $t("max") }}: 12</p>
                     </div>
                   </div>
                   <div
@@ -130,10 +129,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">EXPERT TEAM</p>
+                      <p class="uppercase mb-5 text-lg">{{ $t("expTeam") }}</p>
                       <p class="leading-6">
-                        The full services of a Wild Frontiers Tour Leader with
-                        local guides where appropriate
+                        {{ $t("expTeamP") }}
                       </p>
                     </div>
                   </div>
@@ -146,10 +144,10 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">ACCOMMODATION</p>
-                      <p>7 nights x Premium</p>
-                      <p>6 nights x Superior</p>
-                      <p>1 night x Basic</p>
+                      <p class="uppercase mb-5 text-lg">{{ $t("accomodation") }}</p>
+                      <p>7 {{ $t("nights") }} x {{ $t("premium") }}</p>
+                      <p>6 {{ $t("nights") }} x {{ $t("superior") }}</p>
+                      <p>1 {{ $t("night") }} x {{ $t("basic") }}</p>
                     </div>
                   </div>
                   <div
@@ -159,9 +157,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">ENTRANCE FEES</p>
+                      <p class="uppercase mb-5 text-lg">{{ $t("entrFees") }}</p>
                       <p class="leading-6">
-                        All entrance fees for sights mentioned in the itinerary
+                        {{ $t("entrFeesP") }}
                       </p>
                     </div>
                   </div>
@@ -172,8 +170,8 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">FITNESS RATING</p>
-                      <p>Low</p>
+                      <p class="uppercase mb-5 text-lg">{{ $t("fitnessRat") }}</p>
+                      <p>{{ $t("low") }}</p>
                     </div>
                   </div>
                   <div
@@ -183,8 +181,8 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">WILD MILES</p>
-                      <p>This tour will earn you 6518 Wild Miles</p>
+                      <p class="uppercase mb-5 text-lg">{{ $t("wildMiles") }}</p>
+                      <p>{{ $t("wildMilesP") }}</p>
                     </div>
                   </div>
                 </div>
@@ -193,11 +191,9 @@
 
             <div class="w-full">
               <div>
-                <h3 class="mb-5 text-3xl">MAP & ITINERARY</h3>
+                <h3 class="mb-5 text-3xl">{{ $t("mapAndIt") }}</h3>
                 <p>
-                  Individual departures may vary so please refer to the
-                  information in the tour specific links in the Dates and Prices
-                  section below
+                  {{ $t("mapAndItP") }}
                 </p>
               </div>
               <div class="m-auto mapSection mt-5 mb-5 w-1/2">
@@ -217,7 +213,7 @@
               @click="clickOnDay1"
               class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
             >
-              <p class="text mt-1 text-lg">DAY 1: DEPART FROM GEORGIA</p>
+              <p class="text mt-1 text-lg">{{ $t("AzGeoD1") }}</p>
               <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
             </div>
             <div
@@ -231,7 +227,7 @@
                 @click="clickOnDay2"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="text mt-1 text-lg">DAY 2: TBILISI</p>
+                <p class="text mt-1 text-lg">{{ $t("AzGeoD2") }}</p>
                 <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
               <div
@@ -260,7 +256,7 @@
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
                 <p class="text mt-1 text-lg">
-                  DAY 3: TIBLISI - SIGNAGUI - KAJETIA REGION - TELAVI
+                  {{ $t("AzGeoD3") }}
                 </p>
                 <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
@@ -292,7 +288,7 @@
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
                 <p class="text mt-1 text-lg">
-                  DAY 4: TELAVI - MTSJETA - GUDAURI
+                  {{ $t("AzGeoD4") }}
                 </p>
                 <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
@@ -323,7 +319,7 @@
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
                 <p class="text mt-1 text-lg">
-                  DAY 5: GUDAURI - STEPANTSMINDA - GUDAURI
+                  {{ $t("AzGeoD5") }}
                 </p>
                 <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
@@ -354,7 +350,7 @@
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
                 <p class="text mt-1 text-lg">
-                  DAY 6: GUDAURI - UPLISTSIJE - GORI - KUTAISI
+                  {{ $t("AzGeoD6") }}
                 </p>
                 <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
@@ -380,7 +376,7 @@
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
                 <p class="text mt-1 text-lg">
-                  DAY 7: KUTAISI – TSKALTUBO – TIBLISI
+                  {{ $t("AzGeoD7") }}
                 </p>
                 <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
@@ -406,7 +402,7 @@
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
                 <p class="text mt-1 text-lg">
-                  DAY 8: TIBLISI - LAGODEJI (BORDER) - KISH - SHEKI
+                  {{ $t("AzGeoD8") }}
                 </p>
                 <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
@@ -436,7 +432,7 @@
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
                 <p class="text mt-1 text-lg">
-                  DAY 9: SHEKI - LAHIJ - SHEMAKHA - MARAZA - BAKU, 350 KM
+                  {{ $t("AzGeoD9") }}
                 </p>
                 <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
@@ -464,7 +460,7 @@
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
                 <p class="text mt-1 text-lg">
-                  DAY 10: BAKU - GOBUSTAN - BAKU, 130 KM
+                  {{ $t("AzGeoD10") }}
                 </p>
                 <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
@@ -494,7 +490,7 @@
                 @click="clickOnDay11"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="text mt-1 text-lg">DAY 11: BAKU - ABSHERON - BAKU</p>
+                <p class="text mt-1 text-lg">{{ $t("AzGeoD11") }}</p>
                 <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
               <div
@@ -519,7 +515,7 @@
                 @click="clickOnDay12"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
-                <p class="text mt-1 text-lg">DAY 12: BAKU - DEPARTURE</p>
+                <p class="text mt-1 text-lg">{{ $t("AzGeoD12") }}</p>
                 <img src="@/assets/images/plus-button.png" class="w-8 plusButton" alt="" />
               </div>
               <div
@@ -537,7 +533,7 @@
 
         <div class="w-10/12 m-auto h-200 mt-10 mb-10">
           <div>
-            <h4 class="text-3xl text2">ACCOMMODATION USED ON THIS TOUR</h4>
+            <h4 class="text-3xl text2">{{ $t("accomUsed") }}</h4>
           </div>
           <div>
             <carouselAccomodation></carouselAccomodation>
@@ -546,11 +542,9 @@
 
         <div class="w-8 plusButton/12 section4 m-auto">
           <div>
-            <h4 class="text-3xl uppercase mb-2">DATES AND PRICES</h4>
+            <h4 class="text-3xl uppercase mb-2">{{ $t("datesAndPr") }}</h4>
             <h5 class="w-2/3 m-auto text-center">
-              The prices below are based on two sharing and exclude
-              international flights. A 10% deposit of the tour price is required
-              at time of booking.
+              {{ $t("datesAndPrP") }}
             </h5>
           </div>
           <div
@@ -561,19 +555,19 @@
                 <p
                   class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
                 >
-                  Available
+                {{ $t("available") }}
                 </p>
               </div>
               <div>
                 <p class="uppercase text-xl text-yellow-900 mb-2">
-                  STANDARD DEPARTURE
+                  {{ $t("stDep") }}
                 </p>
               </div>
               <div>
                 <p>26th Apr 2024 - 10th May 2024</p>
               </div>
               <div>
-                <p class="text-sm">(15 Days)</p>
+                <p class="text-sm">(15 {{ $t("days") }})</p>
               </div>
             </div>
             <div class="sec51 sec51Pt pt-12 w-1/3">
@@ -581,12 +575,12 @@
                 <p class="text-xl font-bold">£4,195</p>
               </div>
               <div>
-                <p class="text-sm">Optional Single Supplement: + £495</p>
+                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
               </div>
             </div>
             <div class="sec51 w-1/3">
               <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">Send E-Mail</p>
+                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
               </div>
             </div>
           </div>
@@ -598,19 +592,19 @@
                 <p
                   class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
                 >
-                  Available
+                {{ $t("available") }}
                 </p>
               </div>
               <div>
                 <p class="uppercase text-xl text-yellow-900 mb-2">
-                  STANDARD DEPARTURE
+                  {{ $t("stDep") }}
                 </p>
               </div>
               <div>
                 <p>26th Apr 2024 - 10th May 2024</p>
               </div>
               <div>
-                <p class="text-sm">(15 Days)</p>
+                <p class="text-sm">(15 {{ $t("days") }})</p>
               </div>
             </div>
             <div class="sec51 sec51Pt pt-12 w-1/3">
@@ -618,12 +612,12 @@
                 <p class="text-xl font-bold">£4,195</p>
               </div>
               <div>
-                <p class="text-sm">Optional Single Supplement: + £495</p>
+                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
               </div>
             </div>
             <div class="sec51 w-1/3">
               <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">Send E-Mail</p>
+                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
               </div>
             </div>
           </div>
@@ -635,19 +629,19 @@
                 <p
                   class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
                 >
-                  Available
+                {{ $t("available") }}
                 </p>
               </div>
               <div>
                 <p class="uppercase text-xl text-yellow-900 mb-2">
-                  STANDARD DEPARTURE
+                  {{ $t("stDep") }}
                 </p>
               </div>
               <div>
                 <p>26th Apr 2024 - 10th May 2024</p>
               </div>
               <div>
-                <p class="text-sm">(15 Days)</p>
+                <p class="text-sm">(15 {{ $t("days") }})</p>
               </div>
             </div>
             <div class="sec51 sec51Pt pt-12 w-1/3">
@@ -655,12 +649,12 @@
                 <p class="text-xl font-bold">£4,195</p>
               </div>
               <div>
-                <p class="text-sm">Optional Single Supplement: + £495</p>
+                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
               </div>
             </div>
             <div class="sec51 w-1/3">
               <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">Send E-Mail</p>
+                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
               </div>
             </div>
           </div>
@@ -672,19 +666,19 @@
                 <p
                   class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
                 >
-                  Available
+                {{ $t("available") }}
                 </p>
               </div>
               <div>
                 <p class="uppercase text-xl text-yellow-900 mb-2">
-                  STANDARD DEPARTURE
+                  {{ $t("stDep") }}
                 </p>
               </div>
               <div>
                 <p>26th Apr 2024 - 10th May 2024</p>
               </div>
               <div>
-                <p class="text-sm">(15 Days)</p>
+                <p class="text-sm">(15 {{ $t("days") }})</p>
               </div>
             </div>
             <div class="sec51 sec51Pt pt-12 w-1/3">
@@ -692,12 +686,12 @@
                 <p class="text-xl font-bold">£4,195</p>
               </div>
               <div>
-                <p class="text-sm">Optional Single Supplement: + £495</p>
+                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
               </div>
             </div>
             <div class="sec51 w-1/3">
               <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">Send E-Mail</p>
+                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
               </div>
             </div>
           </div>
@@ -709,19 +703,19 @@
                 <p
                   class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
                 >
-                  Available
+                {{ $t("available") }}
                 </p>
               </div>
               <div>
                 <p class="uppercase text-xl text-yellow-900 mb-2">
-                  STANDARD DEPARTURE
+                  {{ $t("stDep") }}
                 </p>
               </div>
               <div>
                 <p>26th Apr 2024 - 10th May 2024</p>
               </div>
               <div>
-                <p class="text-sm">(15 Days)</p>
+                <p class="text-sm">(15 {{ $t("days") }})</p>
               </div>
             </div>
             <div class="sec51 sec51Pt pt-12 w-1/3">
@@ -729,12 +723,12 @@
                 <p class="text-xl font-bold">£4,195</p>
               </div>
               <div>
-                <p class="text-sm">Optional Single Supplement: + £495</p>
+                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
               </div>
             </div>
             <div class="sec51 w-1/3">
               <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">Send E-Mail</p>
+                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
               </div>
             </div>
           </div>
@@ -746,19 +740,19 @@
                 <p
                   class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
                 >
-                  Available
+                {{ $t("available") }}
                 </p>
               </div>
               <div>
                 <p class="uppercase text-xl text-yellow-900 mb-2">
-                  STANDARD DEPARTURE
+                  {{ $t("stDep") }}
                 </p>
               </div>
               <div>
                 <p>26th Apr 2024 - 10th May 2024</p>
               </div>
               <div>
-                <p class="text-sm">(15 Days)</p>
+                <p class="text-sm">(15 {{ $t("days") }})</p>
               </div>
             </div>
             <div class="sec51 sec51Pt pt-12 w-1/3">
@@ -766,19 +760,19 @@
                 <p class="text-xl font-bold">£4,195</p>
               </div>
               <div>
-                <p class="text-sm">Optional Single Supplement: + £495</p>
+                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
               </div>
             </div>
             <div class="sec51 w-1/3">
               <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">Send E-Mail</p>
+                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
               </div>
             </div>
           </div>
         </div>
         <div class="w-10/12 bg-gray-200 m-auto mb-5 p-5">
-          <h3 class="text-3xl p-5 text2">PRIVATE HOLIDAYS: DATES DON’T FIT?</h3>
-          <p class="text">All group tours can be taken on a private basis.</p>
+          <h3 class="text-3xl p-5 text2">{{ $t("privatHolidays") }}</h3>
+          <p class="text">{{ $t("privatHolidaysP1") }}</p>
           <div class="flex endSection w-1/2 mt-4 m-auto justify-between pb-5">
             <div class="flex text justify-around w-full">
               <img
@@ -786,7 +780,7 @@
                 class="h-6"
                 alt=""
               />
-              <p>Call +44 (0) 20 3925 9628</p>
+              <p>{{ $t("privatHolidaysP2") }} +44 (0) 20 3925 9628</p>
             </div>
             <div class="flex text w-full justify-around">
               <div class="flex justify-around w-full">
@@ -795,7 +789,7 @@
                   class="h-6"
                   alt=""
                 />
-                <p>Or ask an expert to tailor-make this trip</p>
+                <p>{{ $t("privatHolidaysP3") }}</p>
               </div>
             </div>
           </div>
