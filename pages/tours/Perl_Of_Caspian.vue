@@ -68,12 +68,20 @@
             class="w-11/12 m-auto"
           >
             <div>
+<<<<<<< HEAD
               <p class="uppercase text-3xl">{{ $t("azGeo") }} HIGHLIGHTS</p>
+=======
+              <p class="uppercase text-3xl">HIGHLIGHTS</p>
+>>>>>>> 55b6b2c50e5497e2c083efa8f8357f2d5a42ff26
               <carousel></carousel>
             </div>
 
             <div class="m-auto mt-10">
+<<<<<<< HEAD
               <p class="uppercase text-3xl">{{ $t("azGeo") }} AT A GLANCE</p>
+=======
+              <p class="uppercase text-3xl">AT A GLANCE</p>
+>>>>>>> 55b6b2c50e5497e2c083efa8f8357f2d5a42ff26
               <div class="mt-10 mb-10">
                 <div class="flex section2 w-full justify-between mb-4">
                   <div
@@ -83,10 +91,17 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
+<<<<<<< HEAD
                       <p class="uppercase text-lg mb-5">{{ $t("azGeo") }}MEALS</p>
                       <p>14 x {{ $t("azGeo") }}Breakfasts</p>
                       <p>13 x {{ $t("azGeo") }}Lunches</p>
                       <p>12 x {{ $t("azGeo") }}Dinners</p>
+=======
+                      <p class="uppercase text-lg mb-5">MEALS</p>
+                      <p>14 x Breakfasts</p>
+                      <p>13 x Lunches</p>
+                      <p>12 x Dinners</p>
+>>>>>>> 55b6b2c50e5497e2c083efa8f8357f2d5a42ff26
                     </div>
                   </div>
                   <div
@@ -96,9 +111,15 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
+<<<<<<< HEAD
                       <p class="uppercase mb-5 text-lg">{{ $t("azGeo") }}TRANSPORT</p>
                       <p class="leading-6">
                         {{ $t("azGeo") }}On this tour we will use a high-speed train, coaster
+=======
+                      <p class="uppercase mb-5 text-lg">TRANSPORT</p>
+                      <p class="leading-6">
+                        On this tour we will use a high-speed train, coaster
+>>>>>>> 55b6b2c50e5497e2c083efa8f8357f2d5a42ff26
                         buses, 4WD Jeeps and internal flights.
                       </p>
                     </div>
@@ -110,8 +131,13 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
+<<<<<<< HEAD
                       <p class="uppercase mb-5 text-lg">{{ $t("azGeo") }}GROUP SIZE</p>
                       <p>{{ $t("azGeo") }}Maximum: 12</p>
+=======
+                      <p class="uppercase mb-5 text-lg">GROUP SIZE</p>
+                      <p>Maximum: 12</p>
+>>>>>>> 55b6b2c50e5497e2c083efa8f8357f2d5a42ff26
                     </div>
                   </div>
                   <div
@@ -121,9 +147,15 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
+<<<<<<< HEAD
                       <p class="uppercase mb-5 text-lg">{{ $t("azGeo") }}EXPERT TEAM</p>
                       <p class="leading-6">
                         {{ $t("azGeo") }}The full services of a Wild Frontiers Tour Leader with
+=======
+                      <p class="uppercase mb-5 text-lg">EXPERT TEAM</p>
+                      <p class="leading-6">
+                        The full services of a Wild Frontiers Tour Leader with
+>>>>>>> 55b6b2c50e5497e2c083efa8f8357f2d5a42ff26
                         local guides where appropriate
                       </p>
                     </div>
@@ -137,10 +169,17 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
+<<<<<<< HEAD
                       <p class="uppercase mb-5 text-lg">{{ $t("azGeo") }}ACCOMMODATION</p>
                       <p>7 {{ $t("azGeo") }}nights x {{ $t("azGeo") }}Premium</p>
                       <p>6 {{ $t("azGeo") }}nights x {{ $t("azGeo") }}Superior</p>
                       <p>1 {{ $t("azGeo") }}night x {{ $t("azGeo") }}Basic</p>
+=======
+                      <p class="uppercase mb-5 text-lg">ACCOMMODATION</p>
+                      <p>7 nights x Premium</p>
+                      <p>6 nights x Superior</p>
+                      <p>1 night x Basic</p>
+>>>>>>> 55b6b2c50e5497e2c083efa8f8357f2d5a42ff26
                     </div>
                   </div>
                   <div
@@ -150,9 +189,15 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
+<<<<<<< HEAD
                       <p class="uppercase mb-5 text-lg">{{ $t("azGeo") }}ENTRANCE FEES</p>
                       <p class="leading-6">
                         {{ $t("azGeo") }}All entrance fees for sights mentioned in the itinerary
+=======
+                      <p class="uppercase mb-5 text-lg">ENTRANCE FEES</p>
+                      <p class="leading-6">
+                        All entrance fees for sights mentioned in the itinerary
+>>>>>>> 55b6b2c50e5497e2c083efa8f8357f2d5a42ff26
                       </p>
                     </div>
                   </div>
@@ -163,7 +208,11 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
+<<<<<<< HEAD
                       <p class="uppercase mb-5 text-lg">{{ $t("azGeo") }}FITNESS RATING</p>
+=======
+                      <p class="uppercase mb-5 text-lg">FITNESS RATING</p>
+>>>>>>> 55b6b2c50e5497e2c083efa8f8357f2d5a42ff26
                       <p>Low</p>
                     </div>
                   </div>
@@ -174,8 +223,13 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
+<<<<<<< HEAD
                       <p class="uppercase mb-5 text-lg">{{ $t("azGeo") }}WILD MILES</p>
                       <p>{{ $t("azGeo") }}This tour will earn you 6518 Wild Miles</p>
+=======
+                      <p class="uppercase mb-5 text-lg">WILD MILES</p>
+                      <p>This tour will earn you 6518 Wild Miles</p>
+>>>>>>> 55b6b2c50e5497e2c083efa8f8357f2d5a42ff26
                     </div>
                   </div>
                 </div>
@@ -184,9 +238,15 @@
 
             <div class="w-full">
               <div>
+<<<<<<< HEAD
                 <h3 class="mb-5 text-3xl">{{ $t("azGeo") }}MAP & ITINERARY</h3>
                 <p>
                   {{ $t("azGeo") }}Individual departures may vary so please refer to the
+=======
+                <h3 class="mb-5 text-3xl">MAP & ITINERARY</h3>
+                <p>
+                  Individual departures may vary so please refer to the
+>>>>>>> 55b6b2c50e5497e2c083efa8f8357f2d5a42ff26
                   information in the tour specific links in the Dates and Prices
                   section below
                 </p>
@@ -208,7 +268,11 @@
               @click="clickOnDay1"
               class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
             >
+<<<<<<< HEAD
               <p class="text mt-1 text-lg">{{ $t("azGeo") }}DAY 1: ARRIVAL</p>
+=======
+              <p class="text mt-1 text-lg">DAY 1: ARRIVAL</p>
+>>>>>>> 55b6b2c50e5497e2c083efa8f8357f2d5a42ff26
               <img
                 src="@/assets/images/plus-button.png"
                 class="plusButton w-8"
@@ -235,7 +299,11 @@
                 @click="clickOnDay2"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
+<<<<<<< HEAD
                 <p class="text mt-1 text-lg">{{ $t("azGeo") }}DAY 2: BAKU– GOBUSTAN – BAKU</p>
+=======
+                <p class="text mt-1 text-lg">DAY 2: BAKU– GOBUSTAN – BAKU</p>
+>>>>>>> 55b6b2c50e5497e2c083efa8f8357f2d5a42ff26
                 <img
                   src="@/assets/images/plus-button.png"
                   class="plusButton w-8"
@@ -243,7 +311,11 @@
                 />
               </div>
               <div
+<<<<<<< HEAD
                 class="mt-5 text-left transition-all animate-fadeIn"
+=======
+                class="mt-5 text-left transition-all duration-500 animate-fadeIn duration-500"
+>>>>>>> 55b6b2c50e5497e2c083efa8f8357f2d5a42ff26
                 v-if="Day2"
               >
                 <p class="text transition-all animate-fadeIn duration-500">
@@ -275,7 +347,11 @@
                 @click="clickOnDay3"
                 class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
               >
+<<<<<<< HEAD
                 <p class="text mt-1 text-lg">{{ $t("azGeo") }}DAY 3: BAKU – ABSHERON – BAKU</p>
+=======
+                <p class="text mt-1 text-lg">DAY 3: BAKU – ABSHERON – BAKU</p>
+>>>>>>> 55b6b2c50e5497e2c083efa8f8357f2d5a42ff26
                 <img
                   src="@/assets/images/plus-button.png"
                   class="plusButton w-8"

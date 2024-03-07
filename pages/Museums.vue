@@ -78,7 +78,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("musModernP") }}
+                {{ $t("musModernP") }}      
               </p>
             </div>
           </div>
@@ -110,7 +110,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("musCarpetP") }}
+                {{ $t("musCarpetP") }}                
               </p>
             </div>
           </div>
@@ -133,7 +133,7 @@
             }"
           >
             <p class="text-color border-b-2 pb-2 border-gray-400">
-              {{ $t("musNizami") }}
+              {{ $t("musNizami") }}             
             </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
@@ -430,7 +430,6 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("musShekiPalaceP") }}
               </p>
             </div>
           </div>

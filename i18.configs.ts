@@ -183,7 +183,6 @@ export default {
         ExplD7: "DAY 7: GUDAURI – KAZBEGI – TBILISI",
         ExplD8: "DAY 8: TBILISI",
         ExplD9: "DAY 9: TBILISI – DEPARTURE",
-
         ourSer: "Our Services",
         museums: "Museums",
         rest: "Restaurants",
@@ -228,11 +227,10 @@ export default {
         musShekiPalaceP:
           "Unique in the architecture Sheki Khans Palace was built in 1762 by Huseyn-khan. The palace has its own special original construction techniques. It is enough to say for example that each square meter of shabaka (box of small wooden parts to be filled with colored glass) consists of five thousand parts, connected with each other without nails!",
       },
-
       de: {
         home: "Startseite",
-        aboutUs: "ÜBER UNS",
-        contact: "KONTAKT",
+        aboutUs: "Über Uns",
+        contact: "Kontakt",
         services: "Dienstleistungen",
         mainPageH1: "ENC Kultur- und Kulturerbetouren",
         mainPageH2:
@@ -416,7 +414,6 @@ export default {
         ExplD7: "TAG 7: GUDAURI – KAZBEGI – TBILISI",
         ExplD8: "TAG 8: TBILISI",
         ExplD9: "TAG 9: TBILISI – ABFAHRT",
-
         ourSer: "Our Services",
         museums: "MUSEEN",
         rest: "Restaurants",
@@ -463,8 +460,8 @@ export default {
       },
       es: {
         home: "Startpagina",
-        aboutUs: "SOBRE NOSOTROS",
-        contact: "CONTACTOS",
+        aboutUs: "Sobre nosotros",
+        contact: "Contactos",
         services: "Servicios",
         mainPageH1: "ENC Tours culturales y patrimoniales",
         mainPageH2:
@@ -647,7 +644,6 @@ export default {
         ExplD8: "DÍA 8: TBILISI",
         ExplD9: "DÍA 9: TBILISI – SALIDA",
         contacts: "CONTACTOS",
-
         ourSer: "Nuestros servicios",
         museums: "Museos",
         rest: "Restaurantes",
@@ -694,8 +690,8 @@ export default {
       },
       it: {
         home: "Startpagina",
-        aboutUs: "CHI SIAMO",
-        contact: "CONTATTI",
+        aboutUs: "Sobre nosotros",
+        contact: "Contactos",
         services: "Servicios",
         mainPageH1: "ENC Tours culturali e patrimoniali",
         mainPageH2:
@@ -873,7 +869,6 @@ export default {
         ExplD8: "GIORNO 8: TBILISI",
         ExplD9: "GIORNO 9: TBILISI – PARTENZA",
         contacts: "CONTATTI",
-
         ourSer: "I nostri servizi",
         museums: "MUSEI",
         rest: "Ristoranti",
@@ -915,7 +910,7 @@ export default {
           "Nostra Repubblica ma anche in tutto il mondo, per le sue incisioni rupestri e monumenti di cultura primitiva. Questi monumenti sono disegni antichi, coppette per preparare bevande e raccogliere acqua piovana, cavità a due lati per legare animali, segni, tamgas, antiche iscrizioni e così via. Rivelato e registrato su più di mille rocce e pietre, questi monumenti sono stati creati dall’uomo antico e sono il riflesso della sua attività agricola e intellettuale. I petroglifi di Gobustan sono cronache artistiche del passato. Hanno una grande importanza sia per lo studio della preistoria dell’umanità che per lo studio di molte sfere dell’arte primitiva: grafica, musica, danza, lavorazione della pietra, ecc. I monumenti di Gobustan coprono un periodo di circa 20 mila anni a partire dalla fine del Paleolitico superiore fino all’inizio della nostra era.",
         musShekiPalace: "PALAZZO DEI KHAN DI SHEKI",
         musShekiPalaceP:
-          "L’Unico Palazzo dei Khan di Sheki nell’architettura fu costruito nel 1762 da Huseyn-khan. Il palazzo ha le sue tecniche di costruzione originali speciali. È sufficiente dire ad esempio che ogni metro quadrato di shabaka (incastro di piccole parti in legno da riempire con vetri colorati) composta da cinquemila parti, collegate tra loro senza chiodi!",
+          "L’Unico Palazzo dei Khan di Sheki nell’architettura fu costruito nel 1762 da Huseyn-khan. Il palazzo ha le sue tecniche di costruzione originali speciali. È sufficiente dire ad esempio che ogni metro quadrato di shabaka (incastro di piccole parti in legno da riempire con vetri colorati) composta da cinquemila parti, collegate tra loro senza chiodi!",      
       },
       jp: {
         home: "家",
@@ -1089,14 +1084,13 @@ export default {
         AzGeoD11: "DAY 11: BAKU - ABSHERON - BAKU",
         AzGeoD12: "DAY 12: BAKU - DEPARTURE",
         contacts: "連絡先",
-        ExplD3: "DAY 3: BAKU – ABSHERON – BAKU",
+                ExplD3: "DAY 3: BAKU – ABSHERON – BAKU",
         ExplD4: "DAY 4: BAKU – SHAMAKHI – SHEKI",
         ExplD5: "DAY 5: SHEKI – KISH – SHEKI",
         ExplD6: "DAY 6: TELAVI – MTSKHETA – GUDAURI",
         ExplD7: "DAY 7: GUDAURI – KAZBEGI – TBILISI",
         ExplD8: "DAY 8: TBILISI",
         ExplD9: "DAY 9: TBILISI – DEPARTURE",
-
         ourSer: "Our Services",
         museums: "Museums",
         rest: "Restaurants",
@@ -1143,10 +1137,10 @@ export default {
       },
 
       fr: {
-        home: "Acceuil",
-        aboutUs: "À PROPOS DE NOUS",
-        contact: "Contacts",
-        services: "Prestations de service",
+        home: "Startpagina",
+        aboutUs: "Sobre nosotros",
+        contact: "Contactos",
+        services: "Servicios",
         mainPageH1: "ENC Tours culturais e patrimoniais",
         mainPageH2:
           "Etant connectés au niveau international, créatifs et avancés, ENC Tours sont destinés à fournir un héritage de réputation solide avec un degré d’excellence et de responsabilité. L’entreprise a été créée en 2008 avec la vision d’être choisie comme la source de voyages la plus fiable pour les personnes souhaitant garder des souvenirs impérissables.",
@@ -1368,10 +1362,10 @@ export default {
           "Unique in the architecture Sheki Khans Palace was built in 1762 by Huseyn-khan. The palace has its own special original construction techniques. It is enough to say for example that each square meter of shabaka (box of small wooden parts to be filled with colored glass) consists of five thousand parts, connected with each other without nails!",
       },
       pt: {
-        home: "Pagina inicial",
-        aboutUs: "SOBRE NÓS",
-        contact: "Contatos",
-        services: "Serviços",
+        home: "Startpagina",
+        aboutUs: "Sobre nosotros",
+        contact: "Contactos",
+        services: "Servicios",
         mainPageH1: "ENC Tours culturais e patrimoniais",
         mainPageH2:
           "Sendo conectado internacionalmente, criativo e avançado, ENC TOURS tem a intenção de fornecer um legado da reputação sólida com excelência e responsabilidade do grau alto. A empresa foi criada em 2008 com a visão de ser escolhida como a fonte mais confiável de viagens para pessoas que desejam ter memórias duradouras.",
@@ -1546,7 +1540,6 @@ export default {
         ExplD8: "DIA 8: TBILISI",
         ExplD9: "DIA 9: TBILISI – PARTIDA",
         contacts: "CONTATOS",
-
         ourSer: "Nossos serviços",
         museums: "MUSEUS",
         rest: "Restaurantes",
@@ -1589,7 +1582,7 @@ export default {
           "A reserva de Gobustan está localizada na parte oriental do Azerbaijão, na área das montanhas Boyukdash, Kichikdash e Jingirdagh da Grande Gobustan. A reserva Gobustan é amplamente conhecida, não apenas em nossa República, mas também em todo o mundo, por suas gravuras rupestres e monumentos da cultura primitiva. Esses monumentos são desenhos antigos, cúpulas para preparar bebidas e coletar água da chuva, cavidades nos dois lados para amarrar animais, sinais, tamgas, inscrições antigas e assim por diante. Revelados e registrados em mais de mil rochas e pedras, esses monumentos foram criados pelo homem antigo e são o reflexo de sua atividade agrícola e intelectual. Os petróglifos de Gobustan são crônicas artísticas do passado. Eles têm grande importância tanto para o estudo da pré-história da humanidade quanto para o estudo de muitas esferas da arte primitiva: gráficos, música, dança, processamento de pedra etc. Os monumentos de Gobustan cobrem um período de aproximadamente 20 mil anos a partir de o fim do Paleolítico Superior até o início de nossa era.",
         musShekiPalace: "PALÁCIO DOS KHANS DE SHEKI",
         musShekiPalaceP:
-          "Único na arquitetura, o Palácio dos Khans de Sheki foi construído em 1762 por Huseyn Cã. O palácio tem suas próprias técnicas especiais de construção originais. Basta dizer, por exemplo, que cada metro quadrado de shabaka (caixa de pequenas peças de madeira para encher com vidro colorido) é composta por cinco mil peças, ligadas entre si sem pregos!",
+          "Único na arquitetura, o Palácio dos Khans de Sheki foi construído em 1762 por Huseyn Cã. O palácio tem suas próprias técnicas especiais de construção originais. Basta dizer, por exemplo, que cada metro quadrado de shabaka (caixa de pequenas peças de madeira para encher com vidro colorido) é composta por cinco mil peças, ligadas entre si sem pregos!",        
       },
       kr: {
         home: "집",
@@ -1768,7 +1761,6 @@ export default {
         ExplD8: "DIA 8: TBILISI",
         ExplD9: "DIA 9: TBILISI – PARTIDA",
         contacts: "콘택트 렌즈",
-
         ourSer: "Our Services",
         museums: "Museums",
         rest: "Restaurants",
@@ -1811,7 +1803,7 @@ export default {
           "Gobustan preserve is located in the eastern part of Azerbaijan, in the area  of the Boyukdash, Kichikdash and Jingirdagh Mountains of Greater Gobustan. The Gobustan preserve is widely known,not only in our Republic but also worldwide, for its rock engravings and monuments of primitive culture. These monuments are ancient drawings, cupules for preparing drinks and gathering  rain water, two-sided hollows for tying-up animals, signs, tamgas, ancient inscriptions and so on. Revealed and registered on more than a thousand rocks  and stones these monuments were created by  ancient man and are the reflection of his agricultural and intellectual activity. The Petroglyphs of Gobustan are artistic chronicles of the past. They bear  great importance both for the study of the pre-history of humanity and for the study of lots of spheres of primitive art: graphics, music, dance,  stone processing, etc. Gobustan’s monuments cover a period of approximately 20 thousands years beginning from the end of Upper Paleolith till the beginning of our era.",
         musShekiPalace: "SHEKI KHANS PALACE",
         musShekiPalaceP:
-          "Unique in the architecture Sheki Khans Palace was built in 1762 by Huseyn-khan. The palace has its own special original construction techniques. It is enough to say for example that each square meter of shabaka (box of small wooden parts to be filled with colored glass) consists of five thousand parts, connected with each other without nails!",
+          "Unique in the architecture Sheki Khans Palace was built in 1762 by Huseyn-khan. The palace has its own special original construction techniques. It is enough to say for example that each square meter of shabaka (box of small wooden parts to be filled with colored glass) consists of five thousand parts, connected with each other without nails!",        
       },
     },
   },
