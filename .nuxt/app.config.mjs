@@ -1,5 +1,5 @@
 
-import { defuFn } from '/Users/nizami/Documents/GitHub/enc-tours/node_modules/defu/dist/defu.mjs'
+import { defuFn } from '/Users/aaliyyah/Documents/GitHub/ENC-TOURS/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 

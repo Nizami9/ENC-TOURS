@@ -192,12 +192,12 @@ watchEffect(() => {
         </a>
         <div class="hidden lg:flex lg:gap-x-8">
           <template v-for="(item, index) in navigation" :key="item.name">
-            <a
-              :href="item.href"
+            <NuxtLink
+              :to="localePath(item.href)"
               class="text-sm font-semibold leading-6 text-white"
             >
               {{ item.name }}
-            </a>
+          </Nuxtlink>
             {{ index < navigation.length - 1 ? "|" : "" }}
           </template>
         </div>
@@ -259,12 +259,12 @@ watchEffect(() => {
         <div class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
-              <a
+              <NuxtLink
                 v-for="item in navigation"
                 :key="item.name"
-                :href="item.href"
+                :to="item.href"
                 class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >{{ item.name }}</a
+                >{{ item.name }}</NuxtLink
               >
             </div>
             <div class="py-6 uppercase">
@@ -305,14 +305,16 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 import { onMounted, onUnmounted, watchEffect, getCurrentInstance } from "vue";
 const { locale } = useI18n();
 import { useI18n } from "vue-i18n";
+const localePath = useLocalePath()
+
 
 const navigation = [
   { name: "HOME", href: "/" },
-  { name: "AZERBAIJAN", href: "../../azerbaijan" },
-  { name: "TOURS", href: "../../tours" },
-  { name: "OUR SERVICES", href: "../../ourservices" },
-  { name: "ENC LUXURY", href: "../../luxury" },
-  { name: "MICE", href: "../../mice" },
+  { name: "AZERBAIJAN", href: "/azerbaijan" },
+  { name: "TOURS", href: "/tours" },
+  { name: "OUR SERVICES", href: "/ourservices" },
+  { name: "ENC LUXURY", href: "/luxury" },
+  { name: "MICE", href: "/mice" },
 ];
 const { emit } = getCurrentInstance();
 const mobileMenuOpen = ref(false);

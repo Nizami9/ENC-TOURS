@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "/Users/nizami/Documents/GitHub/enc-tours/node_modules/nuxt/dist/app/entry.mjs": {
+  "/Users/aaliyyah/Documents/GitHub/ENC-TOURS/node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "/Users/nizami/Documents/GitHub/enc-tours/node_modules/nuxt/dist/app/entry.mjs"
+    "file": "/Users/aaliyyah/Documents/GitHub/ENC-TOURS/node_modules/nuxt/dist/app/entry.mjs"
   }
 }
