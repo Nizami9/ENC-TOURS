@@ -69,7 +69,6 @@
         >
           <div
             class="w-1/3 sectionDiv uppercase cursor-pointer"
-            @click="navigateTo('../Regions/central-region')"
           >
             <div class="pl-8 pb-2">
               <img
@@ -81,19 +80,18 @@
               />
             </div>
             <div class="pl-8 pb-8 text-left">
-              <p
+              <NuxtLink :to="localePath('../Regions/central-region')" 
                 ref="section1"
                 class="pb-1"
                 @mouseover="addBorder1"
                 @mouseout="removeBorder1"
               >
                 CENTRAL REGIONS
-              </p>
+              </NuxtLink>
             </div>
           </div>
           <div
             class="w-1/3 uppercase sectionDiv"
-            @click="navigateTo('../Regions/northern-region')"
           >
             <div class="pl-8 pb-2">
               <img
@@ -105,19 +103,18 @@
               />
             </div>
             <div class="pl-8 pb-8 text-left">
-              <p
+              <NuxtLink :to="localePath('../Regions/northern-region')"
                 ref="section2"
                 class="pb-1"
                 @mouseover="addBorder2"
                 @mouseout="removeBorder2"
               >
                 NORTHERN REGIONS
-              </p>
+              </NuxtLink>
             </div>
           </div>
           <div
             class="w-1/3 sectionDiv uppercase"
-            @click="navigateTo('../Regions/northern-west-region')"
           >
             <div class="pl-8 pb-2">
               <img
@@ -129,14 +126,14 @@
               />
             </div>
             <div class="pl-8 pb-8 text-left">
-              <p
+              <NuxtLink :to="localePath('../Regions/northern-west-region')"
                 ref="section3"
                 class="pb-1"
                 @mouseover="addBorder3"
                 @mouseout="removeBorder3"
               >
                 NORTHERN-WEST REGIONS
-              </p>
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -160,7 +157,6 @@
         >
           <div
             class="w-1/3 sectionDiv uppercase"
-            @click="navigateTo('../Regions/western-region')"
           >
             <div class="pl-8 pb-2">
               <img
@@ -172,20 +168,19 @@
               />
             </div>
             <div class="pl-8 pb-8 text-left">
-              <p
+              <NuxtLink :to="localePath('../Regions/western-region')"
                 ref="section4"
                 class="pb-1"
                 @mouseover="addBorder4"
                 @mouseout="removeBorder4"
               >
                 WESTERN REGION
-              </p>
+              </NuxtLink>
             </div>
           </div>
 
           <div
             class="w-1/3 sectionDiv uppercase"
-            @click="navigateTo('../Regions/southern-region')"
           >
             <div class="pl-8 pb-2">
               <img
@@ -197,14 +192,14 @@
               />
             </div>
             <div class="pl-8 pb-8 text-left">
-              <p
+              <NuxtLink :to="localePath('../Regions/southern-region')"
                 ref="section5"
                 class="pb-1"
                 @mouseover="addBorder5"
                 @mouseout="removeBorder5"
               >
                 SOUTHERN REGION
-              </p>
+              </NuxtLink>
             </div>
           </div>
           <div
@@ -221,14 +216,14 @@
               />
             </div>
             <div class="pl-8 pb-8 text-left">
-              <p
+              <NuxtLink :to="localePath('../Regions/baku-absheron')"
                 ref="section6"
                 class="pb-1"
                 @mouseover="addBorder6"
                 @mouseout="removeBorder6"
               >
                 BAKU - ABSHERON
-              </p>
+              </NuxtLink>
             </div>
           </div>
         </div>
