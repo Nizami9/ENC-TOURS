@@ -240,15 +240,7 @@
                       $t("az10D1")
                     }}</label>
                     <div class="tab-content">
-                      Arrival to Baku. Transfer to the hotel. Baku is the
-                      capital and largest city of Azerbaijan, as well as the
-                      largest city on the Caspian Sea and of the Caucasus
-                      region. It is a large scientific, cultural and industrial
-                      center. It was first mentioned in the Book of the Dead by
-                      the Egyptian Pharaoh Minesan in 3,500 BC. The ancient age
-                      of Baku is also evidenced by stone carvings dating back to
-                      12,000 years ago and archeological excavations. Overnight
-                      in Baku
+                      {{$t("az10D1P")}}
                     </div>
                   </div>
                 </div>
@@ -264,36 +256,7 @@
                       $t("az10D2")
                     }}</label>
                     <div class="tab-content">
-                      After breakfast, visit Martyrs’ Alley, located on the
-                      higher slopes of the city's west-end; this is the best
-                      place for panorama view of the city and the Bay of Baku.
-                      Then your guided walking tour of Baku includes the
-                      medieval walled city "lcheri Sheher" with it is narrow
-                      alleyways, historic caravanserais, mosques and Palace of
-                      the Shirvan Shahs, UNESCO Heritage site. Visit the
-                      Maiden's Tower, UNESCO Heritage site the imposing mansions
-                      of the oil barons, built in the oil boom of 1870-1914 and
-                      Martyr's with its superb views over the Bay of Baku.
-                      Complex of Shirvanshahs Palace was the last residence of
-                      the rulers of Shirvan State with rich history. At
-                      mediaeval times this state was the most powerful state in
-                      Azerbaijan. The Shirvanshahs Palace is a two-storey
-                      building in an irregular, rectangular shape. In order to
-                      provide better illumination of the palace, the
-                      south-eastern part of the building was constructed on
-                      different levels. Then you will enjoy excursion to the
-                      Absheron Peninsula, visiting the Ateshgah (or place of
-                      fire) a Zoroastrian Fire Temple and Yanar Dag. The Temple
-                      of Eternal Fire - Ateshgah - is an authentic Azerbaijani
-                      exotic. This territory is known for such unique natural
-                      phenomenon as burning natural gas outlets (underground gas
-                      coming onto surface contacts oxygen and lights up). Yanar
-                      Dag is located 25 km to the north from Baku, in Mehemmedi
-                      village. From the year 2007 Yanar Dag is declared a
-                      state-protected conservation area. During the Absheron
-                      tour you will see Quadranqular Tower, one of the ancient
-                      Absheron towers located in Mardakan village. Overnight in
-                      Baku
+                      {{$t("az10D2P")}}
                     </div>
                   </div>
                 </div>
@@ -309,25 +272,7 @@
                       $t("az10D3")
                     }}</label>
                     <div class="tab-content">
-                      In the morning, we will depart Baku and drive to Sheki. On
-                      the way from Baku to Shamakhi, there is Maraza village
-                      known for its unique monument - two-storied
-                      mausoleum-mosque of the 15th century called Diri-Baba,
-                      located across from the old cemetery. For a long time, the
-                      local residents have kept the legend that there
-                      imperishable Saint Diri-Baba had been buried there.
-                      Continue to Shamakha, and you will have a sightseeing of
-                      the historical Juma Mosque (10th century, reconstructed in
-                      the 19th century), numerous ruins of the 10th – 17th
-                      centuries, and Yeddi Gumbez Mausoleum. Drive through
-                      Girdimanchay River’s canyon to visit Lahij, the
-                      5th-century place rich in its historic and architectural
-                      values. Lahij is an ancient village with charming
-                      eye-catching sidewalks inlaid by stones. It is famous for
-                      medieval water supply and sewage systems, as well as
-                      traditional workshops making jewelry, copperware, carpets,
-                      pottery, daggers, and iron tools. *The trip to Lahij is
-                      subject to weather conditions. Overnight in Lahij.
+                      {{$t("az10D3P")}}
                     </div>
                   </div>
                 </div>
@@ -343,58 +288,7 @@
                       $t("az10D4")
                     }}</label>
                     <div class="tab-content">
-                      In the morning we will leave Lahij for Sheki. On the way
-                      we will stop in Gabala to see the church of local
-                      Christian minority of udins in Nidj village. Upon arrival
-                      in Sheki visit the Sheki Khan Palace. The unique beauty
-                      two-storied building of the palace amazes with its
-                      magnificent interior and exterior. The facade of the
-                      palace is richly painted with anecdotal drawings
-                      displaying scenes of hunting and war as well as intricate
-                      geometrical and vegetative patterns. In the center is a
-                      huge stained-glass window from a multi-colored glass
-                      mosaic (It is remarkable up to 5,000 glass pieces were
-                      used per one square meter). Other smaller windows of the
-                      palace are also made of pieces of colored glass and
-                      covered with openwork stone lattices. The basic material
-                      for the Palace construction was raw bricks, river stones,
-                      plane trees and oaks. The most amazing is that not a
-                      single nail or glue drop was used for the construction!
-                      Everything is in place due to a special solution the
-                      formula of which was lost forever. Also we will visit
-                      Carvanserai of 18th century in Sheki. Then drive into the
-                      countryside to the village of Kish with the oldest church
-                      in the Caucasus dating from the first century and enjoy a
-                      walk in the surrounding Caucasus foothills. Overnight in
-                      Sheki.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col">
-                <div class="tabs">
-                  <div class="tab">
-                    <input type="checkbox" id="chck6" />
-                    <label class="tab-label" for="chck6">{{
-                      $t("az10D6")
-                    }}</label>
-                    <div class="tab-content">
-                      This morning we will visit local Sheki bazar. Leave Sheki,
-                      for Ganja. Ganja is the second biggest city of Azerbaijan
-                      with more than a million populations. Ganja is the
-                      birthplace of the great Azerbaijani poet Nizami Ganjavi
-                      who made the invaluable contribution to the history of not
-                      only Azerbaijani literature but also the world literature.
-                      Nizami Ganjevi was born in Ganja in 1141. He was one of
-                      the most educated people of the time. Today we will visit
-                      the 17th century Shah Abbas Mosque, Javadkhan Mousaleum
-                      (XIX century), the Orthodox church ( 1815),Nizami
-                      Mousaleum and the "Bottle House", local icon in Ganja
-                      decorated with 50,000 glass bottles. Visit Imamzade
-                      Mosque. Free time in Ganja. Overnight in Ganja.
+                      {{$t("az10D4P")}}
                     </div>
                   </div>
                 </div>
@@ -410,16 +304,23 @@
                       $t("az10D5")
                     }}</label>
                     <div class="tab-content">
-                      In the morning, leave Ganja and drive to Baku. On the way
-                      Baku, we will visit the Museum of Petroglyphs another name
-                      of which is Gobustan - a mountainous place in the
-                      southeast of the Major Caucasian ridge located 60 km from
-                      Baku. There are thousands of rock paintings from the early
-                      Stone Age depicting hunting scenes, animals, people and
-                      ships as well as graffiti left by Alexander the Great's
-                      army and Roman legionnaires. In 2007 Gobustan was declared
-                      a UNESCO World Heritage Site. Arrival to Baku. Overnight
-                      in Baku.
+                      {{$t("az10D5P")}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div class="tabs">
+                  <div class="tab">
+                    <input type="checkbox" id="chck6" />
+                    <label class="tab-label" for="chck6">{{
+                      $t("az10D6")
+                    }}</label>
+                    <div class="tab-content">
+                      {{$t("az10D6P")}}
                     </div>
                   </div>
                 </div>
@@ -435,25 +336,7 @@
                       $t("az10D7")
                     }}</label>
                     <div class="tab-content">
-                      In the morning, check-out at the hotel and drive to
-                      Lankaran. En-route to Lankaran, we will visit one of the
-                      main attractions in Salyan, Shirvan National Park, created
-                      in 2003 out of a nature reserve that has existed here
-                      since 1969. It covers the territory of 55 hectares and was
-                      founded to preserve the local flora and fauna, especially
-                      gazelles listed in the Red Book. Besides gazelles, there
-                      are 34 species of birds in the reserve, 14 of which are
-                      listed in the Red Book. After visiting the Shirvan
-                      National Park we will continue our tour in Lankaran.
-                      Lankaran is a subtropical paradise and resort. It is
-                      located in the southeast of Azerbaijan practically on the
-                      border with Iran. In the east the city is washed by the
-                      waters of the Caspian Sea. The nature of Lankaran
-                      harmoniously combines high mountain tops, fertile lowlands
-                      and pebbly sea coasts. Visit a local family to learn about
-                      the customs and traditions of the Talysh people in
-                      Lankaran. Later, enjoy the excursion of the tea plantation
-                      and have tea-ceremony here. Overnight in Lankaran.
+                      {{$t("az10D7P")}}
                     </div>
                   </div>
                 </div>
@@ -469,19 +352,7 @@
                       $t("az10D8")
                     }}</label>
                     <div class="tab-content">
-                      Today you will depart with your driver and guide for Baku.
-                      Before the departure to Baku, we will drive to Astara.
-                      Here we will visit Yanar Bulaq. Yanar bulaq (Burning
-                      water) is fire phenomenon in Astara. Yanar Bulag or the
-                      'burning spring' is located in the city of Astara in
-                      southern Azerbaijan. It consists of a metal stand pipe
-                      inside a small pavilion through which water comes gurgling
-                      out. It looks nothing unusual, but when you light a match
-                      and touch the water, the water itself is set ablaze. This
-                      occurs due to the water's high methane content. The locals
-                      believe the water from the spring has remedial properties,
-                      and would often take a drink while the flame is alight.
-                      Overnight in Baku.
+                      {{$t("az10D8P")}}
                     </div>
                   </div>
                 </div>
@@ -497,16 +368,7 @@
                       $t("az10D9")
                     }}</label>
                     <div class="tab-content">
-                      In the morning visit Heydar Aliyev Cultural Center. Heydar
-                      Aliyev Center is a cultural center, projected as a complex
-                      structure that includes the auditorium (convention
-                      center), a museum, exhibition halls, administrative
-                      offices. The project of the center was designed by the
-                      winner of Pritzker prize and internationally recognized
-                      architect Zaha Hadid. *Heydar Aliyev Cultural Center is
-                      closed on Mondays. Then we will visit Villa Petrolea, the
-                      House Museum of Nobel brothers. Free time. Overnight at
-                      the hotel in Baku.
+                      {{$t("az10D9P")}}
                     </div>
                   </div>
                 </div>
@@ -522,8 +384,7 @@
                       $t("az10D10")
                     }}</label>
                     <div class="tab-content">
-                      Meet your driver for the transfer to the airport.
-                      Departure.
+                      {{$t("az10D10P")}}
                     </div>
                   </div>
                 </div>
