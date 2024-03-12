@@ -33,10 +33,10 @@
               </h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.solutions" :key="item.name">
-                  <a
-                    :href="item.href"
+                  <NuxtLink
+                  :to="localePath(item.href)"
                     class="text-sm leading-6 text-gray-300 hover:text-white"
-                    >{{ item.name }}</a
+                    >{{ item.name }}</NuxtLink
                   >
                 </li>
               </ul>
@@ -47,10 +47,10 @@
               </h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.support" :key="item.name">
-                  <a
-                    :href="item.href"
+                  <NuxtLink
+                  :to="localePath(item.href)"
                     class="text-sm leading-6 text-gray-300 hover:text-white"
-                    >{{ item.name }}</a
+                    >{{ item.name }}</NuxtLink
                   >
                 </li>
               </ul>
@@ -61,10 +61,10 @@
               <h3 class="text-sm font-semibold leading-6 text-white">Tours</h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.company" :key="item.name">
-                  <a
-                    :href="item.href"
+                  <NuxtLink
+                  :to="localePath(item.href)"
                     class="text-sm leading-6 text-gray-300 hover:text-white"
-                    >{{ item.name }}</a
+                    >{{ item.name }}</NuxtLink
                   >
                 </li>
               </ul>
@@ -75,10 +75,10 @@
               </h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.legal" :key="item.name">
-                  <a
-                    :href="item.href"
+                  <NuxtLink
+                  :to="localePath(item.href)"
                     class="text-sm leading-6 text-gray-300 hover:text-white"
-                    >{{ item.name }}</a
+                    >{{ item.name }}</NuxtLink
                   >
                 </li>
               </ul>
@@ -100,26 +100,26 @@ import { defineComponent, h } from "vue";
 
 const navigation = {
   solutions: [
-    { name: "General Facts", href: "../../general-facts" },
-    { name: "Tourist Regions", href: "../../tourist-regions" },
-    { name: "Events & Festivals", href: "../../events" },
-    { name: "UNESCO", href: "../../unesco-heritage-list" },
+    { name: "General Facts", href: "/general-facts" },
+    { name: "Tourist Regions", href: "/tourist-regions" },
+    { name: "Events & Festivals", href: "/events" },
+    { name: "UNESCO", href: "/unesco-heritage-list" },
   ],
   support: [
-    { name: "Museums", href: "../../museums" },
-    { name: "Restaurants", href: "../../restaurants" },
-    { name: "Hotels", href: "../../hotels" },
-    { name: "Vehicle Fleet", href: "../../vehicleFleet" },
+    { name: "Museums", href: "/museums" },
+    { name: "Restaurants", href: "/restaurants" },
+    { name: "Hotels", href: "/hotels" },
+    { name: "Vehicle Fleet", href: "/vehicleFleet" },
   ],
   company: [
-    { name: "Baku & Outskirts", href: "../../bakuOutskirts" },
-    { name: "Special Interest", href: "../../specialInterestTours" },
-    { name: "Cultural & Heritage", href: "../../culturalTours" },
-    { name: "Combined Tours", href: "../../combinedTours" },
+    { name: "Baku & Outskirts", href: "/bakuOutskirts" },
+    { name: "Special Interest", href: "/specialInterestTours" },
+    { name: "Cultural & Heritage", href: "/culturalTours" },
+    { name: "Combined Tours", href: "/combinedTours" },
   ],
   legal: [
-    { name: "About Us", href: "../../aboutUs" },
-    { name: "Contacts", href: "../../contactUs" },
+    { name: "About Us", href: "/aboutUs" },
+    { name: "Contacts", href: "/contactUs" },
   ],
   social: [
     {

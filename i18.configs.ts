@@ -165,6 +165,7 @@ export default {
         privatHolidaysP2: "Call",
         privatHolidaysP3: "Or ask an expert to tailor-make this trip",
         azGeo: "AZERBAIJAN & GEORGIA",
+        azCentralAsia: "AZERBAIJAN & CENTRAL ASIA",
         AzGeoD1: "DAY 1: DEPART FROM GEORGIA",
         AzGeoD2: "DAY 2: TBILISI",
         AzGeoD3: "DAY 3: TIBLISI - SIGNAGUI - KAJETIA REGION - TELAVI",
@@ -700,6 +701,9 @@ export default {
         AzGeoP10: "Heute fahren wir nach Gobustan, 65 km von Baku entfernt, einem Freilichtmuseum für Höhlenmalereien, einem Weltkulturerbe der UNESCO, einer antiken Siedlung aus der Jungsteinzeit. Wir werden 12 km entfernt weiterfahren, um aktive Schlammvulkane zu sehen. (Der Ausflug zu den Vulkanen findet nur statt, wenn die Straßen trocken sind). Am Nachmittag umfasst Ihr geführter Rundgang durch Baku dann die ummauerte mittelalterliche Stadt „Icheri Sheher“ mit ihren engen Gassen, historischen Karawansereien, Moscheen und dem Palast der Shirvan Shas. Wir besichtigen auch das Wahrzeichen der Stadt: den Jungfrauenturm aus dem 12. Jahrhundert, von wo aus wir die imposanten Villen der Ölmagnaten bewundern können, die während des Ölbooms von 1870-1914 erbaut wurden. Wir fahren weiter entlang der Allee der Märtyrer mit ihrer herrlichen Aussicht über die Bucht von Baku.(F/A/–)",
         AzGeoP11: "Am Morgen besuchen wir die Halbinsel Absheron, wo wir Ateshgah besuchen, den „Tempel der ewigen Flamme“ (UNESCO-Weltkulturerbe), der im 18. Jahrhundert für die Gebete der Zoroastrier erbaut wurde, die mit Handelskarawanen durch Aserbaidschan reisen. Wir werden den Besuch mit der Festung Mardakan fortsetzen, die im Mittelalter Teil des Verteidigungssystems der Halbinsel war. Schließlich fahren wir nach Yanardagh, dem Feuerberg, der für seinen Erdgasvorkommen berühmt ist. Rückkehr zum Hotel und Unterkunft. (D/A/–)",
         AzGeoP12: "Frühstück und zur vereinbarten Zeit Transfer zum Flughafen, um den Rückflug zu erreichen. (-/-/-)",
+
+        azCentralAsia: "AZERBAIJAN & CENTRAL ASIA",
+
       },
       es: {
         home: "Startpagina",
@@ -1051,6 +1055,9 @@ export default {
         AzGeoP10: "Hoy nos dirigiremos hacia Gobustán, a 65 km de Bakú, un museo al aire libre de pinturas rupestres Patrimonio de la Humanidad por la UNESCO, antiguo asentamiento del periodo neolítico. Continuaremos 12 km de distancia para poder ver volcanes de lodo activos. (La excursión a los volcanes se opera sólo cuando las carreteras están secas). Luego por la tarde su visita guiada a pie de Bakú incluye la ciudad medieval amurallada 'Icheri Sheher ', con sus callejuelas estrechas, caravanserais históricos, mezquitas y el Palacio de los Shirvan Shas. Visitaremos también el símbolo de la ciudad: la Torre de la Doncella, del siglo 12, desde donde podremos admirar las mansiones imponentes de los magnates del petróleo, construida en el auge petrolero de 1870-1914. Continuaremos por el Callejón de los Mártires con sus magníficas vistas sobre la bahía de Bakú. (D/A/–)",
         AzGeoP11: "Por la mañana visita a la península de Absherón, donde conoceremos Ateshgah el “templo de la llama eterna” (Patrimonio de la UNESCO), construido en el siglo 18 para las oraciones de los Zoroastros que viajan con caravanas comerciales a través de Azerbaiyán. Continuaremos la visita con la fortaleza Mardakan que formaba parte del sistema de defensa de la península en los siglos medievales. Por último nos dirigiremos hacia Yanardagh la montaña de fuego famosa por su salida de gas natural. Regreso al hotel y alojamiento. (D/A/–)",
         AzGeoP12: "Desayuno y a la hora prevista traslado al aeropuerto para coger el vuelo de regreso.(–/–/–)",
+
+        azCentralAsia: "AZERBAIJAN & CENTRAL ASIA",
+
       },
       it: {
         home: "Startpagina",
@@ -1400,6 +1407,8 @@ export default {
         AzGeoP11: "In mattinata visita alla penisola di Absheron, dove visiteremo Ateshgah il “tempio della fiamma eterna” (Patrimonio UNESCO), costruito nel XVIII secolo per le preghiere degli zoroastriani che viaggiano con carovane commerciali attraverso l'Azerbaigian. Continueremo la visita con la fortezza Mardakan che faceva parte del sistema di difesa della penisola nei secoli medievali. Infine andremo a Yanardagh, la montagna di fuoco famosa per il suo scarico di gas naturale. Rientro in hotel e sistemazione. (D/A/–)",
         AzGeoP12: "Colazione e all'orario previsto trasferimento in aeroporto per prendere il volo di ritorno. (- / - / -)",
 
+        azCentralAsia: "AZERBAIJAN & CENTRAL ASIA",
+
       },
       jp: {
         home: "家",
@@ -1735,6 +1744,7 @@ export default {
         AzGeoP11: "In the morning visit to the Absheron peninsula, where we will visit Ateshgah the 'temple of the eternal flame' (UNESCO Heritage), built in the 18th century for the prayers of the Zoroastrians who travel with commercial caravans through Azerbaijan. We will continue the visit with the Mardakan fortress that was part of the defense system of the peninsula in the medieval centuries. Finally we will go to Yanardagh the mountain of fire famous for its natural gas outlet. Return to the hotel and accommodation. (D/A/–)",
         AzGeoP12: "Breakfast and at the scheduled time transfer to the airport to catch the return flight.(-/-/-)",
 
+        azCentralAsia: "AZERBAIJAN & CENTRAL ASIA",
 
       },
 
@@ -2055,8 +2065,6 @@ export default {
         lux4: "DÉGUSTATION DE CAVIAR NOIR",
         lux5: "LIEUX ET ÉVÉNEMENTS EXCLUSIFS",
         lux6: "VISITE GOLF",
-
-
         salamD1: "Jour 1 : Arrivée à Bakou",
         salamD2: "Jour 2 : Bakou",
         salamD3: "Jour 3 : Bakou – Absheron – Bakou",
@@ -2085,6 +2093,11 @@ export default {
         AzGeoP10: "Today we will go to Gobustan, 65 km from Baku, an open-air museum of cave paintings, a World Heritage Site by UNESCO, an ancient settlement from the Neolithic period. We will continue 12 km away to see active mud volcanoes. (The excursion to the volcanoes operates only when the roads are dry). Then in the afternoon your guided walking tour of Baku includes the walled medieval city 'Icheri Sheher' with its narrow streets, historical caravanserais, mosques and the Palace of the Shirvan Shas. We will also visit the symbol of the city: the Tower of the Maiden, from the 12th century, from where we can admire the imposing mansions of the oil magnates, built in the oil boom of 1870-1914. We will continue along the Alley of the Martyrs with its magnificent views over Baku Bay. (D/A/–)",
         AzGeoP11: "In the morning visit to the Absheron peninsula, where we will visit Ateshgah the 'temple of the eternal flame' (UNESCO Heritage), built in the 18th century for the prayers of the Zoroastrians who travel with commercial caravans through Azerbaijan. We will continue the visit with the Mardakan fortress that was part of the defense system of the peninsula in the medieval centuries. Finally we will go to Yanardagh the mountain of fire famous for its natural gas outlet. Return to the hotel and accommodation. (D/A/–)",
         AzGeoP12: "Breakfast and at the scheduled time transfer to the airport to catch the return flight.(-/-/-)",
+
+
+        azCentralAsia: "AZERBAIJAN & CENTRAL ASIA",
+
+
       },
       pt: {
         home: "Startpagina",
@@ -2400,7 +2413,6 @@ export default {
         lux4: "DEGUSTAÇÃO DE CAVIAR NEGRO",
         lux5: "LOCAIS E EVENTOS EXCLUSIVOS",
         lux6: "TOUR DE GOLFE",
-
         salamD1: "DIA 1: CHEGADA",
         salamD2: "DIA 2: BAKU",
         salamD3: "DIA 3: BAKU – ABSHERON – BAKU",
@@ -2409,7 +2421,6 @@ export default {
         salamD6: "DIA 6: GANJA – ISMAILLI – BAKU",
         salamD7: "DIA 7: BAKU – GOBUSTAN – BAKU",
         salamD8: "DIA 8: PARTIDA",
-
         salamP1: "Ao chegar hoje em Baku, você será recebido pelo motorista e guia da ENCTOURS e transferido para o seu hotel. Baku é uma cidade de enormes contrastes; os minaretes foram substituídos pelo icônico marco arquitetônico que é The Flame Towers, que contra todas as probabilidades funciona bem nesta cidade que sempre foi sobre o antigo e o novo. Embora a Velha Baku tivesse a reputação de ser uma cidade devastada pela extração de petróleo, foi recentemente completamente transformada numa capital do século XXI, com passeios à beira-mar e arquitetura extraordinária por luminares como Zaha Hadid.",
         salamP2: "Após o café da manhã, seu passeio a pé guiado por Baku inclui a cidade medieval murada 'lcheri Sheher', com suas vielas estreitas, caravanserais históricos, mesquitas e o Palácio dos Shirvan Shahs, Patrimônio da UNESCO. Veremos a Torre da Donzela (vista externa), Patrimônio da UNESCO, as imponentes mansões dos barões do petróleo, construídas no boom do petróleo de 1870-1914 e a dos Mártires com suas vistas soberbas sobre a Baía de Baku. O complexo do Palácio de Shirvanshahs foi a última residência dos governantes do estado de Shirvan com a história de mil. Na época medieval, este estado era o estado mais poderoso do Azerbaijão. O Palácio Shirvanshahs é um edifício de dois andares de formato retangular irregular. Para proporcionar uma melhor iluminação ao palácio, a parte sudeste do edifício foi construída em diferentes níveis. Em seguida, visitaremos o Museu do Tapete do Azerbaijão. Possui a maior coleção de tapetes do Azerbaijão do mundo. O museu tornou-se um centro de pesquisa-formação e cultural-educacional onde são realizados diversos eventos, como exposições, simpósios internacionais e conferências. Os planos para transferir a coleção para um novo local especialmente construído estão em andamento desde 2010, quando os tapetes do Azerbaijão foram proclamados “uma obra-prima do patrimônio imaterial” pela UNESCO. A estrutura do edifício pretende assemelhar-se a um tapete enrolado. Projetado pelo arquiteto austríaco Franz Janz, o edifício levou mais de seis anos para ser construído. Pernoite no hotel em Baku. (B/L/-) *O Museu do Tapete fecha às segundas-feiras.",
         salamP3: "Após o café da manhã, você desfrutará de uma excursão de meio dia à Península Absheron (a 30 km do centro da cidade), visitando o Ateshgah (ou local do fogo), o Templo do Fogo Zoroastriano e o Museu Etnográfico Gala. O Templo do Fogo Eterno - Ateshgah - é um autêntico exótico do Azerbaijão. Este território é conhecido por um fenômeno natural único como a queima de saídas de gás natural (o gás subterrâneo que chega à superfície entra em contato com o oxigênio e se ilumina). Visite a Casa-Museu Nobel. Construída em 1884, a Villa Petrolea foi residência dos irmãos Nobel por quase 40 anos. Em 1879 fundaram a Brothers Nobel Oil Company – “Branobel”, que rapidamente se tornou uma das maiores empresas petrolíferas do mundo. Visite o Centro Cultural Heydar Aliyev. O Centro Heydar Aliyev é um centro cultural, projetado como uma estrutura complexa que inclui auditório (centro de convenções), museu, salas de exposições, escritórios administrativos. O projeto do centro foi desenhado pela ganhadora do prêmio Pritzker e arquiteta internacionalmente reconhecida Zaha Hadid. Pernoite em Baku. (B/L/-) *O Centro Heydar Aliyev está fechado às segundas-feiras.",
@@ -2418,7 +2429,6 @@ export default {
         salamP6: "Ganja é a segunda maior cidade do Azerbaijão, com mais de um milhão de habitantes. Ganja é o local de nascimento do grande poeta azerbaijano Nizami Ganjavi, que deu uma contribuição inestimável para a história não apenas da literatura do Azerbaijão, mas também da literatura mundial. Nizami Ganjevi nasceu em Ganja em 1141. Ele foi uma das pessoas mais educadas da época. Hoje visitaremos a Mesquita Shah Abbas do século XVII, o Javadkhan Mousaleum (século XIX), a igreja ortodoxa (1815), o Nizami Mousaleum e a 'Bottle House', ícone local em Ganja decorada com 50.000 garrafas de vidro. Visite a Mesquita Imamzade. Retorne a Baku. No caminho para Baku visitaremos Ismailli e Chateu Monolit, onde faremos degustação de vinhos e obteremos informações sobre os vinhos produzidos no Azerbaijão. Pernoite em Baku (B/L/-)",
         salamP7: "Esta manhã sairemos de Baku em direção à Reserva Histórica de Gobustan (65 km de distância). A reserva é bastante conhecida por suas pinturas rupestres perfeitamente preservadas - pinturas rupestres - uma espécie de 'arquivo' artístico da evolução humana na Terra. Eles refletem a história desta região durante quase 15.000 anos - desde o final do Paleolítico Superior até a Idade Média. Antes do início do passeio por Gobustan visitaremos o museu interativo com o mesmo nome, onde com a ajuda de programas especiais e telas multimídia sensíveis ao toque obteremos informações sobre a natureza, a flora de Gobustan. Em 2007, Gobustan foi declarada Patrimônio Mundial da UNESCO. Durante a sua visita ao Azerbaijão, Thor Heyerdahl ficou fascinado com as esculturas rupestres que datam de cerca do 8º ao 7º milénios a.C. em Gobustan (cerca de 30 milhas/48 km a oeste de Baku). Ele estava convencido de que seu estilo artístico se assemelhava muito às esculturas encontradas em sua terra natal, a Noruega. Os desenhos dos navios, em particular, foram considerados por Heyerdahl como semelhantes e desenhados com uma linha simples em forma de foice, representando a base do barco, com linhas verticais no convés, ilustrando a tripulação ou, talvez, os remos levantados. Visite os vulcões de lama (de acordo com as condições climáticas, operados somente quando as estradas estão secas). Retorno a Baku. Tarde livre para explorar a capital. (B/L/D)",
         salamP8: "Pela manhã traslado ao aeroporto. Partida (-/-/-)",
-
         AzGeoP1: "---",
         AzGeoP2: "Arrival in Tiblisi in the morning and transfer to the hotel. We begin to explore the capital of Georgia - Tbilisi in all its beauty, with its narrow streets, colorful houses, carved balconies, old neighborhoods and excellent samples of modern architecture. We will stroll through the beautiful narrow streets and visit the main sights of the city. We will enjoy the magnificent panorama of the old city and passing through the old Narikala Fortress we will visit the historic Sulfur Baths, from which the name of the capital comes. Later, a visit to the stunning treasury of the Museum of History will assure us that Georgia truly is the country of the famous Golden Fleece. Overnight at the hotel. (D / - / -)",
         AzGeoP3: "We head towards the most fertile and picturesque part of Georgia - Kajetia, the cradle of wine. We will arrive at Signagui - the “City of Love”, which will impress you with its amazing, old wall and small wooden houses. We will visit the Nunnery - Bodbe (11th century) with its beautiful garden, where the godmother of the Georgians - Santa Nino is buried. For lunch we will arrive at the village with a local family, where we will learn about the life of the peasants and we will see their gardens, vineyards and we will taste the delicious homemade dishes. In the wine tank we will taste some famous Georgian wines. At the end we will visit Gremi, 16th century architectural monument - its citadel and the Church of the Archangels in Kakheti. Arrival in Telavi, the main center of the region. Overnight at the hotel. (D/A/–)",
@@ -2431,6 +2441,8 @@ export default {
         AzGeoP10: "Today we will go to Gobustan, 65 km from Baku, an open-air museum of cave paintings, a World Heritage Site by UNESCO, an ancient settlement from the Neolithic period. We will continue 12 km away to see active mud volcanoes. (The excursion to the volcanoes operates only when the roads are dry). Then in the afternoon your guided walking tour of Baku includes the walled medieval city 'Icheri Sheher' with its narrow streets, historical caravanserais, mosques and the Palace of the Shirvan Shas. We will also visit the symbol of the city: the Tower of the Maiden, from the 12th century, from where we can admire the imposing mansions of the oil magnates, built in the oil boom of 1870-1914. We will continue along the Alley of the Martyrs with its magnificent views over Baku Bay. (D/A/–)",
         AzGeoP11: "In the morning visit to the Absheron peninsula, where we will visit Ateshgah the 'temple of the eternal flame' (UNESCO Heritage), built in the 18th century for the prayers of the Zoroastrians who travel with commercial caravans through Azerbaijan. We will continue the visit with the Mardakan fortress that was part of the defense system of the peninsula in the medieval centuries. Finally we will go to Yanardagh the mountain of fire famous for its natural gas outlet. Return to the hotel and accommodation. (D/A/–)",
         AzGeoP12: "Breakfast and at the scheduled time transfer to the airport to catch the return flight.(-/-/-)",
+
+        azCentralAsia: "AZERBAIJAN & CENTRAL ASIA",
 
       },
       kr: {
@@ -2746,7 +2758,6 @@ export default {
         lux4: "블랙 캐비아 시식",
         lux5: "독점 장소 및 이벤트",
         lux6: "골프 투어",
-
         salamD1: "첫날: 도착",
         salamD2: "이틀째 날: 바쿠",
         salamD3: "삼일째 날: 바쿠- 아브셰론- 바쿠",
@@ -2755,7 +2766,6 @@ export default {
         salamD6: "육일째 날: 간자- 인스마일리- 바쿠",
         salamD7: "칠일째 날: 바쿠-고부스탄-바쿠",
         salamD8: "8일째날: 귀국",
-
         salamP1: "바쿠 도착. 호텔로 이동.",
         salamP2: "아침 식사 후, 중세 벽으로 둘러싸인 도시 “Icheri Sheher”의 가이드 투어가 있습니다. 이 곳은 세계 유네스코 문화 유산인 좁은 골목들, 역사적인 카라반세라이들 (여행자 숙소), 모스크와 시르반샤 궁전이 있습니다.  메이든탑을 지나, 1870-1914년에 오일붐이 일어나면서 지어진 석유 부자들의 넓은 주택들을 구경하고 바쿠의 아름다운 경치를 바라볼 수 있는 순교자의 공원으로 올라갈 것입니다. 쉬르반샤 궁전은 시르반샤 왕들의 마지막 거주지였으며 천년의 역사를 자랑하는 곳입니다. 중세 시대에는 이 왕조는 아제르바이잔에서 제일 강한 왕조였습니다. 쉬르반샤 궁전은 비정형적이고 직사각형 모양에 2층 건축물입니다. 이 궁전은 좀더 좋은 조명을 획득하기 위하여 건축물의 동남쪽은 다른 레벨에 지어졌습니다. 다음 방문 지는 아제르바이잔 카펫 박물관입니다. 세계에서 제일 많은 종류의 아제르바이잔 카펫이 전시되는 곳입니다. 이 박물관은 전시회, 국제 심포지엄, 회담 등 다양한 행사들이 개최되는 문화와 교육의 중심지가 되었습니다. 아제르바이잔의 카펫이 유네스코의 무형문화유산으로 등재되면서 2010년부터 아제르바이잔 카펫 컬렉션을 전시하기 위한 곳이 지어지기 시작되었습니다. 이 건축물의 외관은 말려 있는 카펫처럼 생겼습니다. 이 박물관을 짓는 데 6년이 걸렸으며 프란츠 잔스 오스트리아 출신 건축가에 의해 디자인되었습니다. 바쿠에서 하룻밤 묵기 (아침/점심/-) 카펫 박물관은 매 월요일 휴무입니다. ",
         salamP3: "아침 먹고 압쉐론 반도에 반나절여행을 떠날 예정입니다 (도심에서 30 km 떨어져 있습니다). 압쉐론 반도에서는 조로아스크교 사원 아테쉬가 (불의 땅)과 갈라 민속박물관을 방문할 겁니다. 영원한 불의 사원인 아테쉬가는 아주 이국적인 곳입니다. 이 지역은 천연 가스 배출구(땅 속에 가스가 땅 위로 올라오면서 산소와 접촉하여 불이 나는 현상)같은 특별한 자연 현상으로 유명합니다. 노벨 형제의 집 방문.  빌라 페트롤레아는 1884년에 지어졌으며 40년 가까이 노벨 형제의 거주지였습니다. 1879년에 형제는 브라노벨이라는 회사를 설립했는데 이 회사는 아주 짧은 시간안에 세계에서 가장 큰 석유 회사가 되었습니다.  헤이다르 알리예브 센터 방문. 헤이다르 알리예브 센터는 강당 (컨벤션 센터), 박물관, 전시장, 행정실로 구성된 문화원입니다. 이 문화원은 프리츠커상을 수상한 세계적인 건축가 자하 하디드에 의해 디자인되었습니다. 바쿠에서 하룻밤 묵기(아침/점심/-) *하이다르 알리예브 센터는 매월요일 휴무입니다.",
@@ -2776,6 +2786,9 @@ export default {
         AzGeoP10: "Today we will go to Gobustan, 65 km from Baku, an open-air museum of cave paintings, a World Heritage Site by UNESCO, an ancient settlement from the Neolithic period. We will continue 12 km away to see active mud volcanoes. (The excursion to the volcanoes operates only when the roads are dry). Then in the afternoon your guided walking tour of Baku includes the walled medieval city 'Icheri Sheher' with its narrow streets, historical caravanserais, mosques and the Palace of the Shirvan Shas. We will also visit the symbol of the city: the Tower of the Maiden, from the 12th century, from where we can admire the imposing mansions of the oil magnates, built in the oil boom of 1870-1914. We will continue along the Alley of the Martyrs with its magnificent views over Baku Bay. (D/A/–)",
         AzGeoP11: "In the morning visit to the Absheron peninsula, where we will visit Ateshgah the 'temple of the eternal flame' (UNESCO Heritage), built in the 18th century for the prayers of the Zoroastrians who travel with commercial caravans through Azerbaijan. We will continue the visit with the Mardakan fortress that was part of the defense system of the peninsula in the medieval centuries. Finally we will go to Yanardagh the mountain of fire famous for its natural gas outlet. Return to the hotel and accommodation. (D/A/–)",
         AzGeoP12: "Breakfast and at the scheduled time transfer to the airport to catch the return flight.(-/-/-)",
+
+        azCentralAsia: "AZERBAIJAN & CENTRAL ASIA",
+
 
       },
     },

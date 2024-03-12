@@ -5,7 +5,7 @@
         <div
           class="w-1/2 mainDiv m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-7xl uppercase font-semibold">COMBINED TOURS</p>
+          <p class="text2 text-7xl uppercase font-semibold">{{ $t("combTours") }}</p>
           <p class="rounded-md mt-5 text-center textP">
             Lauded for its extensive knowledge, its East-meets-West model and
             venturing responsibly into every corner of its destinations, it is
@@ -86,14 +86,14 @@
                 @mouseover="addBorder1"
                 @mouseout="removeBorder1"
               >
-                AZERBAIJAN & CENTRAL ASIA
+              {{ $t("azCentralAsia") }}
               </p>
             </div>
           </div>
           <div
             class="w-1/3 sectionDiv uppercase"
-            @click="navigateTo('../tours/Explore_Caucasus')"
           >
+          <NuxtLink :to="localePath('/tours/Explore_Caucasus')">
             <div class="pb-2">
               <img
                 src="@/assets/images/baku2.jpeg"
@@ -110,14 +110,15 @@
                 @mouseover="addBorder2"
                 @mouseout="removeBorder2"
               >
-                EXPLORE CAUCASUS & ANCIENT GREAT SILK ROAD
+              {{ $t("exploreCau") }}
               </p>
             </div>
+            </NuxtLink>
           </div>
           <div
             class="w-1/3 sectionDiv uppercase"
-            @click="navigateTo('../tours/Azerbaijan_Georgia')"
           >
+          <NuxtLink :to="localePath('/tours/Azerbaijan_Georgia')">
             <div class="pb-2">
               <img
                 src="@/assets/images/georg.jpeg"
@@ -134,9 +135,10 @@
                 @mouseover="addBorder3"
                 @mouseout="removeBorder3"
               >
-                AZERBAIJAN & GEORGIA
+                {{ $t("azGeo") }}
               </p>
             </div>
+            </NuxtLink>
           </div>
         </div>
       </div>

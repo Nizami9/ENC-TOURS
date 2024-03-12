@@ -68,8 +68,8 @@
               },
             }"
             class="w-1/3 sectionDiv uppercase"
-            @click="navigateTo('../tours/Azerbaijan_10_days')"
           >
+          <NuxtLink :to="localePath('/tours/Azerbaijan_10_days')">
             <div class="pb-2">
               <img
                 src="@/assets/images/az3.jpeg"
@@ -89,6 +89,7 @@
                 {{ $t("az10Days") }}
               </p>
             </div>
+            </NuxtLink>
           </div>
           <div
             v-motion
@@ -107,8 +108,8 @@
               },
             }"
             class="w-1/3 sectionDiv uppercase"
-            @click="navigateTo('../tours/Explore_Caucasus')"
           >
+          <NuxtLink :to="localePath('/tours/Explore_Caucasus')">
             <div class="pb-2">
               <img
                 src="@/assets/images/az5.jpeg"
@@ -128,6 +129,7 @@
                 {{ $t("exploreCau") }}
               </p>
             </div>
+            </NuxtLink>
           </div>
           <div
             v-motion
@@ -146,8 +148,8 @@
               },
             }"
             class="w-1/3 sectionDiv uppercase"
-            @click="navigateTo('../tours/Perl_Of_Caspian')"
           >
+          <NuxtLink :to="localePath('/tours/Perl_Of_Caspian')">
             <div class="pb-2">
               <img
                 src="@/assets/images/az10.jpeg"
@@ -167,6 +169,7 @@
                 {{ $t("pearl") }}
               </p>
             </div>
+            </NuxtLink>
           </div>
         </div>
         <div class="flex mainSection w-10/12 m-auto mb-6">
@@ -187,8 +190,8 @@
               },
             }"
             class="w-1/3 sectionDiv uppercase"
-            @click="navigateTo('../tours/Salam_Azerbaijan')"
           >
+          <NuxtLink :to="localePath('/tours/Salam_Azerbaijan')">
             <div class="pb-2">
               <img
                 src="@/assets/images/newAz9.jpeg"
@@ -208,6 +211,7 @@
                 {{ $t("salamAz") }}
               </p>
             </div>
+            </NuxtLink>
           </div>
         </div>
       </div>
