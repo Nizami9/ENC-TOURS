@@ -69,15 +69,17 @@
           <div class="w-1/3 sectionDiv">
             <div
               class="pb-5 pl-8 pr-8 cursor-pointer"
-              @click="navigateTo('/general-facts')"
             >
-              <p class="uppercase mb-3">General Facts</p>
+              <NuxtLink :to="localePath('/general-facts')" class="uppercase mb-3">General Facts
+                <p class="uppercase mb-3"></p>
+
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
                 src="@/assets/images/az17.jpg"
-                class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all"
+                class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all"
                 alt=""
               />
+            </NuxtLink>
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-3 m-auto">
@@ -92,15 +94,17 @@
           <div class="w-1/3 sectionDiv">
             <div
               class="pb-5 pl-8 pr-8 cursor-pointer"
-              @click="navigateTo('/mapofazerbaijan')"
             >
-              <p class="uppercase mb-3">Map of Azerbaijan</p>
+            <NuxtLink :to="localePath('/mapofazerbaijan')" class="uppercase mb-3">Map of Azerbaijan
+
+              <p class="uppercase mb-3"></p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
                 src="@/assets/images/map.jpeg"
-                class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
                 alt=""
               />
+              </NuxtLink>
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
@@ -116,16 +120,17 @@
           <div class="w-1/3 sectionDiv">
             <div
               class="pb-5 pl-8 pr-8 cursor-pointer"
-              @click="navigateTo('/azerbaijan_e_visa')"
             >
-              <p class="uppercase mb-3">Azerbaijan E-visa</p>
-              <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
+              <NuxtLink :to="localePath('/azerbaijan_e_visa')" class="uppercase mb-3">Azerbaijan E-visa
+                <p class="uppercase mb-3"></p>
 
+              <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
                 src="@/assets/images/visa.avif"
-                class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
                 alt=""
               />
+              </NuxtLink>
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
@@ -157,15 +162,17 @@
           }"
           class="mainSection flex w-10/12 m-auto mb-6"
         >
-          <div class="w-1/3 sectionDiv" @click="navigateTo('/Tourist-regions')">
+          <div class="w-1/3 sectionDiv">
             <div class="pb-5 pl-8 pr-8 cursor-pointer">
-              <p class="uppercase mb-3">Toursit Regions</p>
+              <NuxtLink :to="localePath('/Tourist-regions')" class="uppercase mb-3">Toursit Regions
+                <p class="uppercase mb-3"></p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
                 src="@/assets/images/guba.jpeg"
-                class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
                 alt=""
               />
+              </NuxtLink>
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
@@ -177,16 +184,17 @@
               </p>
             </div>
           </div>
-          <div class="w-1/3 sectionDiv" @click="navigateTo('/cuisine')">
+          <div class="w-1/3 sectionDiv">
             <div class="pb-5 pl-8 pr-8 cursor-pointer">
-              <p class="uppercase mb-3">Azerbaijan Cuisines</p>
-              <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
-
+              <NuxtLink :to="localePath('/cuisine')" class="uppercase mb-3">Azerbaijan Cuisines
+                <p class="uppercase mb-3"></p>
+                <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
                 src="@/assets/images/cuisineaz.jpeg"
-                class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
                 alt=""
               />
+              </NuxtLink>
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
@@ -198,16 +206,17 @@
               </p>
             </div>
           </div>
-          <div class="w-1/3 sectionDiv" @click="navigateTo('/events')">
+          <div class="w-1/3 sectionDiv">
             <div class="pb-5 pl-8 pr-8 cursor-pointer">
-              <p class="uppercase mb-3">Events & Festivals</p>
+              <NuxtLink :to="localePath('/events')" class="uppercase mb-3">Events & Festivals
+              <p class="uppercase mb-3"></p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
-
               <img
                 src="@/assets/images/event6.jpeg"
-                class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
                 alt=""
               />
+              </NuxtLink>
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
@@ -240,17 +249,17 @@
         >
           <div
             class="w-1/3 sectionDiv"
-            @click="navigateTo('/unesco-heritage-list')"
           >
             <div class="pb-5 pl-8 pr-8 cursor-pointer">
-              <p class="uppercase mb-3">UNESCO Heritage Sites</p>
+              <NuxtLink :to="localePath('/unesco-heritage-list')" class="uppercase mb-3">UNESCO Heritage Sites
+              <p class="uppercase mb-3"></p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
-
               <img
                 src="@/assets/images/unesco.png"
-                class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
+                class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
                 alt=""
               />
+              </NuxtLink>
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">

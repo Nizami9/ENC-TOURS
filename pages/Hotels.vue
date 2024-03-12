@@ -69,8 +69,8 @@
               },
             }"
             class="w-1/3 uppercase sectionDiv cursor-pointer"
-            @click="navigateTo('/baku/bakuhotels')"
           >
+          <NuxtLink :to="localePath('/baku/bakuhotels')">
             <div class="pb-2">
               <img
                 src="@/assets/images/az21.jpeg"
@@ -90,6 +90,7 @@
                 BAKU
               </p>
             </div>
+            </NuxtLink>
           </div>
           <div
             v-motion
@@ -108,8 +109,8 @@
               },
             }"
             class="w-1/3 uppercase sectionDiv cursor-pointer"
-            @click="navigateTo('/gabala/gabalahotels')"
           >
+          <NuxtLink :to="localePath('/gabala/gabalahotels')">
             <div class="pb-2">
               <img
                 src="@/assets/images/gabala.jpeg"
@@ -129,6 +130,7 @@
                 GABALA
               </p>
             </div>
+            </NuxtLink>
           </div>
           <div
             v-motion
@@ -147,8 +149,8 @@
               },
             }"
             class="w-1/3 uppercase sectionDiv cursor-pointer"
-            @click="navigateTo('/sheki/shekihotels')"
           >
+          <NuxtLink :to="localePath('/sheki/shekihotels')">
             <div class="pb-2">
               <img
                 src="@/assets/images/sheki5.jpeg"
@@ -168,6 +170,7 @@
                 SHEKI
               </p>
             </div>
+            </NuxtLink>
           </div>
         </div>
         <div class="mainSection flex w-10/12 m-auto mt-10 uppercase mb-2">
@@ -188,8 +191,8 @@
               },
             }"
             class="w-1/3 uppercase sectionDiv cursor-pointer"
-            @click="navigateTo('/ganja/ganjahotels')"
           >
+          <NuxtLink :to="localePath('/ganja/ganjahotels')">
             <div class="pb-2">
               <img
                 src="@/assets/images/ganja.jpeg"
@@ -209,6 +212,7 @@
                 GANJA
               </p>
             </div>
+            </NuxtLink>
           </div>
           <div
             v-motion
@@ -227,8 +231,8 @@
               },
             }"
             class="w-1/3 uppercase sectionDiv cursor-pointer"
-            @click="navigateTo('/guba/gubahotels')"
           >
+          <NuxtLink :to="localePath('/guba/gubahotels')">
             <div class="pb-2">
               <img
                 src="@/assets/images/guba.jpeg"
@@ -248,6 +252,7 @@
                 GUBA
               </p>
             </div>
+            </NuxtLink>
           </div>
           <div
             v-motion
@@ -266,8 +271,8 @@
               },
             }"
             class="w-1/3 uppercase sectionDiv cursor-pointer"
-            @click="navigateTo('/lankaran/lankaranhotels')"
           >
+          <NuxtLink :to="localePath('/lankaran/lankaranhotels')">
             <div class="pb-2">
               <img
                 src="@/assets/images/lankaran.jpeg"
@@ -287,6 +292,7 @@
                 LANKARAN
               </p>
             </div>
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -310,8 +316,8 @@
             },
           }"
           class="w-1/3 uppercase sectionDiv cursor-pointer"
-          @click="navigateTo('/shahdag/shahdaghotels')"
         >
+        <NuxtLink :to="localePath('/shahdag/shahdaghotels')">
           <div class="pb-2">
             <img
               src="@/assets/images/shahdag.jpeg"
@@ -331,6 +337,7 @@
               SHAHDAG
             </p>
           </div>
+          </NuxtLink>
         </div>
       </div>
     </div>

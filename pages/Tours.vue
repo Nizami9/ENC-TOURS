@@ -69,15 +69,16 @@
           >
             <div
               class="pb-5 divImage pl-8 pr-8 cursor-pointer"
-              @click="navigateTo('/bakuoutskirts')"
             >
-              <p class="uppercase mb-3">{{ $t("bakuAndOut") }}</p>
+              <NuxtLink :to="localePath('/bakuoutskirts')" class="uppercase mb-3">{{ $t("bakuAndOut") }}
+                <p class="uppercase mb-3"></p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
                 src="@/assets/images/az3.jpeg"
                 class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all"
                 alt=""
               />
+              </NuxtLink>
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-3 m-auto">
@@ -109,15 +110,16 @@
           >
             <div
               class="pb-5 divImage pl-8 pr-8 cursor-pointer"
-              @click="navigateTo('/specialinteresttours')"
             >
-              <p class="uppercase mb-3">{{ $t("specialH1") }}</p>
+              <NuxtLink :to="localePath('/specialInterestTours')" class="uppercase mb-3">{{ $t("specialH1") }}
+              <p class="uppercase mb-3"></p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
                 src="@/assets/images/flamingo1.jpeg"
                 class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
                 alt=""
               />
+              </NuxtLink>
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
@@ -150,9 +152,10 @@
           >
             <div
               class="pb-5 divImage pl-8 pr-8 cursor-pointer"
-              @click="navigateTo('/culturaltours')"
             >
-              <p class="uppercase mb-3">{{ $t("cultAndHerit") }}</p>
+              <NuxtLink :to="localePath('/culturaltours')" class="uppercase mb-3">{{ $t("cultAndHerit") }}
+                <p class="uppercase mb-3"></p>
+
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
 
               <img
@@ -160,6 +163,7 @@
                 class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
                 alt=""
               />
+              </NuxtLink>
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
@@ -191,17 +195,17 @@
               },
             }"
             class="w-1/3 sectionDiv"
-            @click="navigateTo('/combinedtours')"
           >
             <div class="pb-5 divImage pl-8 pr-8 cursor-pointer">
-              <p class="uppercase mb-3">{{ $t("combTours") }}</p>
+              <NuxtLink :to="localePath('/combinedtours')" class="uppercase mb-3">{{ $t("combTours") }}
+                <p class="uppercase mb-3"></p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
-
               <img
                 src="@/assets/images/georg2.webp"
                 class="imageStyle h-60 w-full hover:scale-105 duration-300 transition-all cursor-pointer"
                 alt=""
               />
+              </NuxtLink>
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
