@@ -201,7 +201,6 @@
             >
               <NuxtLink :to="localePath('/mice/master_classes')" class="uppercase mb-3">Master Classes
                 <p class="uppercase mb-3"></p>
-
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
 
               <img

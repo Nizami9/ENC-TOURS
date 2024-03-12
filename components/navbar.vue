@@ -224,12 +224,12 @@ watchEffect(() => {
           <option value="pt">🇵🇹</option>
           <option value="kr">🇰🇷</option>
         </select>
-        <a href="../../aboutUs" class="text-sm font-semibold leading-6 mr-10">{{
+        <NuxtLink :to="localePath('/aboutUs')" class="text-sm font-semibold leading-6 mr-10">{{
           $t("aboutUs")
-        }}</a>
-        <a href="../../contactUs" class="text-sm font-semibold leading-6">
+        }}</NuxtLink>
+        <NuxtLink :to="localePath('/contactUs')" class="text-sm font-semibold leading-6">
           <p>{{ $t("contacts") }}</p>
-        </a>
+        </NuxtLink>
       </div>
     </nav>
     <Dialog
