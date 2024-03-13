@@ -213,6 +213,86 @@
             </div>
             </NuxtLink>
           </div>
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+            class="w-1/3 sectionDiv uppercase"
+          >
+          <NuxtLink :to="localePath('/tours/Azerbaijan_6_Days')">
+            <div class="pb-2">
+              <img
+                src="@/assets/images/newAz11.jpeg"
+                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
+                alt=""
+                @mouseover="addBorder5"
+                @mouseout="removeBorder5"
+              />
+            </div>
+            <div class="text-color pb-8">
+              <p
+                ref="section5"
+                class="pb-1"
+                @mouseover="addBorder5"
+                @mouseout="removeBorder5"
+              >
+                Azerbaijan in 6 days
+              </p>
+            </div>
+            </NuxtLink>
+          </div>
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+            class="w-1/3 sectionDiv uppercase"
+          >
+          <NuxtLink :to="localePath('/tours/Azerbaijan_8_Days')">
+            <div class="pb-2">
+              <img
+                src="@/assets/images/newAz4.jpeg"
+                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
+                alt=""
+                @mouseover="addBorder6"
+                @mouseout="removeBorder6"
+              />
+            </div>
+            <div class="text-color pb-8">
+              <p
+                ref="section6"
+                class="pb-1"
+                @mouseover="addBorder6"
+                @mouseout="removeBorder6"
+              >
+                Azerbaijan in 8 days
+              </p>
+            </div>
+            </NuxtLink>
+          </div>
         </div>
       </div>
     </div>
@@ -236,6 +316,10 @@ const section1 = ref(null);
 const section2 = ref(null);
 const section3 = ref(null);
 const section4 = ref(null);
+const section5 = ref(null);
+const section6 = ref(null);
+const section7 = ref(null);
+
 
 const { addBorder: addBorder1, removeBorder: removeBorder1 } =
   createHoverHandlers(section1);
@@ -245,7 +329,14 @@ const { addBorder: addBorder3, removeBorder: removeBorder3 } =
   createHoverHandlers(section3);
 const { addBorder: addBorder4, removeBorder: removeBorder4 } =
   createHoverHandlers(section4);
+  const { addBorder: addBorder5, removeBorder: removeBorder5 } =
+  createHoverHandlers(section5);
+  const { addBorder: addBorder6, removeBorder: removeBorder6 } =
+  createHoverHandlers(section6);
+  const { addBorder: addBorder7, removeBorder: removeBorder7 } =
+  createHoverHandlers(section7);
 </script>
+
 <style scoped>
 .parallax {
   min-height: 100vh;

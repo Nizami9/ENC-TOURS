@@ -6,7 +6,7 @@
           class="w-2/3 mainDiv m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
           <p class="text2 text-7xl uppercase font-semibold">
-            {{ $t("az10Days") }}
+            {{ $t("Az10Days9Nights") }}
           </p>
           <p class="rounded-md mt-20 text-center textP">
             Lauded for its extensive knowledge, its East-meets-West model and
@@ -237,10 +237,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck1" />
                     <label class="tab-label" for="chck1">{{
-                      $t("az10D1")
+                      $t("Az10DaysD1")
                     }}</label>
                     <div class="tab-content">
-                      {{$t("az10D1P")}}
+                      {{$t("Az10DaysP1")}}
                     </div>
                   </div>
                 </div>
@@ -253,10 +253,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck2" />
                     <label class="tab-label" for="chck2">{{
-                      $t("az10D2")
+                      $t("Az10DaysD2")
                     }}</label>
                     <div class="tab-content">
-                      {{$t("az10D2P")}}
+                      {{$t("Az10DaysP2")}}
                     </div>
                   </div>
                 </div>
@@ -269,10 +269,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck3" />
                     <label class="tab-label" for="chck3">{{
-                      $t("az10D3")
+                      $t("Az10DaysD3")
                     }}</label>
                     <div class="tab-content">
-                      {{$t("az10D3P")}}
+                      {{$t("Az10DaysP3")}}
                     </div>
                   </div>
                 </div>
@@ -285,10 +285,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck4" />
                     <label class="tab-label" for="chck4">{{
-                      $t("az10D4")
+                      $t("Az10DaysD4")
                     }}</label>
                     <div class="tab-content">
-                      {{$t("az10D4P")}}
+                      {{$t("Az10DaysP4")}}
                     </div>
                   </div>
                 </div>
@@ -301,10 +301,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck5" />
                     <label class="tab-label" for="chck5">{{
-                      $t("az10D5")
+                      $t("Az10DaysD5")
                     }}</label>
                     <div class="tab-content">
-                      {{$t("az10D5P")}}
+                      {{$t("Az10DaysP5")}}
                     </div>
                   </div>
                 </div>
@@ -317,10 +317,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck6" />
                     <label class="tab-label" for="chck6">{{
-                      $t("az10D6")
+                      $t("Az10DaysD6")
                     }}</label>
                     <div class="tab-content">
-                      {{$t("az10D6P")}}
+                      {{$t("Az10DaysP6")}}
                     </div>
                   </div>
                 </div>
@@ -333,10 +333,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck7" />
                     <label class="tab-label" for="chck7">{{
-                      $t("az10D7")
+                      $t("Az10DaysD7")
                     }}</label>
                     <div class="tab-content">
-                      {{$t("az10D7P")}}
+                      {{$t("Az10DaysP7")}}
                     </div>
                   </div>
                 </div>
@@ -349,10 +349,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck8" />
                     <label class="tab-label" for="chck8">{{
-                      $t("az10D8")
+                      $t("Az10DaysD8")
                     }}</label>
                     <div class="tab-content">
-                      {{$t("az10D8P")}}
+                      {{$t("Az10DaysP9")}}
                     </div>
                   </div>
                 </div>
@@ -365,10 +365,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck9" />
                     <label class="tab-label" for="chck9">{{
-                      $t("az10D9")
+                      $t("Az10DaysD9")
                     }}</label>
                     <div class="tab-content">
-                      {{$t("az10D9P")}}
+                      {{$t("Az10DaysP9")}}
                     </div>
                   </div>
                 </div>
@@ -381,10 +381,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck10" />
                     <label class="tab-label" for="chck10">{{
-                      $t("az10D10")
+                      $t("Az10DaysD10")
                     }}</label>
                     <div class="tab-content">
-                      {{$t("az10D10P")}}
+                      {{$t("Az10DaysP10")}}
                     </div>
                   </div>
                 </div>
