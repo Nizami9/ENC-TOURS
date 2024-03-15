@@ -198,35 +198,156 @@
         </div>
 
         <div class="bg-gray-200 w-ful">
+
           <div class="w-10/12 m-auto pt-10 pb-10">
-            <div
-              @click="clickOnDay1"
-              class="flex border-b pb-2 border-black justify-between duration-500 transition-all cursor-pointer mt-10"
-            >
-              <p class="text mt-1 text-lg">{{ $t("az10D1") }}</p>
-              <img
-                src="@/assets/images/plus-button.png"
-                class="plusButton w-8"
-                alt=""
-              />
-            </div>
-            <div
-              class="mt-5 text-left transition-all duration-500 duration-500"
-              v-if="Day1"
-            >
-              <p class="text transition-all animate-fadeIn duration-500">
-                Arrival to Baku. Transfer to the hotel. Baku is the capital and
-                largest city of Azerbaijan, as well as the largest city on the
-                Caspian Sea and of the Caucasus region. It is a large
-                scientific, cultural and industrial center. It was first
-                mentioned in the Book of the Dead by the Egyptian Pharaoh
-                Minesan in 3,500 BC. The ancient age of Baku is also evidenced
-                by stone carvings dating back to 12,000 years ago and
-                archeological excavations. Overnight in Baku
-              </p>
+
+            <div class="row hover:scale(105)">
+              <div class="col">
+                <div class="tabs">
+                  <div class="tab">
+                    <input type="checkbox" id="chck1" />
+                    <label class="tab-label" for="chck1">{{
+                      $t("ExplD1")
+                    }}</label>
+                    <div class="tab-content">
+                      {{$t("ExplP1")}}
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
-          </div>
+
+            <div class="row hover:scale(105)">
+              <div class="col">
+                <div class="tabs">
+                  <div class="tab">
+                    <input type="checkbox" id="chck2" />
+                    <label class="tab-label" for="chck2">{{
+                      $t("ExplD2")
+                    }}</label>
+                    <div class="tab-content">
+                      {{$t("ExplP2")}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row hover:scale(105)">
+              <div class="col">
+                <div class="tabs">
+                  <div class="tab">
+                    <input type="checkbox" id="chck3" />
+                    <label class="tab-label" for="chck3">{{
+                      $t("ExplD3")
+                    }}</label>
+                    <div class="tab-content">
+                      {{$t("ExplP3")}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row hover:scale(105)">
+              <div class="col">
+                <div class="tabs">
+                  <div class="tab">
+                    <input type="checkbox" id="chck4" />
+                    <label class="tab-label" for="chck4">{{
+                      $t("ExplD4")
+                    }}</label>
+                    <div class="tab-content">
+                      {{$t("ExplP4")}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row hover:scale(105)">
+              <div class="col">
+                <div class="tabs">
+                  <div class="tab">
+                    <input type="checkbox" id="chck5" />
+                    <label class="tab-label" for="chck5">{{
+                      $t("ExplD5")
+                    }}</label>
+                    <div class="tab-content">
+                      {{$t("ExplP5")}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row hover:scale(105)">
+              <div class="col">
+                <div class="tabs">
+                  <div class="tab">
+                    <input type="checkbox" id="chck6" />
+                    <label class="tab-label" for="chck6">{{
+                      $t("ExplD6")
+                    }}</label>
+                    <div class="tab-content">
+                      {{$t("ExplP6")}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row hover:scale(105)">
+              <div class="col">
+                <div class="tabs">
+                  <div class="tab">
+                    <input type="checkbox" id="chck7" />
+                    <label class="tab-label" for="chck7">{{
+                      $t("ExplD7")
+                    }}</label>
+                    <div class="tab-content">
+                      {{$t("ExplP7")}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row hover:scale(105)">
+              <div class="col">
+                <div class="tabs">
+                  <div class="tab">
+                    <input type="checkbox" id="chck8" />
+                    <label class="tab-label" for="chck8">{{
+                      $t("ExplD8")
+                    }}</label>
+                    <div class="tab-content">
+                      {{$t("ExplP8")}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row hover:scale(105)">
+              <div class="col">
+                <div class="tabs">
+                  <div class="tab">
+                    <input type="checkbox" id="chck9" />
+                    <label class="tab-label" for="chck9">{{
+                      $t("ExplD9")
+                    }}</label>
+                    <div class="tab-content">
+                      {{$t("ExplP9")}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
           <div class="pb-5">
             <p class="text-2xl mb-3 text">* ADDITIONAL INFORMATION</p>
             <p class="text">
@@ -236,7 +357,6 @@
             </p>
           </div>
         </div>
-
         <div class="w-10/12 m-auto h-200 mt-10 mb-10">
           <div>
             <h4 class="text-3xl text2">{{ $t("accomUsed") }}</h4>
@@ -502,52 +622,6 @@
 <script setup>
 import carousel from "@/components/Carousel_Az_10_Days";
 import carouselAccomodation from "@/components/Carousel_Accomodation";
-
-const Day1 = ref(false);
-const Day2 = ref(false);
-const Day3 = ref(false);
-const Day4 = ref(false);
-const Day5 = ref(false);
-const Day6 = ref(false);
-const Day7 = ref(false);
-const Day8 = ref(false);
-const Day9 = ref(false);
-
-const clickOnDay1 = () => {
-  Day1.value = !Day1.value;
-};
-
-const clickOnDay2 = () => {
-  Day2.value = !Day2.value;
-};
-
-const clickOnDay3 = () => {
-  Day3.value = !Day3.value;
-};
-
-const clickOnDay4 = () => {
-  Day4.value = !Day4.value;
-};
-
-const clickOnDay5 = () => {
-  Day5.value = !Day5.value;
-};
-
-const clickOnDay6 = () => {
-  Day6.value = !Day6.value;
-};
-
-const clickOnDay7 = () => {
-  Day7.value = !Day7.value;
-};
-
-const clickOnDay8 = () => {
-  Day8.value = !Day8.value;
-};
-
-const clickOnDay9 = () => {
-  Day9.value = !Day9.value;
-};
 </script>
 
 <style scoped>
@@ -701,5 +775,71 @@ const clickOnDay9 = () => {
   @media (min-width: 320px) and (max-width: 820px) {
     display: block;
   }
+}
+
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.row:hover {
+  scale: 98%;
+  background: rgb(234, 179, 6);
+  transition: all ease-in 0.2s;
+  border-radius: 8px;
+}
+.row .col {
+  flex: 1;
+}
+
+.tabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 5px -4px rgba(0, 0, 0, 0.5);
+}
+
+.tab {
+  width: 100%;
+  overflow: hidden;
+}
+
+.tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.tab-label::after {
+  content: "❯";
+  width: 1em;
+  height: 1em;
+  transition: all 0.3s;
+}
+.tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  background: rgb(248, 248, 248);
+  transition: all 0.3s;
+}
+.tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  cursor: pointer;
+}
+
+input:checked + .tab-label::after {
+  transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
 }
 </style>
