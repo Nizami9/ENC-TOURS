@@ -6,12 +6,12 @@
           class="parallax h-full w-full flex flex-col items-center justify-between relative"
         >
           <div class="overlay flex-col justify-evenly flex items-center">
-            <!-- <p
-              class="text2 w-full pt-60 text-center text-7xl text-white uppercase"
+             <p
+              class="text2 w-full text-center text-7xl text-white uppercase"
             >
               {{ $t("mainPageH1") }}
             </p>
-            <p
+            <!-- <p
               class="uppercase textP text-center w-2/3 text leading-5 rounded-md text-center text-white"
             >
             {{ $t("mainPageH1") }}
