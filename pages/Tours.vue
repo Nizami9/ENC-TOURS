@@ -37,15 +37,7 @@
           class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
-            ENC Tours experience in designing exceptional experiences continues
-            to cast an intimate spell. The almost mesmerizing bonds we have with
-            our East and South East Asian destinations are amongst the closest
-            one can find – be it a dreamy hideaway along sandy shores or a
-            breathtaking moment overlooking its authentic vastness. It is all in
-            delivering that perfect moment, where a second of tasting our Asia
-            delivers a moment of eternal gratitude for all it encompasses. It is
-            all about the local expertise, executive with passion and perfection
-            for an exceeding expectations’experience.
+            {{ $t("toursIntro") }}
           </p>
         </div>
         <div class="mainSection flex w-10/12 m-auto mt-10 mb-6">
@@ -82,11 +74,7 @@
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-3 m-auto">
-                CAMBODIA Once seen as the centre of the ancient world, Cambodia
-                ignites the wanderlust in prospect visitors. Centred around the
-                Angkor temples, the country’s immaculate immersion of natural
-                and historical treasures are amongst the most sought-after
-                reasons for entering a world of legacy and hospitality.
+                {{ $t("toursP1") }}
               </p>
             </div>
           </div>
@@ -123,12 +111,7 @@
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
-                Following in the footsteps of an imperial path, China’s
-                centuries long history has shaped the grandeur within its
-                vastness. Running like a red thread through the country’s past,
-                present and future vision, no country has the ability to
-                effortlessly blend its values from a bygone era into captivating
-                sights for everyone.
+                {{ $t("toursP2") }}
               </p>
             </div>
           </div>
@@ -167,12 +150,7 @@
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
-                Thrilling with a pinch of British colonialism. Its unique
-                position within Greater China has made Hong Kong a dashing
-                example of city vibe with a deeply-rooted Chinese heritage with
-                continuously embracing its heritage. No Asian metropole has the
-                capacity to excite like Hong Kong when in need of a modern,
-                Chinese sense of exploration.
+                {{ $t("toursP3") }}
               </p>
             </div>
           </div>
@@ -209,11 +187,7 @@
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
-                VIETNAM Vietnam The country’s expansive coastline and towering
-                mountain ranges have shaped Vietnam into the harmonious country
-                it is now. Meandering rivers, an abundance of beaches, happing
-                cities and remote villages in the vastness of its mountain
-                ranges form the backbone of its ever-present popularity.
+                {{ $t("toursP4") }}
               </p>
             </div>
           </div>

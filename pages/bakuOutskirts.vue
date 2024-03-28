@@ -5,7 +5,7 @@
         <div
           class="w-1/2 m-auto mainDiv pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-8xl uppercase font-semibold">BAKU & OUTSKIRTS</p>
+          <p class="text2 text-7xl uppercase font-semibold">BAKU & OUTSKIRTS</p>
           <p class="rounded-md mt-5 text-center textP">
             Lauded for its extensive knowledge, its East-meets-West model and
             venturing responsibly into every corner of its destinations, it is
@@ -37,19 +37,11 @@
           class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
-            ENC Tours experience in designing exceptional experiences continues
-            to cast an intimate spell. The almost mesmerizing bonds we have with
-            our East and South East Asian destinations are amongst the closest
-            one can find – be it a dreamy hideaway along sandy shores or a
-            breathtaking moment overlooking its authentic vastness. It is all in
-            delivering that perfect moment, where a second of tasting our Asia
-            delivers a moment of eternal gratitude for all it encompasses. It is
-            all about the local expertise, executive with passion and perfection
-            for an exceeding expectations’experience.
+            {{ $t("bakuAndOutP") }}
           </p>
         </div>
         <div
-          class="flex mainSection w-10/12 m-auto mt-10 uppercase mb-2"
+          class="flex mainSection w-10/12 m-auto mt-10 uppercase mb-10"
           v-motion
           :initial="{
             opacity: 0,
@@ -76,14 +68,22 @@
                 @mouseout="removeBorder1"
               />
             </div>
-            <div class="text-color pb-8">
+            <div class="text-color cursor-pointer pb-3">
               <p
                 ref="section1"
                 class="pb-1"
                 @mouseover="addBorder1"
                 @mouseout="removeBorder1"
               >
-                ABSHERON PENINSULA
+                {{ $t("bakuAndOutH1") }}
+              </p>
+            </div>
+
+            <div
+              class="text-color capitalize text-sm leading-6 w-11/12 p-2 m-auto"
+            >
+              <p>
+                {{ $t("bakuAndOutP1") }}
               </p>
             </div>
           </div>
@@ -97,14 +97,21 @@
                 @mouseout="removeBorder2"
               />
             </div>
-            <div class="text-color pb-8">
+            <div class="text-color cursor-pointer pb-3">
               <p
                 ref="section2"
                 class="pb-1"
                 @mouseover="addBorder2"
                 @mouseout="removeBorder2"
               >
-                BAKU CITY TOUR
+              {{ $t("bakuAndOutH2") }}
+              </p>
+            </div>
+            <div
+              class="text-color capitalize text-sm leading-6 w-11/12 p-2 m-auto"
+            >
+              <p>
+                {{ $t("bakuAndOutP2") }}
               </p>
             </div>
           </div>
@@ -118,14 +125,69 @@
                 @mouseout="removeBorder3"
               />
             </div>
-            <div class="text-color pb-8">
+            <div class="text-color cursor-pointer pb-3">
               <p
                 @mouseover="addBorder3"
                 @mouseout="removeBorder3"
                 ref="section3"
                 class="pb-1"
               >
-                GOBUSTAN ROCK PAINTINGS MUSEUM
+              {{ $t("bakuAndOutH3") }}
+              </p>
+            </div>
+            <div
+              class="text-color capitalize text-sm leading-6 w-11/12 p-2 m-auto"
+            >
+              <p>
+                {{ $t("bakuAndOutP3") }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex mainSection w-10/12 m-auto mt-10 uppercase mb-10"
+          v-motion
+          :initial="{
+            opacity: 0,
+            y: 100,
+          }"
+          :visible="{
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: 'spring',
+              stiffness: 250,
+              damping: 70,
+              mass: 20,
+            },
+          }"
+        >
+          <div class="w-1/3 sectionDiv uppercase">
+            <div class="pb-2">
+              <img
+                src="@/assets/images/az3.jpeg"
+                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all cursor-pointer"
+                alt=""
+                @mouseover="addBorder1"
+                @mouseout="removeBorder1"
+              />
+            </div>
+            <div class="text-color cursor-pointer pb-3">
+              <p
+                ref="section1"
+                class="pb-1"
+                @mouseover="addBorder1"
+                @mouseout="removeBorder1"
+              >
+              {{ $t("bakuAndOutH4") }}
+              </p>
+            </div>
+
+            <div
+              class="text-color capitalize text-sm leading-6 w-11/12 p-2 m-auto"
+            >
+              <p>
+                {{ $t("bakuAndOutP4") }}
               </p>
             </div>
           </div>

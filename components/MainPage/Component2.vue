@@ -10,7 +10,6 @@
         <p class="border-b-4 w-40 m-auto border-blue-900"></p>
       </div>
       <div class="w-full">
-        <p>{{ $t("comp2p2") }}</p>
         <p class="leading-7">
           {{ $t("comp2p3") }}
         </p>

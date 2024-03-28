@@ -37,15 +37,7 @@
           class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
-            ENC Tours experience in designing exceptional experiences continues
-            to cast an intimate spell. The almost mesmerizing bonds we have with
-            our East and South East Asian destinations are amongst the closest
-            one can find – be it a dreamy hideaway along sandy shores or a
-            breathtaking moment overlooking its authentic vastness. It is all in
-            delivering that perfect moment, where a second of tasting our Asia
-            delivers a moment of eternal gratitude for all it encompasses. It is
-            all about the local expertise, executive with passion and perfection
-            for an exceeding expectations’experience.
+            {{ $t("AzerbaiP") }}
           </p>
         </div>
         <div
@@ -67,19 +59,20 @@
           class="mainSection flex w-10/12 m-auto mt-10 mb-6"
         >
           <div class="w-1/3 sectionDiv">
-            <div
-              class="pb-5 pl-8 pr-8 cursor-pointer"
-            >
-              <NuxtLink :to="localePath('/general-facts')" class="uppercase mb-3">General Facts
+            <div class="pb-5 pl-8 pr-8 cursor-pointer">
+              <NuxtLink
+                :to="localePath('/general-facts')"
+                class="uppercase mb-3"
+                >General Facts
                 <p class="uppercase mb-3"></p>
 
-              <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
-              <img
-                src="@/assets/images/az17.jpg"
-                class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all"
-                alt=""
-              />
-            </NuxtLink>
+                <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
+                <img
+                  src="@/assets/images/az17.jpg"
+                  class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all"
+                  alt=""
+                />
+              </NuxtLink>
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-3 m-auto">
@@ -92,18 +85,19 @@
             </div>
           </div>
           <div class="w-1/3 sectionDiv">
-            <div
-              class="pb-5 pl-8 pr-8 cursor-pointer"
-            >
-            <NuxtLink :to="localePath('/mapofazerbaijan')" class="uppercase mb-3">Map of Azerbaijan
+            <div class="pb-5 pl-8 pr-8 cursor-pointer">
+              <NuxtLink
+                :to="localePath('/mapofazerbaijan')"
+                class="uppercase mb-3"
+                >Map of Azerbaijan
 
-              <p class="uppercase mb-3"></p>
-              <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
-              <img
-                src="@/assets/images/map.jpeg"
-                class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
-                alt=""
-              />
+                <p class="uppercase mb-3"></p>
+                <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
+                <img
+                  src="@/assets/images/map.jpeg"
+                  class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
+                  alt=""
+                />
               </NuxtLink>
             </div>
             <div>
@@ -118,18 +112,19 @@
             </div>
           </div>
           <div class="w-1/3 sectionDiv">
-            <div
-              class="pb-5 pl-8 pr-8 cursor-pointer"
-            >
-              <NuxtLink :to="localePath('/azerbaijan_e_visa')" class="uppercase mb-3">Azerbaijan E-visa
+            <div class="pb-5 pl-8 pr-8 cursor-pointer">
+              <NuxtLink
+                :to="localePath('/azerbaijan_e_visa')"
+                class="uppercase mb-3"
+                >Azerbaijan E-visa
                 <p class="uppercase mb-3"></p>
 
-              <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
-              <img
-                src="@/assets/images/visa.avif"
-                class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
-                alt=""
-              />
+                <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
+                <img
+                  src="@/assets/images/visa.avif"
+                  class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
+                  alt=""
+                />
               </NuxtLink>
             </div>
             <div>
@@ -164,36 +159,17 @@
         >
           <div class="w-1/3 sectionDiv">
             <div class="pb-5 pl-8 pr-8 cursor-pointer">
-              <NuxtLink :to="localePath('/Tourist-regions')" class="uppercase mb-3">Toursit Regions
-                <p class="uppercase mb-3"></p>
-              <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
-              <img
-                src="@/assets/images/guba.jpeg"
-                class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
-                alt=""
-              />
-              </NuxtLink>
-            </div>
-            <div>
-              <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
-                VIETNAM Vietnam The country’s expansive coastline and towering
-                mountain ranges have shaped Vietnam into the harmonious country
-                it is now. Meandering rivers, an abundance of beaches, happing
-                cities and remote villages in the vastness of its mountain
-                ranges form the backbone of its ever-present popularity.
-              </p>
-            </div>
-          </div>
-          <div class="w-1/3 sectionDiv">
-            <div class="pb-5 pl-8 pr-8 cursor-pointer">
-              <NuxtLink :to="localePath('/cuisine')" class="uppercase mb-3">Azerbaijan Cuisines
+              <NuxtLink
+                :to="localePath('/Tourist-regions')"
+                class="uppercase mb-3"
+                >Toursit Regions
                 <p class="uppercase mb-3"></p>
                 <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
-              <img
-                src="@/assets/images/cuisineaz.jpeg"
-                class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
-                alt=""
-              />
+                <img
+                  src="@/assets/images/guba.jpeg"
+                  class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
+                  alt=""
+                />
               </NuxtLink>
             </div>
             <div>
@@ -208,14 +184,38 @@
           </div>
           <div class="w-1/3 sectionDiv">
             <div class="pb-5 pl-8 pr-8 cursor-pointer">
-              <NuxtLink :to="localePath('/events')" class="uppercase mb-3">Events & Festivals
-              <p class="uppercase mb-3"></p>
-              <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
-              <img
-                src="@/assets/images/event6.jpeg"
-                class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
-                alt=""
-              />
+              <NuxtLink :to="localePath('/cuisine')" class="uppercase mb-3"
+                >Azerbaijan Cuisines
+                <p class="uppercase mb-3"></p>
+                <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
+                <img
+                  src="@/assets/images/cuisineaz.jpeg"
+                  class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
+                  alt=""
+                />
+              </NuxtLink>
+            </div>
+            <div>
+              <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
+                VIETNAM Vietnam The country’s expansive coastline and towering
+                mountain ranges have shaped Vietnam into the harmonious country
+                it is now. Meandering rivers, an abundance of beaches, happing
+                cities and remote villages in the vastness of its mountain
+                ranges form the backbone of its ever-present popularity.
+              </p>
+            </div>
+          </div>
+          <div class="w-1/3 sectionDiv">
+            <div class="pb-5 pl-8 pr-8 cursor-pointer">
+              <NuxtLink :to="localePath('/events')" class="uppercase mb-3"
+                >Events & Festivals
+                <p class="uppercase mb-3"></p>
+                <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
+                <img
+                  src="@/assets/images/event6.jpeg"
+                  class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
+                  alt=""
+                />
               </NuxtLink>
             </div>
             <div>
@@ -247,18 +247,19 @@
           }"
           class="mainSection flex w-10/12 justify-center m-auto mb-6"
         >
-          <div
-            class="w-1/3 sectionDiv"
-          >
+          <div class="w-1/3 sectionDiv">
             <div class="pb-5 pl-8 pr-8 cursor-pointer">
-              <NuxtLink :to="localePath('/unesco-heritage-list')" class="uppercase mb-3">UNESCO Heritage Sites
-              <p class="uppercase mb-3"></p>
-              <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
-              <img
-                src="@/assets/images/unesco.png"
-                class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
-                alt=""
-              />
+              <NuxtLink
+                :to="localePath('/unesco-heritage-list')"
+                class="uppercase mb-3"
+                >UNESCO Heritage Sites
+                <p class="uppercase mb-3"></p>
+                <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
+                <img
+                  src="@/assets/images/unesco.png"
+                  class="imageStyle h-60 w-full hover:scale-105 duration-500 transition-all cursor-pointer"
+                  alt=""
+                />
               </NuxtLink>
             </div>
             <div>

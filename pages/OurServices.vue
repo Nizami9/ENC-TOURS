@@ -5,11 +5,9 @@
         <div
           class="w-1/2 m-auto mainDiv pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-8xl uppercase font-semibold">{{ $t("ourSer") }}</p>
+          <p class="text2 text-7xl uppercase font-semibold">{{ $t("ourSer") }}</p>
           <p class="rounded-md mt-20 text-center textP">
-            Lauded for its extensive knowledge, its East-meets-West model and
-            venturing responsibly into every corner of its destinations, it is
-            our mission to show guests the beating heart of our Asia
+            {{ $t("ourSerP") }}
           </p>
         </div>
       </div>
@@ -82,11 +80,7 @@
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-3 m-auto">
-                CAMBODIA Once seen as the centre of the ancient world, Cambodia
-                ignites the wanderlust in prospect visitors. Centred around the
-                Angkor temples, the country’s immaculate immersion of natural
-                and historical treasures are amongst the most sought-after
-                reasons for entering a world of legacy and hospitality.
+                {{ $t("ourSerP1") }}
               </p>
             </div>
           </div>
@@ -111,7 +105,7 @@
             <div
               class="pb-5 divImage pl-8 pr-8 cursor-pointer"
             >
-              <NuxtLink :to="localePath('/restaurants')" class="uppercase mb-3">{{ $t("rest") }}
+              <NuxtLink :to="localePath('/restaurants')" class="uppercase mb-3">{{ $t("ourSerH2") }}
                 <p class="uppercase mb-3"></p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
@@ -123,12 +117,7 @@
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
-                Following in the footsteps of an imperial path, China’s
-                centuries long history has shaped the grandeur within its
-                vastness. Running like a red thread through the country’s past,
-                present and future vision, no country has the ability to
-                effortlessly blend its values from a bygone era into captivating
-                sights for everyone.
+                {{ $t("ourSerP2") }}
               </p>
             </div>
           </div>
@@ -153,7 +142,7 @@
             <div
               class="pb-5 divImage pl-8 pr-8 cursor-pointer"
             >
-              <NuxtLink :to="localePath('/hotels')" class="uppercase mb-3">{{ $t("hotels") }}
+              <NuxtLink :to="localePath('/hotels')" class="uppercase mb-3">{{ $t("ourSerH3") }}
                 <p class="uppercase mb-3"></p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
@@ -165,12 +154,7 @@
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
-                Thrilling with a pinch of British colonialism. Its unique
-                position within Greater China has made Hong Kong a dashing
-                example of city vibe with a deeply-rooted Chinese heritage with
-                continuously embracing its heritage. No Asian metropole has the
-                capacity to excite like Hong Kong when in need of a modern,
-                Chinese sense of exploration.
+                {{ $t("ourSerP3") }}
               </p>
             </div>
           </div>
@@ -195,7 +179,7 @@
         >
           <div class="w-1/3 sectionDiv">
             <div class="pb-5 divImage pl-8 pr-8 cursor-pointer">
-              <NuxtLink :to="localePath('/vehiclefleet')"  class="uppercase mb-3">{{ $t("vehicFleet") }}
+              <NuxtLink :to="localePath('/vehiclefleet')"  class="uppercase mb-3">{{ $t("ourSerH4") }}
                 <p class="uppercase mb-3"></p>
               <p class="border border-gray-400 mb-6 w-1/3 m-auto"></p>
               <img
@@ -207,11 +191,7 @@
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 mt-5 m-auto">
-                VIETNAM Vietnam The country’s expansive coastline and towering
-                mountain ranges have shaped Vietnam into the harmonious country
-                it is now. Meandering rivers, an abundance of beaches, happing
-                cities and remote villages in the vastness of its mountain
-                ranges form the backbone of its ever-present popularity.
+                {{ $t("ourSerP4") }}
               </p>
             </div>
           </div>
