@@ -81,7 +81,7 @@ const scrollToComponent2 = () => {
 
 <style scoped>
 .parallax {
-  background-image: url("@/assets/images/baku8.webp");
+  background-image: url("@/assets/images/test12.jpg");
   min-height: 100vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
