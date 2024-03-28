@@ -6,7 +6,7 @@
           class="parallax h-full w-full flex flex-col items-center justify-between relative"
         >
           <div class="overlay flex-col justify-evenly flex items-center">
-            <p
+            <!-- <p
               class="text2 w-full pt-60 text-center text-7xl text-white uppercase"
             >
               {{ $t("mainPageH1") }}
@@ -20,13 +20,13 @@
               degree excellence and responsibility. The company was established
               in 2008 with the vision to be chosen as the most trusted source of
               travel for people who wish to have life lasting memories.
-            </p>
-            <img
+            </p> -->
+            <!-- <img
               src="@/assets/images/arrowDown.png"
               class="buttonImage w-20 pt-40"
               alt=""
               @click="scrollToComponent2"
-            />
+            /> -->
           </div>
         </div>
       </div>
@@ -86,6 +86,7 @@ const scrollToComponent2 = () => {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center -90px;
 }
 .overlay {
   position: absolute;
