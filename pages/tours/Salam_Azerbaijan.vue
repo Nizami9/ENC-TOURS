@@ -5,7 +5,9 @@
         <div
           class="w-2/3 mainDiv m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-7xl uppercase font-semibold">{{ $t("salamAz") }}</p>
+          <p class="text2 text-7xl uppercase font-semibold">
+            {{ $t("salamAz") }}
+          </p>
           <p class="rounded-md mt-20 text-center textP">
             Lauded for its extensive knowledge, its East-meets-West model and
             venturing responsibly into every corner of its destinations, it is
@@ -103,7 +105,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">{{ $t("transport") }}</p>
+                      <p class="uppercase mb-5 text-lg">
+                        {{ $t("transport") }}
+                      </p>
                       <p class="leading-6">
                         {{ $t("transportP") }}
                       </p>
@@ -116,7 +120,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">{{ $t("groupSize") }}</p>
+                      <p class="uppercase mb-5 text-lg">
+                        {{ $t("groupSize") }}
+                      </p>
                       <p>{{ $t("max") }}: 12</p>
                     </div>
                   </div>
@@ -142,7 +148,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">{{ $t("accomodation") }}</p>
+                      <p class="uppercase mb-5 text-lg">
+                        {{ $t("accomodation") }}
+                      </p>
                       <p>7 {{ $t("nights") }} x {{ $t("premium") }}</p>
                       <p>6 {{ $t("nights") }} x {{ $t("superior") }}</p>
                       <p>1 {{ $t("night") }} x {{ $t("basic") }}</p>
@@ -168,7 +176,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">{{ $t("fitnessRat") }}</p>
+                      <p class="uppercase mb-5 text-lg">
+                        {{ $t("fitnessRat") }}
+                      </p>
                       <p>{{ $t("low") }}</p>
                     </div>
                   </div>
@@ -179,7 +189,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">{{ $t("wildMiles") }}</p>
+                      <p class="uppercase mb-5 text-lg">
+                        {{ $t("wildMiles") }}
+                      </p>
                       <p>{{ $t("wildMilesP") }}</p>
                     </div>
                   </div>
@@ -203,7 +215,6 @@
 
         <div class="bg-gray-200 w-ful">
           <div class="w-10/12 m-auto pt-10 pb-10">
-           
             <div class="row hover:scale(105)">
               <div class="col">
                 <div class="tabs">
@@ -338,233 +349,49 @@
 
         <div class="w-8/12 section4 m-auto">
           <div>
-            <h4 class="text-3xl text2 uppercase mb-2">{{ $t("datesAndPr") }}</h4>
+            <h4 class="text-3xl text2 uppercase mb-2">
+              {{ $t("datesAndPr") }}
+            </h4>
             <h5 class="w-2/3 section3 text m-auto text-center">
               {{ $t("datesAndPrP") }}
             </h5>
           </div>
-          <div
-            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
-          >
-            <div class="w-1/3 sec51 text-left">
-              <div class="w-1/3 secAvailable">
-                <p
-                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
-                >
-                {{ $t("available") }}
-                </p>
-              </div>
-              <div>
-                <p class="uppercase text-xl text-yellow-900 mb-2">
-                  {{ $t("stDep") }}
-                </p>
-              </div>
-              <div>
-                <p>26th Apr 2024 - 10th May 2024</p>
-              </div>
-              <div>
-                <p class="text-sm">(15 {{ $t("days") }})</p>
-              </div>
-            </div>
-            <div class="sec51 sec51Pt pt-12 w-1/3">
-              <div>
-                <p class="text-xl font-bold">£4,195</p>
-              </div>
-              <div>
-                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
-              </div>
-            </div>
-            <div class="sec51 w-1/3">
-              <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
-          >
-            <div class="w-1/3 sec51 text-left">
-              <div class="w-1/3 secAvailable">
-                <p
-                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
-                >
-                {{ $t("available") }}
-                </p>
-              </div>
-              <div>
-                <p class="uppercase text-xl text-yellow-900 mb-2">
-                  {{ $t("stDep") }}
-                </p>
-              </div>
-              <div>
-                <p>26th Apr 2024 - 10th May 2024</p>
-              </div>
-              <div>
-                <p class="text-sm">(15 {{ $t("days") }})</p>
-              </div>
-            </div>
-            <div class="sec51 sec51Pt pt-12 w-1/3">
-              <div>
-                <p class="text-xl font-bold">£4,195</p>
-              </div>
-              <div>
-                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
-              </div>
-            </div>
-            <div class="sec51 w-1/3">
-              <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
-          >
-            <div class="w-1/3 sec51 text-left">
-              <div class="w-1/3 secAvailable">
-                <p
-                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
-                >
-                {{ $t("available") }}
-                </p>
-              </div>
-              <div>
-                <p class="uppercase text-xl text-yellow-900 mb-2">
-                  {{ $t("stDep") }}
-                </p>
-              </div>
-              <div>
-                <p>26th Apr 2024 - 10th May 2024</p>
-              </div>
-              <div>
-                <p class="text-sm">(15 {{ $t("days") }})</p>
-              </div>
-            </div>
-            <div class="sec51 sec51Pt pt-12 w-1/3">
-              <div>
-                <p class="text-xl font-bold">£4,195</p>
-              </div>
-              <div>
-                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
-              </div>
-            </div>
-            <div class="sec51 w-1/3">
-              <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
-          >
-            <div class="w-1/3 sec51 text-left">
-              <div class="w-1/3 secAvailable">
-                <p
-                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
-                >
-                {{ $t("available") }}
-                </p>
-              </div>
-              <div>
-                <p class="uppercase text-xl text-yellow-900 mb-2">
-                  {{ $t("stDep") }}
-                </p>
-              </div>
-              <div>
-                <p>26th Apr 2024 - 10th May 2024</p>
-              </div>
-              <div>
-                <p class="text-sm">(15 {{ $t("days") }})</p>
-              </div>
-            </div>
-            <div class="sec51 sec51Pt pt-12 w-1/3">
-              <div>
-                <p class="text-xl font-bold">£4,195</p>
-              </div>
-              <div>
-                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
-              </div>
-            </div>
-            <div class="sec51 w-1/3">
-              <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
-          >
-            <div class="w-1/3 sec51 text-left">
-              <div class="w-1/3 secAvailable">
-                <p
-                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
-                >
-                {{ $t("available") }}
-                </p>
-              </div>
-              <div>
-                <p class="uppercase text-xl text-yellow-900 mb-2">
-                  {{ $t("stDep") }}
-                </p>
-              </div>
-              <div>
-                <p>26th Apr 2024 - 10th May 2024</p>
-              </div>
-              <div>
-                <p class="text-sm">(15 {{ $t("days") }})</p>
-              </div>
-            </div>
-            <div class="sec51 sec51Pt pt-12 w-1/3">
-              <div>
-                <p class="text-xl font-bold">£4,195</p>
-              </div>
-              <div>
-                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
-              </div>
-            </div>
-            <div class="sec51 w-1/3">
-              <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
-          >
-            <div class="w-1/3 sec51 text-left">
-              <div class="w-1/3 secAvailable">
-                <p
-                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
-                >
-                {{ $t("available") }}
-                </p>
-              </div>
-              <div>
-                <p class="uppercase text-xl text-yellow-900 mb-2">
-                  {{ $t("stDep") }}
-                </p>
-              </div>
-              <div>
-                <p>26th Apr 2024 - 10th May 2024</p>
-              </div>
-              <div>
-                <p class="text-sm">(15 {{ $t("days") }})</p>
-              </div>
-            </div>
-            <div class="sec51 sec51Pt pt-12 w-1/3">
-              <div>
-                <p class="text-xl font-bold">£4,195</p>
-              </div>
-              <div>
-                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
-              </div>
-            </div>
-            <div class="sec51 w-1/3">
-              <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
-              </div>
-            </div>
-          </div>
+
+          <TourInfo
+            start="09th June 2024"
+            end="15th June 2024"
+            duration="6 days"
+            price="4,330"
+            singlesup="270"
+          />
+          <TourInfo
+            start="12th April 2024"
+            end="18th April 2024"
+            duration="6 days"
+            price="2,450"
+            singlesup="350"
+          />
+          <TourInfo
+            start="18th January 2025"
+            end="24th January 2025"
+            duration="6 days"
+            price="1,500"
+            singlesup="299"
+          />
+          <TourInfo
+            start="22th December 2024"
+            end="26th December 2024"
+            duration="6 days"
+            price="3,200"
+            singlesup="480"
+          />
+          <TourInfo
+            start="30th July 2025"
+            end="06th August 2025"
+            duration="6 days"
+            price="1,900"
+            singlesup="300"
+          />
         </div>
         <div class="w-10/12 bg-gray-200 m-auto mb-5 p-5">
           <h3 class="text-3xl p-5 text2">{{ $t("privatHolidays") }}</h3>
@@ -592,6 +419,7 @@
 <script setup>
 import carousel from "@/components/Carousel_Az_10_Days";
 import carouselAccomodation from "@/components/Carousel_Accomodation";
+import TourInfo from "~~/components/TourInfo.vue";
 </script>
 
 <style scoped>
@@ -613,7 +441,6 @@ import carouselAccomodation from "@/components/Carousel_Accomodation";
   filter: brightness(55%);
   z-index: -1;
 }
-
 
 .text2 {
   font-weight: 600;
@@ -732,7 +559,6 @@ import carouselAccomodation from "@/components/Carousel_Accomodation";
     display: block;
   }
 }
-
 
 input {
   position: absolute;

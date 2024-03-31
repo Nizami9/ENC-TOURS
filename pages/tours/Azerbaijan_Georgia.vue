@@ -105,7 +105,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">{{ $t("transportP") }}</p>
+                      <p class="uppercase mb-5 text-lg">
+                        {{ $t("transportP") }}
+                      </p>
                       <p class="leading-6">
                         {{ $t("transportP") }}
                       </p>
@@ -118,7 +120,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">{{ $t("groupSize") }}</p>
+                      <p class="uppercase mb-5 text-lg">
+                        {{ $t("groupSize") }}
+                      </p>
                       <p>{{ $t("max") }}: 12</p>
                     </div>
                   </div>
@@ -144,7 +148,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">{{ $t("accomodation") }}</p>
+                      <p class="uppercase mb-5 text-lg">
+                        {{ $t("accomodation") }}
+                      </p>
                       <p>7 {{ $t("nights") }} x {{ $t("premium") }}</p>
                       <p>6 {{ $t("nights") }} x {{ $t("superior") }}</p>
                       <p>1 {{ $t("night") }} x {{ $t("basic") }}</p>
@@ -170,7 +176,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">{{ $t("fitnessRat") }}</p>
+                      <p class="uppercase mb-5 text-lg">
+                        {{ $t("fitnessRat") }}
+                      </p>
                       <p>{{ $t("low") }}</p>
                     </div>
                   </div>
@@ -181,7 +189,9 @@
                       <img src="@/assets/images/twit.png" class="h-5" alt="" />
                     </div>
                     <div class="text-sm min-h-36">
-                      <p class="uppercase mb-5 text-lg">{{ $t("wildMiles") }}</p>
+                      <p class="uppercase mb-5 text-lg">
+                        {{ $t("wildMiles") }}
+                      </p>
                       <p>{{ $t("wildMilesP") }}</p>
                     </div>
                   </div>
@@ -228,8 +238,8 @@
               <div class="col">
                 <div class="tabs">
                   <div class="tab">
-                    <input type="checkbox" id="chck1" />
-                    <label class="tab-label" for="chck1">{{
+                    <input type="checkbox" id="chck2" />
+                    <label class="tab-label" for="chck2">{{
                       $t("AzGeoD2")
                     }}</label>
                     <div class="tab-content">
@@ -243,8 +253,8 @@
               <div class="col">
                 <div class="tabs">
                   <div class="tab">
-                    <input type="checkbox" id="chck1" />
-                    <label class="tab-label" for="chck1">{{
+                    <input type="checkbox" id="chck3" />
+                    <label class="tab-label" for="chck3">{{
                       $t("AzGeoD3")
                     }}</label>
                     <div class="tab-content">
@@ -258,8 +268,8 @@
               <div class="col">
                 <div class="tabs">
                   <div class="tab">
-                    <input type="checkbox" id="chck1" />
-                    <label class="tab-label" for="chck1">{{
+                    <input type="checkbox" id="chck4" />
+                    <label class="tab-label" for="chck4">{{
                       $t("AzGeoD4")
                     }}</label>
                     <div class="tab-content">
@@ -273,8 +283,8 @@
               <div class="col">
                 <div class="tabs">
                   <div class="tab">
-                    <input type="checkbox" id="chck1" />
-                    <label class="tab-label" for="chck1">{{
+                    <input type="checkbox" id="chck5" />
+                    <label class="tab-label" for="chck5">{{
                       $t("AzGeoD5")
                     }}</label>
                     <div class="tab-content">
@@ -288,8 +298,8 @@
               <div class="col">
                 <div class="tabs">
                   <div class="tab">
-                    <input type="checkbox" id="chck1" />
-                    <label class="tab-label" for="chck1">{{
+                    <input type="checkbox" id="chck6" />
+                    <label class="tab-label" for="chck6">{{
                       $t("AzGeoD6")
                     }}</label>
                     <div class="tab-content">
@@ -303,8 +313,8 @@
               <div class="col">
                 <div class="tabs">
                   <div class="tab">
-                    <input type="checkbox" id="chck1" />
-                    <label class="tab-label" for="chck1">{{
+                    <input type="checkbox" id="chck7" />
+                    <label class="tab-label" for="chck7">{{
                       $t("AzGeoD7")
                     }}</label>
                     <div class="tab-content">
@@ -318,12 +328,12 @@
               <div class="col">
                 <div class="tabs">
                   <div class="tab">
-                    <input type="checkbox" id="chck1" />
-                    <label class="tab-label" for="chck1">{{
+                    <input type="checkbox" id="chck8" />
+                    <label class="tab-label" for="chck8">{{
                       $t("AzGeoD8")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("perlD1P") }}
+                      {{ $t("AzGeoP8") }}
                     </div>
                   </div>
                 </div>
@@ -333,12 +343,12 @@
               <div class="col">
                 <div class="tabs">
                   <div class="tab">
-                    <input type="checkbox" id="chck1" />
-                    <label class="tab-label" for="chck1">{{
+                    <input type="checkbox" id="chck9" />
+                    <label class="tab-label" for="chck9">{{
                       $t("AzGeoD9")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("perlD1P") }}
+                      {{ $t("AzGeoP9") }}
                     </div>
                   </div>
                 </div>
@@ -348,12 +358,12 @@
               <div class="col">
                 <div class="tabs">
                   <div class="tab">
-                    <input type="checkbox" id="chck1" />
-                    <label class="tab-label" for="chck1">{{
+                    <input type="checkbox" id="chck10" />
+                    <label class="tab-label" for="chck10">{{
                       $t("AzGeoD10")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("perlD1P") }}
+                      {{ $t("AzGeoP10") }}
                     </div>
                   </div>
                 </div>
@@ -363,12 +373,12 @@
               <div class="col">
                 <div class="tabs">
                   <div class="tab">
-                    <input type="checkbox" id="chck1" />
-                    <label class="tab-label" for="chck1">{{
+                    <input type="checkbox" id="chck11" />
+                    <label class="tab-label" for="chck11">{{
                       $t("AzGeoD11")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("perlD1P") }}
+                      {{ $t("AzGeoP11") }}
                     </div>
                   </div>
                 </div>
@@ -378,12 +388,12 @@
               <div class="col">
                 <div class="tabs">
                   <div class="tab">
-                    <input type="checkbox" id="chck1" />
-                    <label class="tab-label" for="chck1">{{
+                    <input type="checkbox" id="chck12" />
+                    <label class="tab-label" for="chck12">{{
                       $t("AzGeoD12")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("perlD1P") }}
+                      {{ $t("AzGeoP12") }}
                     </div>
                   </div>
                 </div>
@@ -401,255 +411,61 @@
           </div>
         </div>
 
-        <div class="w-8 plusButton/12 section4 m-auto">
+        <div class="w-8/12 section4 m-auto">
           <div>
             <h4 class="text-3xl uppercase mb-2">{{ $t("datesAndPr") }}</h4>
             <h5 class="w-2/3 m-auto text-center">
               {{ $t("datesAndPrP") }}
             </h5>
           </div>
-          <div
-            class="border-b mb-5 mt-5 pb-3 section5 flex justify-between w-full"
-          >
-            <div class="w-1/3 sec51 text-left">
-              <div class="w-1/3 secAvailable">
-                <p
-                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
-                >
-                {{ $t("available") }}
-                </p>
-              </div>
-              <div>
-                <p class="uppercase text-xl text-yellow-900 mb-2">
-                  {{ $t("stDep") }}
-                </p>
-              </div>
-              <div>
-                <p>26th Apr 2024 - 10th May 2024</p>
-              </div>
-              <div>
-                <p class="text-sm">(15 {{ $t("days") }})</p>
-              </div>
-            </div>
-            <div class="sec51 sec51Pt pt-12 w-1/3">
-              <div>
-                <p class="text-xl font-bold">£4,195</p>
-              </div>
-              <div>
-                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
-              </div>
-            </div>
-            <div class="sec51 w-1/3">
-              <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
-          >
-            <div class="w-1/3 sec51 text-left">
-              <div class="w-1/3 secAvailable">
-                <p
-                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
-                >
-                {{ $t("available") }}
-                </p>
-              </div>
-              <div>
-                <p class="uppercase text-xl text-yellow-900 mb-2">
-                  {{ $t("stDep") }}
-                </p>
-              </div>
-              <div>
-                <p>26th Apr 2024 - 10th May 2024</p>
-              </div>
-              <div>
-                <p class="text-sm">(15 {{ $t("days") }})</p>
-              </div>
-            </div>
-            <div class="sec51 sec51Pt pt-12 w-1/3">
-              <div>
-                <p class="text-xl font-bold">£4,195</p>
-              </div>
-              <div>
-                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
-              </div>
-            </div>
-            <div class="sec51 w-1/3">
-              <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
-          >
-            <div class="w-1/3 sec51 text-left">
-              <div class="w-1/3 secAvailable">
-                <p
-                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
-                >
-                {{ $t("available") }}
-                </p>
-              </div>
-              <div>
-                <p class="uppercase text-xl text-yellow-900 mb-2">
-                  {{ $t("stDep") }}
-                </p>
-              </div>
-              <div>
-                <p>26th Apr 2024 - 10th May 2024</p>
-              </div>
-              <div>
-                <p class="text-sm">(15 {{ $t("days") }})</p>
-              </div>
-            </div>
-            <div class="sec51 sec51Pt pt-12 w-1/3">
-              <div>
-                <p class="text-xl font-bold">£4,195</p>
-              </div>
-              <div>
-                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
-              </div>
-            </div>
-            <div class="sec51 w-1/3">
-              <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
-          >
-            <div class="w-1/3 sec51 text-left">
-              <div class="w-1/3 secAvailable">
-                <p
-                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
-                >
-                {{ $t("available") }}
-                </p>
-              </div>
-              <div>
-                <p class="uppercase text-xl text-yellow-900 mb-2">
-                  {{ $t("stDep") }}
-                </p>
-              </div>
-              <div>
-                <p>26th Apr 2024 - 10th May 2024</p>
-              </div>
-              <div>
-                <p class="text-sm">(15 {{ $t("days") }})</p>
-              </div>
-            </div>
-            <div class="sec51 sec51Pt pt-12 w-1/3">
-              <div>
-                <p class="text-xl font-bold">£4,195</p>
-              </div>
-              <div>
-                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
-              </div>
-            </div>
-            <div class="sec51 w-1/3">
-              <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
-          >
-            <div class="w-1/3 sec51 text-left">
-              <div class="w-1/3 secAvailable">
-                <p
-                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
-                >
-                {{ $t("available") }}
-                </p>
-              </div>
-              <div>
-                <p class="uppercase text-xl text-yellow-900 mb-2">
-                  {{ $t("stDep") }}
-                </p>
-              </div>
-              <div>
-                <p>26th Apr 2024 - 10th May 2024</p>
-              </div>
-              <div>
-                <p class="text-sm">(15 {{ $t("days") }})</p>
-              </div>
-            </div>
-            <div class="sec51 sec51Pt pt-12 w-1/3">
-              <div>
-                <p class="text-xl font-bold">£4,195</p>
-              </div>
-              <div>
-                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
-              </div>
-            </div>
-            <div class="sec51 w-1/3">
-              <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="border-b mb-5 mt-5 pb-3 flex section5 justify-between w-full"
-          >
-            <div class="w-1/3 sec51 text-left">
-              <div class="w-1/3 secAvailable">
-                <p
-                  class="bg-gray-500 text-white border rounded-xl p-1 mb-2 text-center"
-                >
-                {{ $t("available") }}
-                </p>
-              </div>
-              <div>
-                <p class="uppercase text-xl text-yellow-900 mb-2">
-                  {{ $t("stDep") }}
-                </p>
-              </div>
-              <div>
-                <p>26th Apr 2024 - 10th May 2024</p>
-              </div>
-              <div>
-                <p class="text-sm">(15 {{ $t("days") }})</p>
-              </div>
-            </div>
-            <div class="sec51 sec51Pt pt-12 w-1/3">
-              <div>
-                <p class="text-xl font-bold">£4,195</p>
-              </div>
-              <div>
-                <p class="text-sm">{{ $t("optSingleSupp") }}: + £495</p>
-              </div>
-            </div>
-            <div class="sec51 w-1/3">
-              <div class="flex sec5end sec51Pt justify-end pt-12">
-                <p class="bg-yellow-500 p-3 w-52 rounded-3xl">{{ $t("sendEmail") }}</p>
-              </div>
-            </div>
-          </div>
+
+          <TourInfo
+            start="09th June 2024"
+            end="15th June 2024"
+            duration="6 days"
+            price="4,330"
+            singlesup="270"
+          />
+          <TourInfo
+            start="12th April 2024"
+            end="18th April 2024"
+            duration="6 days"
+            price="2,450"
+            singlesup="350"
+          />
+          <TourInfo
+            start="18th January 2025"
+            end="24th January 2025"
+            duration="6 days"
+            price="1,500"
+            singlesup="299"
+          />
+          <TourInfo
+            start="22th December 2024"
+            end="26th December 2024"
+            duration="6 days"
+            price="3,200"
+            singlesup="480"
+          />
+          <TourInfo
+            start="30th July 2025"
+            end="06th August 2025"
+            duration="6 days"
+            price="1,900"
+            singlesup="300"
+          />
         </div>
         <div class="w-10/12 bg-gray-200 m-auto mb-5 p-5">
           <h3 class="text-3xl p-5 text2">{{ $t("privatHolidays") }}</h3>
           <p class="text">{{ $t("privatHolidaysP1") }}</p>
           <div class="flex endSection w-1/2 mt-4 m-auto justify-between pb-5">
             <div class="flex text justify-around w-full">
-              <img
-                src="@/assets/images/phone.png"
-                class="h-6"
-                alt=""
-              />
+              <img src="@/assets/images/phone.png" class="h-6" alt="" />
               <p>{{ $t("privatHolidaysP2") }} +44 (0) 20 3925 9628</p>
             </div>
             <div class="flex text w-full justify-around">
               <div class="flex justify-around w-full">
-                <img
-                  src="@/assets/images/mail.png"
-                  class="h-6"
-                  alt=""
-                />
+                <img src="@/assets/images/mail.png" class="h-6" alt="" />
                 <p>{{ $t("privatHolidaysP3") }}</p>
               </div>
             </div>
@@ -663,68 +479,7 @@
 <script setup>
 import carousel from "@/components/Carousel_Az_10_Days";
 import carouselAccomodation from "@/components/Carousel_Accomodation";
-import dates from "@/components/Dates_Prices.vue";
-
-const Day1 = ref(false);
-const Day2 = ref(false);
-const Day3 = ref(false);
-const Day4 = ref(false);
-const Day5 = ref(false);
-const Day6 = ref(false);
-const Day7 = ref(false);
-const Day8 = ref(false);
-const Day9 = ref(false);
-const Day10 = ref(false);
-const Day11 = ref(false);
-const Day12 = ref(false);
-
-const clickOnDay1 = () => {
-  Day1.value = !Day1.value;
-};
-
-const clickOnDay2 = () => {
-  Day2.value = !Day2.value;
-};
-
-const clickOnDay3 = () => {
-  Day3.value = !Day3.value;
-};
-
-const clickOnDay4 = () => {
-  Day4.value = !Day4.value;
-};
-
-const clickOnDay5 = () => {
-  Day5.value = !Day5.value;
-};
-
-const clickOnDay6 = () => {
-  Day6.value = !Day6.value;
-};
-
-const clickOnDay7 = () => {
-  Day7.value = !Day7.value;
-};
-
-const clickOnDay8 = () => {
-  Day8.value = !Day8.value;
-};
-
-const clickOnDay9 = () => {
-  Day9.value = !Day9.value;
-};
-
-const clickOnDay10 = () => {
-  Day10.value = !Day10.value;
-};
-
-const clickOnDay11 = () => {
-  Day11.value = !Day11.value;
-};
-
-const clickOnDay12 = () => {
-  Day12.value = !Day12.value;
-};
+import TourInfo from "@/components/TourInfo.vue";
 </script>
 
 <style scoped>
@@ -863,5 +618,71 @@ const clickOnDay12 = () => {
   @media (min-width: 320px) and (max-width: 820px) {
     display: block;
   }
+}
+
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.row:hover {
+  scale: 98%;
+  background: rgb(234, 179, 6);
+  transition: all ease-in 0.2s;
+  border-radius: 8px;
+}
+.row .col {
+  flex: 1;
+}
+
+.tabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 5px -4px rgba(0, 0, 0, 0.5);
+}
+
+.tab {
+  width: 100%;
+  overflow: hidden;
+}
+
+.tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.tab-label::after {
+  content: "❯";
+  width: 1em;
+  height: 1em;
+  transition: all 0.3s;
+}
+.tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  background: rgb(248, 248, 248);
+  transition: all 0.3s;
+}
+.tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  cursor: pointer;
+}
+
+input:checked + .tab-label::after {
+  transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
 }
 </style>
