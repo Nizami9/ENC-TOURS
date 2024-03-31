@@ -70,131 +70,9 @@
                 <p class="uppercase text-3xl">{{ $t("highlites") }}</p>
                 <carousel></carousel>
               </div>
-              <div class="m-auto mt-10">
-                <p class="uppercase text-3xl">{{ $t("atAGlance") }}</p>
-                <div class="mt-10 mb-10">
-                  <div class="flex section2 w-full justify-between mb-4">
-                    <div
-                      class="bg-gray-400 text-white eachSection w-1/4 mr-4 p-5"
-                    >
-                      <div class="m-auto w-6 mb-5">
-                        <img src="@/assets/images/twit.png" class="h-5" alt="" />
-                      </div>
-                      <div class="text-sm min-h-36">
-                        <p class="uppercase text-lg mb-5">
-                          {{ $t("meals") }}
-                        </p>
-                        <p>14 x {{ $t("breakfast") }}</p>
-                        <p>13 x {{ $t("lunches") }}</p>
-                        <p>12 x {{ $t("dinners") }}</p>
-                      </div>
-                    </div>
-                    <div
-                      class="bg-gray-400 eachSection text-white w-1/4 mr-4 p-5"
-                    >
-                      <div class="m-auto w-6 mb-5">
-                        <img src="@/assets/images/twit.png" class="h-5" alt="" />
-                      </div>
-                      <div class="text-sm min-h-36">
-                        <p class="uppercase mb-5 text-lg">
-                          {{ $t("transport") }}
-                        </p>
-                        <p class="leading-6">
-                          {{ $t("transportP") }}
-                        </p>
-                      </div>
-                    </div>
-                    <div
-                      class="bg-gray-400 eachSection text-white w-1/4 mr-4 p-5"
-                    >
-                      <div class="m-auto w-6 mb-5">
-                        <img src="@/assets/images/twit.png" class="h-5" alt="" />
-                      </div>
-                      <div class="text-sm min-h-36">
-                        <p class="uppercase mb-5 text-lg">
-                          {{ $t("groupSize") }}
-                        </p>
-                        <p>{{ $t("max") }}: 12</p>
-                      </div>
-                    </div>
-                    <div
-                      class="bg-gray-400 eachSection text-white w-1/4 mr-4 p-5"
-                    >
-                      <div class="m-auto w-6 mb-5">
-                        <img src="@/assets/images/twit.png" class="h-5" alt="" />
-                      </div>
-                      <div class="text-sm min-h-36">
-                        <p class="uppercase mb-5 text-lg">
-                          {{ $t("expTeam") }}
-                        </p>
-                        <p class="leading-6">
-                          {{ $t("expTeamP") }}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="flex section2 w-full justify-between">
-                    <div
-                      class="bg-gray-400 eachSection text-white w-1/4 mr-4 p-5"
-                    >
-                      <div class="m-auto w-6 mb-5">
-                        <img src="@/assets/images/twit.png" class="h-5" alt="" />
-                      </div>
-                      <div class="text-sm min-h-36">
-                        <p class="uppercase mb-5 text-lg">
-                          {{ $t("accomodation") }}
-                        </p>
-                        <p>7 {{ $t("nights") }} x {{ $t("premium") }}</p>
-                        <p>6 {{ $t("nights") }} x {{ $t("superior") }}</p>
-                        <p>1 {{ $t("night") }} x {{ $t("basic") }}</p>
-                      </div>
-                    </div>
-                    <div
-                      class="bg-gray-400 eachSection text-white w-1/4 mr-4 p-5"
-                    >
-                      <div class="m-auto w-6 mb-5">
-                        <img src="@/assets/images/twit.png" class="h-5" alt="" />
-                      </div>
-                      <div class="text-sm min-h-36">
-                        <p class="uppercase mb-5 text-lg">
-                          {{ $t("entrFees") }}
-                        </p>
-                        <p class="leading-6">
-                          {{ $t("entrFeesP") }}
-                        </p>
-                      </div>
-                    </div>
-                    <div
-                      class="bg-gray-400 eachSection text-white w-1/4 mr-4 p-5"
-                    >
-                      <div class="m-auto w-6 mb-5">
-                        <img src="@/assets/images/twit.png" class="h-5" alt="" />
-                      </div>
-                      <div class="text-sm min-h-36">
-                        <p class="uppercase mb-5 text-lg">
-                          {{ $t("fitnessRat") }}
-                        </p>
-                        <p>{{ $t("low") }}</p>
-                      </div>
-                    </div>
-                    <div
-                      class="bg-gray-400 eachSection text-white w-1/4 mr-4 p-5"
-                    >
-                      <div class="m-auto w-6 mb-5">
-                        <img src="@/assets/images/twit.png" class="h-5" alt="" />
-                      </div>
-                      <div class="text-sm min-h-36">
-                        <p class="uppercase mb-5 text-lg">
-                          {{ $t("wildMiles") }}
-                        </p>
-                        <p>
-                          {{ $t("wildMilesP") }}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
+              <AtAGlance breakfast="6" lunches="6" dinners="3" groupsize="10" premium="3" superior="2" basic="2" wild-miles="4320" />
+
   
               <div class="w-full">
                 <div>
@@ -394,6 +272,7 @@
   import carousel from "@/components/Carousel_Az_10_Days";
   import carouselAccomodation from "@/components/Carousel_Accomodation";
   import TourInfo from "~~/components/TourInfo.vue";
+  import AtAGlance from "~~/components/AtAGlance.vue";
   </script>
   
   <style scoped>

@@ -175,7 +175,7 @@ export default {
         fitnessRat: "FITNESS RATING",
         low: "Low",
         wildMiles: "WILD MILES",
-        wildMilesP: "This tour will earn you 6518 Wild Miles",
+        wildMilesP: "This tour will earn you Wild Miles -",
         mapAndIt: "MAP & ITINERARY",
         mapAndItP:
           "Individual departures may vary so please refer to the information in the tour specific links in the Dates and Prices section below",
