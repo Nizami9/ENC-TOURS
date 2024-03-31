@@ -106,23 +106,23 @@
                 <select v-model="locale" class="bg-opacity-10 bg-white">
                   <option value="en">🇬🇧</option>
                   <option value="de">🇩🇪</option>
-                  <option value="uk">🇯🇵</option>
+                  <option value="jp">🇯🇵</option>
                   <option value="es">🇪🇦</option>
-                  <option value="tr">🇮🇹</option>
-                  <option value="az">🇫🇷</option>
-                  <option value="uk">🇵🇹</option>
-                  <option value="uk">🇰🇷</option>
+                  <option value="it">🇮🇹</option>
+                  <option value="fr">🇫🇷</option>
+                  <option value="pt">🇵🇹</option>
+                  <option value="kr">🇰🇷</option>
                 </select>
               </div>
-              <a
-                href="../../aboutUs.vue"
+              <NuxtLink
+                :to="localePath('/aboutUs')"
                 class="-mx-3 uppercase block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50"
-                >{{ $t("aboutUs") }}</a
+                >{{ $t("aboutUs") }}</NuxtLink
               >
-              <a
-                href="../../contactUs.vue"
+              <NuxtLink
+                :to="localePath('/contactUs')"
                 class="-mx-3 uppercase block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-50"
-                >{{ $t("contacts") }}</a
+                >{{ $t("contacts") }}</NuxtLink
               >
             </div>
           </div>
