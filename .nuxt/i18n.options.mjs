@@ -132,7 +132,7 @@ export const resolveNuxtI18nOptions = async (context) => {
   "fitnessRat": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["FITNESS RATING"])};fn.source="FITNESS RATING";return fn;})(),
   "low": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Low"])};fn.source="Low";return fn;})(),
   "wildMiles": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["WILD MILES"])};fn.source="WILD MILES";return fn;})(),
-  "wildMilesP": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["This tour will earn you 6518 Wild Miles"])};fn.source="This tour will earn you 6518 Wild Miles";return fn;})(),
+  "wildMilesP": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["This tour will earn you Wild Miles -"])};fn.source="This tour will earn you Wild Miles -";return fn;})(),
   "mapAndIt": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["MAP & ITINERARY"])};fn.source="MAP & ITINERARY";return fn;})(),
   "mapAndItP": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Individual departures may vary so please refer to the information in the tour specific links in the Dates and Prices section below"])};fn.source="Individual departures may vary so please refer to the information in the tour specific links in the Dates and Prices section below";return fn;})(),
   "accomUsed": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["ACCOMMODATION USED ON THIS TOUR"])};fn.source="ACCOMMODATION USED ON THIS TOUR";return fn;})(),
