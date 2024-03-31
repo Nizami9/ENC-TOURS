@@ -12,8 +12,12 @@
     >
       <div class="flex items-center gap-x-14">
         <a href="#" class="-m-1.5 p-1.5">
-          <span class="sr-only">Your Company</span>
-          <img class="h-14 w-auto" src="@/assets/images/enctours_logo.png" alt="" />
+          <span class="sr-only">ENC TOURS</span>
+          <img
+            class="h-14 w-auto"
+            src="@/assets/images/enctours_logo.png"
+            alt=""
+          />
         </a>
         <div class="hidden lg:flex lg:gap-x-8">
           <template v-for="(item, index) in navigation" :key="item.name">
@@ -22,7 +26,7 @@
               class="text-sm font-semibold leading-6 text-white"
             >
               {{ item.name }}
-          </Nuxtlink>
+            </NuxtLink>
             {{ index < navigation.length - 1 ? "|" : "" }}
           </template>
         </div>
@@ -49,10 +53,15 @@
           <option value="pt">🇵🇹</option>
           <option value="kr">🇰🇷</option>
         </select>
-        <NuxtLink :to="localePath('/aboutUs')" class="text-sm font-semibold leading-6 mr-10">{{
-          $t("aboutUs")
-        }}</NuxtLink>
-        <NuxtLink :to="localePath('/contactUs')" class="text-sm font-semibold leading-6">
+        <NuxtLink
+          :to="localePath('/aboutUs')"
+          class="text-sm font-semibold leading-6 mr-10"
+          >{{ $t("aboutUs") }}</NuxtLink
+        >
+        <NuxtLink
+          :to="localePath('/contactUs')"
+          class="text-sm font-semibold leading-6"
+        >
           <p>{{ $t("contacts") }}</p>
         </NuxtLink>
       </div>
@@ -69,7 +78,7 @@
       >
         <div class="flex items-center justify-between">
           <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">Your Company</span>
+            <span class="sr-only">ENC TOURS</span>
             <img class="h-14 w-auto" src="@/assets/images/enclogo.png" alt="" />
           </a>
           <button
@@ -128,27 +137,34 @@ import { ref } from "vue";
 import { Dialog, DialogPanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 import { onMounted, onUnmounted, watchEffect, getCurrentInstance } from "vue";
-const { locale } = useI18n();
 import { useI18n } from "vue-i18n";
-const localePath = useLocalePath()
-
-
-const navigation = [
-  { name: "HOME", href: "/" },
-  { name: "AZERBAIJAN", href: "/azerbaijan" },
-  { name: "TOURS", href: "/tours" },
-  { name: "OUR SERVICES", href: "/ourservices" },
-  { name: "ENC LUXURY", href: "/luxury" },
-  { name: "MICE", href: "/mice" },
-];
+const { locale, t: $t } = useI18n();
+const localePath = useLocalePath();
 const { emit } = getCurrentInstance();
 const mobileMenuOpen = ref(false);
 const navbarBackgroundColor = ref("rgba(199, 191, 191, 0.5)");
 const scrolled = ref(false);
+const navigation = ref([]);
+
+const navigationItems = [
+  { name: "home", key: "home", href: "/" },
+  { name: "az", key: "az", href: "/azerbaijan" },
+  { name: "tours", key: "tours", href: "/tours" },
+  { name: "ourServ", key: "ourServ", href: "/ourservices" },
+  { name: "encLux", key: "encLux", href: "/luxury" },
+  { name: "mice", key: "mice", href: "/mice" },
+];
 
 const handleScroll = () => {
   scrolled.value = document.documentElement.scrollTop > 0;
   emit("scroll", scrolled.value);
+};
+
+const updateNavigation = () => {
+  navigation.value = navigationItems.map((item) => ({
+    name: $t(item.key),
+    href: item.href,
+  }));
 };
 
 onMounted(() => {
@@ -159,9 +175,15 @@ onUnmounted(() => {
   window.removeEventListener("scroll", handleScroll);
 });
 
+watch(locale, () => {
+  updateNavigation();
+});
+
 watchEffect(() => {
   navbarBackgroundColor.value = scrolled.value
     ? "rgba(0, 0, 0, 0.9)"
     : "rgba(0, 0, 0, 0.4)";
 });
+
+updateNavigation();
 </script>

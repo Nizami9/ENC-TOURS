@@ -8,7 +8,12 @@ export const additionalMessages = Object({"de":[],"es":[],"it":[],"jp":[],"fr":[
 export const resolveNuxtI18nOptions = async (context) => {
   const nuxtI18nOptions = Object({})
   const vueI18nOptionsLoader = async (context) => Object({"legacy":false,"locale":"en","messages": Object({"en":{
-  "home": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Home"])};fn.source="Home";return fn;})(),
+  "home": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["HOME"])};fn.source="HOME";return fn;})(),
+  "az": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["AZERBAIJAN"])};fn.source="AZERBAIJAN";return fn;})(),
+  "tours": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["TOURS"])};fn.source="TOURS";return fn;})(),
+  "ourServ": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["OUR SERVICES"])};fn.source="OUR SERVICES";return fn;})(),
+  "encLux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["ENC LUXURY"])};fn.source="ENC LUXURY";return fn;})(),
+  "mice": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["MICE"])};fn.source="MICE";return fn;})(),
   "aboutUs": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["ABOUT US"])};fn.source="ABOUT US";return fn;})(),
   "contacts": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["CONTACTS"])};fn.source="CONTACTS";return fn;})(),
   "lux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["luxury"])};fn.source="luxury";return fn;})(),
@@ -347,7 +352,12 @@ export const resolveNuxtI18nOptions = async (context) => {
   "AzerbaiP": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Azerbaijan is a dynamic blend of ancient history, stunning landscapes and warm hospitality. Situated at the crossroads of Europe and Asia, Azerbaijan is a country of rich cultural heritage, diverse landscapes, and warm hospitality. Welcome to a land where every moment is an adventure and every corner holds a new discovery. Welcome to Azerbaijan!"])};fn.source="Azerbaijan is a dynamic blend of ancient history, stunning landscapes and warm hospitality. Situated at the crossroads of Europe and Asia, Azerbaijan is a country of rich cultural heritage, diverse landscapes, and warm hospitality. Welcome to a land where every moment is an adventure and every corner holds a new discovery. Welcome to Azerbaijan!";return fn;})()
 },"de":{
   "home": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Startseite"])};fn.source="Startseite";return fn;})(),
-  "aboutUs": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Über Uns"])};fn.source="Über Uns";return fn;})(),
+  "az": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["ASERBAIDSCHAN"])};fn.source="ASERBAIDSCHAN";return fn;})(),
+  "tours": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["TOUREN"])};fn.source="TOUREN";return fn;})(),
+  "ourServ": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["UNSERE DIENSTLEISTUNGEN"])};fn.source="UNSERE DIENSTLEISTUNGEN";return fn;})(),
+  "encLux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["ENC LUXUS"])};fn.source="ENC LUXUS";return fn;})(),
+  "mice": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["MICE"])};fn.source="MICE";return fn;})(),
+  "aboutUs": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["ÜBER UNS"])};fn.source="ÜBER UNS";return fn;})(),
   "lux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Luxus"])};fn.source="Luxus";return fn;})(),
   "contact": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Kontakt"])};fn.source="Kontakt";return fn;})(),
   "services": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Dienstleistungen"])};fn.source="Dienstleistungen";return fn;})(),
@@ -370,7 +380,6 @@ export const resolveNuxtI18nOptions = async (context) => {
   "bakuAndOut": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["BAKU UND UMGEBUNG"])};fn.source="BAKU UND UMGEBUNG";return fn;})(),
   "cultAndHerit": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["CULTURAL AND HERITAGE"])};fn.source="CULTURAL AND HERITAGE";return fn;})(),
   "combTours": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["COMBINED TOURS"])};fn.source="COMBINED TOURS";return fn;})(),
-  "tours": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["tours"])};fn.source="tours";return fn;})(),
   "genFacts": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["GENERELLE FAKTEN"])};fn.source="GENERELLE FAKTEN";return fn;})(),
   "genP1": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Willkommen in Aserbaidschan! Dies ist das Land des Feuers und die Perle des Kaukasus, ein Land, in dem östliche Farben sich prächtig mit westlichem Fortschritt verbinden. Aserbaidschan ist ein Land mit einzigartiger Natur, unvergleichlicher Kultur, jahrhundertealter Geschichte, Sitten und Gebräuchen und guter Küche; Ein Ort, der die Erwartungen der anspruchsvollsten Gastronomen befriedigt, und schließlich das Land der kaukasischen Gastfreundschaft und Freundlichkeit."])};fn.source="Willkommen in Aserbaidschan! Dies ist das Land des Feuers und die Perle des Kaukasus, ein Land, in dem östliche Farben sich prächtig mit westlichem Fortschritt verbinden. Aserbaidschan ist ein Land mit einzigartiger Natur, unvergleichlicher Kultur, jahrhundertealter Geschichte, Sitten und Gebräuchen und guter Küche; Ein Ort, der die Erwartungen der anspruchsvollsten Gastronomen befriedigt, und schließlich das Land der kaukasischen Gastfreundschaft und Freundlichkeit.";return fn;})(),
   "genP2": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Aserbaidschan liegt an der Ostseite des Transkaukasiens (oder Südkaukasus) am Ufer des Kaspischen Meeres. Die Bevölkerung von Aserbaidschan übersteigt 9,8 Millionen und das Gebiet umfasst eine Fläche von 86 600 Quadratkilometern. Nach diesen beiden Zahlen ist Aserbaidschan das größte Land des Südkaukasus. Die Stadt Baku ist die Hauptstadt und die größte Stadt des Landes. Die Amtsprache hier ist Aserbaidschanisch. Russisch ist jedoch auch weit verbreitet und viele jüngere Einwohner sprechen auch Englisch. Aserbaidschan grenzt an den Iran (765 km), die Türkei (15 km), Russland (390 km), Georgien (480 km) und Armenien (1007 km). Die östlichen Ufer des Landes werden von den Gewässern des Kaspischen Meeres gespült."])};fn.source="Aserbaidschan liegt an der Ostseite des Transkaukasiens (oder Südkaukasus) am Ufer des Kaspischen Meeres. Die Bevölkerung von Aserbaidschan übersteigt 9,8 Millionen und das Gebiet umfasst eine Fläche von 86 600 Quadratkilometern. Nach diesen beiden Zahlen ist Aserbaidschan das größte Land des Südkaukasus. Die Stadt Baku ist die Hauptstadt und die größte Stadt des Landes. Die Amtsprache hier ist Aserbaidschanisch. Russisch ist jedoch auch weit verbreitet und viele jüngere Einwohner sprechen auch Englisch. Aserbaidschan grenzt an den Iran (765 km), die Türkei (15 km), Russland (390 km), Georgien (480 km) und Armenien (1007 km). Die östlichen Ufer des Landes werden von den Gewässern des Kaspischen Meeres gespült.";return fn;})(),
@@ -588,8 +597,13 @@ export const resolveNuxtI18nOptions = async (context) => {
   "AzGeoP12": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Frühstück und zur vereinbarten Zeit Transfer zum Flughafen, um den Rückflug zu erreichen. (-/-/-)"])};fn.source="Frühstück und zur vereinbarten Zeit Transfer zum Flughafen, um den Rückflug zu erreichen. (-/-/-)";return fn;})(),
   "azCentralAsia": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["AZERBAIJAN & CENTRAL ASIA"])};fn.source="AZERBAIJAN & CENTRAL ASIA";return fn;})()
 },"es":{
-  "home": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Startpagina"])};fn.source="Startpagina";return fn;})(),
-  "aboutUs": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Sobre nosotros"])};fn.source="Sobre nosotros";return fn;})(),
+  "home": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["INICIO"])};fn.source="INICIO";return fn;})(),
+  "az": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["AZERBAIYÁN"])};fn.source="AZERBAIYÁN";return fn;})(),
+  "tours": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["VIAJES"])};fn.source="VIAJES";return fn;})(),
+  "ourServ": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["NUESTROS SERVICIOS"])};fn.source="NUESTROS SERVICIOS";return fn;})(),
+  "encLux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["ENC LUJO"])};fn.source="ENC LUJO";return fn;})(),
+  "mice": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["MICE"])};fn.source="MICE";return fn;})(),
+  "aboutUs": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["SOBRE NOSOTROS"])};fn.source="SOBRE NOSOTROS";return fn;})(),
   "contact": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Contactos"])};fn.source="Contactos";return fn;})(),
   "lux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["lujo"])};fn.source="lujo";return fn;})(),
   "services": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Servicios"])};fn.source="Servicios";return fn;})(),
@@ -612,7 +626,6 @@ export const resolveNuxtI18nOptions = async (context) => {
   "bakuAndOut": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["BAKU AND OUTSKIRTS"])};fn.source="BAKU AND OUTSKIRTS";return fn;})(),
   "cultAndHerit": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["CULTURAL AND HERITAGE"])};fn.source="CULTURAL AND HERITAGE";return fn;})(),
   "combTours": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["COMBINED TOURS"])};fn.source="COMBINED TOURS";return fn;})(),
-  "tours": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["tours"])};fn.source="tours";return fn;})(),
   "genFacts": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["GENERAL FACTS"])};fn.source="GENERAL FACTS";return fn;})(),
   "genP1": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["¡Bienvenido a Azerbaiyán! Es la Tierra del Fuego y la Perla del Cáucaso, una tierra donde los colores orientales combinan magníficamente con el progreso occidental. Azerbaiyán es el país de naturaleza única, de una cultura muy diferente, de los siglos de historia con sus costumbres y tradiciones y su cocina exquisita; un lugar que satisfará las expectativas de los gastrónomos más sofisticados y, por último, es el país de la hospitalidad y la amabilidad caucásicas."])};fn.source="¡Bienvenido a Azerbaiyán! Es la Tierra del Fuego y la Perla del Cáucaso, una tierra donde los colores orientales combinan magníficamente con el progreso occidental. Azerbaiyán es el país de naturaleza única, de una cultura muy diferente, de los siglos de historia con sus costumbres y tradiciones y su cocina exquisita; un lugar que satisfará las expectativas de los gastrónomos más sofisticados y, por último, es el país de la hospitalidad y la amabilidad caucásicas.";return fn;})(),
   "genP2": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Azerbaiyán está situado en el este de la Transcaucasia (o Cáucaso Sur) a las orillas del Mar Caspio. La población de Azerbaiyán supera los 9,8 millones de habitantes y el superficie del territorio es 86.600 km2. Según esa información Azerbaiyán es el país más grande en la región del Cáucaso. La ciudad Bakú es la capital y la ciudad más grande del país. El idioma nacional aquí es azerbaiyano. Sin embargo, el ruso también se utiliza ampliamente y muchos jóvenes hablan también inglés. Azerbaiyán comparte fronteras con Irán (765 km), Turquía (15 km), Rusia (390 km), Georgia (480 km) y Armenia (1007 km). La costa del mar Caspio forma una frontera natural al oriente."])};fn.source="Azerbaiyán está situado en el este de la Transcaucasia (o Cáucaso Sur) a las orillas del Mar Caspio. La población de Azerbaiyán supera los 9,8 millones de habitantes y el superficie del territorio es 86.600 km2. Según esa información Azerbaiyán es el país más grande en la región del Cáucaso. La ciudad Bakú es la capital y la ciudad más grande del país. El idioma nacional aquí es azerbaiyano. Sin embargo, el ruso también se utiliza ampliamente y muchos jóvenes hablan también inglés. Azerbaiyán comparte fronteras con Irán (765 km), Turquía (15 km), Rusia (390 km), Georgia (480 km) y Armenia (1007 km). La costa del mar Caspio forma una frontera natural al oriente.";return fn;})(),
@@ -881,7 +894,12 @@ export const resolveNuxtI18nOptions = async (context) => {
   "Az10DaysD10": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Día 10: Salida"])};fn.source="Día 10: Salida";return fn;})(),
   "Az10DaysP10": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Traslado guiado al Aeropuerto Internacional Heydar Aliyev de  Bakú. Salida."])};fn.source="Traslado guiado al Aeropuerto Internacional Heydar Aliyev de  Bakú. Salida.";return fn;})()
 },"it":{
-  "home": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Startpagina"])};fn.source="Startpagina";return fn;})(),
+  "home": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["HOME"])};fn.source="HOME";return fn;})(),
+  "az": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["AZERBAIGIAN"])};fn.source="AZERBAIGIAN";return fn;})(),
+  "tours": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["TOUR"])};fn.source="TOUR";return fn;})(),
+  "ourServ": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["OUR SERVICES"])};fn.source="OUR SERVICES";return fn;})(),
+  "encLux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["ENC LUSSO"])};fn.source="ENC LUSSO";return fn;})(),
+  "mice": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["MICE"])};fn.source="MICE";return fn;})(),
   "aboutUs": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Sobre nosotros"])};fn.source="Sobre nosotros";return fn;})(),
   "contact": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Contactos"])};fn.source="Contactos";return fn;})(),
   "lux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["lusso"])};fn.source="lusso";return fn;})(),
@@ -1182,6 +1200,11 @@ export const resolveNuxtI18nOptions = async (context) => {
   "Az10DaysP10": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Trasferimento guidato all'aeroporto di Baku Heydar Aliyev. Partenza."])};fn.source="Trasferimento guidato all'aeroporto di Baku Heydar Aliyev. Partenza.";return fn;})()
 },"jp":{
   "home": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["家"])};fn.source="家";return fn;})(),
+  "az": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["アゼルバイジャン"])};fn.source="アゼルバイジャン";return fn;})(),
+  "tours": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["ツアー"])};fn.source="ツアー";return fn;})(),
+  "ourServ": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["私たちのサービス"])};fn.source="私たちのサービス";return fn;})(),
+  "encLux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["ENC 贅沢"])};fn.source="ENC 贅沢";return fn;})(),
+  "mice": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["MICE"])};fn.source="MICE";return fn;})(),
   "aboutUs": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["私たちについて"])};fn.source="私たちについて";return fn;})(),
   "contact": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["連絡先"])};fn.source="連絡先";return fn;})(),
   "lux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["贅沢"])};fn.source="贅沢";return fn;})(),
@@ -1406,11 +1429,16 @@ export const resolveNuxtI18nOptions = async (context) => {
   "AzGeoP12": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Breakfast and at the scheduled time transfer to the airport to catch the return flight.(-/-/-)"])};fn.source="Breakfast and at the scheduled time transfer to the airport to catch the return flight.(-/-/-)";return fn;})(),
   "azCentralAsia": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["AZERBAIJAN & CENTRAL ASIA"])};fn.source="AZERBAIJAN & CENTRAL ASIA";return fn;})()
 },"fr":{
-  "home": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Startpagina"])};fn.source="Startpagina";return fn;})(),
-  "aboutUs": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Sobre nosotros"])};fn.source="Sobre nosotros";return fn;})(),
-  "contact": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Contactos"])};fn.source="Contactos";return fn;})(),
+  "home": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["PAGE D'ACCUEIL"])};fn.source="PAGE D'ACCUEIL";return fn;})(),
+  "az": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["AZERBAÏDJAN"])};fn.source="AZERBAÏDJAN";return fn;})(),
+  "tours": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["VISITES"])};fn.source="VISITES";return fn;})(),
+  "ourServ": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["NOS SERVICES"])};fn.source="NOS SERVICES";return fn;})(),
+  "encLux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["ENC LUXE"])};fn.source="ENC LUXE";return fn;})(),
+  "mice": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["MICE"])};fn.source="MICE";return fn;})(),
+  "aboutUs": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["À PROPS DE NOUS"])};fn.source="À PROPS DE NOUS";return fn;})(),
+  "contact": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Contacts"])};fn.source="Contacts";return fn;})(),
   "lux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["luxe"])};fn.source="luxe";return fn;})(),
-  "services": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Servicios"])};fn.source="Servicios";return fn;})(),
+  "services": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Prestations de service"])};fn.source="Prestations de service";return fn;})(),
   "mainPageH1": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["ENC Tours culturais e patrimoniais"])};fn.source="ENC Tours culturais e patrimoniais";return fn;})(),
   "mainPageH2": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Etant connectés au niveau international, créatifs et avancés, ENC Tours sont destinés à fournir un héritage de réputation solide avec un degré d’excellence et de responsabilité. L’entreprise a été créée en 2008 avec la vision d’être choisie comme la source de voyages la plus fiable pour les personnes souhaitant garder des souvenirs impérissables."])};fn.source="Etant connectés au niveau international, créatifs et avancés, ENC Tours sont destinés à fournir un héritage de réputation solide avec un degré d’excellence et de responsabilité. L’entreprise a été créée en 2008 avec la vision d’être choisie comme la source de voyages la plus fiable pour les personnes souhaitant garder des souvenirs impérissables.";return fn;})(),
   "comp2p1": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Inspirations"])};fn.source="Inspirations";return fn;})(),
@@ -1644,8 +1672,13 @@ export const resolveNuxtI18nOptions = async (context) => {
   "AzGeoP12": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Breakfast and at the scheduled time transfer to the airport to catch the return flight.(-/-/-)"])};fn.source="Breakfast and at the scheduled time transfer to the airport to catch the return flight.(-/-/-)";return fn;})(),
   "azCentralAsia": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["AZERBAIJAN & CENTRAL ASIA"])};fn.source="AZERBAIJAN & CENTRAL ASIA";return fn;})()
 },"pt":{
-  "home": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Startpagina"])};fn.source="Startpagina";return fn;})(),
-  "aboutUs": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Sobre nosotros"])};fn.source="Sobre nosotros";return fn;})(),
+  "home": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["INÍCIO"])};fn.source="INÍCIO";return fn;})(),
+  "az": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["AZERBAIJÃO"])};fn.source="AZERBAIJÃO";return fn;})(),
+  "tours": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["PASSEIOS"])};fn.source="PASSEIOS";return fn;})(),
+  "ourServ": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["NOSSOS SERVIÇOS"])};fn.source="NOSSOS SERVIÇOS";return fn;})(),
+  "encLux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["ENC LUXO"])};fn.source="ENC LUXO";return fn;})(),
+  "mice": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["MICE"])};fn.source="MICE";return fn;})(),
+  "aboutUs": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["SOBRE NÓS"])};fn.source="SOBRE NÓS";return fn;})(),
   "contact": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Contactos"])};fn.source="Contactos";return fn;})(),
   "services": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Servicios"])};fn.source="Servicios";return fn;})(),
   "lux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["luxo"])};fn.source="luxo";return fn;})(),
@@ -1883,6 +1916,11 @@ export const resolveNuxtI18nOptions = async (context) => {
   "azCentralAsia": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["AZERBAIJAN & CENTRAL ASIA"])};fn.source="AZERBAIJAN & CENTRAL ASIA";return fn;})()
 },"kr":{
   "home": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["집"])};fn.source="집";return fn;})(),
+  "az": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["아제르바이잔"])};fn.source="아제르바이잔";return fn;})(),
+  "tours": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["투어"])};fn.source="투어";return fn;})(),
+  "ourServ": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["OUR SERVICES"])};fn.source="OUR SERVICES";return fn;})(),
+  "encLux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["ENC 사치"])};fn.source="ENC 사치";return fn;})(),
+  "mice": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["MICE"])};fn.source="MICE";return fn;})(),
   "aboutUs": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["회사 소개"])};fn.source="회사 소개";return fn;})(),
   "contact": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["콘택트 렌즈"])};fn.source="콘택트 렌즈";return fn;})(),
   "lux": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["사치"])};fn.source="사치";return fn;})(),

@@ -4,7 +4,12 @@ export default {
     locale: "en",
     messages: {
       en: {
-        home: "Home",
+        home: "HOME",
+        az: "AZERBAIJAN",
+        tours: "TOURS",
+        ourServ: "OUR SERVICES",
+        encLux: "ENC LUXURY",
+        mice: "MICE",
         aboutUs: "ABOUT US",
         contacts: "CONTACTS",
         lux: "luxury",
@@ -495,9 +500,15 @@ export default {
         AzerbaiP:
           "Azerbaijan is a dynamic blend of ancient history, stunning landscapes and warm hospitality. Situated at the crossroads of Europe and Asia, Azerbaijan is a country of rich cultural heritage, diverse landscapes, and warm hospitality. Welcome to a land where every moment is an adventure and every corner holds a new discovery. Welcome to Azerbaijan!",
       },
+
       de: {
         home: "Startseite",
-        aboutUs: "Über Uns",
+        az: "ASERBAIDSCHAN",
+        tours: "TOUREN",
+        ourServ: "UNSERE DIENSTLEISTUNGEN",
+        encLux: "ENC LUXUS",
+        mice: "MICE",
+        aboutUs: "ÜBER UNS",
         lux: "Luxus",
         contact: "Kontakt",
         services: "Dienstleistungen",
@@ -523,7 +534,6 @@ export default {
         bakuAndOut: "BAKU UND UMGEBUNG",
         cultAndHerit: "CULTURAL AND HERITAGE",
         combTours: "COMBINED TOURS",
-        tours: "tours",
         genFacts: "GENERELLE FAKTEN",
         genP1:
           "Willkommen in Aserbaidschan! Dies ist das Land des Feuers und die Perle des Kaukasus, ein Land, in dem östliche Farben sich prächtig mit westlichem Fortschritt verbinden. Aserbaidschan ist ein Land mit einzigartiger Natur, unvergleichlicher Kultur, jahrhundertealter Geschichte, Sitten und Gebräuchen und guter Küche; Ein Ort, der die Erwartungen der anspruchsvollsten Gastronomen befriedigt, und schließlich das Land der kaukasischen Gastfreundschaft und Freundlichkeit.",
@@ -836,9 +846,15 @@ export default {
 
         azCentralAsia: "AZERBAIJAN & CENTRAL ASIA",
       },
+
       es: {
-        home: "Startpagina",
-        aboutUs: "Sobre nosotros",
+        home: "INICIO",
+        az: "AZERBAIYÁN",
+        tours: "VIAJES",
+        ourServ: "NUESTROS SERVICIOS",
+        encLux: "ENC LUJO",
+        mice: "MICE",
+        aboutUs: "SOBRE NOSOTROS",
         contact: "Contactos",
         lux: "lujo",
         services: "Servicios",
@@ -864,7 +880,6 @@ export default {
         bakuAndOut: "BAKU AND OUTSKIRTS",
         cultAndHerit: "CULTURAL AND HERITAGE",
         combTours: "COMBINED TOURS",
-        tours: "tours",
         genFacts: "GENERAL FACTS",
         genP1:
           "¡Bienvenido a Azerbaiyán! Es la Tierra del Fuego y la Perla del Cáucaso, una tierra donde los colores orientales combinan magníficamente con el progreso occidental. Azerbaiyán es el país de naturaleza única, de una cultura muy diferente, de los siglos de historia con sus costumbres y tradiciones y su cocina exquisita; un lugar que satisfará las expectativas de los gastrónomos más sofisticados y, por último, es el país de la hospitalidad y la amabilidad caucásicas.",
@@ -1255,8 +1270,14 @@ export default {
         Az10DaysP10:
           "Traslado guiado al Aeropuerto Internacional Heydar Aliyev de  Bakú. Salida.",
       },
+
       it: {
-        home: "Startpagina",
+        home: "HOME",
+        az: "AZERBAIGIAN",
+        tours: "TOUR",
+        ourServ: "OUR SERVICES",
+        encLux: "ENC LUSSO",
+        mice: "MICE",
         aboutUs: "Sobre nosotros",
         contact: "Contactos",
         lux: "lusso",
@@ -1690,8 +1711,14 @@ export default {
         Az10DaysP10:
           "Trasferimento guidato all'aeroporto di Baku Heydar Aliyev. Partenza.",
       },
+
       jp: {
         home: "家",
+        az: "アゼルバイジャン",
+        tours: "ツアー",
+        ourServ: "私たちのサービス",
+        encLux: "ENC 贅沢",
+        mice: "MICE",
         aboutUs: "私たちについて",
         contact: "連絡先",
         lux: "贅沢",
@@ -2009,11 +2036,16 @@ export default {
       },
 
       fr: {
-        home: "Startpagina",
-        aboutUs: "Sobre nosotros",
-        contact: "Contactos",
+        home: "PAGE D'ACCUEIL",
+        az: "AZERBAÏDJAN",
+        tours: "VISITES",
+        ourServ: "NOS SERVICES",
+        encLux: "ENC LUXE",
+        mice: "MICE",
+        aboutUs: "À PROPS DE NOUS",
+        contact: "Contacts",
         lux: "luxe",
-        services: "Servicios",
+        services: "Prestations de service",
         mainPageH1: "ENC Tours culturais e patrimoniais",
         mainPageH2:
           "Etant connectés au niveau international, créatifs et avancés, ENC Tours sont destinés à fournir un héritage de réputation solide avec un degré d’excellence et de responsabilité. L’entreprise a été créée en 2008 avec la vision d’être choisie comme la source de voyages la plus fiable pour les personnes souhaitant garder des souvenirs impérissables.",
@@ -2344,9 +2376,15 @@ export default {
           "Breakfast and at the scheduled time transfer to the airport to catch the return flight.(-/-/-)",
         azCentralAsia: "AZERBAIJAN & CENTRAL ASIA",
       },
+
       pt: {
-        home: "Startpagina",
-        aboutUs: "Sobre nosotros",
+        home: "INÍCIO",
+        az: "AZERBAIJÃO",
+        tours: "PASSEIOS",
+        ourServ: "NOSSOS SERVIÇOS",
+        encLux: "ENC LUXO",
+        mice: "MICE",
+        aboutUs: "SOBRE NÓS",
         contact: "Contactos",
         services: "Servicios",
         lux: "luxo",
@@ -2677,8 +2715,14 @@ export default {
 
         azCentralAsia: "AZERBAIJAN & CENTRAL ASIA",
       },
+
       kr: {
         home: "집",
+        az: "아제르바이잔",
+        tours: "투어",
+        ourServ: "OUR SERVICES",
+        encLux: "ENC 사치",
+        mice: "MICE",
         aboutUs: "회사 소개",
         contact: "콘택트 렌즈",
         lux: "사치",
