@@ -102,10 +102,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck1" />
                     <label class="tab-label" for="chck1">{{
-                      $t("birdD1")
+                      $t("carsD1")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("birdP1") }}
+                      {{ $t("carsP1") }}
                     </div>
                   </div>
                 </div>
@@ -118,10 +118,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck2" />
                     <label class="tab-label" for="chck2">{{
-                      $t("birdD2")
+                      $t("carsD2")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("birdP2") }}
+                      {{ $t("carsP2") }}
                     </div>
                   </div>
                 </div>
@@ -134,10 +134,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck3" />
                     <label class="tab-label" for="chck3">{{
-                      $t("birdD3")
+                      $t("carsD3")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("birdP3") }}
+                      {{ $t("carsP3") }}
                     </div>
                   </div>
                 </div>
@@ -150,58 +150,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck4" />
                     <label class="tab-label" for="chck4">{{
-                      $t("birdD4")
+                      $t("cars4")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("birdP4") }}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col">
-                <div class="tabs">
-                  <div class="tab">
-                    <input type="checkbox" id="chck5" />
-                    <label class="tab-label" for="chck5">{{
-                      $t("birdD5")
-                    }}</label>
-                    <div class="tab-content">
-                      {{ $t("birdP5") }}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col">
-                <div class="tabs">
-                  <div class="tab">
-                    <input type="checkbox" id="chck6" />
-                    <label class="tab-label" for="chck6">{{
-                      $t("birdD6")
-                    }}</label>
-                    <div class="tab-content">
-                      {{ $t("birdP6") }}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col">
-                <div class="tabs">
-                  <div class="tab">
-                    <input type="checkbox" id="chck7" />
-                    <label class="tab-label" for="chck7">{{
-                      $t("birdD7")
-                    }}</label>
-                    <div class="tab-content">
-                      {{ $t("birdP7") }}
+                      {{ $t("carsP4") }}
                     </div>
                   </div>
                 </div>

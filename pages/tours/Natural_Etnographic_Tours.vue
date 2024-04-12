@@ -102,10 +102,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck1" />
                     <label class="tab-label" for="chck1">{{
-                      $t("birdD1")
+                      $t("etnoD1")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("birdP1") }}
+                      {{ $t("etnoP1") }}
                     </div>
                   </div>
                 </div>
@@ -118,10 +118,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck2" />
                     <label class="tab-label" for="chck2">{{
-                      $t("birdD2")
+                      $t("etnoD2")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("birdP2") }}
+                      {{ $t("etnoP2") }}
                     </div>
                   </div>
                 </div>
@@ -134,10 +134,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck3" />
                     <label class="tab-label" for="chck3">{{
-                      $t("birdD3")
+                      $t("etnoD3")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("birdP3") }}
+                      {{ $t("etnoP3") }}
                     </div>
                   </div>
                 </div>
@@ -150,10 +150,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck4" />
                     <label class="tab-label" for="chck4">{{
-                      $t("birdD4")
+                      $t("etnoD4")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("birdP4") }}
+                      {{ $t("etnoP4") }}
                     </div>
                   </div>
                 </div>
@@ -166,10 +166,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck5" />
                     <label class="tab-label" for="chck5">{{
-                      $t("birdD5")
+                      $t("etnoD5")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("birdP5") }}
+                      {{ $t("etnoP5") }}
                     </div>
                   </div>
                 </div>
@@ -182,10 +182,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck6" />
                     <label class="tab-label" for="chck6">{{
-                      $t("birdD6")
+                      $t("etnoD6")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("birdP6") }}
+                      {{ $t("etnoP6") }}
                     </div>
                   </div>
                 </div>
@@ -198,10 +198,42 @@
                   <div class="tab">
                     <input type="checkbox" id="chck7" />
                     <label class="tab-label" for="chck7">{{
-                      $t("birdD7")
+                      $t("etnoD7")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("birdP7") }}
+                      {{ $t("etnoP7") }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div class="tabs">
+                  <div class="tab">
+                    <input type="checkbox" id="chck8" />
+                    <label class="tab-label" for="chck8">{{
+                      $t("etnoD8")
+                    }}</label>
+                    <div class="tab-content">
+                      {{ $t("etnoP8") }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div class="tabs">
+                  <div class="tab">
+                    <input type="checkbox" id="chck9" />
+                    <label class="tab-label" for="chck9">{{
+                      $t("etnoD9")
+                    }}</label>
+                    <div class="tab-content">
+                      {{ $t("etnoP9") }}
                     </div>
                   </div>
                 </div>
