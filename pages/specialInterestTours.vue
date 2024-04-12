@@ -225,6 +225,7 @@
             }"
             class="w-1/3 sectionDiv uppercase"
           >
+          <NuxtLink :to="localePath('/tours/Bird_Watching')">
             <div class="pb-2">
               <img
                 src="@/assets/images/flamingo1.jpeg"
@@ -244,6 +245,7 @@
                 {{ $t("specialP5") }}
               </p>
             </div>
+            </NuxtLink>
           </div>
           <div
             v-motion

@@ -80,7 +80,6 @@ export default {
         bakuAndOutH4: "Architectural tour (4 hours)",
         bakuAndOutP4:
           "Discover the architectural wonders of Baku on our curated tour. From the historic elegance of the Palace of Happiness, Ismailiyya and Zeynalabdin Taghiyev's Palace to the modern marvels of Flame Towers and the Heydar Aliyev Center, immerse yourself in the captivating blend of tradition and innovation that defines Azerbaijan's capital. Continue your exploration of history as we introduce you to the magnificent Azerbaijan State Academic Philharmonic Hall, enriching your journey with cultural richness and inspiring architecture.",
-
         specialP1: "OIL BOOM AND ARCHITECTURE TOUR",
         specialP2: "FLOWER WATCHING TOURS",
         specialP3: "RELIGIOUS TOURS",
@@ -499,6 +498,26 @@ export default {
 
         AzerbaiP:
           "Azerbaijan is a dynamic blend of ancient history, stunning landscapes and warm hospitality. Situated at the crossroads of Europe and Asia, Azerbaijan is a country of rich cultural heritage, diverse landscapes, and warm hospitality. Welcome to a land where every moment is an adventure and every corner holds a new discovery. Welcome to Azerbaijan!",
+        birdD1: "Day 1: Arrival in Baku",
+        birdP1:
+          "After your arrival in Baku, you will be picked up by ENC TOURS driver and guide and taken to your hotel.",
+        birdD2: "Day 2: Baku-Absheron-Baku",
+        birdP2:
+          "Today we will visit Absheron National Park. The park’s landscape combines coastal wetlands and semi-desert, and a trip here will reward birders with sightings of a variety of gulls, terns, ducks and waders, as well as various species of raptors. Most of the birds are migrants flying along the Caspian coastline, however there are some nesting species, such as the short-eared owl, which can be seen in autumn. The park is also home to gazelles, wolves, jackals, Caspian tortoises, the Levantine viper, and other interesting animals. The Caspian seal, the world's smallest seal, can sometimes be seen at the tip of the cape between May and August.",
+        birdD3: "Day 3: Baku-Astara-Masalli-Lankaran",
+        birdP3:
+          "We will leave Baku. Visit Shirvan National Park. This huge area (54,000 hectares) is a paradise for birdwatchers, one of the most accessible sites in Azerbaijan with over 270 distinct species recorded. The reason for such an abundance is its location on the Caspian coast bird migration route and its importance as breeding, resting and wintering grounds. Keen birdwatchers are also likely to catch sight of Greater Sandplover, White-tailed Lapwing, Greater Flamingo, Pygmy Cormorants, Lesser Kestrel, Steppe Buzzards, Imperial Eagle, both species of bee-eaters, Rollers and Black Francolins, among many others. In Masalli we will visit Gizil Aghaj National Park. Gizil Aghaj is a key resting spot for seabirds migrating along the western coast of the Caspian, as well as a wintering ground for birds breeding in Eastern Europe, Russia and Central Asia. Numerous species also breed here. Arrival in Lankaran.",
+        birdD4: "Day 4: Lankaran-Gobustan-Khinalig",
+        birdP4:
+          "We will leave Lankaran and drive to Gobustan. Gobustan is well known among travelers for the Gobustan Rock Art Cultural Landscape, a UNESCO-listed site home to over 6,000 petroglyphs spanning some 40,000 years. However, Gobustan is also of interest to birdwatchers as living amongst all the rock carvings are interesting birds like the Rock Nuthatch, Red-billed Chough, Finch’s Wheatear, Rock Sparrow and Chukar. After that, we will continue to Khinalig, Guba. ",
+        birdD5: "Day 5: Khinalig-Baku",
+        birdP5:
+          "Full day birdwatching hike at Khinalig. Reach almost 3,000 m. Partly protected by Shahdag National Park, the highmountain areas around the village of Khinalig, perched picturesquely in the Greater Caucasus Mountains, is ideal place to see regional specialties and endemics to the Caucasus region. Drive from Khinalig to Baku.",
+        birdD6: "Day 6: Baku-Nakhcivan",
+        birdP6:
+          "Morning flight to Nakhcivan, a fascinating region dotted with historical, cultural and natural monuments. The avifauna here is markedly different and has more in common with eastern Turkey and north-western Iran.A visit here in May or early June especially will add 10-12 species that you will not see elsewhere in Azerbaijan, including Radde’s Accentor, Mongolian Finch, Trumpeter Finch, Grey-necked Bunting, Upchers Warbler, White-throated Robin, and See-see Partridge.",
+        birdD7: "Day 7: Departure",
+        birdP7: "Guided transfer to Airport. Departure via Istanbul.",
       },
 
       de: {
