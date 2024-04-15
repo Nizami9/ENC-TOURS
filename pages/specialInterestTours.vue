@@ -70,25 +70,27 @@
             }"
             class="w-1/3 sectionDiv uppercase"
           >
-            <div class="pb-2">
-              <img
-                src="@/assets/images/oil.jpeg"
-                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder1"
-                @mouseout="removeBorder1"
-              />
-            </div>
-            <div class="text-color pb-8">
-              <p
-                ref="section1"
-                class="pb-1"
-                @mouseover="addBorder1"
-                @mouseout="removeBorder1"
-              >
-                {{ $t("specialP1") }}
-              </p>
-            </div>
+            <NuxtLink :to="localePath('/tours/Baku_City_Tour')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/oil.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder1"
+                  @mouseout="removeBorder1"
+                />
+              </div>
+              <div class="text-color pb-8">
+                <p
+                  ref="section1"
+                  class="pb-1"
+                  @mouseover="addBorder1"
+                  @mouseout="removeBorder1"
+                >
+                  {{ $t("bakuTour") }}
+                </p>
+              </div>
+            </NuxtLink>
           </div>
           <div
             v-motion
@@ -108,25 +110,27 @@
             }"
             class="w-1/3 sectionDiv uppercase"
           >
-            <div class="pb-2">
-              <img
-                src="@/assets/images/flowers.jpeg"
-                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder2"
-                @mouseout="removeBorder2"
-              />
-            </div>
-            <div class="text-color pb-8">
-              <p
-                ref="section2"
-                class="pb-1"
-                @mouseover="addBorder2"
-                @mouseout="removeBorder2"
-              >
-                {{ $t("specialP2") }}
-              </p>
-            </div>
+            <NuxtLink :to="localePath('/tours/Flower_Watching')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/flowers.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder2"
+                  @mouseout="removeBorder2"
+                />
+              </div>
+              <div class="text-color pb-8">
+                <p
+                  ref="section2"
+                  class="pb-1"
+                  @mouseover="addBorder2"
+                  @mouseout="removeBorder2"
+                >
+                  {{ $t("specialP2") }}
+                </p>
+              </div>
+            </NuxtLink>
           </div>
           <div
             v-motion
@@ -146,25 +150,27 @@
             }"
             class="w-1/3 sectionDiv uppercase"
           >
-            <div class="pb-2">
-              <img
-                src="@/assets/images/kish.jpeg"
-                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder3"
-                @mouseout="removeBorder3"
-              />
-            </div>
-            <div class="text-color pb-8">
-              <p
-                ref="section3"
-                class="pb-1"
-                @mouseover="addBorder3"
-                @mouseout="removeBorder3"
-              >
-                {{ $t("specialP3") }}
-              </p>
-            </div>
+            <NuxtLink :to="localePath('/tours/Religious_Tour')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/kish.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder3"
+                  @mouseout="removeBorder3"
+                />
+              </div>
+              <div class="text-color pb-8">
+                <p
+                  ref="section3"
+                  class="pb-1"
+                  @mouseover="addBorder3"
+                  @mouseout="removeBorder3"
+                >
+                  {{ $t("specialP3") }}
+                </p>
+              </div>
+            </NuxtLink>
           </div>
         </div>
         <div class="flex mainSection w-10/12 m-auto mb-2 uppercase">
@@ -186,25 +192,27 @@
             }"
             class="w-1/3 sectionDiv uppercase"
           >
-            <div class="pb-2">
-              <img
-                src="@/assets/images/cuisineaz.jpeg"
-                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder4"
-                @mouseout="removeBorder4"
-              />
-            </div>
-            <div class="text-color pb-8">
-              <p
-                ref="section4"
-                class="pb-1"
-                @mouseover="addBorder4"
-                @mouseout="removeBorder4"
-              >
-                {{ $t("specialP4") }}
-              </p>
-            </div>
+            <NuxtLink :to="localePath('/tours/Wine_Tour')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/cuisineaz.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder4"
+                  @mouseout="removeBorder4"
+                />
+              </div>
+              <div class="text-color pb-8">
+                <p
+                  ref="section4"
+                  class="pb-1"
+                  @mouseover="addBorder4"
+                  @mouseout="removeBorder4"
+                >
+                  {{ $t("cultGast") }}
+                </p>
+              </div>
+            </NuxtLink>
           </div>
 
           <div
@@ -225,24 +233,147 @@
             }"
             class="w-1/3 sectionDiv uppercase"
           >
-          <NuxtLink :to="localePath('/tours/Bird_Watching')">
+            <NuxtLink :to="localePath('/tours/Bird_Watching')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/flamingo1.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder5"
+                  @mouseout="removeBorder5"
+                />
+              </div>
+              <div class="text-color pb-8">
+                <p
+                  ref="section5"
+                  class="pb-1"
+                  @mouseover="addBorder5"
+                  @mouseout="removeBorder5"
+                >
+                  {{ $t("specialP5") }}
+                </p>
+              </div>
+            </NuxtLink>
+          </div>
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+            class="w-1/3 sectionDiv uppercase"
+          >
+            <NuxtLink :to="localePath('/tours/Golf_Tour')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/golf.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder6"
+                  @mouseout="removeBorder6"
+                />
+              </div>
+              <div class="text-color pb-8">
+                <p
+                  ref="section6"
+                  class="pb-1"
+                  @mouseover="addBorder6"
+                  @mouseout="removeBorder6"
+                >
+                  {{ $t("specialP6") }}
+                </p>
+              </div>
+            </NuxtLink>
+          </div>
+        </div>
+        <div class="flex mainSection w-10/12 m-auto mb-6">
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+            class="w-1/3 sectionDiv uppercase"
+          >
+            <NuxtLink :to="localePath('/tours/Wine_Tour')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/wine.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder7"
+                  @mouseout="removeBorder7"
+                />
+              </div>
+              <div class="text-color pb-8">
+                <p
+                  ref="section7"
+                  class="pb-1"
+                  @mouseover="addBorder7"
+                  @mouseout="removeBorder7"
+                >
+                  {{ $t("wineTour") }}
+                </p>
+              </div>
+            </NuxtLink>
+          </div>
+
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+            class="w-1/3 sectionDiv uppercase"
+          >
+          <NuxtLink :to="localePath('/tours/Natural_Etnographic_Tours')">
             <div class="pb-2">
               <img
-                src="@/assets/images/flamingo1.jpeg"
+                src="@/assets/images/ismayilli.jpeg"
                 class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
-                @mouseover="addBorder5"
-                @mouseout="removeBorder5"
+                @mouseover="addBorder8"
+                @mouseout="removeBorder8"
               />
             </div>
             <div class="text-color pb-8">
               <p
-                ref="section5"
+                ref="section8"
                 class="pb-1"
-                @mouseover="addBorder5"
-                @mouseout="removeBorder5"
+                @mouseover="addBorder8"
+                @mouseout="removeBorder8"
               >
-                {{ $t("specialP5") }}
+                {{ $t("etnoTour") }}
               </p>
             </div>
             </NuxtLink>
@@ -265,142 +396,27 @@
             }"
             class="w-1/3 sectionDiv uppercase"
           >
-            <div class="pb-2">
-              <img
-                src="@/assets/images/golf.jpeg"
-                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder6"
-                @mouseout="removeBorder6"
-              />
-            </div>
-            <div class="text-color pb-8">
-              <p
-                ref="section6"
-                class="pb-1"
-                @mouseover="addBorder6"
-                @mouseout="removeBorder6"
-              >
-                {{ $t("specialP6") }}
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="flex mainSection w-10/12 m-auto mb-6">
-          <div
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-            class="w-1/3 sectionDiv uppercase"
-          >
-            <div class="pb-2">
-              <img
-                src="@/assets/images/pomegranate.avif"
-                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder7"
-                @mouseout="removeBorder7"
-              />
-            </div>
-            <div class="text-color pb-8">
-              <p
-                ref="section7"
-                class="pb-1"
-                @mouseover="addBorder7"
-                @mouseout="removeBorder7"
-              >
-                {{ $t("specialP7") }}
-              </p>
-            </div>
-          </div>
-
-          <div
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-            class="w-1/3 sectionDiv uppercase"
-          >
-            <div class="pb-2">
-              <img
-                src="@/assets/images/tea.jpeg"
-                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder8"
-                @mouseout="removeBorder8"
-              />
-            </div>
-            <div class="text-color pb-8">
-              <p
-                ref="section8"
-                class="pb-1"
-                @mouseover="addBorder8"
-                @mouseout="removeBorder8"
-              >
-                {{ $t("specialP8") }}
-              </p>
-            </div>
-          </div>
-          <div
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-            class="w-1/3 sectionDiv uppercase"
-          >
-            <div class="pb-2">
-              <img
-                src="@/assets/images/carpet1.jpeg"
-                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder9"
-                @mouseout="removeBorder9"
-              />
-            </div>
-            <div class="text-color pb-8">
-              <p
-                ref="section9"
-                class="pb-1"
-                @mouseover="addBorder9"
-                @mouseout="removeBorder9"
-              >
-                {{ $t("specialP9") }}
-              </p>
-            </div>
+            <NuxtLink :to="localePath('/tours/Carpet_Weaving')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/carpet1.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder9"
+                  @mouseout="removeBorder9"
+                />
+              </div>
+              <div class="text-color pb-8">
+                <p
+                  ref="section9"
+                  class="pb-1"
+                  @mouseover="addBorder9"
+                  @mouseout="removeBorder9"
+                >
+                  {{ $t("specialP9") }}
+                </p>
+              </div>
+            </NuxtLink>
           </div>
         </div>
       </div>
