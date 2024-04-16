@@ -720,6 +720,9 @@ export default {
         wineD8: "Day 8: Departure (30 km)",
         wineP8:
           "In the morning you will be transferred to the Airport. And after all formalities you will depart.",
+        wineD9: "Day 9 – Departure (30 km)",
+        wineP9:
+          "In the morning you will be transferred to the Airport. And after all formalities you will depart.",
         bakuTour: "Baku City Break",
         bakuTourD1: "Day 1: Arrival",
         bakuTourD2: "Day 2: Baku City Tour",

@@ -16,7 +16,6 @@
       </div>
       <div class="text-center">
         <div class="p-8">
-          <p class="text-6xl mainP">About Us</p>
           <p class="border-b-2 pt-4 w-20 border-gray-500 m-auto"></p>
         </div>
         <div
