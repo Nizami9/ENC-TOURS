@@ -69,12 +69,8 @@
               <div>
                 <p class="uppercase text-3xl">{{ $t("highlites") }}</p>
                 <carousel></carousel>
-              </div>
-
-              <AtAGlance breakfast="6" lunches="6" dinners="3" groupsize="10" premium="3" superior="2" basic="2" wild-miles="4320" />
-
-  
-              <div class="w-full">
+              </div>  
+              <div class="w-full mt-10">
                 <div>
                   <h3 class="mb-5 text-3xl">{{ $t("mapAndIt") }}</h3>
                   <p>
@@ -221,16 +217,7 @@
             </div>
           </div>
   
-          <div class="w-10/12 m-auto h-200 mt-10 mb-10">
-            <div>
-              <h4 class="text-3xl text2">{{ $t("accomUsed") }}</h4>
-            </div>
-            <div>
-              <carouselAccomodation></carouselAccomodation>
-            </div>
-          </div>
-  
-          <div class="w-8/12 section4 m-auto">
+          <div class="w-8/12 section4 m-auto mt-10">
             <div>
               <h4 class="text-3xl text2 uppercase mb-2">
                 {{ $t("datesAndPr") }}
@@ -270,9 +257,7 @@
   
   <script setup>
   import carousel from "@/components/Carousel_Az_10_Days";
-  import carouselAccomodation from "@/components/Carousel_Accomodation";
   import TourInfo from "~~/components/TourInfo.vue";
-  import AtAGlance from "~~/components/AtAGlance.vue";
   </script>
   
   <style scoped>
