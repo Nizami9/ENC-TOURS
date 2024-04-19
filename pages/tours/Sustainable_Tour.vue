@@ -8,7 +8,7 @@
           <p
             class="text2 text-7xl uppercase w-3/4 m-auto p-4 rounded-lg font-semibold"
           >
-            {{ $t("Az6Days5Nights") }}
+            {{ $t("susTour") }}
           </p>
         </div>
       </div>
@@ -65,7 +65,6 @@
               <p class="uppercase text-3xl">{{ $t("highlites") }}</p>
               <carousel></carousel>
             </div>
-            <!-- <AtAGlance breakfast="6" lunches="6" dinners="3" groupsize="10" premium="3" superior="2" basic="2" wild-miles="4320" /> -->
             <div class="w-full mt-10">
               <div>
                 <h3 class="mb-5 text-3xl">{{ $t("mapAndIt") }}</h3>
@@ -91,10 +90,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck1" />
                     <label class="tab-label" for="chck1">{{
-                      $t("Az6DaysD1")
+                      $t("susD1")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("Az6DaysP1") }}
+                      {{ $t("susP1") }}
                     </div>
                   </div>
                 </div>
@@ -107,10 +106,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck2" />
                     <label class="tab-label" for="chck2">{{
-                      $t("Az6DaysD2")
+                      $t("susD2")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("Az6DaysP2") }}
+                      {{ $t("susP1") }}
                     </div>
                   </div>
                 </div>
@@ -123,10 +122,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck3" />
                     <label class="tab-label" for="chck3">{{
-                      $t("Az6DaysD3")
+                      $t("susD3")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("Az6DaysD3") }}
+                      {{ $t("susP3") }}
                     </div>
                   </div>
                 </div>
@@ -139,10 +138,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck4" />
                     <label class="tab-label" for="chck4">{{
-                      $t("Az6DaysD4")
+                      $t("susD4")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("Az6DaysP4") }}
+                      {{ $t("susP4") }}
                     </div>
                   </div>
                 </div>
@@ -155,10 +154,10 @@
                   <div class="tab">
                     <input type="checkbox" id="chck5" />
                     <label class="tab-label" for="chck5">{{
-                      $t("Az6DaysD5")
+                      $t("susD5")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("Az6DaysP5") }}
+                      {{ $t("susP5") }}
                     </div>
                   </div>
                 </div>
@@ -171,10 +170,26 @@
                   <div class="tab">
                     <input type="checkbox" id="chck6" />
                     <label class="tab-label" for="chck6">{{
-                      $t("Az6DaysD6")
+                      $t("susD6")
                     }}</label>
                     <div class="tab-content">
-                      {{ $t("Az6DaysP6") }}
+                      {{ $t("susP6") }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div class="tabs">
+                  <div class="tab">
+                    <input type="checkbox" id="chck7" />
+                    <label class="tab-label" for="chck7">{{
+                      $t("susD7")
+                    }}</label>
+                    <div class="tab-content">
+                      {{ $t("susP7") }}
                     </div>
                   </div>
                 </div>
@@ -182,15 +197,6 @@
             </div>
           </div>
         </div>
-
-        <!-- <div class="w-10/12 m-auto h-200 mt-10 mb-10">
-            <div>
-              <h4 class="text-3xl text2">{{ $t("accomUsed") }}</h4>
-            </div>
-            <div>
-              <carouselAccomodation></carouselAccomodation>
-            </div>
-          </div> -->
 
         <div class="w-8/12 section4 m-auto mt-10">
           <div>

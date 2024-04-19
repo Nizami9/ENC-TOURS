@@ -419,7 +419,7 @@
             </NuxtLink>
           </div>
         </div>
-        <div class="flex mainSection w-10/12 m-auto mt-10 uppercase mb-2">
+        <div class="flex mainSection w-10/12 m-auto mb-6">
           <div
             v-motion
             :initial="{
@@ -541,7 +541,7 @@
             </NuxtLink>
           </div>
         </div>
-        <div class="flex mainSection w-10/12 m-auto mb-2 uppercase">
+        <div class="flex mainSection w-10/12 m-auto mb-6">
           <div
             v-motion
             :initial="{
@@ -664,6 +664,48 @@
             </NuxtLink>
           </div>
         </div>
+        <div class="flex mainSection w-10/12 m-auto mb-6">
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+            class="w-1/3 sectionDiv uppercase"
+          >
+            <NuxtLink :to="localePath('/tours/Sustainable_Tour')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/sheki4.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder16"
+                  @mouseout="removeBorder16"
+                />
+              </div>
+              <div class="text-color pb-8">
+                <p
+                  ref="section16"
+                  class="pb-1"
+                  @mouseover="addBorder16"
+                  @mouseout="removeBorder16"
+                >
+                  {{ $t("susTour") }}
+                </p>
+              </div>
+            </NuxtLink>
+          </div>
+        </div>
       </div>
     </div>
   </NuxtLayout>
@@ -697,6 +739,7 @@ const section12 = ref(null);
 const section13 = ref(null);
 const section14 = ref(null);
 const section15 = ref(null);
+const section16 = ref(null);
 
 const { addBorder: addBorder1, removeBorder: removeBorder1 } =
   createHoverHandlers(section1);
@@ -728,6 +771,8 @@ const { addBorder: addBorder14, removeBorder: removeBorder14 } =
   createHoverHandlers(section14);
 const { addBorder: addBorder15, removeBorder: removeBorder15 } =
   createHoverHandlers(section15);
+const { addBorder: addBorder16, removeBorder: removeBorder16 } =
+  createHoverHandlers(section16);
 </script>
 <style scoped>
 .parallax {

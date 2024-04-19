@@ -739,6 +739,31 @@ export default {
         bakuTourP3:
           "Discover all that Baku and its surroundings have to offer on this full-day tour. See the prehistoric petroglyphs at Gobustan National Park, learn about the mud volcanoes and their healing properties, visit the Zoroastrian fire temple of Ateshgah, and explore the fire mountain of Yanardag. Overnight at the hotel in Baku.",
         bakuTourP4: "Guided transfer to Baku Heydar Aliyev Airport. Departure.",
+        susTour: "Sustainable Tour",
+        susD1: "Day1: Arrival",
+        susP1:
+          "After your arrival in Baku, you will be picked up by ENC TOURS driver and guide and taken to your hotel.",
+        susD2: "Day 2: Baku",
+        susP2:
+          "After breakfast, your guided walking tour of Baku includes the medieval walled city 'Icheri Sheher' with it is narrow alleyways, historic caravanserais, mosques and Palace of the Shirvan Shahs, UNESCO Heritage site. Visit the Maiden' Tower, UNESCO Heritage site the imposing mansions of the oil barons, built in the oil boom of 1870-1914 and Martyr's with its superb views over the Bay of Baku.Complex of Shirvanshahs Palace was the last residence of the rulers of Shirvan State with the history of thousand. At mediaeval times this state was the most powerful state in Azerbaijan. Then, we will visit Heydar Aliyev Cultural Center (closed on Mondays). The building was designed by internationally recognized Iraqi-British architect and Pritzker Prize winner Zaha Hadid in 2012. The building's design is characterized by its futuristic and fluid forms, featuring curves, waves, and a smooth white exterior. It has won numerous international architectural awards for its innovative and striking design. Overnight at the hotel in Baku.",
+        susD3: "Day 3: Baku-Shamakhi-Sheki",
+        susP3:
+          "Today we will leave Baku. Upon arrival at Shamakhi, you will taste local yogurt in a local family. They will tell you about yoghurt, local dairy products in Azerbaijan etc. After that you will visit the historical Juma Mosque (10th century, reconstructed in 19th century). This oldest and largest mosque in Azerbaijan. Also we will visit mausoleum of Diri Baba in Maraza and ancient mausoleum and cemetery Yeddi Gumbez. We will visit Royal Summer Palace of the Sheki Khans with its magnificent frescoes and stained glass as well as Sheki Museum. The most outstanding and valuable monument of the 18th century Azerbaijan is Sheki Khans' palace. It was constructed in 1761-1762 as a summer residence of Khan. The unique beauty two-storied building of the palace amazes with its magnificent interior and exterior. In the center is a huge stained-glass window from a multi-colored glass mosaic. It is remarkable up to 5, 000 glass pieces were used per one square meter. During Sheki Tour you will be able to visit a local manufacture of shebeke and attend a “Shebeke” master-class, where you will see how the “shebeke” is created. After that, we will visit Bio Garden. In this complex, you will come across fruits, vegetables and berries, cultivated using organic methods from various regions of Azerbaijan and various countries around the world. Overnight at the hotel in  Sheki.",
+        susD4: "Day 4: Sheki-Kish-Nidj -Baku",
+        susP4:
+          "This morning we will visit 'ABAD' Center for Ceramics and Applied Arts. 'ABAD' implements support projects for family businesses operating in the field of decorative-applied folk crafts and production of food products. We will drive to Kish village located near Sheki. Kish, one of the oldest villages in the territory of the present Azerbaijan is well-known with its unique architectural monument, a temple from the period of the Caucasian Albania. Here they will show us bread master- class and we will taste the bread with tea. After that, we will drive to Gabala. We will visit the village of Nidj, not far from Gabala, is known for a unique architectural monument of the Caucasian Albania - Udin Temple. The udins are absolutely special ethnic group who are considered descendants of Albanians. We will also visit the house museum of Udins with their traditions, language and history. We will meet the minority people who are the local Christian community. Arrival in Baku. Overnight at the hotel in Baku. ",
+        susD5: "Day 5: Baku-Guba-Khinalig-Guba",
+        susP5:
+          "In the morning we will drive to Khinalig. Visit local ethnographical museum. Walk in Khinalig. Khinalig village is an ancient settlement, going back to the Caucasian Albanian period. The medieval village of Khinalig was the highest inhabited mountain village in Azerbaijan. So remote, in fact, that they have their own language which has no relation to Azeri or Russian. Visit the house of local family and have lunch. Return to Guba. Overnight in Guba.",
+        susD6: "Day 6: Guba-Lankaran",
+        susP6:
+          "We will leave Guba for Lankaran. The Lankaran region's subtropical climate is ideal for growing citrus fruits, rice, grapes and tobacco and Lankaran tea is famous through the country. Visit the citrus plantation and taste citrus fruits from the local plantations around Lankaran. Then, have a masterclass on preparing a special national dish called lavangi, chicken breast stuffed with walnut and plum preserve. This dish is typically cooked on special occasions and found most prevalently in regions from the Absheron peninsula and south along the coast. Enjoy the lavangi along with other traditional dishes and have an authentic homemade meal with your local hosts. Experience the warm hospitality and generosity of the local people, a hallmark of their culture. We will meet with “Singing Grandmothers” folk band, four sisters from the village of Separadi in Lankaran region. Members of the ensemble perform Talish and Azerbaijani folk songs and dances. Overnight at the hotel in Lankaran.",
+        susD7: "Day 7: Lankaran –Baku",
+        susP7:
+          "After breakfast we explore the Hirkan National Park, a few kilometers south of Lankaran. We will have a hiking (approx. 2 hours, easy) through the protected jungle areas, which are among the most species-rich deciduous forests in Europe and Asia. We continue south near the border town of Astara, where we can get to the bottom of a natural phenomenon: the burning springs “Yanar Bulag”, methane-containing water that can be ignited with the help of a lighter. In the afternoon we visit a tea plantation. In the evening we reach Baku. Overnight in Baku.",
+        susD8: "Day 8: Departure",
+        susP8:
+          "Guided transfer to Baku Heydar Aliyev International Airport. Departure.",
       },
       de: {
         home: "Startseite",
@@ -1086,6 +1111,24 @@ export default {
           "Frühstück und zur vereinbarten Zeit Transfer zum Flughafen, um den Rückflug zu erreichen. (-/-/-)",
 
         azCentralAsia: "AZERBAIJAN & CENTRAL ASIA",
+
+        susTour: "",
+        susD1: "",
+        susP1: "",
+        susD2: "",
+        susP2: "",
+        susD3: "",
+        susP3: "",
+        susD4: "",
+        susP4: "",
+        susD5: "",
+        susP5: "",
+        susD6: "",
+        susP6: "",
+        susD7: "",
+        susP7: "",
+        susD8: "",
+        susP8: "",
       },
       es: {
         home: "INICIO",
@@ -1824,6 +1867,32 @@ export default {
           "Descubra todo lo que Bakú y sus alrededores tienen para ofrecer en este recorrido de un día completo. Vea los petroglifos prehistóricos en el Parque Nacional de Gobustán, aprenda sobre los volcanes de lodo y sus propiedades curativas, visite el Templo del Fuego Zoroastriano Ateshgah y explore Yanardag Montaña de Fuego. Alojamiento en el hotel de Bakú.",
         bakuTourP4:
           "Traslado guiado al Aeropuerto Internacional Heydar Aliyev de  Bakú. Salida.",
+
+        susTour: "Tour Sustentable",
+        susD1: "Día 1: Llegada",
+        susP1:
+          "Después de su llegada a Bakú, el conductor y guía de ENC TOURS lo recogerá y lo llevará a su hotel.",
+        susD2: "Día 2: Bakú",
+        susP2:
+          "Después del desayuno, su visita guiada a pie por Bakú incluye la ciudad medieval amurallada 'Icheri Sheher', con sus callejuelas estrechas, caravasares históricos, mezquitas y el Palacio de los Shirvan Shahs, declarado Patrimonio de la Humanidad por la UNESCO. Visite la Torre de la Doncella, sitio declarado Patrimonio de la Humanidad por la UNESCO, las imponentes mansiones de los barones del petróleo, construidas durante el auge petrolero de 1870-1914 y el Callejón de los Mártires, con sus magníficas vistas sobre la Bahía de Bakú. El complejo del Palacio Shirvanshahs fue la última residencia de los gobernantes de Estado de Shirvan con la historia de miles. En la época medieval, este estado era el más poderoso de Azerbaiyán. Luego, visitaremos el Centro Cultural Heydar Aliyev (cerrado los lunes). El edificio fue diseñado por la reconocida arquitecta y ganadora del Premio Pritzker iraquí-británica Zaha Hadid en 2012. El diseño del edificio se caracteriza por sus formas futuristas y fluidas, con curvas, ondas y un exterior blanco liso. Ha ganado numerosos premios de arquitectura internacionales por su diseño innovador y llamativo. Alojamiento en Bakú.",
+        susD3: "Día 3: Bakú-Shamakhi-Sheki",
+        susP3:
+          "Hoy saldremos de Bakú. A su llegada a Shamakhi, degustará yogur local en una familia local. Ellos le informará sobre el yogur, los productos lácteos locales en Azerbaiyán, etc. Después visitará la histórica Mezquita Juma (siglo X, reconstruida en el siglo XIX). Esta mezquita más antigua y más grande de Azerbaiyán. También visitaremos el mausoleo de Diri Baba en Maraza y el antiguo mausoleo y cementerio Yeddi Gumbez. Visite el Palacio Real de Verano de los Sheki Khans con sus magníficos frescos y vidrieras, así como el Museo Sheki. El monumento más destacado y valioso del Azerbaiyán del siglo XVIII es el Palacio de Sheki Khans. Fue construido en 1761-1762 como residencia de verano de Khan. El edificio de dos pisos de belleza única del palacio sorprende por su magnífico interior y exterior. En el centro hay una enorme vidriera hecha de un mosaico de vidrio multicolor. Cabe destacar que se utilizaron hasta 5.000 piezas de vidrio por metro cuadrado. Durante Sheki Tour podrás visitar una fabricación local de shebeke y asistir a una clase magistral de 'Shebeke', donde verás cómo se crea el 'shebeke'. Luego visitaremos el Bio Jardín. En este complejo encontrará frutas, verduras y bayas cultivadas orgánicamente en varias regiones de Azerbaiyán y en varios países del mundo. Alojamiento en Sheki.",
+        susD4: "Día 4: Sheki-Kish-Nidj-Bakú",
+        susP4:
+          "Esta mañana visitaremos el Centro de Cerámica y Artes Aplicadas 'ABAD'. 'ABAD' implementa proyectos de apoyo a empresas familiares que operan en el campo de la artesanía popular decorativa y la producción de productos alimenticios. Nos dirigiremos al pueblo de Kish ubicado cerca de Sheki. Kish, uno de los pueblos más antiguos del territorio del actual Azerbaiyán, es famoso por su monumento arquitectónico único, un templo de la época de la Albania Caucásica. Aquí nos enseñarán una clase magistral de pan y degustaremos el pan con té. Después de eso, nos dirigiremos a Gabala. Visitaremos el pueblo de Nidj, no lejos de Gabala, conocido por un monumento arquitectónico único de la Albania Caucásica: el templo de Udin. Los udins son un grupo étnico absolutamente especial y se consideran descendientes de los albaneses. También visitaremos el museo casa de Udines con sus tradiciones, lengua e historia. Nos encontraremos con las minorías que forman la comunidad cristiana local. Llegada a Bakú. Alojamiento en el hotel de Bakú.",
+        susD5: "Día 5: Bakú-Guba-Khinalig-Guba",
+        susP5:
+          "Por la mañana nos dirigiremos a Khinalig. Visita al museo etnográfico local. Paseo por Khinalig. La aldea de Khinalig es un asentamiento antiguo que se remonta al período albanés caucásico. El pueblo medieval de Khinalig era el pueblo de montaña habitado más alto de Azerbaiyán. De hecho, son tan remotos que tienen su propio idioma, que no tiene ninguna relación con el azerí o el ruso. Visita a la casa de una familia local y almorza. Regreso a Guba. Noche en Guba.",
+        susD6: "Día 6: Guba-Lankaran",
+        susP6:
+          "Saldremos de Guba hacia Lankaran. El clima subtropical de la región de Lankaran es ideal para el cultivo de cítricos, arroz, uvas y el té de Lankaran es famoso en todo el país. Visite la plantación de cítricos y pruebe los cítricos de las plantaciones locales alrededor de Lankaran. Luego, disfrute de una clase magistral sobre cómo preparar un plato nacional especial llamado lavangi, pechuga de pollo rellena con nueces y confitura de ciruela. Este plato se cocina típicamente en ocasiones especiales y se encuentra con mayor frecuencia en las regiones de la península de Absheron y al sur de la costa. Disfrute del lavangi junto con otros platos tradicionales y disfrute de una auténtica comida casera con sus anfitriones locales. Experimente la cálida hospitalidad y generosidad de la población local, un sello distintivo de su cultura. Nos reuniremos con la banda folklórica “Singing Grandmothers”, cuatro hermanas del pueblo de Separadi en la región de Lankaran. Los miembros del conjunto interpretan canciones y danzas folclóricas talish y azerbaiyanas. Alojamiento en el hotel en Lankaran.",
+        susD7: "Día 7: Lankaran –Bakú",
+        susP7:
+          "Después del desayuno exploramos el Parque Nacional Hirkan, a pocos kilómetros al sur de Lankaran. Haremos una caminata (aproximadamente 2 horas, fácil) a través de las áreas selváticas protegidas, que se encuentran entre los bosques caducifolios más ricos en especies de Europa y Asia. Continuamos hacia el sur cerca de la ciudad fronteriza de Astara, donde podremos llegar al fondo de un fenómeno natural: Yanar Bulag(Agua Ardiente), agua que contiene metano y que puede encenderse con la ayuda de un encendedor. Por la tarde visitamos una plantación de té. Por la tarde llegamos a Bakú. Noche en Bakú.",
+        susD8: "Día 8: Salida",
+        susP8:
+          "Traslado guiado al Aeropuerto Internacional Heydar Aliyev de  Bakú. Salida.",
       },
       it: {
         home: "HOME",
@@ -2432,6 +2501,24 @@ export default {
         bakuTourP2: "",
         bakuTourP3: "",
         bakuTourP4: "",
+
+        susTour: "",
+        susD1: "",
+        susP1: "",
+        susD2: "",
+        susP2: "",
+        susD3: "",
+        susP3: "",
+        susD4: "",
+        susP4: "",
+        susD5: "",
+        susP5: "",
+        susD6: "",
+        susP6: "",
+        susD7: "",
+        susP7: "",
+        susD8: "",
+        susP8: "",
       },
       jp: {
         home: "家",
@@ -2920,6 +3007,24 @@ export default {
         bakuTourP2: "",
         bakuTourP3: "",
         bakuTourP4: "",
+
+        susTour: "",
+        susD1: "",
+        susP1: "",
+        susD2: "",
+        susP2: "",
+        susD3: "",
+        susP3: "",
+        susD4: "",
+        susP4: "",
+        susD5: "",
+        susP5: "",
+        susD6: "",
+        susP6: "",
+        susD7: "",
+        susP7: "",
+        susD8: "",
+        susP8: "",
       },
       fr: {
         home: "PAGE D'ACCUEIL",
@@ -3429,6 +3534,24 @@ export default {
         bakuTourP2: "",
         bakuTourP3: "",
         bakuTourP4: "",
+
+        susTour: "",
+        susD1: "",
+        susP1: "",
+        susD2: "",
+        susP2: "",
+        susD3: "",
+        susP3: "",
+        susD4: "",
+        susP4: "",
+        susD5: "",
+        susP5: "",
+        susD6: "",
+        susP6: "",
+        susD7: "",
+        susP7: "",
+        susD8: "",
+        susP8: "",
       },
       pt: {
         home: "INÍCIO",
@@ -4012,6 +4135,32 @@ export default {
           "Descubra tudo o que Baku e seus arredores têm a oferecer nesta excursão de dia inteiro. Veja petróglifos pré-históricos no Parque Nacional Gobustão, aprenda sobre vulcões de lama e suas propriedades curativas, visite o Templo do Fogo Zoroastriano Ateshgah e explore a Montanha do Fogo Yanardag. Alojamento no hotel Baku.",
         bakuTourP4:
           "Transferência guiada para o Aeroporto Internacional Heydar Aliyev em Baku. Salida.",
+
+        susTour: "Passeio Sustentável",
+        susD1: "Dia 1: Chegada",
+        susP1:
+          "Após sua chegada em Baku, o motorista e guia da ENC TOURS irá buscá-lo e levá-lo ao seu hotel.",
+        susD2: "Dia 2: Baku",
+        susP2:
+          "Após o café da manhã, sua excursão a pé guiada por Baku inclui a cidade medieval murada 'Icheri Sheher', com suas ruelas estreitas, caravanas históricas, mesquitas e o Palácio dos Shirvan Shahs, Patrimônio Mundial da UNESCO. Visite a Torre da Donzela, Patrimônio Mundial da UNESCO, as imponentes mansões dos barões do petróleo, construídas durante o boom do petróleo de 1870-1914 e o Beco dos Mártires, com suas magníficas vistas sobre a Baía de Baku. O complexo do Palácio Shirvanshahs foi a última residência dos governantes do Estado de Shirvan com a história de milhares. Nos tempos medievais, esse estado era o mais poderoso do Azerbaijão. Em seguida, visitaremos o Centro Cultural Heydar Aliyev (fechado às segundas-feiras). O edifício foi projetado pela renomada arquiteta iraquiana-britânica e vencedora do Prêmio Pritzker Zaha Hadid em 2012. O design do edifício é caracterizado por suas formas futuristas e fluidas, com curvas, ondas e um exterior branco liso. Ele ganhou inúmeros prêmios internacionais de arquitetura por seu design inovador e atraente. Alojamento no hotel Baku.",
+        susD3: "Dia 3: Baku-Shamakhi-Sheki",
+        susP3:
+          "Hoje sairemos de Baku. Na chegada a Shamakhi, você experimentará iogurte local em uma família local. Eles irão informá-lo sobre iogurte, produtos lácteos locais no Azerbaijão, etc.Depois você visitará a histórica Mesquita Juma (século X, reconstruída no século XIX). Esta mesquita mais antiga e maior do Azerbaijão. Também visitaremos o Mausoléu de Diri Baba em Maraza e o antigo mausoléu e Cemitério Yeddi Gumbez. Visite o Palácio Real de Verão Dos Sheki Khans com seus magníficos afrescos e vitrais, bem como o Museu Sheki. O monumento mais notável e valioso do Azerbaijão do século XVIII é o Palácio de Sheki Khans. Foi construído em 1761-1762 como residência de Verão de Khan. O edifício de dois andares de beleza única do Palácio surpreende com seu magnífico interior e exterior. No centro há um enorme vitral feito de um mosaico de vidro multicolorido. Vale ressaltar que até 5.000 peças de vidro por metro quadrado foram usadas. Durante o Sheki Tour, você poderá visitar uma fabricação local de shebeke e assistir a uma master class de 'Shebeke', onde você verá como o 'shebeke' é criado. Em seguida, visitaremos o jardim biológico. Neste resort, você encontrará frutas, vegetais e bagas cultivadas organicamente em várias regiões do Azerbaijão e em vários países do mundo. Alojamento no hotel Sheki.",
+        susD4: "Dia 4: Sheki-Kish-Nidj-Baku",
+        susP4:
+          "Hoje de manhã visitaremos o centro de Cerâmica e Artes Aplicadas 'abade'. 'Abade' implementa projetos de apoio a empresas familiares que operam no campo do artesanato popular decorativo e da produção de Produtos alimentícios. Iremos para a Vila De Kish, localizada perto de Sheki. Kish, uma das aldeias mais antigas do território do atual Azerbaijão, é famosa por seu monumento arquitetônico único-um templo da época da Albânia caucasiana. Aqui eles nos ensinarão uma master class de pão e provaremos o pão com chá. Depois disso, iremos para Gabala. Visitaremos a aldeia de Nidj, não muito longe de Gabala, conhecida por um monumento arquitetônico único da Albânia Caucasiana-o Templo de Udin. Os udins são um grupo étnico absolutamente especial e se consideram descendentes dos albaneses. Também visitaremos o Museu Casa de Udines com suas tradições, língua e história. Encontraremos as minorias que formam a comunidade cristã local. Chegada a Baku. Alojamento no hotel em Baku.",
+        susD5: "Dia 5: Baku-Guba-Khinalig-Guba",
+        susP5:
+          "De manhã, vamos para Khinalig. Visita ao Museu etnográfico local. Passeio por Khinalig. A aldeia de Khinalig é um assentamento antigo que remonta ao período Albanês Caucasiano. A aldeia medieval de Khinalig era a aldeia de montanha habitada mais alta do Azerbaijão. Na verdade, eles são tão remotos que têm sua própria língua, que não tem relação com o Azeri ou o russo. Visite a casa de uma família local e almoce. Regresso a Guba. Noite em Guba.",
+        susD6: "Dia 6: Guba-Lankaran",
+        susP6:
+          "Sairemos de Guba para Lankaran. O clima subtropical da região de Lankaran é ideal para o cultivo de frutas cítricas, arroz, uvas e o chá de Lankaran é famoso em todo o país. Visite a plantação de frutas cítricas e experimente as frutas cítricas das plantações locais ao redor de Lankaran. Em seguida, desfrute de uma master class sobre como preparar um prato nacional especial chamado lavangi, peito de frango recheado com nozes e geléia de ameixa. Este prato é tipicamente cozido em ocasiões especiais e é mais frequentemente encontrado nas regiões da península de Absheron e ao sul da costa. Desfrute de lavangi ao lado de outros pratos tradicionais e desfrute de uma autêntica refeição caseira com seus anfitriões locais. Experimente a calorosa hospitalidade e generosidade da população local, uma marca registrada de sua cultura. Vamos nos encontrar com a banda folclórica 'Avós Cantoras', quatro irmãs da aldeia de Separadi na região de Lankaran. Os membros do conjunto executam canções e danças folclóricas Talish e azerbaijanas. Alojamento no hotel em Lankaran.",
+        susD7: "Dia 7: Lankaran-Baku",
+        susP7:
+          "Após o café da manhã, exploramos o Parque Nacional Hirkan, a poucos quilômetros ao sul de Lankaran. Faremos uma caminhada (cerca de 2 horas, fácil) pelas áreas protegidas da selva, que estão entre as florestas decíduas mais ricas em espécies da Europa e da Ásia. Continuamos para o sul, perto da cidade fronteiriça de Astara, onde poderemos chegar ao fundo de um fenômeno natural: Yanar Bulag(água ardente), água que contém metano e que pode ser acesa com a ajuda de um isqueiro. À tarde, visitamos uma plantação de chá. À tarde chegamos a Baku. Noite em Baku.",
+        susD8: "Dia 8: Saída",
+        susP8:
+          "Traslado guiado ao Aeroporto Internacional Heydar Aliyev de Baku. Saída.",
       },
       kr: {
         home: "집",
@@ -4515,6 +4664,24 @@ export default {
         bakuTourP2: "",
         bakuTourP3: "",
         bakuTourP4: "",
+
+        susTour: "",
+        susD1: "",
+        susP1: "",
+        susD2: "",
+        susP2: "",
+        susD3: "",
+        susP3: "",
+        susD4: "",
+        susP4: "",
+        susD5: "",
+        susP5: "",
+        susD6: "",
+        susP6: "",
+        susD7: "",
+        susP7: "",
+        susD8: "",
+        susP8: "",
       },
     },
   },
