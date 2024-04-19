@@ -218,7 +218,7 @@
             </div>
           </div>
         </div>
-        <div class="w-8/12 section4 m-auto">
+        <div class="w-8/12 section4 m-auto mt-10">
           <div>
             <h4 class="text-3xl text2 uppercase mb-2">
               {{ $t("datesAndPr") }}
