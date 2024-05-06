@@ -3,7 +3,7 @@
     <div class="m-auto w-7/12 text-center pt-6">
       <div>
         <p class="text-6xl font-thin text-main-color pt-16">
-          {{ $t("comp2p1") }}
+          {{ $t("comp2h1") }}
         </p>
       </div>
       <div class="mt-5 mb-3 text-center m-auto">
@@ -11,7 +11,7 @@
       </div>
       <div class="w-full">
         <p class="leading-7">
-          {{ $t("comp2p3") }}
+          {{ $t("comp2p1") }}
         </p>
       </div>
     </div>
