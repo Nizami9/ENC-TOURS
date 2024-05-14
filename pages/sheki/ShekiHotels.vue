@@ -6,7 +6,7 @@
           class="w-1/2 mainDiv m-auto pt-48 text-center z-10 uppercase text-white p-2"
         >
           <p class="text2 text-7xl uppercase font-semibold">
-            {{ $t("hotelsSheki") }} Hotels in Sheki
+            {{ $t("hotelsSheki") }}
           </p>
           <p class="rounded-md mt-5 text-2xl text-center">
             Journey Through Time: ENC Tours
@@ -38,15 +38,7 @@
           class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
-            ENC Tours in Azerbaijan offers an immersive museum service, guiding
-            visitors through the country's rich history and cultural legacy.
-            With curated itineraries, travelers explore diverse museums, from
-            the historic Azerbaijan National Museum to the contemporary Baku
-            Museum of Modern Art. Expert guides provide insightful narratives,
-            creating an educational and engaging experience for those eager to
-            uncover Azerbaijan's cultural evolution. ENC Tours' museum service
-            ensures a seamless and informative journey, allowing visitors to
-            connect with the vibrant heritage of this fascinating destination.
+            {{ $t("hotelsShekiIntro") }}
           </p>
         </div>
         <div class="w-10/12 mainSection m-auto mt-10">

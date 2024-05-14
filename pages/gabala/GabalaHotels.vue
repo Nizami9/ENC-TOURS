@@ -38,15 +38,7 @@
           class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
-            ENC Tours in Azerbaijan offers an immersive museum service, guiding
-            visitors through the country's rich history and cultural legacy.
-            With curated itineraries, travelers explore diverse museums, from
-            the historic Azerbaijan National Museum to the contemporary Baku
-            Museum of Modern Art. Expert guides provide insightful narratives,
-            creating an educational and engaging experience for those eager to
-            uncover Azerbaijan's cultural evolution. ENC Tours' museum service
-            ensures a seamless and informative journey, allowing visitors to
-            connect with the vibrant heritage of this fascinating destination.
+            {{ $t("hotelsGabalaIntro") }}
           </p>
         </div>
         <div class="mainSection w-10/12 m-auto mt-10">

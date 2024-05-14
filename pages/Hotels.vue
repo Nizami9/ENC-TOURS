@@ -9,9 +9,7 @@
             {{ $t("hotels") }}
           </p>
           <p class="rounded-md mt-5 text-center textP">
-            Lauded for its extensive knowledge, its East-meets-West model and
-            venturing responsibly into every corner of its destinations, it is
-            our mission to show guests the beating heart of our Asia
+            {{ $t("hotelsP1") }}
           </p>
         </div>
       </div>
@@ -39,16 +37,7 @@
           class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
-            ENC Tours specializes in Ethnographic Tours, providing a unique
-            service that explores Azerbaijan's cultural heritage. Tailored for
-            those interested in local traditions, these tours offer an immersive
-            experience, featuring visits to traditional villages, engaging with
-            artisanal crafts, and participating in authentic rituals. With
-            expert guides, the tours provide insights into the historical
-            significance of customs, ensuring a meaningful and educational
-            journey. ENC Tours' Ethnographic Tours aim to offer a genuine
-            encounter with Azerbaijan's diverse cultural traditions, making it
-            an enriching experience for travelers.
+            {{ $t("hotelsIntro") }}
           </p>
         </div>
         <div class="mainSection flex w-10/12 m-auto mt-10 uppercase mb-2">

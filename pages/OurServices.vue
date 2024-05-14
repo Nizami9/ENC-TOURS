@@ -35,15 +35,7 @@
           class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
-            ENC Tours experience in designing exceptional experiences continues
-            to cast an intimate spell. The almost mesmerizing bonds we have with
-            our East and South East Asian destinations are amongst the closest
-            one can find – be it a dreamy hideaway along sandy shores or a
-            breathtaking moment overlooking its authentic vastness. It is all in
-            delivering that perfect moment, where a second of tasting our Asia
-            delivers a moment of eternal gratitude for all it encompasses. It is
-            all about the local expertise, executive with passion and perfection
-            for an exceeding expectations’experience.
+            {{ $t("ourSerPIntro") }}
           </p>
         </div>
         <div class="mainSection flex w-10/12 m-auto mt-10 mb-6">

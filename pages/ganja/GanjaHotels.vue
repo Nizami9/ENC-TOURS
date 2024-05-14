@@ -5,7 +5,9 @@
         <div
           class="w-1/2 mainDiv m-auto pt-48 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-7xl uppercase font-semibold">{{ $t("hotelsGanja") }}</p>
+          <p class="text2 text-7xl uppercase font-semibold">
+            {{ $t("hotelsGanja") }}
+          </p>
           <p class="rounded-md mt-5 text-2xl text-center">
             Journey Through Time: ENC Tours
           </p>
@@ -36,15 +38,7 @@
           class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
-            ENC Tours in Azerbaijan offers an immersive museum service, guiding
-            visitors through the country's rich history and cultural legacy.
-            With curated itineraries, travelers explore diverse museums, from
-            the historic Azerbaijan National Museum to the contemporary Baku
-            Museum of Modern Art. Expert guides provide insightful narratives,
-            creating an educational and engaging experience for those eager to
-            uncover Azerbaijan's cultural evolution. ENC Tours' museum service
-            ensures a seamless and informative journey, allowing visitors to
-            connect with the vibrant heritage of this fascinating destination.
+            {{ $t("hotelsGanjaIntro") }}
           </p>
         </div>
         <div class="w-10/12 mainSection m-auto mt-10">
@@ -66,7 +60,9 @@
               },
             }"
           >
-            <p class="text-color border-b-2 pb-2 border-gray-400">Vego Hotel Ganja 4*</p>
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Vego Hotel Ganja 4*
+            </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
                 src="@/assets/images/vego.jpeg"
@@ -105,7 +101,7 @@
                 class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
-              <p class=" text-color w-2/3 ml-10 max-h-52 overflow-scroll">
+              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
                 {{ $t("HotelGanja2") }}
               </p>
             </div>
@@ -117,7 +113,6 @@
 </template>
 
 <script setup></script>
-
 
 <style scoped>
 .parallax {
@@ -215,4 +210,3 @@
   }
 }
 </style>
-
