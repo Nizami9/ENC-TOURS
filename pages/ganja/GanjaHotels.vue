@@ -61,7 +61,7 @@
             }"
           >
             <p class="text-color border-b-2 pb-2 border-gray-400">
-              Vego Hotel Ganja 4*
+              Vis Palm Hotel 4*
             </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
@@ -71,38 +71,6 @@
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
                 {{ $t("HotelGanja1") }}
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full mb-4 text-left"
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-          >
-            <p class="text-color border-b-2 pb-2 border-gray-400">
-              Hotel Ramada Plaza 5*
-            </p>
-            <div class="eachMuseum flex p-8 pl-0">
-              <img
-                src="@/assets/images/ramada.jpeg"
-                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
-                alt=""
-              />
-              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelGanja2") }}
               </p>
             </div>
           </div>

@@ -389,9 +389,7 @@ export default {
         HotelLankaran1:
           "There is a place in the Southern part of Lankaran which you can be sure that you’ll be having a great traditional hospitality. That place is called the Khan Lankaran hotel and restaurant. The hotel is located in the territory involving attention by grandiose beauty of the Lankaran city.",
         HotelGanja1:
-          "Vego Hotel features 33 elegant rooms for business and tourist accommodation. There are 4 Suite rooms, 1 Junior Suite rooms,2 Deluxe rooms and 26 Standard Single and Standard Double or Twin rooms as well as to Hotel’s Turkish Bath , lobby , restaurant and cafe by ensuring utmost guest comfort.",
-        HotelGanja2:
-          "Our Ramada Plaza Gence hotel is designed to make your trip more relaxing. With thoughtful amenities and unique personal touches, we offer elegant comfort and modern accommodations. Whether you are our guest for just one night or an extended stay, we offer comfortable accommodations at a great price.",
+          "Vis Palm Hotel in Ganja offers a comfortable and convenient stay in the heart of the city. Vis Palm Hotel has a total of 51 rooms. Rooms divide in Standard, Deluxe and Junior suits. Standard rooms are 28 m², Deluxe rooms are 52 m² and Junior suits are 80 m². Rooms are divided into comfortable lounge areas. Superbly equipped washrooms will be satisfied by the most demanding customers. The hotel has excellent leisure facilities. Explore the bustling streets of Ganja or unwind in the tranquil surroundings of the hotel, making your visit to this historic city memorable and enjoyable.",
         HotelShah1:
           "Each one of Park Chalet’s 164 elegant guest rooms reflects the perfect mix of rustic yet luxury design teamed with stunning mountain views. Custom furnishings include bespoke carpeting, lime washed oak panels and an oversized working desk. Standard rooms feature King or Twin Beds with all comforts.",
         HotelShah2:
