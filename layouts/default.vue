@@ -1,10 +1,13 @@
 <template>
   <div class="relative">
-    <div v-if="loading" class="loading-overlay">
-      <img src="@/assets/images/enc.png" alt="Logo" class="loading-logo" />
+    <div v-if="loading" class="loading-overlay flex">
+      <img src="@/assets/images/enc_gif.gif" alt="Logo" class="loading-logo p-4 m-auto items-center pr-5" />
     </div>
     <div v-if="!loading" class="relative">
-      <navbar @scroll="updateNavbarBackground" class="fixed z-10 w-full"></navbar>
+      <navbar
+        @scroll="updateNavbarBackground"
+        class="fixed z-10 w-full"
+      ></navbar>
       <slot></slot>
       <comp-footer></comp-footer>
     </div>
@@ -23,7 +26,7 @@ const updateNavbarBackground = (isScrolled) => {
 
 setTimeout(() => {
   loading.value = false;
-}, 1500);
+}, 3000);
 </script>
 
 <style scoped>
@@ -58,11 +61,11 @@ setTimeout(() => {
 @keyframes fadeInOut {
   from {
     opacity: 0.2;
-    transform: scale(1);
+    transform: scale(0.9);
   }
   to {
     opacity: 1;
-    transform: scale(1.3);
+    transform: scale(1);
   }
 }
 </style>
