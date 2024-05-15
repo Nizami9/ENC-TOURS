@@ -98,7 +98,7 @@
           >
             <div class="pb-2">
               <img
-                src="@/assets/images/ocaq2.jpeg"
+                src="@/assets/images/artClub.jpeg"
                 class="imageStyle h-60 w-11/12 m-auto border-4 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder2"
@@ -112,7 +112,7 @@
                 @mouseover="addBorder2"
                 @mouseout="removeBorder2"
               >
-                OCAQ RESTAURANT, BAKU
+                Art Club, Baku
               </p>
             </div>
           </div>
@@ -137,7 +137,7 @@
           >
             <div class="pb-2">
               <img
-                src="@/assets/images/nuxa.jpeg"
+                src="@/assets/images/sumakh.jpeg"
                 class="imageStyle h-60 w-11/12 m-auto border-4 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder3"
@@ -151,7 +151,7 @@
                 @mouseover="addBorder3"
                 @mouseout="removeBorder3"
               >
-                NUXA, BAKU
+                Sumakh, Baku
               </p>
             </div>
           </div>
@@ -177,7 +177,7 @@
           >
             <div class="pb-2">
               <img
-                src="@/assets/images/terrace.jpeg"
+                src="@/assets/images/chayki.jpeg"
                 class="imageStyle h-60 w-11/12 m-auto border-4 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder4"
@@ -191,7 +191,7 @@
                 @mouseover="addBorder4"
                 @mouseout="removeBorder4"
               >
-                TERRACE GARDEN, BAKU
+                Chayki, Baku
               </p>
             </div>
           </div>
@@ -216,7 +216,7 @@
           >
             <div class="pb-2">
               <img
-                src="@/assets/images/shirvansah.jpeg"
+                src="@/assets/images/novbahar.jpeg"
                 class="imageStyle h-60 w-11/12 m-auto border-4 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder5"
@@ -230,7 +230,7 @@
                 @mouseover="addBorder5"
                 @mouseout="removeBorder5"
               >
-                SHIRVANSHAH MUSEUM RESTAURANT, BAKU
+                Novbahar, Baku
               </p>
             </div>
           </div>
@@ -255,7 +255,7 @@
           >
             <div class="pb-2">
               <img
-                src="@/assets/images/namli.jpeg"
+                src="@/assets/images/atesh.jpeg"
                 class="imageStyle h-60 w-11/12 m-auto border-4 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
                 alt=""
                 @mouseover="addBorder6"
@@ -269,14 +269,14 @@
                 @mouseover="addBorder6"
                 @mouseout="removeBorder6"
               >
-                NAMLI KEBAP, BAKU
+                Ateshgah, Baku
               </p>
             </div>
           </div>
         </div>
       </div>
       <div
-        class="mainSection text-center flex w-10/12 m-auto mt-10 uppercase mb-2"
+        class="mainSection justify-center text-center flex w-10/12 m-auto mt-10 uppercase mb-2"
       >
         <div
           v-motion
@@ -298,7 +298,7 @@
         >
           <div class="pb-2">
             <img
-              src="@/assets/images/oldcity.jpeg"
+              src="@/assets/images/karvanVIP.jpeg"
               class="imageStyle h-60 w-11/12 m-auto border-4 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
               alt=""
               @mouseover="addBorder7"
@@ -312,182 +312,9 @@
               @mouseover="addBorder7"
               @mouseout="removeBorder7"
             >
-              OLD CITY, BAKU
+              Karvan VIP, Sheki
             </p>
           </div>
-        </div>
-
-        <div
-          v-motion
-          :initial="{
-            opacity: 0,
-            y: 100,
-          }"
-          :visible="{
-            opacity: 1,
-            y: 0,
-            transition: {
-              type: 'spring',
-              stiffness: 250,
-              damping: 70,
-              mass: 5,
-            },
-          }"
-          class="w-1/3 uppercase sectionDiv"
-        >
-          <div class="pb-2">
-            <img
-              src="@/assets/images/prive3.jpeg"
-              class="imageStyle h-60 w-11/12 m-auto border-4 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-              alt=""
-              @mouseover="addBorder8"
-              @mouseout="removeBorder8"
-            />
-          </div>
-          <div class="pb-8">
-            <p
-              ref="section8"
-              class="pb-1 text-color"
-              @mouseover="addBorder8"
-              @mouseout="removeBorder8"
-            >
-              PRIVE STEAK GALLERY, BAKU
-            </p>
-          </div>
-        </div>
-
-        <div
-          v-motion
-          :initial="{
-            opacity: 0,
-            y: 100,
-          }"
-          :visible="{
-            opacity: 1,
-            y: 0,
-            transition: {
-              type: 'spring',
-              stiffness: 250,
-              damping: 70,
-              mass: 5,
-            },
-          }"
-          class="w-1/3 uppercase sectionDiv"
-        >
-          <div class="pb-2">
-            <img
-              src="@/assets/images/chelebi.jpeg"
-              class="imageStyle h-60 w-11/12 m-auto border-4 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-              alt=""
-              @mouseover="addBorder9"
-              @mouseout="removeBorder9"
-            />
-          </div>
-          <div class="pb-8">
-            <p
-              ref="section9"
-              class="pb-1 text-color"
-              @mouseover="addBorder9"
-              @mouseout="removeBorder9"
-            >
-              CHELEBI XAN, SHEKI
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="mainSection text-center flex w-10/12 m-auto mt-10 uppercase mb-2"
-      v-motion
-      :initial="{
-        opacity: 0,
-        y: 100,
-      }"
-      :visible="{
-        opacity: 1,
-        y: 0,
-        transition: {
-          type: 'spring',
-          stiffness: 250,
-          damping: 70,
-          mass: 5,
-        },
-      }"
-    >
-      <div
-        v-motion
-        :initial="{
-          opacity: 0,
-          y: 100,
-        }"
-        :visible="{
-          opacity: 1,
-          y: 0,
-          transition: {
-            type: 'spring',
-            stiffness: 250,
-            damping: 70,
-            mass: 5,
-          },
-        }"
-        class="w-1/3 uppercase sectionDiv"
-      >
-        <div class="pb-2">
-          <img
-            src="@/assets/images/mekan.jpeg"
-            class="imageStyle h-60 w-11/12 m-auto border-4 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-            alt=""
-            @mouseover="addBorder10"
-            @mouseout="removeBorder10"
-          />
-        </div>
-        <div class="pb-8">
-          <p
-            ref="section10"
-            class="pb-1 text-color"
-            @mouseover="addBorder10"
-            @mouseout="removeBorder10"
-          >
-            MEKAN, SHEKI
-          </p>
-        </div>
-      </div>
-      <div
-        v-motion
-        :initial="{
-          opacity: 0,
-          y: 100,
-        }"
-        :visible="{
-          opacity: 1,
-          y: 0,
-          transition: {
-            type: 'spring',
-            stiffness: 250,
-            damping: 70,
-            mass: 5,
-          },
-        }"
-        class="w-1/3 uppercase sectionDiv"
-      >
-        <div class="pb-2">
-          <img
-            src="@/assets/images/xanbagi.jpeg"
-            class="imageStyle h-60 w-11/12 m-auto border-4 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-            alt=""
-            @mouseover="addBorder11"
-            @mouseout="removeBorder11"
-          />
-        </div>
-        <div class="pb-8">
-          <p
-            ref="section11"
-            class="pb-1 text-color"
-            @mouseover="addBorder1"
-            @mouseout="removeBorder11"
-          >
-            XAN BAGI, ISMAYILLI
-          </p>
         </div>
       </div>
     </div>

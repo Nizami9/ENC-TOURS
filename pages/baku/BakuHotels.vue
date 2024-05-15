@@ -8,10 +8,6 @@
           <p class="text2 text-7xl uppercase font-semibold">
             {{ $t("hotelsBaku") }}
           </p>
-          <p class="rounded-md mt-5 text-2xl text-center">
-            Journey Through Time: ENC Tours
-          </p>
-          <p class="text-2xl textP">Curated Museum Exploration in Azerbaijan</p>
         </div>
       </div>
       <div class="text-center">
@@ -61,7 +57,40 @@
             }"
           >
             <p class="text-color border-b-2 pb-2 border-gray-400">
-              City Park Hotel 4*
+              Four Seasons Hotel 5*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/hotel19.jpeg"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelBaku18") }}
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              The Ritz-Carlton 5*
             </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
@@ -71,358 +100,6 @@
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
                 {{ $t("HotelBaku1") }}
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full mb-4 text-left"
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-          >
-            <p class="text-color border-b-2 pb-2 border-gray-400">
-              Aksent Hotel 4*
-            </p>
-            <div class="eachMuseum flex p-8 pl-0">
-              <img
-                src="@/assets/images/hotel3.jpeg"
-                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
-                alt=""
-              />
-              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku2") }}
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full mb-4 text-left"
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-          >
-            <p class="text-color border-b-2 pb-2 border-gray-400">
-              New Baku Hotel 4*
-            </p>
-            <div class="eachMuseum flex p-8 pl-0">
-              <img
-                src="@/assets/images/hotel4.jpeg"
-                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
-                alt=""
-              />
-              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku3") }}
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full mb-4 text-left"
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-          >
-            <p class="text-color border-b-2 pb-2 border-gray-400">
-              Central Park Hotel 4*
-            </p>
-            <div class="eachMuseum flex p-8 pl-0">
-              <img
-                src="@/assets/images/hotel5.jpeg"
-                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
-                alt=""
-              />
-              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku4") }}
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full mb-4 text-left"
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-          >
-            <p class="text-color border-b-2 pb-2 border-gray-400">
-              Qafqaz Baku City Hotel 4*
-            </p>
-            <div class="eachMuseum flex p-8 pl-0">
-              <img
-                src="@/assets/images/hotel6.jpeg"
-                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
-                alt=""
-              />
-              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku5") }}
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full mb-4 text-left"
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-          >
-            <p class="text-color border-b-2 pb-2 border-gray-400">
-              Sapphire Inn Hotel 4*
-            </p>
-            <div class="eachMuseum flex p-8 pl-0">
-              <img
-                src="@/assets/images/hotel7.jpeg"
-                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
-                alt=""
-              />
-              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku6") }}
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full mb-4 text-left"
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-          >
-            <p class="text-color border-b-2 pb-2 border-gray-400">
-              Holiday Inn Hotel Baku 4*
-            </p>
-            <div class="eachMuseum flex p-8 pl-0">
-              <img
-                src="@/assets/images/holiday.jpeg"
-                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
-                alt=""
-              />
-              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku7") }}
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full mb-4 text-left"
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-          >
-            <p class="text-color border-b-2 pb-2 border-gray-400">
-              Park Inn By Radisson Hotel 4*
-            </p>
-            <div class="eachMuseum flex p-8 pl-0">
-              <img
-                src="@/assets/images/hotel9.avif"
-                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
-                alt=""
-              />
-              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku8") }}
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full mb-4 text-left"
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-          >
-            <p class="text-color border-b-2 pb-2 border-gray-400">
-              Pullman Baku Hotel 5*
-            </p>
-            <div class="eachMuseum flex p-8 pl-0">
-              <img
-                src="@/assets/images/hotel10.jpeg"
-                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
-                alt=""
-              />
-              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku9") }}
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full mb-4 text-left"
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-          >
-            <p class="text-color border-b-2 pb-2 border-gray-400">
-              ART Gallery Boutique Hotel 5*
-            </p>
-            <div class="eachMuseum flex p-8 pl-0">
-              <img
-                src="@/assets/images/hotel11.jpeg"
-                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
-                alt=""
-              />
-              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku10") }}
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full mb-4 text-left"
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-          >
-            <p class="text-color border-b-2 pb-2 border-gray-400">
-              Boutique 19 Hotel 5*
-            </p>
-            <div class="eachMuseum flex p-8 pl-0">
-              <img
-                src="@/assets/images/hotelbout.jpeg"
-                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
-                alt=""
-              />
-              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku11") }}
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full mb-4 text-left"
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-          >
-            <p class="text-color border-b-2 pb-2 border-gray-400">
-              Sheraton Baku Intourist Hotel 5*
-            </p>
-            <div class="eachMuseum flex p-8 pl-0">
-              <img
-                src="@/assets/images/hotel13.jpeg"
-                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
-                alt=""
-              />
-              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku12") }}
               </p>
             </div>
           </div>
@@ -479,82 +156,16 @@
             }"
           >
             <p class="text-color border-b-2 pb-2 border-gray-400">
-              Bilgah Beach Hotel 5*
+              Hyatt Regency 5*
             </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
-                src="@/assets/images/hotel15.jpeg"
+                src="@/assets/images/hotel1.jpeg"
                 class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku14") }}
-              </p>
-            </div>
-          </div>
-
-          <div
-            class="w-full mb-4 text-left"
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-          >
-            <p class="text-color border-b-2 pb-2 border-gray-400">
-              Baku Marriott Hotel Boulevard 5*
-            </p>
-            <div class="eachMuseum flex p-8 pl-0">
-              <img
-                src="@/assets/images/hotel16.jpeg"
-                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
-                alt=""
-              />
-              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku15") }}
-              </p>
-            </div>
-          </div>
-
-          <div
-            class="w-full mb-4 text-left"
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-          >
-            <p class="text-color border-b-2 pb-2 border-gray-400">
-              Hilton Baku Hotel 5*
-            </p>
-            <div class="eachMuseum flex p-8 pl-0">
-              <img
-                src="@/assets/images/hotel17.jpeg"
-                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
-                alt=""
-              />
-              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku16") }}
+                {{ $t("HotelBakuHyatt") }}
               </p>
             </div>
           </div>
@@ -611,16 +222,411 @@
             }"
           >
             <p class="text-color border-b-2 pb-2 border-gray-400">
-              Four Seasons Hotel 5*
+              Hilton Baku Hotel 5*
             </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
-                src="@/assets/images/hotel19.jpeg"
+                src="@/assets/images/hotel17.jpeg"
                 class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku18") }}
+                {{ $t("HotelBaku16") }}
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Intercontinental Baku 5*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/hotel1.jpeg"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelBakuInter") }}
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Sheraton Baku Intourist Hotel 5*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/hotel13.jpeg"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelBaku12") }}
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              The Merchant Baku 4*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/hotel1.jpeg"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelBakuMerchant") }}
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Radisson Hotel Baku 4*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/hotel9.avif"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelBaku8") }}
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Courtyard by Marriott Baku 4*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/hotel1.jpeg"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelBakuCout") }}
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Holiday Inn Hotel Baku 4*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/holiday.jpeg"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelBaku7") }}
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Mövenpick Winter Park Baku 4*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/hotel1.jpeg"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelBakuMovenpick") }}
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Midtown Hotel 4*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/hotel1.jpeg"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelBakuMidtown") }}
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Molokan Inn 4*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/hotel1.jpeg"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelBakuMolokan") }}
+              </p>
+            </div>
+          </div>
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Auroom Hotel 4*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/hotel1.jpeg"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelBakuAuroom") }}
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Aksent Hotel 4*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/hotel3.jpeg"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelBaku2") }}
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Central Park Hotel 4*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/hotel5.jpeg"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelBaku4") }}
               </p>
             </div>
           </div>

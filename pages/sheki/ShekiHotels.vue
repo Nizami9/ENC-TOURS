@@ -8,10 +8,6 @@
           <p class="text2 text-7xl uppercase font-semibold">
             {{ $t("hotelsSheki") }}
           </p>
-          <p class="rounded-md mt-5 text-2xl text-center">
-            Journey Through Time: ENC Tours
-          </p>
-          <p class="text-2xl textP">Curated Museum Exploration in Azerbaijan</p>
         </div>
       </div>
       <div class="text-center">
@@ -61,16 +57,16 @@
             }"
           >
             <p class="text-color border-b-2 pb-2 border-gray-400">
-              Sheki Park Hotel 4*
+              Marxal Resort & SPA 5*
             </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
-                src="@/assets/images/shekihotel.jpeg"
+                src="@/assets/images/shekihotel4.jpeg"
                 class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelsSheki1") }}
+                {{ $t("HotelsSheki4") }}
               </p>
             </div>
           </div>
@@ -125,7 +121,7 @@
             }"
           >
             <p class="text-color border-b-2 pb-2 border-gray-400">
-              Sheki Saray Hotel 4*
+              Macara Sheki City Hotel 4*
             </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
@@ -134,7 +130,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelsSheki3") }}
+                {{ $t("HotelsShekiMacara") }}
               </p>
             </div>
           </div>
@@ -157,16 +153,48 @@
             }"
           >
             <p class="text-color border-b-2 pb-2 border-gray-400">
-              Marxal Resort & SPA 5*
+              Mianli Hotel 4*
             </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
-                src="@/assets/images/shekihotel4.jpeg"
+                src="@/assets/images/shekihotel.jpeg"
                 class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelsSheki4") }}
+                {{ $t("HotelsShekiMianli") }}
+              </p>
+            </div>
+          </div>
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Sheki Park Hotel 4*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/shekihotel.jpeg"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelsSheki1") }}
               </p>
             </div>
           </div>

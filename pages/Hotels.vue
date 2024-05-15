@@ -59,26 +59,26 @@
             }"
             class="w-1/3 uppercase sectionDiv cursor-pointer"
           >
-          <NuxtLink :to="localePath('/baku/bakuhotels')">
-            <div class="pb-2">
-              <img
-                src="@/assets/images/az21.jpeg"
-                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder1"
-                @mouseout="removeBorder1"
-              />
-            </div>
-            <div class="pb-8">
-              <p
-                ref="section1"
-                class="text-color pb-1"
-                @mouseover="addBorder1"
-                @mouseout="removeBorder1"
-              >
-                BAKU
-              </p>
-            </div>
+            <NuxtLink :to="localePath('/baku/bakuhotels')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/az21.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder1"
+                  @mouseout="removeBorder1"
+                />
+              </div>
+              <div class="pb-8">
+                <p
+                  ref="section1"
+                  class="text-color pb-1"
+                  @mouseover="addBorder1"
+                  @mouseout="removeBorder1"
+                >
+                  BAKU
+                </p>
+              </div>
             </NuxtLink>
           </div>
           <div
@@ -99,26 +99,26 @@
             }"
             class="w-1/3 uppercase sectionDiv cursor-pointer"
           >
-          <NuxtLink :to="localePath('/gabala/gabalahotels')">
-            <div class="pb-2">
-              <img
-                src="@/assets/images/gabala.jpeg"
-                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder2"
-                @mouseout="removeBorder2"
-              />
-            </div>
-            <div class="pb-8">
-              <p
-                ref="section2"
-                class="text-color pb-1"
-                @mouseover="addBorder2"
-                @mouseout="removeBorder2"
-              >
-                GABALA
-              </p>
-            </div>
+            <NuxtLink :to="localePath('/gabala/gabalahotels')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/gabala.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder2"
+                  @mouseout="removeBorder2"
+                />
+              </div>
+              <div class="pb-8">
+                <p
+                  ref="section2"
+                  class="text-color pb-1"
+                  @mouseover="addBorder2"
+                  @mouseout="removeBorder2"
+                >
+                  GABALA
+                </p>
+              </div>
             </NuxtLink>
           </div>
           <div
@@ -139,26 +139,26 @@
             }"
             class="w-1/3 uppercase sectionDiv cursor-pointer"
           >
-          <NuxtLink :to="localePath('/sheki/shekihotels')">
-            <div class="pb-2">
-              <img
-                src="@/assets/images/sheki5.jpeg"
-                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder3"
-                @mouseout="removeBorder3"
-              />
-            </div>
-            <div class="pb-8">
-              <p
-                ref="section3"
-                class="text-color pb-1"
-                @mouseover="addBorder3"
-                @mouseout="removeBorder3"
-              >
-                SHEKI
-              </p>
-            </div>
+            <NuxtLink :to="localePath('/sheki/shekihotels')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/sheki5.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder3"
+                  @mouseout="removeBorder3"
+                />
+              </div>
+              <div class="pb-8">
+                <p
+                  ref="section3"
+                  class="text-color pb-1"
+                  @mouseover="addBorder3"
+                  @mouseout="removeBorder3"
+                >
+                  SHEKI
+                </p>
+              </div>
             </NuxtLink>
           </div>
         </div>
@@ -181,26 +181,26 @@
             }"
             class="w-1/3 uppercase sectionDiv cursor-pointer"
           >
-          <NuxtLink :to="localePath('/ganja/ganjahotels')">
-            <div class="pb-2">
-              <img
-                src="@/assets/images/ganja.jpeg"
-                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder4"
-                @mouseout="removeBorder4"
-              />
-            </div>
-            <div class="pb-8">
-              <p
-                ref="section4"
-                class="text-color pb-1"
-                @mouseover="addBorder4"
-                @mouseout="removeBorder4"
-              >
-                GANJA
-              </p>
-            </div>
+            <NuxtLink :to="localePath('/ganja/ganjahotels')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/ganja.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder4"
+                  @mouseout="removeBorder4"
+                />
+              </div>
+              <div class="pb-8">
+                <p
+                  ref="section4"
+                  class="text-color pb-1"
+                  @mouseover="addBorder4"
+                  @mouseout="removeBorder4"
+                >
+                  GANJA
+                </p>
+              </div>
             </NuxtLink>
           </div>
           <div
@@ -221,26 +221,26 @@
             }"
             class="w-1/3 uppercase sectionDiv cursor-pointer"
           >
-          <NuxtLink :to="localePath('/guba/gubahotels')">
-            <div class="pb-2">
-              <img
-                src="@/assets/images/guba.jpeg"
-                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder5"
-                @mouseout="removeBorder5"
-              />
-            </div>
-            <div class="pb-8">
-              <p
-                ref="section5"
-                class="text-color pb-1"
-                @mouseover="addBorder5"
-                @mouseout="removeBorder5"
-              >
-                GUBA
-              </p>
-            </div>
+            <NuxtLink :to="localePath('/guba/gubahotels')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/guba.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder5"
+                  @mouseout="removeBorder5"
+                />
+              </div>
+              <div class="pb-8">
+                <p
+                  ref="section5"
+                  class="text-color pb-1"
+                  @mouseover="addBorder5"
+                  @mouseout="removeBorder5"
+                >
+                  GUBA
+                </p>
+              </div>
             </NuxtLink>
           </div>
           <div
@@ -261,74 +261,31 @@
             }"
             class="w-1/3 uppercase sectionDiv cursor-pointer"
           >
-          <NuxtLink :to="localePath('/lankaran/lankaranhotels')">
-            <div class="pb-2">
-              <img
-                src="@/assets/images/lankaran.jpeg"
-                class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-                alt=""
-                @mouseover="addBorder6"
-                @mouseout="removeBorder6"
-              />
-            </div>
-            <div class="pb-8">
-              <p
-                ref="section6"
-                class="text-color pb-1"
-                @mouseover="addBorder6"
-                @mouseout="removeBorder6"
-              >
-                LANKARAN
-              </p>
-            </div>
+            <NuxtLink :to="localePath('/lankaran/lankaranhotels')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/lankaran.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder6"
+                  @mouseout="removeBorder6"
+                />
+              </div>
+              <div class="pb-8">
+                <p
+                  ref="section6"
+                  class="text-color pb-1"
+                  @mouseover="addBorder6"
+                  @mouseout="removeBorder6"
+                >
+                  LANKARAN
+                </p>
+              </div>
             </NuxtLink>
           </div>
         </div>
       </div>
-      <div
-        class="mainSection text-center flex w-10/12 m-auto mt-10 uppercase mb-2"
-      >
-        <div
-          v-motion
-          :initial="{
-            opacity: 0,
-            y: 100,
-          }"
-          :visible="{
-            opacity: 1,
-            y: 0,
-            transition: {
-              type: 'spring',
-              stiffness: 250,
-              damping: 70,
-              mass: 5,
-            },
-          }"
-          class="w-1/3 uppercase sectionDiv cursor-pointer"
-        >
-        <NuxtLink :to="localePath('/shahdag/shahdaghotels')">
-          <div class="pb-2">
-            <img
-              src="@/assets/images/shahdag.jpeg"
-              class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
-              alt=""
-              @mouseover="addBorder7"
-              @mouseout="removeBorder7"
-            />
-          </div>
-          <div class="pb-8">
-            <p
-              ref="section7"
-              class="text-color pb-1"
-              @mouseover="addBorder7"
-              @mouseout="removeBorder7"
-            >
-              SHAHDAG
-            </p>
-          </div>
-          </NuxtLink>
-        </div>
-      </div>
+      
     </div>
   </NuxtLayout>
 </template>
