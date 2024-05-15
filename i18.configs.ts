@@ -358,6 +358,8 @@ export default {
         HotelSheki4:
           "One of the best hotels in Azerbaijan Marxal Resort & Spa combines a charm of native home and luxury and comfort of a 5-star hotel. Set against the backdrop of the majestic Caucasus Mountains, this resort combines modern amenities with traditional hospitality for an unforgettable retreat. With a range of recreational activities, stunning natural surroundings, and attentive service, Marxal Resort & SPA invites you to experience the ultimate in relaxation and tranquility during your stay in Sheki. ",
         hotelsGuba: "Hotels in Guba",
+        hotelsGubaIntro:
+          "Experience the beauty of Guba with our range of comfortable accommodations, meticulously selected to enhance your stay in this region of Azerbaijan. Discover cozy accommodations amidst the stunning landscapes of Guba, Azerbaijan. Experience warm hospitality and modern amenities as you explore the natural beauty and cultural attractions of Guba.",
         hotelsLankaran: "Hotels in Guba",
         hotelsGanja: "Hotels in Ganja",
         hotelsGanjaIntro:
@@ -781,6 +783,10 @@ export default {
           "Discover a variety of hotel accommodations across Azerbaijan. From modern city hotels to countryside hotels, our options cater to diverse preferences, ensuring a comfortable stay during your visit to Azerbaijan. Explore the rich cultural heritage and breathtaking landscapes of the country, knowing that a welcoming retreat awaits you at the end of each day.",
         hotelsBakuIntro:
           "Baku boasts a diverse range of accommodation options, from luxurious hotels to budget-friendly hotels. Whether you seek panoramic city views or a cozy retreat, our selection ensures comfort and convenience for your stay in the vibrant capital.",
+        vehicleFleetH1:
+          "Discover hassle-free travel across Azerbaijan with our premier transportation services. From airport transfers to guided tours and intercity journeys, our fleet of modern vehicles ensures comfortable and convenient transportation for every traveler.",
+        vehicleFleetIntro:
+          "Our experienced drivers and knowledgeable guides are dedicated to providing you with a seamless and enjoyable experience, allowing you to focus on soaking in the sights and creating unforgettable memories. Sit back, relax, and let us take care of the transportation details, ensuring a stress-free and memorable travel experience from start to finish. Rest assured, your safety and comfort remain our top priorities. Each vehicle undergoes regular maintenance checks to guarantee optimal performance and reliability throughout your journey. With our commitment to excellence in service and hospitality, you can focus on enjoying the adventure while we handle the logistics seamlessly behind the scenes.",
       },
       de: {
         home: "Startseite",
