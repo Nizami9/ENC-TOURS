@@ -6,7 +6,7 @@
           class="w-1/2 mainDiv m-auto pt-48 text-center z-10 uppercase text-white p-2"
         >
           <p class="text2 text-7xl uppercase font-semibold">
-            {{ $t("hotelsGuba") }}
+            {{ $t("hotelsNakhchivan") }}
           </p>
         </div>
       </div>
@@ -34,10 +34,10 @@
           class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
-            {{ $t("hotelsGubaIntro") }}
+            {{ $t("hotelsNakhchivanIntro") }}
           </p>
         </div>
-        <div class="mainSection w-10/12 m-auto mt-10">
+        <div class="w-10/12 mainSection m-auto mt-10">
           <div
             class="w-full mb-4 text-left"
             v-motion
@@ -57,19 +57,20 @@
             }"
           >
             <p class="text-color border-b-2 pb-2 border-gray-400">
-              Quba Palace Hotel 5*
+              Saat Meydani 5*
             </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
-                src="@/assets/images/qubaPalace.jpeg"
+                src="@/assets/images/saathotel.jpeg"
                 class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("hotelGubaPalace") }}
+                {{ $t("HotelNakhchivan1") }}
               </p>
             </div>
           </div>
+
           <div
             class="w-full mb-4 text-left"
             v-motion
@@ -89,48 +90,16 @@
             }"
           >
             <p class="text-color border-b-2 pb-2 border-gray-400">
-              Quba Macara Lake Park Hotel 4*
+              Tebriz Hotel 5*
             </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
-                src="@/assets/images/qubamacara.jpeg"
+                src="@/assets/images/tabrizhotel.jpeg"
                 class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("hotelGubaMacara") }}
-              </p>
-            </div>
-          </div>
-          <div
-            class="w-full mb-4 text-left"
-            v-motion
-            :initial="{
-              opacity: 0,
-              y: 100,
-            }"
-            :visible="{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: 'spring',
-                stiffness: 250,
-                damping: 70,
-                mass: 20,
-              },
-            }"
-          >
-            <p class="text-color border-b-2 pb-2 border-gray-400">
-              Gold Hotel Quba 4*
-            </p>
-            <div class="eachMuseum flex p-8 pl-0">
-              <img
-                src="@/assets/images/goldhotel2.jpeg"
-                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
-                alt=""
-              />
-              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("hotelGubaGold") }}
+                {{ $t("HotelNakhchivan2") }}
               </p>
             </div>
           </div>
@@ -156,7 +125,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("@/assets/images/guba.jpeg");
+  background-image: url("@/assets/images/nakh3.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

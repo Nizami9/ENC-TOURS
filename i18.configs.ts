@@ -379,15 +379,26 @@ export default {
         hotelsGuba: "Hotels in Guba",
         hotelsGubaIntro:
           "Experience the beauty of Guba with our range of comfortable accommodations, meticulously selected to enhance your stay in this region of Azerbaijan. Discover cozy accommodations amidst the stunning landscapes of Guba, Azerbaijan. Experience warm hospitality and modern amenities as you explore the natural beauty and cultural attractions of Guba.",
-        hotelsLankaran: "Hotels in Guba",
+        hotelGubaPalace:
+          "Quba Palace Hotel & Golf Resort features a spa and wellness centre, outdoor pool, sauna, hammam and fitness centre. Free parking is available on site. The rooms offer air conditioning, a seating area, fridge and flat-screen TV with satellite channels. The bathrooms provide a hairdryer and bathrobes. Guests can dine in one of the 3 on-site restaurants, serving national, international and European cuisine, or use property’s barbecue facilities. Room service and breakfasts in the room are provided upon request. A range of activities are offered on site or in the surroundings, including tennis, table tennis, golf and mini football. A Bus Station is 9 km from the hotel, and shuttle service is provided at surcharge.",
+        hotelGubaMacara:
+          "Situated in Quba, Macara Lake Park has a fitness centre, bar and free WiFi. Boasting room service, this property also provides guests with a children's playground. Guests can use the spa and wellness centre with a sauna, hot tub, and indoor pool, as well as a restaurant. Some rooms also boast a kitchen with a minibar. The hotel offers a hammam. You can play table tennis and darts at Macara Lake Park, and the area is popular for fishing. Languages spoken at the 24-hour front desk include Azerbaijani, English and Russian. The nearest airport is Qabala International Airport, 229 km from the accommodation.",
+        hotelGubaGold:
+          "Set in Quba, Gold Hotel Quba features a garden. The accommodation offers a 24-hour front desk, a shuttle service, room service and free Wi-Fi throughout the property. All rooms are equipped with a kettle, while selected rooms here will provide you with a kitchen with a minibar and a stovetop. At the hotel all rooms come with a flat-screen TV with satellite channels. The nearest airport is Qabala International Airport, 237 km from Gold Hotel Quba.",
+        hotelsLankaran: "Hotels in Lankaran",
         hotelsGanja: "Hotels in Ganja",
         hotelsGanjaIntro:
           "Ganja has something to suit every traveler's needs. Enjoy comfortable rooms and friendly service throughout your stay. From city center locations offering easy access to attractions, to peaceful retreats nestled in lush greenery, Ganja's accommodations ensure a pleasant and memorable experience for every visitor. Explore the historic sites, cultural landmarks, and natural beauty of Ganja, knowing you have a comfortable place to rest after each day of adventure. ",
         hotelsShahdag: "Hotels in Shahdag",
         HotelGuba1:
           "Rixos Quba Azerbaijan offers Rixos quality in four different types of villas complying to all your needs and wants. Embraced by the emerald-green natural beauties of Caucasia, you will experience an actual holiday in nature. RixosQuba Azerbaijan offers a deluxe holiday beyond five-star quality standards with all its privileged details.",
-        HotelLankaran1:
-          "There is a place in the Southern part of Lankaran which you can be sure that you’ll be having a great traditional hospitality. That place is called the Khan Lankaran hotel and restaurant. The hotel is located in the territory involving attention by grandiose beauty of the Lankaran city.",
+        HotelLankaranSprings:
+          "Lankaran Springs Wellness Resort is a health resort, that is located in the south of Azerbaijan, in the district of Haftoni of Lankaran city, 250 km south of Baku. It is situated in a beautiful, mountainous forest landscape, just 15 minutes from the Caspian Sea and 10 minutes from Lankaran International Airport. The total area of ​​the sanatorium is 11 hectares, which includes a newly constructed hotel building, a wellness center, a public spa center, a kids center and therapeutic thermal baths. The hotel offers comfortable accommodation in single, double rooms and family suites with a terrace. There are 182 comfortable rooms in the hotel: 145 standard rooms, 25 superior rooms, 10 family rooms and 2 suites.",
+        HotelLankaranKhazar:
+          "Khazar Palace Hotel is located at Ashagi Nuvadi in Lankaran in 5 km from the centre. Among other services, there is a sauna fully equipped for a comfortable rest. The residents are able to surf the Internet. There are rooms for non-smokers at the hotel. There is a garden planted nearby the hotel. Either you want to have a meal, relax, or arrange a business meeting, you may do this at the restaurant. Guests can ask to bring food and drinks to their rooms. Those who travel by car are provided with parking lots. There is a conference hall for organizing business meetings and banquets. Guests can choose one of the 6 rooms in the hotel. The following categories of rooms are available for you: suite, double, single, villa. A wide range of facilities is offered here: minibar, safety deposit box, telephone, air conditioning, hairdryer, free toiletries, flat-screen TV.",
+        HotelLankaranKhan:
+          "Khan Lankaran boutique hotel, which consists of Standard Twin, Comfort Twin, Double, Deluxe and Luxe rooms, provides high-quality services for guests 24 hours a day. Khan Lankaran Hotel was built in an ancient style. Reflects the khanate period. The walls are made of a mixture of mud and straw. There are antiques over 150 years old. 90% of the items here are handmade. It is almost the most exotic hotel in Azerbaijan. It is also the perfect hotel in Azerbaijan, designed in such a natural way. In addition to hotel, Khan Lankaran Restaurant, one of the most famous restaurants in the South of Azerbaijan, will serve you with mysterious dishes of national cuisine. ",
+
         HotelGanja1:
           "Vis Palm Hotel in Ganja offers a comfortable and convenient stay in the heart of the city. Vis Palm Hotel has a total of 51 rooms. Rooms divide in Standard, Deluxe and Junior suits. Standard rooms are 28 m², Deluxe rooms are 52 m² and Junior suits are 80 m². Rooms are divided into comfortable lounge areas. Superbly equipped washrooms will be satisfied by the most demanding customers. The hotel has excellent leisure facilities. Explore the bustling streets of Ganja or unwind in the tranquil surroundings of the hotel, making your visit to this historic city memorable and enjoyable.",
         HotelShah1:
@@ -805,6 +816,15 @@ export default {
           "Discover hassle-free travel across Azerbaijan with our premier transportation services. From airport transfers to guided tours and intercity journeys, our fleet of modern vehicles ensures comfortable and convenient transportation for every traveler.",
         vehicleFleetIntro:
           "Our experienced drivers and knowledgeable guides are dedicated to providing you with a seamless and enjoyable experience, allowing you to focus on soaking in the sights and creating unforgettable memories. Sit back, relax, and let us take care of the transportation details, ensuring a stress-free and memorable travel experience from start to finish. Rest assured, your safety and comfort remain our top priorities. Each vehicle undergoes regular maintenance checks to guarantee optimal performance and reliability throughout your journey. With our commitment to excellence in service and hospitality, you can focus on enjoying the adventure while we handle the logistics seamlessly behind the scenes.",
+        hotelsNakhchivan: "Hotels in Nakhchivan",
+        hotelsNakhchivanIntro:
+          "Experience Nakhchivan like never before with our curated accommodation options. Nakhchivan offers options to suit every traveler's taste and budget. Immerse yourself in the unique culture and beauty of Nakhchivan while enjoying unparalleled comfort during your stay.",
+        HotelNakhchivan1:
+          "Saat Meydani Nakhchivan has a restaurant, garden, a terrace and bar. Featuring family rooms, this property also provides guests with a children's playground. The accommodation provides a 24-hour front desk, airport transfers, room service and free Wi-Fi throughout the property. At the hotel, every room is equipped with a wardrobe, bed linen and a balcony with a mountain view. All units will provide guests with air conditioning, a safety deposit box and a flat-screen TV. The nearest airport is Nakhchivan International Airport, 3 km from Saat Meydani Nakhchivan.",
+        HotelNakhchivan2:
+          "Featuring an indoor pool and a spa with Turkish bath and massage facilities, Tebriz Hotel Nakhchivan offers modern and elegant accommodation in the centre of Nakhchivan. The property also has a fitness center and a sun terrace. With free Wi-Fi and satellite TV, the air-conditioned rooms include a minibar, an electric kettle, free coffee, a seating area and a private bathroom with free toiletries and hairdryer. You can enjoy lake and mountain views from the rooms. Guests can enjoy a rich breakfast every morning. There is also a bar and a restaurant on site. Hotel Tebriz Nakhchivan is 7 km from Nakhchivan Airport.",
+        hotelsLankaranIntro:
+          "Discover the perfect stay in Lankaran! Enjoy warm hospitality, stunning views and convenient amenities, ensuring a memorable experience in this charming city. With breathtaking views of the Caspian Sea and the serene beauty of the Talysh Mountains, Lankaran provides the perfect backdrop for your travels. Plan your trip today and immerse yourself in the charm of this captivating city.",
       },
       de: {
         home: "Startseite",
@@ -1102,7 +1122,7 @@ export default {
         HotelSheki4:
           "Marxal Hotel und Spa-Komplex ist über dem Meeresspiegel von Bergen in der geheimnisvollen Ecke von Sheki umgeben. Die geographische Lage des Hotels macht es einzigartig und besonders.Das hotel liegt 80 km vom Flughafen Gabala, 300 km vom internationalen Flughafen Baku, 14 km vom Bahnhof Sheki und 4 km vom Stadtzentrum von Sheki entfernt.",
         hotelsGuba: "Hotels in Guba",
-        hotelsLankaran: "Hotels in Guba",
+        hotelsLankaran: "Hotels in Lankaran",
         hotelsGanja: "Hotels in Ganja",
         hotelsShahdag: "Hotels in Shahdag",
         HotelGuba1:
@@ -1737,7 +1757,7 @@ export default {
         HotelSheki4:
           "Marxal Hotel and Spa Complex se sitúa sobre el nivel del mar, rodeado de montañas en la misteriosa esquina de Sheki. La ubicación geográfica del hotel lo hace único y especial. El hotel se encuentra a 80 km del aeropuerto de Gabala, a 300 km del aeropuerto internacional de Bakú, a 14 km de la estación de ferrocarril de Sheki y a 4 km del centro de la ciudad de Sheki.",
         hotelsGuba: "Hoteles in Guba",
-        hotelsLankaran: "Hoteles in Guba",
+        hotelsLankaran: "Hoteles in Lankaran",
         hotelsGanja: "Hoteles in Ganja",
         hotelsShahdag: "Hoteles in Shahdag",
         HotelGuba1:
@@ -2518,7 +2538,7 @@ export default {
           "Il Marxal Hotel and Spa Complex si trova sopra il livello del mare circondato da montagne nel misterioso angolo di Sheki. La posizione geografica dell’hotel lo rende unico e speciale. L’hotel si trova a 80 km dall’aeroporto di Gabala, a 300 km dall’aeroporto internazionale di Baku, a 14 km dalla stazione ferroviaria di Sheki e a 4 km dal centro di Sheki.",
 
         hotelsGuba: "Hoteles in Guba",
-        hotelsLankaran: "Hoteles in Guba",
+        hotelsLankaran: "Hoteles in Lankaran",
         hotelsGanja: "Hoteles in Ganja",
         hotelsShahdag: "Hoteles in Shahdag",
         HotelGuba1:
@@ -3729,7 +3749,9 @@ export default {
         HotelSheki4:
           "Le complexe hôtelier et spa de Marxal se situe au-dessus du niveau de la mer et est entouré de montagnes dans le coin mystérieux de Shéki. La situation géographique de l’hôtel en fait un lieu unique et spécial. L’hôtel est situé à 80 km de l’aéroport de Gabala, à 300 km de l’aéroport international de Bakou, à 14 km de la gare de Shéki et à 4 km du centre-ville de Shéki.",
         hotelsGuba: "Hôtels à Guba",
-        hotelsLankaran: "Hôtels à Guba",
+        hotelsLankaran: "Hôtels à Lankaran",
+        hotelsLankaranIntro:
+          "Discover the perfect stay in Lankaran! Enjoy warm hospitality, stunning views and convenient amenities, ensuring a memorable experience in this charming city. With breathtaking views of the Caspian Sea and the serene beauty of the Talysh Mountains, Lankaran provides the perfect backdrop for your travels. Plan your trip today and immerse yourself in the charm of this captivating city.",
         hotelsGanja: "Hôtels à Ganja",
         hotelsShahdag: "Hôtels à Shahdag",
         HotelGuba1:
@@ -4273,7 +4295,7 @@ export default {
         HotelSheki4:
           "O Marxal Hotel and Spa Complex está acima do nível do mar, cercado por montanhas no canto misterioso de Sheki. A localização geográfica do Hotel torna-o único e especial. O hotel está situado a 80 km do aeroporto de Gabala, a 300 km do aeroporto internacional de Baku, a 14 km da estação ferroviária de Sheki e a 4 km do centro da cidade de Sheki.",
         hotelsGuba: "Hotéis em Guba",
-        hotelsLankaran: "Hotéis em Guba",
+        hotelsLankaran: "Hotéis em Lankaran",
         hotelsGanja: "Hotéis em Ganja",
         hotelsShahdag: "Hotéis em Shahdag",
         HotelGuba1:
@@ -4871,7 +4893,7 @@ export default {
           "The Qafqaz Riverside Resort Hotel is a five star luxurious hotel located at the foothills of the Caucasus on the bank of the river Damiraparan. The hotel has 164 modern and spacious guest rooms and nice cottages ideally suited for long weekends with friends and family.",
         HotelGabala5:
           "Qafqaz Thermal & Spa Resort Hotel is a four star hotel located in the Yengidje village of Gabala district which started to operate in 2014. Our guests may wish to benefit from the thermal water and Naftalan oil treatment services offered by our hotel, besides taking a good and enjoyable rest in the lap of fascinatingly beautiful nature.",
-        hotelsSheki: "Hotels in Gabala",
+        hotelsSheki: "Hotels in Sheki",
         HotelSheki1:
           "The resort offers comfortable, standard, and luxurious rooms, one of the most up-to-date standards in the hotel building, 1, 2, 3 – bedrooms cottages, indoor and outdoor restaurants with access to the beauty of the mysterious nature. Of course, in this restaurant, along with the delicious dishes of Azerbaijan, especially the Shaki cuisine, European cuisine will also be offered to you. Breakfast is included in a room booking cost. “Housekeeping” service is available daily to keep your room clean and tidy.  The hotel has a fitness room, sauna, healing massage, billiard room, karaoke – bar, volleyball court, tennis court and outdoor swimming pool for your guests’ leisure time. There is also a special meeting room for business meetings in “Sheki Park” Hotel. We have not forgotten to create a special corner for children to ensure that their parents are comfortable.",
         HotelSheki2:

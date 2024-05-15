@@ -8,10 +8,6 @@
           <p class="text2 text-7xl uppercase font-semibold">
             {{ $t("hotelsLankaran") }}
           </p>
-          <p class="rounded-md mt-5 text-2xl text-center">
-            Journey Through Time: ENC Tours
-          </p>
-          <p class="text-2xl textP">Curated Museum Exploration in Azerbaijan</p>
         </div>
       </div>
       <div class="text-center">
@@ -38,18 +34,74 @@
           class="introText border w-1/2 m-auto p-8 text-customGray"
         >
           <p>
-            ENC Tours in Azerbaijan offers an immersive museum service, guiding
-            visitors through the country's rich history and cultural legacy.
-            With curated itineraries, travelers explore diverse museums, from
-            the historic Azerbaijan National Museum to the contemporary Baku
-            Museum of Modern Art. Expert guides provide insightful narratives,
-            creating an educational and engaging experience for those eager to
-            uncover Azerbaijan's cultural evolution. ENC Tours' museum service
-            ensures a seamless and informative journey, allowing visitors to
-            connect with the vibrant heritage of this fascinating destination.
+            {{ $t("hotelsLankaranIntro") }}
           </p>
         </div>
         <div class="mainSection w-10/12 m-auto mt-10">
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Lankaran Springs Wellness Resort 5*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/springshotel.jpeg"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelLankaranSprings") }}
+              </p>
+            </div>
+          </div>
+          <div
+            class="w-full mb-4 text-left"
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+          >
+            <p class="text-color border-b-2 pb-2 border-gray-400">
+              Khazar Palace Hotel 4*
+            </p>
+            <div class="eachMuseum flex p-8 pl-0">
+              <img
+                src="@/assets/images/khazarhotel.jpeg"
+                class="imageStyle h-60 border-4 w-96 rounded-md border-gray-400"
+                alt=""
+              />
+              <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
+                {{ $t("HotelLankaranKhazar") }}
+              </p>
+            </div>
+          </div>
           <div
             class="w-full mb-4 text-left"
             v-motion
@@ -78,7 +130,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelLankaran1") }}
+                {{ $t("HotelLankaranKhan") }}
               </p>
             </div>
           </div>

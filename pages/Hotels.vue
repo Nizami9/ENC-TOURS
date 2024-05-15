@@ -284,8 +284,50 @@
             </NuxtLink>
           </div>
         </div>
+
+        <div class="mainSection flex w-10/12 m-auto mt-10 uppercase mb-2">
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 5,
+              },
+            }"
+            class="w-1/3 uppercase sectionDiv cursor-pointer"
+          >
+            <NuxtLink :to="localePath('/nakhchivan/nakhchivanhotels')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/nakh2.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder7"
+                  @mouseout="removeBorder7"
+                />
+              </div>
+              <div class="pb-8">
+                <p
+                  ref="section7"
+                  class="text-color pb-1"
+                  @mouseover="addBorder7"
+                  @mouseout="removeBorder7"
+                >
+                  Nakhchivan
+                </p>
+              </div>
+            </NuxtLink>
+          </div>
+        </div>
       </div>
-      
     </div>
   </NuxtLayout>
 </template>
