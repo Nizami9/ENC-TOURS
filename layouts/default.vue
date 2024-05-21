@@ -1,13 +1,17 @@
 <template>
   <div class="relative">
     <div v-if="loading" class="loading-overlay flex">
-      <img src="@/assets/images/enc_gif.gif" alt="Logo" class="loading-logo p-4 m-auto items-center pr-5" />
+      <img
+        src="@/assets/images/enc_gif.gif"
+        alt="Logo"
+        class="loading-logo p-4 m-auto items-center pr-5"
+      />
     </div>
     <div v-if="!loading" class="relative">
-      <navbar
+      <NavBar2
         @scroll="updateNavbarBackground"
-        class="fixed z-10 w-full"
-      ></navbar>
+        class="absolute z-10 m-auto text-center"
+      ></NavBar2>
       <slot></slot>
       <comp-footer></comp-footer>
     </div>
@@ -15,6 +19,8 @@
 </template>
 
 <script setup>
+import NavBar2 from "~~/components/NavBar2.vue";
+
 const loading = ref(true);
 const navbarBackgroundColor = ref("rgba(199, 191, 191, 0.5)");
 
@@ -44,11 +50,8 @@ setTimeout(() => {
 }
 
 .loading-logo {
-  width: 150px;
-  height: 150px;
-  border: 2px solid #333;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 180px;
+  height: 180px;
   animation: fadeInOut 2s infinite alternate;
 }
 

@@ -2,7 +2,7 @@
   <div class="w-full mb-14 text-color">
     <div class="w-full">
       <div class="w-11/12 m-auto mt-10 text-6xl">
-        <p class="text-center mb-4 m-auto pb-2 text-main-color">
+        <p class="text-center mainH mb-4 m-auto pb-2 text-main-color">
           {{ $t("comp3h1") }}
         </p>
       </div>
@@ -12,7 +12,7 @@
       <div
         class="text-center text-gray-600 w-10/12 m-auto border-b pb-6 text-color"
       >
-        <p>
+        <p class="w-1/2 m-auto">
           {{ $t("comp3p1") }}
         </p>
       </div>
@@ -21,8 +21,8 @@
       <div class="flex sections w-10/12 m-auto mt-4 text-center border-b pb-8">
         <div class="w-1/3 sectionDiv border-r">
           <img
-            src="@/assets/images/icon1.png"
-            class="w-20 mb-6 mt-3 m-auto"
+            src="@/assets/images/0006.png"
+            class="w-20 border p-2 rounded-full borderColor mb-6 mt-3 m-auto"
             alt=""
           />
           <h4>{{ $t("comp3h2") }}</h4>
@@ -32,8 +32,8 @@
         </div>
         <div class="w-1/3 sectionDiv border-r">
           <img
-            src="@/assets/images/icon2.png"
-            class="w-20 mb-6 mt-3 m-auto"
+            src="@/assets/images/0005.png"
+            class="w-20 border p-2 rounded-full borderColor mb-6 mt-3 m-auto"
             alt=""
           />
           <h4>{{ $t("comp3h3") }}</h4>
@@ -43,8 +43,8 @@
         </div>
         <div class="w-1/3 sectionDiv">
           <img
-            src="@/assets/images/icon3.png"
-            class="w-20 mb-6 mt-3 m-auto"
+            src="@/assets/images/0002.png"
+            class="w-20 border p-2 rounded-full borderColor mb-6 mt-3 m-auto"
             alt=""
           />
           <h4>{{ $t("comp3h4") }}</h4>
@@ -59,8 +59,8 @@
       >
         <div class="w-1/3 sectionDiv border-r">
           <img
-            src="@/assets/images/icon4.png"
-            class="w-20 mb-6 mt-3 m-auto"
+            src="@/assets/images/0004.png"
+            class="w-20 border p-2 rounded-full borderColor mb-6 mt-3 m-auto"
             alt=""
           />
           <h4>{{ $t("comp3h5") }}</h4>
@@ -70,8 +70,8 @@
         </div>
         <div class="w-1/3 sectionDiv border-r">
           <img
-            src="@/assets/images/icon5.png"
-            class="w-20 mb-6 mt-3 m-auto"
+            src="@/assets/images/0001.png"
+            class="w-20 border p-2 rounded-full borderColor mb-6 mt-3 m-auto"
             alt=""
           />
           <h4>{{ $t("comp3h6") }}</h4>
@@ -81,8 +81,8 @@
         </div>
         <div class="w-1/3 sectionDiv">
           <img
-            src="@/assets/images/icon6.png"
-            class="w-20 mb-6 mt-3 m-auto"
+            src="@/assets/images/0003.png"
+            class="w-20 border p-2 rounded-full borderColor mb-6 mt-3 m-auto"
             alt=""
           />
           <h4>{{ $t("comp3h7") }}</h4>
@@ -125,5 +125,24 @@
     width: 100%;
     border-right: none;
   }
+}
+
+.mainH {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+}
+
+.borderColor {
+  border-color: rgba(152, 176, 226, 1);
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 14px;
+  color: rgba(64, 64, 64, 1);
 }
 </style>

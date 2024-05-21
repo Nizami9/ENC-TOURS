@@ -1,8 +1,8 @@
 <template>
-  <div class="w-full pb-9 bg-rgba text-color">
-    <div class="m-auto w-7/12 text-center pt-6">
+  <div class="w-full pb-9 bg-color text-color">
+    <div class="m-auto w-7/12 text-center">
       <div>
-        <p class="text-6xl font-thin text-main-color pt-16">
+        <p class="text-6xl font-thin text-main-color pt-10">
           {{ $t("comp2h1") }}
         </p>
       </div>
@@ -24,6 +24,11 @@
 <script setup></script>
 
 <style scoped>
+* {
+  font-family: "Lusitana", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .text-main-color {
   color: #24373d;
   @media (min-width: 320px) and (max-width: 820px) {
@@ -33,5 +38,9 @@
 
 .text-color {
   color: #5a5858;
+}
+
+.bg-color {
+  background-color: rgba(226, 226, 226, 1);
 }
 </style>

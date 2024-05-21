@@ -19,7 +19,7 @@ export default {
           "Being internationally connected, creative and advanced, ENC travel is intended to provide a legacy of solid reputation with high degree excellence and responsibility. The company was established in 2008 with the vision to be chosen as the most trusted source of travel for people who wish to have life lasting memories.",
         comp2h1: "Inspirations",
         comp2p1:
-          "Discover the magic of Azerbaijan with ENC Tours. Let us be your guide to unforgettable adventures from the vibrant streets to the serene landscapes. Discover culture, excitement, and relaxation with our tailored trips. Create memories that last a lifetime with us.",
+          "Discover the magic of Azerbaijan with ENC Tours. Let us be your guide to unforgettable adventures from the vibrant streets of Baku to the serene landscapes of Caucasus. Discover culture, excitement, and relaxation with our tailored trips. Create memories that last a lifetime with us.",
         comp3h1: "Why us?",
         comp3p1:
           "Our personalized approach and deep local insights ensure authentic experiences tailored to your preferences, setting us apart in crafting unforgettable adventures across Azerbaijan.",

@@ -34,12 +34,6 @@
               class="imageStyle w-11/12 group-hover:brightness-75 h-60 m-auto mb-6 mt-6 transition-transform transform origin-center"
               alt=""
             />
-            <!-- <NuxtLink
-              to="/your-link-here"
-              class="p-3 pt-2 pb-2 left-40 w-44 border hover:bg-orange-400 hover:text-white m-auto bg-white text-bold text-black absolute bottom-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
-            >
-              Show Details
-            </NuxtLink> -->
           </div>
           <p class="p-6 leading-7 textP">
             Put on your adventure cap and roam responsibly through nature, cycle

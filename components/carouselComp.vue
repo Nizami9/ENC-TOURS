@@ -9,7 +9,7 @@
       <slide v-for="slide in 1" :key="slide">
         <div class="w-full">
           <img
-            src="@/assets/images/az14.webp"
+            src="@/assets/images/Insp1.png"
             class="imageStyle pr-2"
             alt="photo"
           />
@@ -17,31 +17,23 @@
       </slide>
       <slide v-for="slide in 1" :key="slide">
         <div class="w-full">
-          <img src="@/assets/images/az3.jpeg" class="imageStyle" alt="photo" />
+          <img src="@/assets/images/Insp2.png" class="imageStyle" alt="photo" />
+        </div>
+      </slide>
+      <slide v-for="slide in 1" :key="slide">
+        <div class="w-full">
+          <img src="@/assets/images/Insp3.png" class="imageStyle" alt="photo" />
+        </div>
+      </slide>
+      <slide v-for="slide in 1" :key="slide">
+        <div class="w-full">
+          <img src="@/assets/images/Insp1.png" class="imageStyle" alt="photo" />
         </div>
       </slide>
       <slide v-for="slide in 1" :key="slide">
         <div class="w-full">
           <img
-            src="@/assets/images/baku5.jpeg"
-            class="imageStyle"
-            alt="photo"
-          />
-        </div>
-      </slide>
-      <slide v-for="slide in 1" :key="slide">
-        <div class="w-full">
-          <img
-            src="@/assets/images/carpet3.jpeg"
-            class="imageStyle"
-            alt="photo"
-          />
-        </div>
-      </slide>
-      <slide v-for="slide in 1" :key="slide">
-        <div class="w-full">
-          <img
-            src="@/assets/images/sheki4.jpeg"
+            src="@/assets/images/Insp2.png"
             alt="photo"
             class="imageStyle w-auto"
           />
