@@ -15,10 +15,11 @@
           </p>
           <div class="flex space-x-6">
             <a
+              style="color: rgba(255, 255, 255, 1)"
               v-for="item in navigation.social"
               :key="item.name"
               :href="item.href"
-              class="text-gray-500 hover:text-gray-400"
+              class="hover:text-gray-400"
             >
               <span class="sr-only">{{ item.name }}</span>
               <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
@@ -34,7 +35,7 @@
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.solutions" :key="item.name">
                   <NuxtLink
-                  :to="localePath(item.href)"
+                    :to="localePath(item.href)"
                     class="text-sm leading-6 text-gray-300 hover:text-white"
                     >{{ item.name }}</NuxtLink
                   >
@@ -48,7 +49,7 @@
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.support" :key="item.name">
                   <NuxtLink
-                  :to="localePath(item.href)"
+                    :to="localePath(item.href)"
                     class="text-sm leading-6 text-gray-300 hover:text-white"
                     >{{ item.name }}</NuxtLink
                   >
@@ -62,7 +63,7 @@
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.company" :key="item.name">
                   <NuxtLink
-                  :to="localePath(item.href)"
+                    :to="localePath(item.href)"
                     class="text-sm leading-6 text-gray-300 hover:text-white"
                     >{{ item.name }}</NuxtLink
                   >
@@ -76,7 +77,7 @@
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.legal" :key="item.name">
                   <NuxtLink
-                  :to="localePath(item.href)"
+                    :to="localePath(item.href)"
                     class="text-sm leading-6 text-gray-300 hover:text-white"
                     >{{ item.name }}</NuxtLink
                   >
@@ -86,8 +87,18 @@
           </div>
         </div>
       </div>
-      <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-8">
-        <p class="text-xs leading-5 text-gray-400">
+      <div
+        style="border-color: rgba(255, 255, 255, 1)"
+        class="mt-16 m-auto flex text-center border-t pt-8 sm:mt-20 lg:mt-8"
+      >
+        <p
+          style="
+            font-weight: 500;
+            font-size: 16px;
+            color: rgba(255, 255, 255, 1);
+          "
+          class="text-xs m-auto leading-5 text-gray-400"
+        >
           &copy; 2024 ENC Tours, Inc. All rights reserved.
         </p>
       </div>
@@ -167,7 +178,22 @@ const navigation = {
 </script>
 
 <style scoped>
+* {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px
+
+}
 .footerBg {
   background-image: url("@/assets/images/Footer.png");
   background-size: auto;
-}</style>
+  height: 455px;
+}
+
+h3 {
+  font-size: 21px;
+  font-weight: 500;
+}
+</style>

@@ -2,7 +2,10 @@
   <div class="w-full pb-9 bg-color text-color">
     <div class="m-auto w-7/12 text-center">
       <div>
-        <p class="text-6xl font-thin text-main-color pt-10">
+        <p
+          style="font-size: 64px"
+          class="text-6xl font-thin text-main-color pt-10"
+        >
           {{ $t("comp2h1") }}
         </p>
       </div>
