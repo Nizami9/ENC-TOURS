@@ -14,7 +14,7 @@
           {{ item.name }}
         </NuxtLink>
       </div>
-      <img src="@/assets/images/group.png" alt="" />
+      <img src="@/assets/images/Group.png" alt="" />
       <!-- <select v-model="locale" class="bg-opacity-0 bg-white">
         <option value="en">🇬🇧</option>
         <option value="de">🇩🇪</option>
