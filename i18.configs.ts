@@ -14,7 +14,7 @@ export default {
         contacts: "CONTACTS",
         lux: "luxury",
         services: "Services",
-        mainPageH1: "enc cultural tours",
+        mainPageH1: "enc unforgettable journes",
         mainPageH2:
           "Being internationally connected, creative and advanced, ENC travel is intended to provide a legacy of solid reputation with high degree excellence and responsibility. The company was established in 2008 with the vision to be chosen as the most trusted source of travel for people who wish to have life lasting memories.",
         comp2h1: "Inspirations",
