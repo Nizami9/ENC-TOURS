@@ -1,11 +1,13 @@
 <template>
-  <div class="w-full flex justify-between m-auto mt-6 h-20 items-center">
+  <div class="w-full flex justify-between m-auto mt-8 h-20 items-center">
     <div class="flex w-10/12 m-auto justify-between items-center">
-      <img
-        src="@/assets/images/enctours_logo.png"
-        alt="logo"
-        style="width: 106px; height: 80px"
-      />
+      <div class="w-52">
+        <img
+          src="@/assets/images/enctours_logo.png"
+          alt="logo"
+          style="width: 106px; height: 80px"
+        />
+      </div>
       <div v-for="item in navigation" :key="item.name">
         <NuxtLink
           :to="localePath(item.href)"

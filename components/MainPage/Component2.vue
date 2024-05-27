@@ -1,19 +1,19 @@
 <template>
   <div class="w-full pb-9 bg-color text-color">
-    <div class="m-auto w-7/12 text-center">
+    <div class="m-auto w-1/2 text-center">
       <div>
-        <p
-          style="font-size: 64px"
-          class="text-6xl font-thin text-main-color pt-10"
-        >
+        <h1 class="text-main-color pt-10">
           {{ $t("comp2h1") }}
-        </p>
+        </h1>
       </div>
-      <div class="mt-5 mb-3 text-center m-auto">
-        <p class="border-b-4 w-40 m-auto border-blue-900"></p>
+      <div class="w-11/12 m-auto mb-4 text-center">
+        <div
+          style="border-color: rgba(152, 176, 226, 1)"
+          class="border-b-8 w-60 m-auto mt-4 mb-8"
+        ></div>
       </div>
-      <div class="w-full">
-        <p class="leading-7">
+      <div class="w-11/12 m-auto text-center mb-3">
+        <p>
           {{ $t("comp2p1") }}
         </p>
       </div>
@@ -27,13 +27,22 @@
 <script setup></script>
 
 <style scoped>
-* {
-  font-family: "Lusitana", serif;
+p {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-size: 14px;
+  color: rgba(64, 64, 64, 1);
+  opacity: 60%;
+  text-align: center;
+  line-height: 21px;
 }
 .text-main-color {
-  color: #24373d;
+  font-family: "Lusitana";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 71.36px;
+  color: rgba(64, 64, 64, 1);
   @media (min-width: 320px) and (max-width: 820px) {
     font-size: xx-large;
   }

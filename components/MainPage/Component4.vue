@@ -1,18 +1,23 @@
 <template>
-  <div class="w-full mb-14 text-color">
+  <div class="w-full mb-10 text-color">
     <div>
-      <div class="w-10/12 m-auto mt-6 font-light text-6xl">
+      <div class="w-10/12 m-auto font-light text-6xl">
         <h5
-          style="font-size: 64px"
-          class="text-center m-auto pb-2 text-main-color MainP"
+          style="
+            font-size: 64px;
+            line-height: 71.36px;
+            font-weight: 200;
+            color: rgba(64, 64, 64, 1);
+          "
+          class="text-center m-auto pb-2 MainP"
         >
           Our trips
         </h5>
       </div>
-      <div class="w-10/12 m-auto mt-6 mb-6 text-center">
+      <div class="w-10/12 m-auto mt-2 mb-6 text-center">
         <p
           style="border-color: rgba(152, 176, 226, 1)"
-          class="border-b-8 w-1/5 m-auto"
+          class="border-b-8 w-52 m-auto"
         ></p>
       </div>
       <div class="text-center text-gray-500 w-10/12 m-auto mb-10">
@@ -28,13 +33,8 @@
     <div class="text-gray-600 md:text-sm lg:text-base xl:text-base">
       <div class="flex sections w-10/12 m-auto text-center">
         <div class="w-1/3 sectionDiv">
-          <h5
-            style="font-weight: 700; font-size: 30px"
-            class="text-black text-main-color"
-          >
-            Active Trails
-          </h5>
-          <div class="w-full m-auto mt-8 text-center">
+          <h5 class="">Active Trails</h5>
+          <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
               class="border-b-4 w-1/3 m-auto"
@@ -54,13 +54,8 @@
           </p>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5
-            style="font-weight: 700; font-size: 30px"
-            class="text-black text-main-color"
-          >
-            Authentic Trails
-          </h5>
-          <div class="w-full m-auto mt-8 text-center">
+          <h5>Authentic Trails</h5>
+          <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
               class="border-b-4 w-1/3 m-auto"
@@ -80,13 +75,8 @@
           </p>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5
-            style="font-weight: 700; font-size: 30px"
-            class="text-black text-main-color"
-          >
-            Cruising Trails
-          </h5>
-          <div class="w-full m-auto mt-8 text-center">
+          <h5>Cruising Trails</h5>
+          <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
               class="border-b-4 w-1/3 m-auto"
@@ -109,13 +99,8 @@
 
       <div class="flex w-10/12 sections m-auto mt-4 text-center pb-3">
         <div class="w-1/3 sectionDiv">
-          <h5
-            style="font-weight: 700; font-size: 30px"
-            class="text-black text-main-color"
-          >
-            Culinary Trails
-          </h5>
-          <div class="w-full m-auto mt-8 text-center">
+          <h5>Culinary Trails</h5>
+          <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
               class="border-b-4 w-1/3 m-auto"
@@ -135,13 +120,8 @@
           </p>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5
-            style="font-weight: 700; font-size: 30px"
-            class="text-black text-main-color"
-          >
-            Digital Trails
-          </h5>
-          <div class="w-full m-auto mt-8 text-center">
+          <h5>Digital Trails</h5>
+          <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
               class="border-b-4 w-1/3 m-auto"
@@ -161,13 +141,8 @@
           </p>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5
-            style="font-weight: 700; font-size: 30px"
-            class="text-black text-main-color"
-          >
-            Essential Trails
-          </h5>
-          <div class="w-full m-auto mt-8 text-center">
+          <h5>Essential Trails</h5>
+          <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
               class="border-b-4 w-1/3 m-auto"
@@ -190,13 +165,8 @@
 
       <div class="flex sections w-10/12 m-auto mt-4 text-center pb-3">
         <div class="w-1/3 sectionDiv">
-          <h5
-            style="font-weight: 700; font-size: 30px"
-            class="text-black text-main-color"
-          >
-            Family Trails
-          </h5>
-          <div class="w-full m-auto mt-8 text-center">
+          <h5>Family Trails</h5>
+          <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
               class="border-b-4 w-1/3 m-auto"
@@ -216,13 +186,8 @@
           </p>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5
-            style="font-weight: 700; font-size: 30px"
-            class="text-black text-main-color"
-          >
-            Joint Trails
-          </h5>
-          <div class="w-full m-auto mt-8 text-center">
+          <h5>Joint Trails</h5>
+          <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
               class="border-b-4 w-1/3 m-auto"
@@ -244,13 +209,8 @@
           </div>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5
-            style="font-weight: 700; font-size: 30px"
-            class="text-black text-main-color"
-          >
-            Romantic Trails
-          </h5>
-          <div class="w-full m-auto mt-8 text-center">
+          <h5>Romantic Trails</h5>
+          <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
               class="border-b-4 w-1/3 m-auto"
@@ -278,10 +238,6 @@
 <style scoped>
 .group:hover .group-hover\:opacity-100 {
   opacity: 1;
-}
-
-.text-main-color {
-  color: #24373d;
 }
 
 .MainP {
@@ -330,14 +286,20 @@
 
 h5 {
   font-family: "Libre Baskerville", serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
+  font-size: 30px;
+  line-height: 33.45px;
+  color: rgba(33, 48, 87, 1);
 }
 
 p {
   font-family: "Poppins", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
   font-style: normal;
   color: rgba(64, 64, 64, 1);
+  opacity: 60%;
 }
 </style>

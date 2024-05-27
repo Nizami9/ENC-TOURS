@@ -14,9 +14,9 @@
             </p>
             <div>
               <p class="text-sm w-1/2 m-auto text-center text-white">
-                LAUDED FOR ITS EXTENSIVE KNOWLEDGE, ITS EAST-MEETS-WEST MODEL
-                AND VENTURING RESPONSIBLY INTO EVERY CORNER OF ITS DESTINATIONS,
-                IT IS OUR MISSION TO SHOW GUESTS THE BEATING HEART OF OUR ASIA
+                Lauded for its extensive knowledge, its east-meets-west model
+                and venturing responsibly into every corner of its destinations,
+                it is our mission to show guests the beating heart of our Asia.
               </p>
             </div>
           </div>
