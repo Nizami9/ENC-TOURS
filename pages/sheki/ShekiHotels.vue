@@ -66,7 +66,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelsSheki4") }}
+                {{ $t("HotelMarxal") }} 4
               </p>
             </div>
           </div>
@@ -98,7 +98,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelsSheki2") }}
+                {{ $t("HotelShekiPalace") }} 2
               </p>
             </div>
           </div>
@@ -130,7 +130,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelsShekiMacara") }}
+                {{ $t("HotelShekiMacara") }}
               </p>
             </div>
           </div>
@@ -162,7 +162,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelsShekiMianli") }}
+                {{ $t("HotelShekiMianli") }}
               </p>
             </div>
           </div>
@@ -194,7 +194,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelsSheki1") }}
+                {{ $t("HotelShekiPark") }}
               </p>
             </div>
           </div>

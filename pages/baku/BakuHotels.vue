@@ -66,7 +66,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku18") }}
+                {{ $t("HotelFourSeason") }}
               </p>
             </div>
           </div>
@@ -99,7 +99,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku1") }}
+                {{ $t("HotelRitz") }}
               </p>
             </div>
           </div>
@@ -132,7 +132,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku13") }}
+                {{ $t("HotelMarriot") }}
               </p>
             </div>
           </div>
@@ -165,7 +165,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBakuHyatt") }}
+                {{ $t("HotelHyatt") }}
               </p>
             </div>
           </div>
@@ -198,7 +198,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku17") }}
+                {{ $t("HotelFairmont") }}
               </p>
             </div>
           </div>
@@ -231,7 +231,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku16") }}
+                {{ $t("HotelHilton") }}
               </p>
             </div>
           </div>
@@ -264,7 +264,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBakuInter") }}
+                {{ $t("HotelInter") }}
               </p>
             </div>
           </div>
@@ -297,7 +297,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku12") }}
+                {{ $t("HotelSheraton") }}
               </p>
             </div>
           </div>
@@ -330,7 +330,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBakuMerchant") }}
+                {{ $t("HotelMerchant") }}
               </p>
             </div>
           </div>
@@ -363,7 +363,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku8") }}
+                {{ $t("HotelRadisson") }}
               </p>
             </div>
           </div>
@@ -396,7 +396,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBakuCout") }}
+                {{ $t("HotelCoutyard") }}
               </p>
             </div>
           </div>
@@ -429,7 +429,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku7") }}
+                {{ $t("HotelHoliday") }}
               </p>
             </div>
           </div>
@@ -462,7 +462,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBakuMovenpick") }}
+                {{ $t("HotelMovenpick") }}
               </p>
             </div>
           </div>
@@ -495,7 +495,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBakuMidtown") }}
+                {{ $t("HotelMidtown") }}
               </p>
             </div>
           </div>
@@ -528,7 +528,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBakuMolokan") }}
+                {{ $t("HotelMolokan") }}
               </p>
             </div>
           </div>
@@ -560,7 +560,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBakuAuroom") }}
+                {{ $t("HotelAuroom") }}
               </p>
             </div>
           </div>
@@ -593,7 +593,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku2") }}
+                {{ $t("HotelAksent") }} 2
               </p>
             </div>
           </div>
@@ -626,7 +626,7 @@
                 alt=""
               />
               <p class="w-2/3 text-color ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelBaku4") }}
+                {{ $t("HotelCentralPark") }} 4
               </p>
             </div>
           </div>

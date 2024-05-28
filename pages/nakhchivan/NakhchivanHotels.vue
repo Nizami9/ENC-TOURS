@@ -66,7 +66,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelNakhchivan1") }}
+                {{ $t("HotelSaat") }}
               </p>
             </div>
           </div>
@@ -99,7 +99,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelNakhchivan2") }}
+                {{ $t("HotelTebriz") }}
               </p>
             </div>
           </div>

@@ -70,7 +70,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelGanja1") }}
+                {{ $t("HotelVisPalm") }}
               </p>
             </div>
           </div>

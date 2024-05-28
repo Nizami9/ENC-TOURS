@@ -61,7 +61,7 @@
             }"
           >
             <p class="text-color border-b-2 pb-2 border-gray-400">
-              Qafqaz Gabala City Hotel 3*
+              Qafqaz Riverside Hotel 5*
             </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
@@ -70,7 +70,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelGabala1") }}
+                {{ $t("HotelRiverside") }} 1
               </p>
             </div>
           </div>
@@ -93,7 +93,7 @@
             }"
           >
             <p class="text-color border-b-2 pb-2 border-gray-400">
-              Qafqaz Karvansaray Hotel 4*
+              Qafqaz Tufandag Mountain Resort Hotel 5*
             </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
@@ -102,7 +102,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelGabala2") }}
+                {{ $t("HotelTufandag") }} 2
               </p>
             </div>
           </div>
@@ -125,7 +125,7 @@
             }"
           >
             <p class="text-color border-b-2 pb-2 border-gray-400">
-              Qafqaz Sport Hotel 5*
+              Yengice Thermal Resort Hotel 5*
             </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
@@ -134,7 +134,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelGabala3") }}
+                {{ $t("HotelYengice") }} 3
               </p>
             </div>
           </div>
@@ -157,7 +157,7 @@
             }"
           >
             <p class="text-color border-b-2 pb-2 border-gray-400">
-              Qafqaz Riverside Resort Hotel 5*
+              Gabala Garden Hotel 5*
             </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
@@ -166,7 +166,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelGabala4") }}
+                {{ $t("HotelGarden") }} 4
               </p>
             </div>
           </div>
@@ -189,7 +189,7 @@
             }"
           >
             <p class="text-color border-b-2 pb-2 border-gray-400">
-              Qafqaz Thermal & Spa Hotel 5*
+              City Hotel Gabala 3*
             </p>
             <div class="eachMuseum flex p-8 pl-0">
               <img
@@ -198,7 +198,7 @@
                 alt=""
               />
               <p class="text-color w-2/3 ml-10 max-h-52 overflow-scroll">
-                {{ $t("HotelGabala5") }}
+                {{ $t("HotelCityGabala") }} 5
               </p>
             </div>
           </div>
