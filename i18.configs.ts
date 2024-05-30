@@ -2435,42 +2435,42 @@ export default {
         vehicFleet: "Flotta di veicoli",
         museumsP1: "Viaggio nel tempo: tour ENC",
         museumsP2: "Esplorazione museale curata in Azerbaigian",
-        musModern: "MUSEO DELL’ARTE MODERNA",
-        musModernP: "",
-        musCarpet: "MUSEO DI TAPPETTI DELL’AZERBAIGIAN",
+        musModern: "MUSEO DI ARTE MODERNA",
+        musModernP:
+          "Il Museo d'Arte Contemporanea di Baku è stato inaugurato il 20 marzo 2009. Il museo ha una collezione di oltre 800 opere di artisti e scultori azeri, per lo più in stile d'avanguardia. Il responsabile della progettazione del museo è il noto artista Altay Sadykhzadeh. Il museo dispone di una sala d'arte per bambini, una biblioteca, una sala video, un ristorante e un caffè d'arte.",
+        musCarpet: "MUSEO DEI TAPPETI DELL'AZERBAIGIAN",
         musCarpetP:
-          "Il Museo di Tappetti dell’Azerbaijan è stato fondato nel 1967. L’edificio del museo è stato costruito all’interno del National Seaside Park in base al decreto del Presidente della Repubblica dell’Azerbaigian Ilham Aliyev, firmato nel 2007. ed è stato progettato sulla base dei piani dell’architetto austriaco Franz Yants. Ha aperto le sue porte nel 2014. Oggi, il museo, un esempio dell’architettura moderna di Baku, funziona non solo come magazzino per l’arte e i tappeti, ma anche come centro di ricerca nel campo della tessitura dei tappeti e un luogo dove vengono esposte competenze di alto livello del nostro popolo.",
-        musNizami: "MUSEO NIZAMI GANJAVI",
+          "Il Museo del Tappeto dell'Azerbaigian è stato creato nel 1967. La nuova sede del museo è stata costruita all'interno del Parco Nazionale Costiero con decreto del Presidente della Repubblica dell'Azerbaigian, Ilham Aliyev, firmato nel 2007 ed è stata progettata sulla base dei progetti dell'architetto austriaco , Franz Yants. È stato inaugurato nel 2014. Oggi il museo, un esempio della moderna architettura di Baku, funziona non solo come magazzino per opere d'arte e tappeti, ma anche come centro di ricerca nel campo della tessitura dei tappeti e un luogo in cui mostrare le competenze di alto livello di la nostra gente.",
+        musNizami: "Museo Nazionale della Letteratura dell'Azerbaigian",
         musNizamiP:
-          "Il Museo Nazionale della Letteratura Azerbaigiana intitolato a Nizami Ganjavi è stato fondato nel 1939. Il museo si trova nel centro di Baku, vicino alla Piazza della Fontana e vicino all’entrata di Icheri Sheher. Oggi, questo museo è uno dei più grandi e ricchi tesori della cultura spirituale dell’Azerbaigian. In 30 stanze principali e 10 stanze ausiliarie del museo ci sono più di 3 mila manoscritti, libri rari, illustrazioni, ritratti, sculture, miniature, memorie di scrittori e altre esposizioni. L’altra parte dell’edificio è destinata a una libreria.",
-        musShekiKhans: "CASA DEI KHAN DI SHEKI",
+          "Il Museo Nazionale della Letteratura dell'Azerbaigian intitolato a Nizami Ganjavi è stato fondato nel 1939. Il museo si trova nel centro di Baku, vicino alla Piazza della Fontana e vicino all'ingresso di Icheri sheher. Ad oggi, questo museo è uno dei tesori più grandi e ricchi della cultura spirituale dell'Azerbaigian. Nelle 30 sale principali e 10 ausiliarie del museo ci sono più di 3mila manoscritti, libri rari, illustrazioni, ritratti, sculture, miniature, memorie di scrittori e altri reperti. Una parte dell'edificio è adibita a libreria.",
+        musShekiKhans: "La casa di Shakikhanov",
         musShekiKhansP:
-          "La casa dei Khan di Sheki, costruita nel XVIII secolo e recentemente restaurata completamente, , di proprietà dei parenti dei Khan, è un collegamento di transizione da una casa nazionale a un edificio di tipo palazzo. Gli interni sono riccamente decorati con murales e shabaka colorati, realizzati dagli stessi artisti che hanno dipinto il Palazzo di Sheki Khan.",
-        musNational: "MUSEO DI STORIA NAZIONALE",
+          "La casa di Shakikhanov, o Palazzo di Shakikhanov, è un monumento dell'architettura azera del XVIII secolo, situato nella riserva storico-architettonica statale di Sheki 'Yukhari Bash'. Un edificio a due piani con una lunga forma rettangolare è simile agli edifici sontuosi, mentre gli elementi decorativi interni sono più nello stile degli interni delle case Sheki. Tavole rettangolari ricoprono le pareti. I temi della pittura murale includono gli eroi del poeta azerbaigiano Nizami, 'Sette bellezze', poesie 'Leyli e Majnun'.",
+        musNational: "Palazzo Zeynalabdin Taghiyev",
         musNationalP:
-          "ll Museo Nazionale di Storia dell’Azerbaigian è attivo dal 1920 nella residenza del noto industriale e filantropo petrolifero Haji Zeynalabdin Tagiyev. Nel maggio del 1921 il museo ricevette i suoi primi visitatori. Fino al 1936 fu chiamato Museo Statale della RSSA e fu in seguito ribattezzato Museo della Storia dell’Azerbaigian. Il numero totale di oggetti del museo supera i 300.000. 20.000 di questi sono esposti; il resto è tenuto in deposito scientifico.",
-        musAtash: "ATASHGAH",
+          "Il Palazzo Zeynalabdin Taghiyev è un monumento storico che mostra l'opulenza dell'inizio del XX secolo. Costruito dal famoso barone del petrolio azerbaigiano Zeynalabdin Taghiyev, il palazzo è un magnifico esempio di architettura orientale, ornato con disegni intricati e arredi lussuosi. Oggi funge da museo e offre ai visitatori uno scorcio del ricco patrimonio culturale dell'Azerbaigian e dell'eredità delle sue figure influenti.",
+        musAtash: "ATESHGAH",
         musAtashP:
-          "Il tempio degli adoratori del fuoco Ateshgah, monumento storico situato nella penisola di Absheron alla periferia del distretto di Surakhani, era venerato in tempi diversi da zoroastriani, indù e sikh. Le attuali costruzioni del tempio risalgono al XVII secolo. Come risultato degli scavi, qui sono stati scoperti manufatti molto più antichi. Il complesso pentagonale ha un cortile aperto con altare del tempio nel centro che era il luogo di pellegrinaggio per i fedeli. Con il decreto del Presidente dell’Azerbaigian, Ateshgah è stata dichiarata riserva storico-architettonica statale. Questo museo all’aperto è stato recentemente restaurato. Qui si trovano diversi laboratori e gallerie di souvenir.",
-        musShir: "SHIRVANS",
+          "Monumento storico. Il tempio degli adoratori del fuoco Ateshgah, situato sulla penisola di Absheron, alla periferia del villaggio di Surakhani, era venerato in tempi diversi da zoroastriani, indù e sikh. Le attuali costruzioni del tempio risalgono al XVII secolo. Come risultato degli scavi, qui sono stati scoperti manufatti molto più antichi. Il complesso pentagonale presenta un cortile aperto con al centro un tempio-altare che era luogo di pellegrinaggio dei fedeli. Con decreto del Presidente dell'Azerbaigian, Ateshgah è stata dichiarata riserva storico-architettonica statale. Questo museo all'aperto è stato recentemente restaurato. Ora qui si trovano diversi laboratori e gallerie di souvenir.",
+        musShir: "PALAZZO SHIRVANSHAHS",
         musShirP:
-          "Il palazzo era l’ex residenza dei sovrani degli Shirvanshah. È un complesso in cui, oltre al palazzo stesso, si trova anche un cortile del Diwankhana- tribunale, la tomba degli Shirvanshah, la moschea del palazzo del 1441 con il suo minareto, le terme e il mausoleo dello studioso di corte , Sayid Yahya Bakuvi. Il complesso del palazzo fu costruito nel periodo dal XIII al XVI secolo. Sul palazzo stesso, nessuna iscrizione è sopravvissuta. Pertanto, il tempo della sua costruzione è determinato dalle date sulle iscrizioni su vari monumenti architettonici, che riguardano il complesso del palazzo. Nel 1964, il complesso del palazzo fu dichiarato un museo-riserva. Nel 2000, un patrimonio architettonico e culturale unico, insieme alle mura fortificate racchiuse dalla parte storica della città e la Torre della Vergine, è stato incluso nella lista del patrimonio mondiale dell’UNESCO. Il Palazzo degli Shirvanshah è considerato una delle perle dell’architettura dell’Azerbaigian.",
+          "Il palazzo era l'antica residenza dei sovrani degli Shirvanshah. Si tratta di un complesso dove, oltre al palazzo stesso, si possono trovare anche un cortile del Divankhana, il tribunale, la tomba degli Shirvanshah, la moschea del palazzo del 1441 con il suo minareto, lo stabilimento balneare e il mausoleo del studioso di corte, Sayid Yahya Bakuvi. Il complesso del palazzo fu costruito nel periodo compreso tra il XIII e il XVI secolo. Nel palazzo stesso non è stata conservata alcuna iscrizione. Pertanto, l'epoca della sua costruzione è determinata dalle date delle iscrizioni su vari monumenti architettonici che si riferiscono al complesso del palazzo. Nel 1964 il complesso del palazzo fu dichiarato riserva museale. Nel 2000, un insieme architettonico e culturale unico, insieme alle mura fortificate che circondano la parte storica della città e alla Torre della Fanciulla, è stato inserito nella lista del patrimonio mondiale dell'UNESCO. Il Palazzo Shirvanshahs è considerato una delle perle dell'architettura dell'Azerbaigian.",
         musMaiden: "TORRE DELLA VERGINE",
         musMaidenP:
-          "La data esatta di costruzione della Torre della Vergine è sconosciuta. Nel 12 ° secolo la Torre divenne parte del sistema difensivo di Baku ed era la roccaforte principale della fortezza di Baku – una delle fortezze più potenti degli Shirvanshah. Ma studi successivi della Torre della Vergine hanno completamente confutato tutte le ipotesi precedenti sul suo scopo difensivo. Nei secoli XVIII-XIX, la Torre della Vergine fu usata come faro. Sulla facciata della torre dal lato dell’entrata c’è una pietra con un’iscrizione in calligrafia cufica che dice: «La Torre di Masud, il figlio di Davud.» Dal 2010, con l’obiettivo di divulgare si svolge il Festival Internazionale dell’Arte la «Torre della Vergine», in cui artisti di vari paesi adornano la torre con i modelli",
-        musKish: "TEMPIO D’ALBANIA –KISH",
+          "La data esatta di costruzione della la Torre della Vergine è sconosciuta. Nel XII secolo, la Torre della Vergine divenne parte del sistema difensivo di Baku e fu la fortezza principale della Fortezza di Baku, una delle fortezze più potenti degli Shirvanshah. Ma gli studi successivi sulla la Torre della Vergine hanno completamente confutato tutte le ipotesi precedenti sul suo scopo difensivo. Nei secoli XVIII-XIX la la Torre della Vergine eniva utilizzata come faro. Sulla facciata della torre, dal lato dell'ingresso, c'è una pietra con un'iscrizione in caratteri cufici che dice: 'La Torre di Masud, figlio di Dawood Dal 2010, con l'obiettivo di rendere popolare la la Torre della Vergine', si tiene il Festival Internazionale d'Arte 'La la Torre della Vergine', in cui artisti provenienti da vari paesi decorano la torre con modelli.",
+        musKish: "TEMPIO ALBANESE-KISH",
         musKishP:
-          "Nei villaggi della regione di Sheki ci sono diversi monumenti architettonici cristiani dell’Albania caucasica, la più famosa delle quali è la chiesa nel villaggio di Kish. La data ufficiale della posa della prima pietra è il 1 ° secolo d.C., il tempo in cui il territorio dell’Azerbaijan faceva parte dell’Albania Caucasica. Il tempio Kish, costruito in pietra calcarea, è il primo tempio di tipo di sala con una cupola, creato nell’alto medioevo. Attualmente, il monumento storico e architettonico funziona come un museo.",
-        musHeydar: "CENTRO HEYDER ALIYEV",
+          "Nei villaggi della regione di Sheki si trovano diversi monumenti architettonici cristiani dell'Albania Caucasica, il più famoso dei quali è la chiesa nel villaggio di Kish. La data ufficiale della posa della prima pietra è il I secolo d.C., epoca in cui il territorio dell'Azerbaigian faceva parte dell'Albania Caucasica. Il tempio di Kish, costruito in pietra calcarea, è il primo tempio a sala con cupola, creato nell'alto medioevo. Attualmente, il monumento storico e architettonico funziona come un museo.",
+        musHeydar: "CENTRO CULTURALE HEYDAR ALIYEV",
         musHeydarP:
-          "Il centro culturale comprende un auditorium (centro congressi), un museo, sale espositive, uffici amministrativi. Il progetto del centro è stato sviluppato nel 2007 dal famoso architetto Zaha Hadid. La costruzione dell’edificio è stata descritta dai canali di Discovery e Science Channel, dedicati ai più coraggiosi progetti ingegneristici di modernità e capolavori architettonici del mondo. L’inaugurazione è avvenuta il 10 maggio 2012. Nel 2014, il Centro Heydar Aliyev è stato insignito del Design dell’Anno. È considerato uno dei simboli della moderna Baku.",
+          "Il centro culturale comprende un auditorium (centro congressi), un museo, sale espositive, uffici amministrativi. Il progetto del centro è stato sviluppato nel 2007 dal famoso architetto Zaha Hadid. La costruzione dell'edificio è stata raccontata sui canali Discovery e Science, dedicati ai più coraggiosi progetti di ingegneria della modernità e ai capolavori architettonici del mondo. L'inaugurazione è avvenuta il 10 maggio 2012. Nel 2014, il Centro Heydar Aliyev è stato premiato come Design dell'anno. È considerato uno dei simboli della moderna Baku.",
         musGob: "GOBUSTAN",
         musGobP:
-          "Nostra Repubblica ma anche in tutto il mondo, per le sue incisioni rupestri e monumenti di cultura primitiva. Questi monumenti sono disegni antichi, coppette per preparare bevande e raccogliere acqua piovana, cavità a due lati per legare animali, segni, tamgas, antiche iscrizioni e così via. Rivelato e registrato su più di mille rocce e pietre, questi monumenti sono stati creati dall’uomo antico e sono il riflesso della sua attività agricola e intellettuale. I petroglifi di Gobustan sono cronache artistiche del passato. Hanno una grande importanza sia per lo studio della preistoria dell’umanità che per lo studio di molte sfere dell’arte primitiva: grafica, musica, danza, lavorazione della pietra, ecc. I monumenti di Gobustan coprono un periodo di circa 20 mila anni a partire dalla fine del Paleolitico superiore fino all’inizio della nostra era.",
-        musShekiPalace: "PALAZZO DEI KHAN DI SHEKI",
+          "La riserva di Gobustan si trova nella parte orientale dell'Azerbaigian, nell'area dei monti Boyukdash, Kichikdash e Jingirdagh della Grande Gobustan. La riserva di Gobustan è ampiamente conosciuta, non solo nella nostra Repubblica ma in tutto il mondo, per le sue incisioni rupestri e i monumenti della cultura primitiva. Questi monumenti sono disegni antichi, cupole per preparare bevande e raccogliere l'acqua piovana, fori su due lati per legare animali, segni, tamga, antiche iscrizioni, ecc. Rivelati e documentati in più di mille rocce e pietre, questi monumenti sono stati creati dall'uomo antico e sono il riflesso della sua attività agricola e intellettuale. I petroglifi di Gobustan sono cronache artistiche del passato. Sono di grande importanza sia per lo studio della preistoria dell'umanità che per lo studio di molte sfere dell'arte primitiva: grafica, musica, danza, lavorazione della pietra, ecc. I monumenti di Gobustan coprono un periodo di circa 20mila anni a partire dalla fine del Paleolitico superiore fino all'inizio della nostra era.",
+        musShekiPalace: "Palazzo Sheki Khan",
         musShekiPalaceP:
-          "L’Unico Palazzo dei Khan di Sheki nell’architettura fu costruito nel 1762 da Huseyn-khan. Il palazzo ha le sue tecniche di costruzione originali speciali. È sufficiente dire ad esempio che ogni metro quadrato di shabaka (incastro di piccole parti in legno da riempire con vetri colorati) composta da cinquemila parti, collegate tra loro senza chiodi!",
-
+          "Il Palazzo Sheki Khans, situato a Sheki, in Azerbaigian, è un notevole gioiello architettonico risalente al XVIII secolo. Costruito durante il regno di Hussein Khan Mushtaq, il palazzo è famoso per i suoi intricati affreschi, le elaborate sculture in legno e le imponenti vetrate colorate. Serviva come residenza estiva degli Sheki Khan, riflettendo la grandiosità e la raffinatezza dell'epoca. Oggi è un sito patrimonio mondiale dell'UNESCO, attirando visitatori da tutto il mondo per meravigliarsi della sua bellezza e importanza storica.",
         perlD1: "GIORNO 1: ARRIVO",
         perlD1P:
           "Arrival to Baku. Transfer to the hotel. Baku is the capital and largest city of Azerbaijan, as well as the largest city on the Caspian Sea and of the Caucasus region. It is a large scientific, cultural and industrial center. It was first mentioned in the Book of the Dead by the Egyptian Pharaoh Minesan in 3,500 BC. The ancient age of Baku is also evidenced by stone carvings dating back to 12,000 years ago and archeological excavations. Overnight in Baku",
@@ -2483,81 +2483,13 @@ export default {
         perlD4: "GIORNO 4: PARTENZA",
         perlD4P:
           "Breakfast at hotel Guided transfer to Baku Heydar Aliyev Airport. Departure.",
-
         hotelsInBaku: "ALBERGHI A BAKU",
-        HotelBaku1:
-          "City Park Hotel si trova nella città di Baku. L'hotel, a cinque minuti a piedi dal centro di Baku, è una base ideale per viaggiatori d'affari e di piacere. Approfitta della posizione ideale del City Park Hotel per esplorare il meglio dei siti storici e culturali di Baku, dello shopping, dei ristoranti, del teatro, dell'intrattenimento e della vita notturna. Il nostro moderno ed elegante City Park Hotel offre un comodo accesso alle principali attrazioni, ai negozi, ai principali centri commerciali di Baku e alla Città Vecchia a meno di 600 metri dall'hotel.",
-        HotelBaku2:
-          "Aksent Hotel si trova a 1100 metri da Park of Officers e offre 24 camere e dispone di un salone di bellezza e una bottega del barbiere. Offre servizio navetta per l'aeroporto, servizio di lavanderia e servizio di pulizia, nonché un parcheggio gratuito, una cassetta di sicurezza e un ascensore. Questa struttura si trova a 10 minuti a piedi dalla Moschea Taza Pir. Il centro città è a 1 km dalla struttura. Controllo della climatizzazione individuale, un minibar, una cassaforte per laptop, una macchina per caffè e tè e un armadietto sono disponibili in ogni camera. Altri comfort includono un bollitore elettrico, una lavastoviglie e un frigo per cucinare in autonomia. L'aeroporto Heydar Aliyev si trova a 25 km dall'Aksent Hotel e ci vogliono circa 30 minuti in auto per arrivarci.",
-        HotelBaku3:
-          "Il New Baku Hotel si trova in una delle strade principali di Baku, che impiega circa 10-15 minuti per raggiungere il centro della città.",
-        HotelBaku4:
-          "L’hotel si trova a cinque minuti a piedi dalla meravigliosa Piazza delle Fontane e dalla via Nizami, dove le boutique di fama mondiale sono in attesa di tentarvi. Nelle vicinanze, con una passeggiata di 20 minuti, si vede il meraviglioso Boulevard con vista mozzafiato sul Mar Caspio e l’eccitante linea del cielo di Baku. Le camere confortevoli con arredi accoglienti offrono WiFi, TV a schermo piatto e balcone. Le camere di categoria superiore offrono in più angolo relax e / o vasca idromassaggio. Le suite includono anche aree soggiorno separate.",
-        HotelBaku5:
-          "“Qafqaz Baku City Hotel & Residences” è il più grande hotel a quattro stelle in Azerbaijan situato nel centro della città di Baku e nelle vicinanze delle principali aziende e i negozi . Le camere sofisticate, elegantemente arredate con tessuti raffinati, a specchio e tonalità calde, sono dotate di WiFi gratuito e TV a schermo piatto. Le suite eleganti includono salotto, sala da pranzo e vista sulla città.Questo albergo di lusso con un imponente ed elegante esterno, si trova a 4 km dalla Città Vecchia di Baku e dalla Torre della Vergine , risalente al XII secolo. Le rive del Mar Caspio distano 5 km.",
-        HotelBaku6:
-          "Il Sapphire Inn Hotel è situato nel centro della città, che vi permetterà di vedere le attrazioni della città, visitare i centri commerciali e degli affari. Lo stile moderno è una combinazione di servizi moderni e servizio di alta classe. Abbiamo tutto per il comfort e il passatempo piacevole degli ospiti. Dettagli dell’immobile: 56 camere spaziose con 23 camere Business, 9 Deluxe e 24 Family Deluxe.",
-        HotelBaku7:
-          "Questo elegante hotel si trova in un edificio eccellente, a 4 km dal centro storico e a 5 km dal Palazzo degli Shirvansh, risalente al XV secolo. Le camere in stile contemporaneo con opere d’arte colorate sono dotate di WiFi gratuito, TV a schermo piatto, cassaforte, minibar e set per la preparazione di tè e caffè. Le suite hanno piccole cucine, salotti e divani estraibili. Il servizio in camera è disponibile tutti i giorni 24 ore su 24. I bambini di età inferiore ai 17 anni non soggiornano gratuitamente con un adulto.",
-        HotelBaku8:
-          "Con una posizione centrale, il nostro Park Inn by Radisson a Baku è ben posizionato per godere di tutto ciò che la capitale dell’Azerbaigian può offrire. Accanto all’hotel si trova il Milli Park, un lungomare centenario che copre un vasto territorio. Siamo a pochi minuti dal vivace quartiere commerciale. Potrete sempre rilassarvi in camere moderne e ben attrezzate con vista sulla città o sul Mar Caspio. Informazioni in dettaglio: 248 camere e suite.",
-        HotelBaku9:
-          "Pullman Baku è ideale per viaggi d'affari e di piacere. L'hotel si trova a soli 100 metri dal Giardino Botanico e a 10 minuti di auto dalla città vecchia e dalla costa del Caspio ed è l'unico resort hotel a Baku. Il Pullman Baku dispone di un enorme parco acquatico, 4 piscine interne ed esterne, un centro benessere di 3.500 m² e un centro di intrattenimento. È disponibile una gamma completa di eccezionali strutture per conferenze e banchetti: 7 sale riunioni, un auditorium da 500 posti e una spaziosa sala da ballo di 600 m². Parcheggio gratuito e WIFI ad alta velocità. Il resort offre camere moderne e completamente attrezzate con bagno e connessione WI-FI gratuita. Il ristorante “Peppermint” invita tutti a gustare la cucina azera e altre cucine, e il bar “Chill” – per gustare cocktail esclusivi.",
-        HotelBaku10:
-          "L'Art Gallery Boutique Hotel si trova nel centro di Baku, vicino alle mura della città vecchia. La struttura si trova nel centro storico di Baku a soli 25 metri dalla Torre della Vergine. La struttura dista circa 1,1 km dal Teatro dell'Opera e del Balletto dell'Azerbaigian e 1,1 km dal Museo Nazionale di Storia dell'Azerbaigian. Tutte le unità dell'hotel sono dotate di TV a schermo piatto. Il bagno privato è dotato di doccia e set di cortesia. Le camere dell'ART Gallery Boutique Hotel dispongono di aria condizionata e scrivania. La reception è disponibile 24 ore su 24, dove il personale parla azero, inglese e russo. L'ART Gallery Boutique Hotel si trova a 5 minuti a piedi dalla Piazza delle Fontane.",
-        HotelBaku11:
-          "Boutique 19 è un hotel accogliente con un'ottima posizione: la Città Vecchia e la famosa Piazza della Fontana sono a pochi passi dalla nostra boutique! La struttura si trova a 200 metri da Torre della Vergine. L'hotel offre la posizione perfetta a 8 km dal centro di Baku. Le camere di Boutique 19 Hotel possono usufruire di aria condizionata, un angolo cottura, una zona pranzo, uno scrittoio e un divano. Boutique 19 Hotel dispone di camere con vista sul giardino. Includono anche un bagno con doccia, articoli da toeletta e accappatoi in spugna. Il ristorante serve piatti internazionali. L'hotel offre una cassetta di sicurezza, un ascensore e un deposito bagagli oltre a un centro business, stampanti e una fotocopiatrice sia per i viaggiatori d'affari che per i turisti.",
-        HotelBaku12:
-          "Scopri una miscela insolita di stile e sostanza in Intourist Hotel Baku Autograph Collection. Questo hotel a 5 stelle offre il massimo in termini di sistemazioni di lusso, con camere spaziose e eleganti e suite, servizi all’avanguardia e una posizione ideale a Baku. Informazioni in dettaglio: 150 camere e suite.",
-        HotelBaku13:
-          "Questo lussuoso hotel si trova vicino alla Piazza Azadliq, a pochi minuti dallo storico Baku Boulevard, dal centro commerciale Port Baku, dal Museo del tappeto azerbaigiano e dal Giardino Botanico Centrale. All’interno dell’hotel, tutte le camere e le suite sono decorate con un design spazioso, abbondante luce naturale e vista sul Caspio e sull’orizzonte. Informazioni dettagliate: 23 piani, 230 camere, 7 suite.",
-        HotelBaku14:
-          "Il vostro viaggio inizia con tutte le sistemazioni premier, con balconi affacciati sul mare e servizi pensati che vanno dalla connessione internet senza fili gratuita agli ampi bagni con docce walk-in e vasche separate. I servizi includono un opulento ristorante asiatico sul tetto e un sontuoso cocktail bar e nightclub. C’è una piscina all’aperto, un parco acquatico e una spiaggia privata, oltre a una palestra, una clinica di tennis e una pista da bowling. C’è anche una spa di lusso con piscina coperta. Dettagli della proprietà: 14 duplex cottage con tre camere da letto, 176 camere e suite fronte mare.",
-        HotelBaku15:
-          "Essendo il più grande hotel per conferenze nel paese,il Boulevard Hotel Baku offre le migliori strutture per soddisfare una varietà di occasioni e funzioni di vario genere. Le camere del Boulevard Hotel Baku vantano vetrate a tutta altezza con vista ininterrotta sul Mar Caspio. La posizione dell’hotel è nel cuore del distretto di Baku White City. Dettagli dell’immobile: 818 confortevoli camere e suite.",
-        HotelBaku16:
-          "Affacciato sul Mar Caspio, questo hotel di lusso in vetro si trova a 1 km dalla stazione ferroviaria centrale di Baku. Le eleganti camere sono dotate di WiFi gratuito, schermi piatti, minibar e angolo relax. Le camere di categoria superiore offrono l’accesso a una sala executive con colazione inclusa, mentre le suite includono salotto e sala da pranzo e vista sulla città e sul mare. Dettagli dell’immobile: 309 camere e suite, 18 sale riunioni.",
-        HotelBaku17:
-          "Fairmont Baku, Flame Towers progettato per superare gli standard e i servizi a cinque stelle, offre 318 camere, suite, appartamenti serviti e una gamma di opzioni Fairmont Gold. Situato all’interno di un trio di eleganti grattacieli in vetro, questo hotel di lusso dista 2 km dalla Città Vecchia e dal Mar Caspio, con vista sulla città o sul mare. Le camere al livello del club sono dotate di servizio di maggiordomo e accesso ad un salotto esclusivo. Le suite aggiungono salotti; alcune dispongono di cucine e aree da pranzo.",
-        HotelBaku18:
-          "Affacciato sul Mar Caspio, questo elegante hotel di lusso in un edificio di arte barocca dista 8 minuti a piedi dalla Città Vecchia e una fermata della metropolitana. La maggior parte dispone di balcone con vista sul centro storico o sul mare. Le suite includono salotti; alcuni contengono vasche idromassaggio. I bambini soggiornano senza costi aggiuntivi con un adulto. Il servizio in camera è disponibile tutti i giorni 24 ore su 24. Dettagli dell’immobile: 171 camere, 27 suite e 2 suite presidenziali",
         hotelsGabala: "Hotel a Gabala",
-        HotelGabala1:
-          "Le camere sofisticate, elegantemente arredate con tessuti raffinati, accenti a specchio e tonalità calde, sono dotate di WiFi e TV a schermo piatto. Le suite eleganti includono salotto, sala da pranzo e vista sulla città.",
-        HotelGabala2:
-          "Il Qafqaz Karvansaray Hotel è un albergo a cinque stelle situato nel centro della città di Gabala. L’hotel, attivo da agosto 2013, è stato progettato e costruito nello stile “Modern Art Deco”. “Qafqaz Karvansaray” è una proprietà unica che combina con successo la modernità e l’antichità e offre agli ospiti una deliziosa variazione della cucina azerbaigiana e mondiale.",
-        HotelGabala3:
-          "“Qafqaz Sport” è un hotel a cinque stelle situato in una zona tranquilla e nella natura vicino alla città di Gabala, ai piedi delle montagne. Il nostro hotel offre servizi di ospitalità di alto livello a tutte le categorie di visitatori, compresi i viaggiatori individuali, familiari e di gruppo. Offriamo alloggi decorati con gusto (camere e cabine) a prezzi convenienti, ristoranti che servono una ricca cucina nazionale e internazionale, centri benessere e fitness dotati di tutti i servizi necessari per il recupero della salute, e una grande sala conferenze per organizzazione di vari eventi.",
-        HotelGabala4:
-          "Il Qafqaz Riverside Resort Hotel è un lussuoso hotel a cinque stelle situato ai piedi del Caucaso, sulle rive del fiume Damiraparan. L’hotel dispone di 16 camere moderne e spaziose camere e chalet (cottage) piacevole e ideale per lunghi week-end con amici e familiari.",
-        HotelGabala5:
-          "Il Qafqaz Thermal & Spa Resort Hotel è un hotel a quattro stelle situato nel villaggio di Yengidje, nel distretto di Gabala, che ha iniziato ad operare nel 2014. I nostri ospiti possono desiderare di beneficiare dei servizi di trattamento di acqua termale e Naftalan offerti dal nostro hotel, oltre a fare una bella e piacevole pausa nel giro di una bellezza affascinante",
         hotelsSheki: "Hotel a Sheki",
-        HotelSheki1:
-          "Il resort offre camere confortevoli, standard e lussuose, uno degli standard più moderni nell'edificio dell'hotel, cottage da 1, 2, 3 camere da letto, ristoranti interni ed esterni con accesso alla bellezza della natura misteriosa. Naturalmente in questo ristorante, oltre ai deliziosi piatti dell'Azerbaigian, in particolare la cucina Shaki, vi verrà offerta anche la cucina europea. La colazione è inclusa nel costo della prenotazione della camera. Il servizio “Housekeeping” è disponibile tutti i giorni per mantenere la vostra camera pulita e in ordine. L'hotel dispone di sala fitness, sauna, massaggi curativi, sala biliardo, bar karaoke, campo da pallavolo, campo da tennis e piscina all'aperto per il tempo libero dei vostri ospiti. C'è anche una sala riunioni speciale per incontri d'affari nell'hotel 'Sheki Park'. Non abbiamo dimenticato di creare un angolo speciale per i bambini per garantire il massimo comfort ai loro genitori.",
-        HotelSheki2:
-          "Lo straordinario ed elegante Sheki Palace Hotel ha aperto le sue porte nella parte storica unica di Sheki-Old City. L’architettura combina con successo schemi classici e nazionali. L’hotel è lussuosamente decorato con marmo e pietra. Lo Sheki Palace Hotel offre eccellenti servizi business. Agli uomini d’affari sono offerti servizi di ufficio aggiornati, accesso a Internet e sala riunioni.",
-        HotelSheki3:
-          "Sheki Saray è un lussuoso hotel a quattro stelle che offre ai turisti e ai viaggiatori d’affari un’esperienza unica. L’hotel Sheki Saray gode di una vista ininterrotta sulle montagne del Caucaso ed è stato progettato in uno stile moderno.",
-        HotelSheki4:
-          "Il Marxal Hotel and Spa Complex si trova sopra il livello del mare circondato da montagne nel misterioso angolo di Sheki. La posizione geografica dell’hotel lo rende unico e speciale. L’hotel si trova a 80 km dall’aeroporto di Gabala, a 300 km dall’aeroporto internazionale di Baku, a 14 km dalla stazione ferroviaria di Sheki e a 4 km dal centro di Sheki.",
-
         hotelsGuba: "Hoteles in Guba",
         hotelsLankaran: "Hoteles in Lankaran",
         hotelsGanja: "Hoteles in Ganja",
         hotelsShahdag: "Hoteles in Shahdag",
-        HotelGuba1:
-          "Rixos Quba Azerbaijan offre la qualità in quattro diversi tipi di ville conformi a tutti i tuoi bisogni e desideri. Abbracciato dalle bellezze naturali verde smeraldo del Caucaso, vivrai una vera vacanza nella natura. Rixos Quba Azerbaijan offre una vacanza di lusso oltre gli standard di qualità a cinque stelle con tutti i suoi dettagli privilegiati.",
-        HotelLankaran1:
-          "C’è un posto nella parte meridionale di Lankaran che puoi essere sicuro di avere una grande ospitalità tradizionale. Quel posto è chiamato l’hotel e ristorante Khan Lankaran. L’hotel è situato nel territorio che attira l’attenzione dalla grandiosa bellezza della città di Lankaran.",
-        HotelGanja1:
-          "Il Vego Hotel dispone di 33 eleganti camere per gli affari e la sistemazione turistica. Ci sono 4 camere Suite, 1 Junior Suite, 2 Deluxe e 26 Standard Singole e Standard, camere doppie o matrimoniali, bagno turco dell’hotel, hall, ristorante e caffetteria assicurando il massimo comfort.",
-        HotelGanja2:
-          "Il nostro hotel Ramada Plaza Gence è stato progettato per rendere il vostro viaggio più rilassante. Con servizi accurati e tocchi personali unici, offriamo comfort elegante e sistemazioni moderne. Sia che siate nostri ospiti per una sola notte o per un soggiorno prolungato, offriamo sistemazioni confortevoli ad un ottimo prezzo.",
-        HotelShah1:
-          "Ognuna delle 164 eleganti camere del Park Chalet riflette il perfetto mix di design rustico ma lussuoso unito a splendide viste sulle montagne. Arredi personalizzati comprendono moquette su misura, pannelli in rovere lavato a calce e una scrivania di grandi dimensioni. Le camere standard dispongono di letti king o due letti con lenzuola con trama tessile da 300 fili",
-        HotelShah2:
-          "Situato tra montagne maestose, il Pik Palace Shahdag Hotel offre 167 camere e suite spaziose con vista mozzafiato sulle montagne Le camere dispongono di ampi letti king-size, comode aree salotto e di lavoro e finestre dal pavimento al soffitto con balconi alla francese.",
         lux1: "CROCIERA PRIVATA SUL CASPIO",
         lux2: "TOUR IN ELICOTTERO E JET PRIVATO",
         lux3: "RADUNO DI AUTO RETRO",
@@ -2611,9 +2543,7 @@ export default {
           "In mattinata visita alla penisola di Absheron, dove visiteremo Ateshgah il “tempio della fiamma eterna” (Patrimonio UNESCO), costruito nel XVIII secolo per le preghiere degli zoroastriani che viaggiano con carovane commerciali attraverso l'Azerbaigian. Continueremo la visita con la fortezza Mardakan che faceva parte del sistema di difesa della penisola nei secoli medievali. Infine andremo a Yanardagh, la montagna di fuoco famosa per il suo scarico di gas naturale. Rientro in hotel e sistemazione. (D/A/–)",
         AzGeoP12:
           "Colazione e all'orario previsto trasferimento in aeroporto per prendere il volo di ritorno. (- / - / -)",
-
         azCentralAsia: "AZERBAIGIAN E ASIA CENTRALE",
-
         Az6Days5Nights: "Azerbaigian, 6 giorni & 5 notti",
         Az6DaysD1: "Giorno 1: Arrivo a Baku",
         Az6DaysP1:
@@ -2633,7 +2563,6 @@ export default {
         Az6DaysD6: "Giorno 6: Partenza",
         Az6DaysP6:
           "Trasferimento guidato all'aeroporto di Baku Heydar Aliyev. Partenza.",
-
         Az8Days7Nights: "Azerbaigian, 8 giorni & 7 notti",
         Az8DaysD1: "Giorno 1: Arrivo a Baku",
         Az8DaysP1:
@@ -2659,7 +2588,6 @@ export default {
         Az8DaysD8: "Giorno 8: Partenza",
         Az8DaysP8:
           "Trasferimento guidato all'aeroporto di Baku Heydar Aliyev. Partenza.",
-
         Az10Days9Nights: "Azerbaigian, 10 giorni & 9 notti",
         Az10DaysD1: "Giorno 1: Arrivo a Baku",
         Az10DaysP1:
@@ -2691,7 +2619,6 @@ export default {
         Az10DaysD10: "Giorno 10: Partenza",
         Az10DaysP10:
           "Trasferimento guidato all'aeroporto di Baku Heydar Aliyev. Partenza.",
-
         AzerbaiP:
           "Azerbaijan is a dynamic blend of ancient history, stunning landscapes and warm hospitality. Situated at the crossroads of Europe and Asia, Azerbaijan is a country of rich cultural heritage, diverse landscapes, and warm hospitality. Welcome to a land where every moment is an adventure and every corner holds a new discovery. Welcome to Azerbaijan!",
         birdD1: "Giorno 1: Arrivo a Baku",
@@ -2854,12 +2781,6 @@ export default {
         religiousD10: "Giorno 10: Partenza",
         religiousP10:
           "Traslado guido all'Aeroporto attraverso Istanbul. Partenza.",
-        carsD1: "",
-        carsP1: "",
-        carsD2: "",
-        carsP2: "",
-        carsD3: "",
-        carsP3: "",
         bakuBreakD1: "Giorno 1: Arrivo a Baku",
         bakuBreakP1:
           "Dopo il tuo arrivo a Baku, sarai prelevato dall'autista e guida ENCTOURS e portato al tuo hotel.",
@@ -2962,54 +2883,145 @@ export default {
         susD8: "Giorno 8: Partenza",
         susP8:
           "Trasferimento guidato all'Aeroporto Internazionale di Baku Heydar Aliyev. Partenza.",
-
-        ourSerPIntro: "",
+        ourSerPIntro:
+          "Offriamo una varietà di servizi essenziali per rendere il vostro viaggio indimenticabile. Dalle sistemazioni in hotel e deliziosi punti di ristoro ai tour dei musei e ai comodi servizi di trasporto, in ogni fase del percorso. Vivi l'essenza dell'ospitalità azera soggiornando in hotel accuratamente selezionati.  Quando è il momento di esplorare, affidati ai nostri affidabili servizi di trasporto per navigare senza problemi nei diversi paesaggi dell'Azerbaigian. Esplora la ricca cultura e la storia di questo vibrante paese con i nostri viaggi museali. Godetevi la nostra vasta gamma di opzioni per la ristorazione, con un mix di autentici sapori azeri e cucina internazionale.",
         hotelsP1: "",
-        museumIntro: "",
-        HotelMerchant: "",
-        HotelRitz: "",
-        HotelMidtown: "",
-        HotelMovenpick: "",
-        HotelAuroom: "",
-        HotelMolokan: "",
-        HotelHyatt: "",
-        HotelCoutyard: "",
-        HotelInter: "",
-        HotelAksent: "",
-        HotelCentralPark: "",
-        HotelHoliday: "",
-        HotelRadisson: "",
-        HotelSheraton: "",
-        HotelMarriot: "",
-        HotelHilton: "",
-        HotelFairmont: "",
-        HotelFourSeason: "",
-        hotelsGabalaIntro: "",
-        hotelsShekiIntro: "",
-        HotelShekiMacara: "",
-        HotelShekiMianli: "",
-        hotelsGubaIntro: "",
-        hotelGubaPalace: "",
-        hotelGubaMacara: "",
-        hotelGubaGold: "",
-        HotelLankaranSprings: "",
-        HotelLankaranKhazar: "",
-        HotelLankaranKhan: "",
+        museumIntro:
+          "ENC Tours offre un servizio museale coinvolgente, guidando i visitatori attraverso la ricca storia e il patrimonio culturale del paese. Con itinerari curati, i viaggiatori esplorano una varietà di musei, dallo storico Museo Nazionale dell'Azerbaigian al Museo Contemporaneo di Arte Moderna di Baku. Guide esperte forniscono narrazioni approfondite, creando un'esperienza educativa e coinvolgente per coloro che desiderano scoprire l'evoluzione culturale dell'Azerbaigian. Il servizio museale di ENC Tours garantisce un viaggio continuo e informativo, consentendo ai visitatori di entrare in contatto con il vibrante patrimonio di questa affascinante destinazione.",
+        HotelMerchant:
+          "The Merchant è situato nel magnifico edificio che un tempo ospitava la Compagnia di Navigazione del Caspio. Costruito nel 1858, la sua architettura iconica riflette uno dei periodi più dinamici e importanti della storia dell'Azerbaigian. L'opulento edificio del The Merchant Hotel è situato nel cuore di quello che un tempo era il centro commerciale e commerciale di Baku.",
+        HotelRitz:
+          "Il Ritz Carlton, Baku, fa rivivere il meglio dell'Azerbaigian. Scopri le affascinanti radici della cultura locale attraverso esperienze coinvolgenti e autentiche in questo lussuoso hotel nel centro città. Gli arredi sono dalle linee pulite e dallo stile contemporaneo-chic, e le grandi finestre in ogni camera, suite e appartamento offrono incredibili viste a volo d'uccello della città. I bagni sono opulenti: pavimenti in marmo, docce e vasche separate. Situato nel cuore della dinamica capitale dell'Azerbaigian, The Ritz-Carlton, Baku dispone di 190 camere e suite spaziose.",
+        HotelMidtown:
+          "L'hotel è composto da 110 camere con moderni standard internazionali. Sempre al 10° e 11° piano si trovano il ristorante 'Mirvari', 'Mood Bar' e 'Shisha Room' con un'incantevole vista sulla città. Al piano inferiore Spa e palestra. Il parcheggio a due piani, completamente parcheggiato, è disponibile 24 ore su 24 per gli ospiti dell'hotel. L'hotel dispone di sale conferenze per eventi aziendali. Il Midtown Hotel Baku dista 1,3 km dalla stazione ferroviaria di Baku e 2,2 km da Piazza della Libertà. L'aeroporto più vicino è l'aeroporto internazionale Heydar Aliyev, a 24 km dall'hotel.",
+        HotelMovenpick:
+          "Il Mövenpick Winter Park Hotel Baku è situato in una delle zone più sviluppate economicamente, socialmente e culturalmente della città di Baku. Si trova a circa 30 km (circa 30 minuti) dall'Aeroporto Internazionale Heydar Aliyev (GYD) e a pochi passi dal centro di Baku. Composto da 211 camere, il Winter Park Hotel Baku ti offre un'esperienza diversa con posizione, concetto e design. Sperimenterai la facilità di trovare una combinazione di servizi diversi.",
+        HotelAuroom:
+          "Situato a Baku, a 2,7 km dalla stazione ferroviaria di Baku e a 3 km dalla Piazza delle Fontane, l'Auroom Hotel offre un ristorante, la connessione WiFi gratuita in tutte le aree e un parcheggio privato gratuito. Questo hotel a 4 stelle offre il servizio in camera e un centro business. Offre inoltre una reception aperta 24 ore su 24, sale riunioni, un banco escursioni e servizio stiratura. Tutte le camere dell'hotel dispongono di aria condizionata, area salotto, TV a schermo piatto con canali satellitari, cassaforte e bagno privato con vasca, accappatoi e pantofole. L'Auroom Hotel offre una colazione a buffet o continentale. L'hotel dista 3,6 km da Piazza della Libertà e 3,8 km dalla Torre della Vergine. L'Aeroporto più vicino è l'Aeroporto Internazionale Heydar Aliyev, a 24 km da Auroom Hotel. La struttura offre un servizio di navetta aeroportuale a un costo aggiuntivo.",
+        HotelMolokan:
+          "L'hotel dispone di confortevoli camere arredate in stile Art Nouveau, dotate di aria condizionata regolabile autonomamente, connessione WI-FI wireless, TV satellitare e bagno con doccia. Il numero di camere dell'hotel è 21. Uno dei principali vantaggi dell'hotel è la sua comoda posizione, che consente di raggiungere rapidamente le principali attrazioni della città. L'hotel si trova a pochi passi dalla strada pedonale più famosa di Baku - 'Torgovaya' (come i residenti di Baku chiamano Nizami Street), dove troverete numerosi negozi, caffè, ristoranti, teatri e molto altro. La famosa Piazza della Fontana, la famosa riserva storica 'Icherisheher', la leggendaria Torre della Fanciulla, simbolo della Vecchia Baku, il Palazzo degli Shirvanshah e, ​​naturalmente, il Baku Maritime Boulevard, che si estende per 16 chilometri lungo la pittoresca costa del Anche il Mar Caspio si trova vicino all'hotel.",
+        HotelHyatt:
+          "Questo hotel a 5 stelle si trova nella parte storica di Baku e dispone di piscine interne e all'aperto con vasca idromassaggio. L'Hyatt Regency Baku offre la connessione Wi-Fi gratuita. Le eleganti camere di questo hotel dispongono di aria condizionata, interni in stile classico e decorazioni dai colori caldi. Tutte le camere sono dotate di TV a schermo piatto, minibar e bagno privato con set di cortesia. Il World Class Spa & Fintess Center offre bagni turchi e spaziose suite spa con una vasta gamma di trattamenti di bellezza e per il corpo. Gli ospiti possono allenarsi in palestra e partecipare a lezioni di gruppo. È disponibile un'area giochi e fitness per bambini. Il centro storico di Baku è raggiungibile in 5 minuti di auto dall'Hyatt Regency Baku, mentre la stazione della metropolitana Nizami è raggiungibile in 15 minuti a piedi. L'Aeroporto Internazionale Heydar Aliyev è raggiungibile in 20 minuti di auto dall'hotel.",
+        HotelCoutyard:
+          "Courtyard by Marriott Baku è la più recente aggiunta alla capitale dell'Azerbaigian, combinando patrimonio e stile con un design innovativo. Perfettamente situato vicino a Winter Park, questo hotel è il luogo ideale in cui soggiornare durante il vostro viaggio di piacere o di lavoro. Il Courtyard by Marriott Baku offre check-in e check-out express, camere non fumatori, un ristorante, la connessione Wi-Fi gratuita in tutta la struttura e un centro fitness. Questo hotel a 4 stelle offre il servizio in camera e un bancomat. Dispone di terrazza, bar e sala comune. Gli ospiti dell'hotel possono gustare una colazione continentale. Sono presenti un parcheggio privato gratuito, un centro business e una reception aperta 24 ore su 24. I luoghi di interesse nelle vicinanze del Courtyard by Marriott Baku includono la stazione ferroviaria di Baku, la Torre della Vergine e il Palazzo degli Shirvanshah. L'aeroporto più vicino è l'Aeroporto Internazionale Heydar Aliyev, a 24 km dalla struttura.",
+        HotelInter:
+          "Situato a Baku, a meno di 1 km da Piazza della Libertà, l'InterContinental Baku, IHG Hotel offre servizi concierge, camere anallergiche, un bar, la connessione Wi-Fi gratuita e una sala comune. Questo hotel a 5 stelle offre una reception aperta 24 ore su 24 e il servizio in camera. Gli ospiti possono usufruire del centro spa e benessere con sauna, piscina coperta e centro fitness, nonché di un ristorante. I luoghi di interesse nelle vicinanze dell'InterContinental Baku includono la Torre della Vergine, la stazione ferroviaria di Baku e la Piazza della Fontana. L'aeroporto più vicino è l'Aeroporto Internazionale Heydar Aliyev, a 24 km dall'hotel.",
+        HotelAksent:
+          "Alloggiando presso Aksent Hotel con collegamento a un centro commerciale a Baku, potrai raggiungere a piedi in soli 4 minuti 28 Mall e in 5 minuti c'è Palazzo di Heydar Aliyev. Questo hotel si trova a 1,2 km da Via Nizami e 1,3 km da Teatro accademico statale dell'opera e del balletto dell'Azerbaigian. Approfitta di comodi servizi come l'accesso wireless a Internet gratuito, un parrucchiere e una TV nell'area comune. L'Aksent Hotel offre sistemazioni con un ristorante, un parcheggio privato gratuito, un bar e una sala comune. Potrai usufruire di quotidiani gratuiti nella hall, servizio di lavanderia/lavaggio a secco e reception aperta 24 ore su 24. A pagamento è disponibile una navetta aeroportuale di andata e ritorno (disponibile 24 ore su 24).",
+        HotelCentralPark:
+          "Situato a Baku, a 1,1 km dalla stazione ferroviaria di Baku, il Central Park Baku offre un ristorante, un parcheggio privato gratuito, un centro fitness e un bar. Questo hotel a 4 stelle offre il servizio concierge. La struttura offre una reception aperta 24 ore su 24, trasferimenti aeroportuali, servizio in camera e connessione Wi-Fi gratuita in tutta la struttura. Le camere dell'hotel sono dotate di aria condizionata, armadio, bollitore, frigorifero, cassaforte, TV a schermo piatto, balcone e bagno privato con doccia. Tra i luoghi di interesse nelle vicinanze del Central Park Baku figurano la Piazza della Fontana, Piazza della Libertà e la Torre della Vergine. L'Aeroporto più vicino è quello Internazionale Heydar Aliyev, a 23 km dalla struttura.",
+        HotelHoliday:
+          "L'Holiday Inn Baku diventerà la prima scelta per i turisti d'affari e di piacere. Il facile accesso ai principali centri commerciali come Port Baku Shopping Mall e Park Bulvar rende la nostra posizione la migliore per gli amanti dello shopping. Il Centro Heydar Aliyev è raggiungibile in 10 minuti di auto. L'esclusivo Holiday Inn Baku dispone di 223 camere, comprese camere executive e suite, tutte dotate di letti confortevoli e lussuosi, smart TV LED, radiosveglia con tecnologia Bluetooth, accesso Internet wireless gratuito e finestre apribili.",
+        HotelRadisson:
+          "Il Radisson Hotel Baku si trova nel centro dei centri degli affari e dell'intrattenimento della capitale dell'Azerbaigian. Visitate le attrazioni più famose della città in pochi minuti, incluso il famoso Baku Boulevard di fronte all'hotel. Anche la principale area commerciale di Nizami strada è a solo 1 chilometro di distanza. L'hotel Radisson è facilmente raggiungibile tramite una varietà di mezzi di trasporto, con l'Aeroporto Internazionale Heydar Aliyev a 30 minuti di auto.",
+        HotelSheraton:
+          "Sheraton Baku Intourist è stato ispirato dal suo predecessore originale, progettato e costruito nel 1934. Con il suo carattere unico, il nostro hotel a Baku, in Azerbaigian, vicino alla Città Vecchia, trae la sua magia speciale dalle affettuose reminiscenze del primo hotel Intourist di Baku. L'hotel ha l'atmosfera di un club privato e offre sistemazioni eleganti di altissimo livello. Le sue 150 camere e suite offrono tutti i comfort moderni. Tutte le camere sono dotate di biancheria da letto e servizi di lusso, articoli da toeletta firmati e tecnologia all'avanguardia. La maggior parte delle camere offre viste panoramiche direttamente sul Mar Caspio e sul Baku Boulevard. L'hotel è molto vicino a uno dei più grandi centri commerciali di Baku, 'Daniz Mall', Baku Boulevard e Baku Eye.",
+        HotelMarriot:
+          "Questo hotel a 5 stelle è situato nel cuore della città, in Piazza della Libertà. I principali quartieri dello shopping, dell'intrattenimento e degli affari di Baku sono raggiungibili in 5 minuti a piedi dal JW Marriott Absheron Baku Hotel. Le spaziose camere del JW Marriott Absheron Baku Hotel dispongono di aria condizionata, TV a schermo piatto, docking station per iPod, scrivania e cassaforte per computer portatile. I lussuosi bagni sono dotati di vasca, doccia, accappatoio e pantofole. La connessione Wi-Fi è disponibile a un costo aggiuntivo. Il JW Marriott Absheron Baku Hotel comprende una zona sauna e una palestra aperta 24 ore su 24. L'hotel dispone anche di una magnifica piscina interna che offre viste panoramiche sul Mar Caspio. La stazione centrale di Baku è raggiungibile in soli 7 minuti a piedi, mentre l'Aeroporto Internazionale di Baku è raggiungibile in 25 minuti di auto. Dettagli immobile: 23 piani, 230 camere, 7 suite.",
+        HotelHilton:
+          "Questo esclusivo hotel con pareti in vetro, affacciato sul Mar Caspio, si trova a 1 km dalla stazione ferroviaria centrale di Baku. Le camere eleganti sono dotate di WiFi gratuito, TV a schermo piatto, minibar e angolo relax. Le camere di categoria superiore offrono l'accesso a un'executive lounge che offre colazione inclusa, mentre le suite aggiungono soggiorno e sala da pranzo, oltre a vista sulla città e sull'oceano di categoria superiore. Dettagli struttura: 309 camere e suite, 18 sale riunioni.",
+        HotelFairmont:
+          "Fairmont Baku, Flame Towers, progettato per superare gli standard e i servizi a cinque stelle, offre 318 camere, suite, appartamenti splendidamente arredati e una varietà di opzioni Fairmont Gold. Ospitato in tre eleganti grattacieli di vetro, questo hotel di lusso si trova a 2 km dalla Città Vecchia e dal Mar Caspio e offre vista sulla città o sul mare. Le camere di livello club offrono il servizio maggiordomo e l'accesso a un'area lounge esclusiva. Le suite includono salotti; alcuni hanno cucina e sala da pranzo.",
+        HotelFourSeason:
+          "Ospitato in un edificio in stile Beaux Arts, affacciato sul Mar Caspio, questo elegante hotel di lusso dista 8 minuti a piedi dalla Città Vecchia e da una fermata della metropolitana. La maggior parte dispone di balcone con vista sul centro storico o sul mare. Le suite includono salotti; alcuni contengono vasche idromassaggio. I bambini soggiornano senza costi aggiuntivi con un adulto. Il servizio in camera è disponibile 24 ore su 24, 7 giorni su 7. Dettagli struttura: 171 camere, 27 suite e 2 suite presidenziali.",
+        hotelsGabalaIntro:
+          "In Gabala troverai il tuo rifugio ideale in mezzo agli impressionanti paesaggi dell'Azerbaigian. Le nostre opzioni di alloggio soddisfano le esigenze di ogni viaggiatore e promettono un soggiorno rilassante circondato dalla bellezza della natura.",
+        hotelsShekiIntro:
+          "A Sheki, immergiti nel fascino senza tempo dell'Azerbaigian con la nostra gamma di alloggi. Dalle pensioni storiche nascoste nelle strade tortuose della città ai moderni hotel che offrono viste panoramiche sulle montagne del Caucaso, le nostre opzioni garantiscono un soggiorno indimenticabile in questa pittoresca città.",
+        HotelShekiMacara:
+          "Il Macara Sheki City Hotel si trova a Sheki e offre un giardino. Questo hotel a 4 stelle offre la connessione Wi-Fi gratuita, una reception aperta 24 ore su 24 e un servizio concierge. C'è un ristorante che serve piatti della cucina americana e un parcheggio privato gratuito. Tutte le camere dell'hotel sono dotate di aria condizionata, area salotto, TV a schermo piatto con canali satellitari, cassaforte e bagno privato con vasca, accappatoi e pantofole. Le sistemazioni dispongono di scrivania e bollitore. La struttura serve una colazione a buffet, continentale o completa all'inglese/irlandese. L'Aeroporto più vicino è l'Aeroporto Internazionale di Qabala, a 82 km da Macara Sheki City Hotel. La struttura offre un servizio di navetta aeroportuale a un costo aggiuntivo.",
+        HotelShekiMianli:
+          "Situato a Sheki, a circa 5 minuti di auto dalla Crafts House, il Minali Boutique Hotel a 4 stelle offre un'area giochi per bambini e un giardino terrazzato. La connessione Wi-Fi è disponibile in tutta la struttura ed è disponibile anche il parcheggio. Alcune camere sono dotate di set per la preparazione di tè e caffè e TV via cavo a schermo piatto per garantirti un soggiorno piacevole. Dotate di un divano, hanno anche finestre insonorizzate. Il bagno privato è completo di doccia con getto a pioggia, set di cortesia e asciugacapelli. Molte camere si affacciano sul giardino.",
+        hotelsGubaIntro:
+          "Scopri la bellezza di Guba con la nostra gamma di alloggi confortevoli, meticolosamente selezionati per migliorare il tuo soggiorno in questa regione dell'Azerbaigian. Scopri sistemazioni accoglienti tra gli splendidi paesaggi di Guba, in Azerbaigian. Sperimenta la calda ospitalità e i comfort moderni mentre esplori le bellezze naturali e le attrazioni culturali di Guba.",
+        hotelGubaPalace:
+          "Il Quba Palace Hotel & Golf Resort dispone di un centro spa e benessere, una piscina all'aperto, una sauna, un hammam e una palestra. Parcheggio gratuito disponibile in loco. Le camere sono dotate di aria condizionata, area salotto, frigorifero e TV a schermo piatto con canali satellitari. I bagni sono dotati di asciugacapelli e accappatoi. Potrete cenare in uno dei 3 ristoranti della struttura, che servono piatti della cucina nazionale, internazionale ed europea, o utilizzare le attrezzature per barbecue della struttura. Su richiesta sono disponibili il servizio in camera e la colazione in camera. Sia all'interno della struttura che nei dintorni si possono praticare diverse attività, come tennis, ping pong, golf e calcetto. La stazione degli autobus si trova a 9 km dall'hotel e viene offerto un servizio navetta a pagamento.",
+        hotelGubaMacara:
+          "Situato a Quba, il Macara Lake Park offre un centro fitness, un bar e la connessione WiFi gratuita. La struttura offre il servizio in camera e un parco giochi per bambini. Gli ospiti possono usufruire del centro spa e benessere con sauna, vasca idromassaggio e piscina coperta, nonché di un ristorante. Alcune camere dispongono anche di una cucina con minibar. L'hotel offre un hammam. È possibile giocare a ping pong e freccette al Macara Lake Park e la zona è ideale per la pesca. Le lingue parlate alla reception, aperta 24 ore su 24, includono l'azero, l'inglese e il russo. L'Aeroporto più vicino è quello di Qabala, a 229 km dalla struttura.",
+        hotelGubaGold:
+          "Il Gold Hotel Quba si trova a Quba e dispone di un giardino. La struttura offre reception aperta 24 ore su 24, servizio navetta, servizio in camera e connessione Wi-Fi gratuita in tutta la struttura. Tutte le camere sono dotate di bollitore, mentre alcune vantano una cucina con minibar e piano cottura. Tutte le camere dell'hotel dispongono di TV a schermo piatto con canali satellitari. L'Aeroporto più vicino è l'Aeroporto Internazionale di Qabala, a 237 km da Gold Hotel Quba.",
+        HotelRiverside:
+          "Situato sulle rive del fiume Damiraparan nella città di Gabala, questo resort dispone di un centro benessere, piscine coperte e all'aperto e la connessione Wi-Fi gratuita. Offre camere e cabine climatizzate con vista sulle montagne. Tutte le eleganti camere e cottage del Qafqaz Riverside Hotel dispongono di TV a schermo piatto e minibar. I bagni sono dotati di set di cortesia, pantofole e accappatoi. Il ristorante à la carte Brasserie serve piatti della cucina locale ed europea, mentre il Fireplace Bar e lo Shisha Bar propongono cocktail. Le attività del Qafqaz Resort includono biliardo, giochi da tavolo, ping pong e un parco giochi per bambini. Gli ospiti potranno inoltre rilassarsi nel bagno di vapore o nel solarium a bordo piscina.",
+        HotelTufandag:
+          "Il Qafqaz Tufandag Mountain Resort Hotel dispone di un giardino, di una terrazza, di un bar e dell'accesso diretto alle piste sciistiche di Gabala. Questo hotel a 5 stelle offre una reception aperta 24 ore su 24 e il servizio in camera. La struttura dispone di sauna, palestra, ristorante e connessione Wi-Fi gratuita in tutta la struttura. L'hotel dispone di camere climatizzate con armadio, bollitore, minibar, cassaforte, TV a schermo piatto e bagno privato con doccia. Alcune camere dispongono anche di una cucina con piano cottura. Come ospiti della struttura potrete gustare una colazione a buffet o continentale. Il Qafqaz Tufandag Mountain Resort Hotel dispone di un'area benessere con hammam. La zona è ideale per lo sci e l'attrezzatura da sci; le biciclette possono essere noleggiate presso l'hotel.",
+        HotelYengice:
+          "Il Gabala Yengice Thermal Resort Hotel dispone di un centro fitness, un giardino, una terrazza e un bar. Questo hotel a 5 stelle offre una reception aperta 24 ore su 24 e il servizio in camera. La struttura dispone di sauna, piscina coperta, ristorante e connessione Wi-Fi gratuita in tutta la struttura. Alcune camere dispongono anche di un angolo cottura con minibar, frigorifero e forno. Tutte le camere sono dotate di biancheria da letto. Ogni mattina viene servita una colazione continentale, americana o vegetariana. Gli ospiti che soggiornano presso l'hotel hanno accesso al centro spa e benessere dell'hotel, che comprende un hammam.",
+        HotelGarden:
+          "Circondato dalle montagne del Grande Caucaso, questo hotel a 5 stelle si trova a pochi minuti di auto dal centro della città e vicino a numerosi centri sportivi. La distanza da Baku è di 215 km, dall'Aeroporto di Qabala - 25 km. Costruito in uno stile architettonico moderno e classico, il Gabala Garden Hotel richiede tutti gli standard di ospitalità ed è composto da 96 camere e 21 cottage. CAMERE: 80 camere superior, 2 camere triple superior, 8 Junior Suite, 5 Suite, 1 King Suite. CABINE: 4 cabine monocamera, 12 cabine bilocale, 5 cabine trilocali.",
+        HotelCityGabala:
+          "Situato su una strada principale con ristoranti e mercati, questo hotel, affacciato sulle montagne del Caucaso, dista 5 km dal parco divertimenti Gabaland e dalle piste da sci della località montana di Tufandag e 28 km dall'Aeroporto Internazionale di Gabala. Questo hotel dispone di un soggiorno, della connessione Wi-Fi gratuita e di un parcheggio gratuito. Le camere dispongono di aria condizionata, frigobar, TV e asciugacapelli. L'hotel dispone di un ristorante e di un bar.",
+        HotelShekiPalace:
+          "Sheki Palace Hotel si trova a Sheki, a 50 metri dal Palazzo Khanes. Offre un ristorante e una palestra. La struttura dispone di una terrazza solarium. Tutte le camere sono arredate in stile classico e dispongono di TV a schermo piatto, aria condizionata e minibar. Il bagno privato è completo di vasca, asciugacapelli e set di cortesia. Potrete visitare i ristoranti Shebeke e Terrace e gustare la cucina internazionale e azera. C'è una fermata dell'autobus a 50 metri dalla struttura e la stazione ferroviaria è raggiungibile in 30 minuti di auto.",
+        HotelMarxal:
+          "Uno dei migliori hotel in Azerbaigian, il Marxal Resort & Spa, combina il fascino di una casa natale con il lusso e il comfort di un hotel a 5 stelle. Con le maestose montagne del Caucaso come sfondo, questo resort combina comfort moderni con l'ospitalità tradizionale per un rifugio indimenticabile. Con una varietà di attività ricreative, uno splendido ambiente naturale e un servizio attento, il Marxal Resort & SPA vi invita a provare il massimo del relax e della tranquillità durante il vostro soggiorno a Sheki.",
+        HotelShekiPark:
+          "Sheki Park Hotel 4* offre una combinazione di comfort ed eleganza nel cuore di Sheki. Nello Sheki Park ci sono camere moderne, molto confortevoli, standard e di lusso, cabine da 1, 2, 3 camere, ristoranti interni ed esterni con accesso alla misteriosa bellezza della natura, situati nell'edificio dell'hotel, che garantiranno il vostro comfort.",
+        hotelsLankaranIntro:
+          "Scopri il soggiorno perfetto a Lankaran! Godetevi la calorosa ospitalità, le viste mozzafiato e i comodi servizi, che vi garantiranno un'esperienza memorabile in questa affascinante città. Con viste mozzafiato sul Mar Caspio e la serena bellezza dei Monti Talish, Lankaran offre l'ambiente perfetto per i tuoi viaggi. Organizza oggi stesso il tuo viaggio e immergiti nel fascino di questa affascinante città.",
+        HotelLankaranSprings:
+          "Il Lankaran Springs Wellness Resort è un resort benessere situato nel sud dell'Azerbaijan, nel distretto di Haftoni della città di Lankaran, 250 km a sud di Baku. È situato in uno splendido paesaggio forestale montuoso, a soli 15 minuti dal Mar Caspio e a 10 minuti dall'aeroporto internazionale di Lankaran. La superficie totale del sanatorio è di 11 ettari, che comprende un edificio alberghiero di nuova costruzione, un centro benessere, un centro termale pubblico, un centro per bambini e bagni termali terapeutici. L'hotel offre sistemazioni confortevoli in camere singole, doppie e suite familiari con terrazza. Ci sono 182 camere confortevoli nell'hotel: 145 camere standard, 25 camere superior, 10 camere familiari e 2 suite.",
+        HotelLankaranKhazar:
+          "Il Khazar Palace Hotel si trova ad Asagi Nuvadi a Lankaran, a 5 km dal centro. Tra gli altri servizi c'è una sauna completamente attrezzata per un riposo confortevole. I residenti possono navigare in Internet. Nell'hotel sono presenti camere per non fumatori. C'è un giardino piantato vicino all'hotel. Che tu voglia mangiare, rilassarti o organizzare un incontro di lavoro, puoi farlo al ristorante. Gli ospiti possono richiedere la consegna di cibo e bevande in camera. Chi viaggia in macchina dispone di posti auto. C'è una sala conferenze per organizzare riunioni di lavoro e banchetti. Gli ospiti possono scegliere una delle 6 camere dell'hotel. Sono a vostra disposizione le seguenti categorie di camere: suite, doppia, singola, villa. Qui vengono offerti numerosi servizi: minibar, cassaforte, telefono, aria condizionata, asciugacapelli, set di cortesia, TV a schermo piatto.",
+        HotelLankaranKhan:
+          "Il boutique hotel Khan Lankaran, composto da camere Standard Twin, Comfort Twin, Double, Deluxe e Luxe, offre servizi di alta qualità agli ospiti 24 ore al giorno. Il Khan Lankaran Hotel è stato costruito in stile antico. Riflette il periodo del Khanato. Le pareti sono costituite da un impasto di fango e paglia. Ci sono oggetti d'antiquariato di più di 150 anni. Il 90% degli articoli qui sono fatti a mano. È quasi l'hotel più esotico dell'Azerbaigian. È anche l'hotel perfetto in Azerbaigian, progettato in modo così naturale. Oltre all'hotel, il ristorante Khan Lankaran, uno dei ristoranti più famosi dell'Azerbaijan meridionale, vi servirà piatti misteriosi della cucina nazionale.",
+        hotelsGanjaIntro:
+          "Ganja ha qualcosa per soddisfare le esigenze di ogni viaggiatore. Godetevi le camere confortevoli e il servizio cordiale durante il vostro soggiorno. Dalle posizioni del centro città che offrono un facile accesso alle attrazioni ai rifugi tranquilli immersi nel verde lussureggiante, le sistemazioni Ganja garantiscono un'esperienza piacevole e indimenticabile per ogni visitatore. Esplora i siti storici, i monumenti culturali e le bellezze naturali di Ganja, sapendo di avere un posto confortevole dove riposarti dopo ogni giornata di avventure.",
+        HotelVisPalm:
+          "Il Vis Palm Hotel a Ganja offre un soggiorno confortevole e conveniente nel cuore della città. Il Vis Palm Hotel dispone di un totale di 51 camere. Le camere si dividono in Standard, Deluxe e Junior suite. Le camere Standard misurano 28 m², le camere Deluxe misurano 52 m² e le Junior suite misurano 80 m². Le camere sono suddivise in confortevoli soggiorni. I bagni superbamente attrezzati delizieranno gli ospiti più esigenti. L'hotel dispone di eccellenti strutture ricreative. Esplorate le vivaci strade di Ganja o rilassatevi nei tranquilli dintorni dell'hotel, rendendo la vostra visita a questa storica città memorabile e divertente.",
         az8Days7Nights: "",
         az6Days5Nights: "",
-        restP1: "",
-        restIntro: "",
-        hoteslP1: "",
-        hotelsIntro: "",
-        hotelsBaku: "",
-        hotelsBakuIntro: "",
-        vehicleFleetH1: "",
-        vehicleFleetIntro: "",
-        hotelsNakhchivan: "",
+        restP1:
+          "A través de un servicio excepcional, atención al detalle y compromiso con la calidad, nos esforzamos por crear experiencias gastronómicas memorables que dejen una impresión duradera en nuestros huéspedes, fomentando el aprecio por la cocina y la cultura azerbaiyanas.",
+        restIntro:
+          "Sperimenta la vera essenza della cultura azera attraverso i nostri servizi di catering. Crediamo che il cibo non sia solo sostentamento, ma riflesso della storia, delle tradizioni e dell'anima di una nazione. La nostra missione è accompagnarvi in ​​un viaggio gastronomico nel cuore dell'Azerbaigian, dove ogni piatto racconta una storia di un patrimonio culinario secolare. Delizia i tuoi sensi con un viaggio culinario che mette in mostra i ricchi sapori e i piatti tradizionali dell'Azerbaigian. Dai piatti tradizionali come dolma, plov e kebab ai pasticcini salati come il qutab, il nostro menu celebra i sapori autentici della cucina azera.",
+        hoteslP1:
+          "Sperimenta il meglio dell'ospitalità azera con i nostri servizi alberghieri e di alloggio, garantendo un viaggio rilassante e divertente dall'inizio alla fine.",
+        hotelsIntro:
+          "Scopri una varietà di sistemazioni alberghiere in Azerbaigian. Dai moderni hotel di città agli hotel rurali, le nostre opzioni si adattano a varie preferenze, garantendo un soggiorno confortevole durante la tua visita in Azerbaigian. Esplora il ricco patrimonio culturale e i paesaggi mozzafiato del paese, sapendo che alla fine di ogni giornata ti aspetta un rifugio accogliente.",
+        hotelsBaku: "Hotel a Baku",
+        hotelsBakuIntro:
+          "Baku offre una vasta gamma di opzioni di alloggio, dagli hotel di lusso agli hotel economici. Che tu stia cercando viste panoramiche sulla città o un rifugio accogliente, la nostra selezione ti assicura comfort e convenienza per il tuo soggiorno in questa vibrante capitale.",
+        vehicleFleetH1:
+          "Scopri viaggi senza problemi in Azerbaigian con i nostri servizi di trasporto di prim'ordine. Dai trasferimenti aeroportuali alle visite guidate e ai viaggi interurbani, la nostra flotta di veicoli moderni garantisce un trasporto comodo e conveniente per tutti i viaggiatori.",
+        vehicleFleetIntro:
+          "I nostri autisti esperti e le nostre guide esperte si impegnano a fornirti un'esperienza fluida e piacevole, permettendoti di concentrarti sull'immersione nei panorami e sulla creazione di ricordi indimenticabili. Siediti, rilassati e lasciaci occuparci dei dettagli del trasporto, assicurandoti un'esperienza di viaggio memorabile e senza stress dall'inizio alla fine. Ti assicuriamo che la tua sicurezza e il tuo comfort rimangono le nostre massime priorità. Ogni veicolo è sottoposto a regolari controlli di manutenzione per garantire prestazioni ottimali e affidabilità durante tutto il viaggio. Con il nostro impegno per l'eccellenza nel servizio e nell'ospitalità, puoi concentrarti sul goderti l'avventura mentre noi gestiamo la logistica senza problemi dietro le quinte.",
+        hotelsNakhchivan: "Hotel a Nakhcivan",
         hotelsNakhchivanIntro: "",
-        HotelNakhchivan1: "",
-        HotelNakhchivan2: "",
-        hotelsLankaranIntro: "",
+        HotelSaat:
+          "Saat Meydani Nakhchivan dispone di ristorante, giardino, terrazza e bar. La struttura dispone di camere familiari e di un parco giochi per bambini. La struttura offre una reception aperta 24 ore su 24, un servizio di navetta aeroportuale, il servizio in camera e la connessione Wi-Fi gratuita in tutta la struttura. Tutte le camere dell'hotel sono dotate di armadio, biancheria da letto e balcone con vista sulle montagne. Tutte le sistemazioni dispongono di aria condizionata, cassaforte e TV a schermo piatto. L'Aeroporto più vicino è l'Aeroporto Internazionale di Nakhchivan, a 3 km da Saat Meydani Nakhchivan.",
+        HotelTebriz:
+          "Il Tebriz Hotel Nakhchivan offre sistemazioni moderne ed eleganti nel centro di Nakhchivan, una piscina coperta e un centro benessere con bagno turco e servizio massaggi. La struttura dispone anche di un centro fitness e di una terrazza solarium. Le camere dispongono di connessione Wi-Fi gratuita, TV satellitare, aria condizionata, minibar, bollitore elettrico, caffè gratuito, area salotto e bagno privato con set di cortesia e asciugacapelli. Le camere regalano viste sul lago e sulle montagne. Ogni mattina viene servita una ricca colazione. In loco sono presenti anche un bar e un ristorante. L'Hotel Tebriz Nakhchivan si trova a 7 km dall'Aeroporto di Nakhchivan.",
+        ourSerP:
+          "Benvenuti a ENC Tours, una destinazione  per tutte le vostre esigenze di viaggio. Dagli hotel ai ristoranti, dai musei ai trasporti, forniamo tutto ciò di cui hai bisogno. Semplifica il processo di pianificazione e crea ricordi indimenticabili con noi. Scopri subito i nostri servizi!",
+        ourSerH1: "Museo",
+        ourSerP1:
+          "Scopri la cultura dell'Azerbaigian attraverso i nostri tour museali. Dagli antichi manufatti all'arte Moderna, esplora le diverse storie di questo affascinante paese.",
+        ourSerH2: "Raccomandazioni gastronomiche",
+        ourSerP2:
+          "Godetevi le delizie culinarie con la nostra accurata selezione di ristoranti, che offrono cucina locale e sapori internazionali.",
+        ourSerH3: "Modalità di alloggio",
+        ourSerP3:
+          "Prova il comfort e la convenienza nei nostri hotel di prima qualità in Azerbaigian. Scopri rifugi accoglienti e sistemazioni di lusso, assicurandoti un soggiorno indimenticabile durante il tuo viaggio.",
+        ourSerH4: "Servizi di trasporto",
+        ourSerP4:
+          "Esplora l'Azerbaigian con i nostri affidabili servizi di trasporto. Dai trasferimenti in città ai tour panoramici, ci assicureremo che tu raggiunga la tua destinazione in modo sicuro e confortevole, rendendo il tuo viaggio senza problemi.",
+        toursIntro: "",
+        toursP1: "",
+        toursP2: "",
+        toursP3: "",
+        toursP4: "",
+        bakuAndOutP: "",
+        bakuAndOutH1: "Absheron Peninsula (5 hours)",
+        bakuAndOutP1: "",
+        bakuAndOutH2: "Baku city tour (5 hours)",
+        bakuAndOutP2: "",
+        bakuAndOutH3: "Gobustan (6 hours)",
+        bakuAndOutP3: "",
+        bakuAndOutH4: "Architectural tour (4 hours)",
+        bakuAndOutP4: "",
+        bakuAndOut: "BAKU AND OUTSKIRTS",
+        cultAndHerit: "CULTURAL AND HERITAGE",
+        combTours: "COMBINED TOURS",
       },
       jp: {
         home: "家",
