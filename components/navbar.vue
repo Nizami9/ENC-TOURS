@@ -1,8 +1,7 @@
 <template>
   <header
-    class="bg-gray-50 text-white"
+    class="text-white"
     :style="{
-      backgroundColor: navbarBackgroundColor,
       transition: 'background-color 0.5s ease',
     }"
   >
@@ -10,7 +9,7 @@
       class="mx-auto flex w-8xl items-center justify-between p-0.5 lg:px-8"
       aria-label="Global"
     >
-      <div class="flex items-center gap-x-14">
+      <div class="flex items-center gap-x-40">
         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">ENC TOURS</span>
           <img

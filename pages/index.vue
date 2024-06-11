@@ -7,7 +7,7 @@
         >
           <div class="overlay w-full flex-col justify-center flex items-center">
             <p
-              style="font-size: 80px"
+              style="font-size: 20px"
               class="text2 w-full text-center text-white uppercase"
             >
               {{ $t("mainPageH1") }}

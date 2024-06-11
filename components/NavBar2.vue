@@ -1,23 +1,26 @@
 <template>
-  <div class="w-full flex justify-between m-auto mt-8 h-20 items-center">
-    <div class="flex w-10/12 m-auto justify-between items-center">
-      <div class="w-52">
-        <img
-          src="@/assets/images/enctours_logo.png"
-          alt="logo"
-          style="width: 106px; height: 80px"
-        />
-      </div>
-      <div v-for="item in navigation" :key="item.name">
-        <NuxtLink
-          :to="localePath(item.href)"
-          class="text-sm font-semibold leading-6 text-white"
-        >
-          {{ item.name }}
-        </NuxtLink>
-      </div>
-      <img src="@/assets/images/Group.png" alt="" />
-      <!-- <select v-model="locale" class="bg-opacity-0 bg-white">
+  <div class="w-full">
+    <div
+      class="w-full flex justify-between m-auto mt-8 h-20 items-center forDesktop"
+    >
+      <div class="flex w-10/12 m-auto justify-between items-center">
+        <div class="w-52">
+          <img
+            src="@/assets/images/enctours_logo.png"
+            alt="logo"
+            style="width: 106px; height: 80px"
+          />
+        </div>
+        <div v-for="item in navigation" :key="item.name">
+          <NuxtLink
+            :to="localePath(item.href)"
+            class="text-sm font-semibold leading-6 text-white"
+          >
+            {{ item.name }}
+          </NuxtLink>
+        </div>
+        <img src="@/assets/images/Group.png" alt="" />
+        <!-- <select v-model="locale" class="bg-opacity-0 bg-white">
         <option value="en">🇬🇧</option>
         <option value="de">🇩🇪</option>
         <option value="jp">🇯🇵</option>
@@ -27,6 +30,13 @@
         <option value="pt">🇵🇹</option>
         <option value="kr">🇰🇷</option>
       </select> -->
+      </div>
+    </div>
+    <div class="forMobile w-full p-2">
+      <div class="w-full flex justify-between">
+        <img src="@/assets/images/enclogo.png" class="w-24" alt="" />
+        <p class="w-12">---</p>
+      </div>
     </div>
   </div>
 </template>
@@ -67,4 +77,17 @@ updateNavigation();
   font-weight: 400;
   font-style: normal;
 }
+
+.forDesktop {
+  @media (min-width: 200px) and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.forMobile {
+  @media (min-width: 768px) and (max-width: 5000px) {
+    display: none;
+  }
+}
+
 </style>

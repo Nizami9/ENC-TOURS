@@ -2,18 +2,18 @@
   <div class="w-full mb-10">
     <div class="w-full">
       <div class="w-11/12 m-auto mt-10 text-6xl">
-        <h1 class="text-center mainH mb-2 m-auto pb-2 text-main-color">
+        <h1 class="text-center mainH mb-2 m-auto pb-2">
           {{ $t("comp3h1") }}
         </h1>
       </div>
-      <div class="w-11/12 m-auto mb-8 text-center">
+      <div class="w-11/12 m-auto mb-4 text-center">
         <div
           style="border-color: rgba(152, 176, 226, 1)"
-          class="border-b-8 w-1/6 m-auto"
+          class="border-b-8 borderStyle w-1/6 m-auto mt-4 mb-8"
         ></div>
       </div>
       <div class="text-center text-gray-600 w-10/12 m-auto border-b-2 pb-6">
-        <p class="w-1/2 m-auto" style="line-height: 24px">
+        <p class="w-1/2 m-auto mainText" style="line-height: 24px">
           {{ $t("comp3p1") }}
         </p>
       </div>
@@ -98,14 +98,6 @@
 <script setup></script>
 
 <style scoped>
-.text-main-color {
-  color: #24373d;
-  font-weight: 200;
-  @media (min-width: 320px) and (max-width: 820px) {
-    font-size: xx-large;
-  }
-}
-
 .sections {
   @media (min-width: 320px) and (max-width: 820px) {
     font-size: medium;
@@ -122,9 +114,13 @@
 
 .mainH {
   font-family: "Libre Baskerville", serif;
-  font-weight: 400;
+  color: #24373d;
   font-style: normal;
   font-size: 64px;
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: 28px;
+    font-weight: 900;
+  }
 }
 
 .borderColor {
@@ -148,5 +144,18 @@ h4 {
   font-size: 20px;
   line-height: 24.8px;
   text-align: center;
+}
+
+.borderStyle {
+  @media (min-width: 320px) and (max-width: 820px) {
+    border: 2px solid;
+    width: 100px;
+  }
+}
+
+.mainText {
+  @media (min-width: 200px) and (max-width: 768px) {
+    width: 90%;
+  }
 }
 </style>

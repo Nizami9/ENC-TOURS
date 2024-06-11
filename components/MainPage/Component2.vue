@@ -1,6 +1,6 @@
 <template>
   <div class="w-full pb-9 bg-color text-color">
-    <div class="m-auto w-1/2 text-center">
+    <div class="m-auto w-1/2 mainText text-center">
       <div>
         <h1 class="text-main-color pt-10">
           {{ $t("comp2h1") }}
@@ -9,7 +9,7 @@
       <div class="w-11/12 m-auto mb-4 text-center">
         <div
           style="border-color: rgba(152, 176, 226, 1)"
-          class="border-b-8 w-60 m-auto mt-4 mb-8"
+          class="border-b-8 w-60 m-auto mt-4 mb-8 lineStyle"
         ></div>
       </div>
       <div class="w-11/12 m-auto text-center mb-3">
@@ -54,5 +54,18 @@ p {
 
 .bg-color {
   background-color: rgba(226, 226, 226, 1);
+}
+
+.lineStyle {
+  @media (min-width: 200px) and (max-width: 768px) {
+    border: 2px solid;
+    width: 100px;
+  }
+}
+
+.mainText {
+  @media (min-width: 200px) and (max-width: 768px) {
+    width: 90%;
+  }
 }
 </style>

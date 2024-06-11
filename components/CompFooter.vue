@@ -1,5 +1,5 @@
 <template>
-  <footer class="footerBg" aria-labelledby="footer-heading">
+  <footer class="bgFooter" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-14">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
@@ -15,11 +15,10 @@
           </p>
           <div class="flex space-x-6">
             <a
-              style="color: rgba(255, 255, 255, 1)"
               v-for="item in navigation.social"
               :key="item.name"
               :href="item.href"
-              class="hover:text-gray-400"
+              class="text-gray-500 hover:text-gray-400"
             >
               <span class="sr-only">{{ item.name }}</span>
               <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
@@ -87,18 +86,8 @@
           </div>
         </div>
       </div>
-      <div
-        style="border-color: rgba(255, 255, 255, 1)"
-        class="mt-16 m-auto flex text-center border-t pt-8 sm:mt-20 lg:mt-8"
-      >
-        <p
-          style="
-            font-weight: 500;
-            font-size: 16px;
-            color: rgba(255, 255, 255, 1);
-          "
-          class="text-xs m-auto leading-5 text-gray-400"
-        >
+      <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-8">
+        <p class="text-xs leading-5 text-gray-400">
           &copy; 2024 ENC Tours, Inc. All rights reserved.
         </p>
       </div>
@@ -178,22 +167,9 @@ const navigation = {
 </script>
 
 <style scoped>
-* {
-  font-family: "Manrope", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  color: rgba(255, 255, 255, 1);
-  font-size: 16px
-
-}
-.footerBg {
+.bgFooter {
   background-image: url("@/assets/images/Footer.png");
-  background-size: auto;
-  height: 455px;
-}
-
-h3 {
-  font-size: 21px;
-  font-weight: 500;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>

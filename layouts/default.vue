@@ -8,10 +8,10 @@
       />
     </div>
     <div v-if="!loading" class="relative">
-      <NavBar2
+      <Navbar
         @scroll="updateNavbarBackground"
         class="absolute z-10 m-auto text-center"
-      ></NavBar2>
+      ></Navbar>
       <slot></slot>
       <comp-footer></comp-footer>
     </div>
@@ -19,7 +19,7 @@
 </template>
 
 <script setup>
-import NavBar2 from "~~/components/NavBar2.vue";
+import Navbar from "~~/components/NavBar2.vue";
 
 const loading = ref(true);
 const navbarBackgroundColor = ref("rgba(199, 191, 191, 0.5)");

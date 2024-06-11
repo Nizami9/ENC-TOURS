@@ -4,12 +4,11 @@
       <div class="w-10/12 m-auto font-light text-6xl">
         <h5
           style="
-            font-size: 64px;
             line-height: 71.36px;
             font-weight: 200;
             color: rgba(64, 64, 64, 1);
           "
-          class="text-center m-auto pb-2 MainP"
+          class="text-center m-auto pb-2 mainP"
         >
           Our trips
         </h5>
@@ -17,7 +16,7 @@
       <div class="w-10/12 m-auto mt-2 mb-6 text-center">
         <p
           style="border-color: rgba(152, 176, 226, 1)"
-          class="border-b-8 w-52 m-auto"
+          class="border-b-8 w-52 m-auto borderStyle"
         ></p>
       </div>
       <div class="text-center text-gray-500 w-10/12 m-auto mb-10">
@@ -33,7 +32,7 @@
     <div class="text-gray-600 md:text-sm lg:text-base xl:text-base">
       <div class="flex sections w-10/12 m-auto text-center">
         <div class="w-1/3 sectionDiv">
-          <h5 class="">Active Trails</h5>
+          <h5 class="hStyle">Active Trails</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -54,7 +53,7 @@
           </p>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5>Authentic Trails</h5>
+          <h5 class="hStyle">Authentic Trails</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -75,7 +74,7 @@
           </p>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5>Cruising Trails</h5>
+          <h5 class="hStyle">Cruising Trails</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -99,7 +98,7 @@
 
       <div class="flex w-10/12 sections m-auto mt-4 text-center pb-3">
         <div class="w-1/3 sectionDiv">
-          <h5>Culinary Trails</h5>
+          <h5 class="hStyle">Culinary Trails</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -120,7 +119,7 @@
           </p>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5>Digital Trails</h5>
+          <h5 class="hStyle">Digital Trails</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -141,7 +140,7 @@
           </p>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5>Essential Trails</h5>
+          <h5 class="hStyle">Essential Trails</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -165,7 +164,7 @@
 
       <div class="flex sections w-10/12 m-auto mt-4 text-center pb-3">
         <div class="w-1/3 sectionDiv">
-          <h5>Family Trails</h5>
+          <h5 class="hStyle">Family Trails</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -186,7 +185,7 @@
           </p>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5>Joint Trails</h5>
+          <h5 class="hStyle">Joint Trails</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -209,7 +208,7 @@
           </div>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5>Romantic Trails</h5>
+          <h5 class="hStyle">Romantic Trails</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -240,9 +239,10 @@
   opacity: 1;
 }
 
-.MainP {
+.mainP {
+  font-size: 64px;
   @media (min-width: 320px) and (max-width: 820px) {
-    font-size: xx-large;
+    font-size: 28px;
   }
 }
 
@@ -273,6 +273,7 @@
   @media (min-width: 320px) and (max-width: 820px) {
     width: 100%;
     border-right: none;
+    font-size: 20px;
   }
 }
 
@@ -301,5 +302,18 @@ p {
   font-style: normal;
   color: rgba(64, 64, 64, 1);
   opacity: 60%;
+}
+
+.borderStyle {
+  @media (min-width: 320px) and (max-width: 820px) {
+    border: 2px solid;
+    width: 100px;
+  }
+}
+
+.hStyle {
+  @media (min-width: 320px) and (max-width: 820px) {
+    font-size: 20px;
+  }
 }
 </style>
