@@ -6,7 +6,7 @@
         <div class="space-y-8">
           <img
             class="h-20"
-            src="@/assets/images/enclogo.png"
+            src="@/assets/images/enctours_logo.png"
             alt="Company name"
           />
           <p class="text-sm leading-6 text-gray-300">

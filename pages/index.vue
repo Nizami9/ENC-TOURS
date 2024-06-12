@@ -6,10 +6,7 @@
           class="parallax h-full w-full flex flex-col items-center justify-between relative"
         >
           <div class="overlay w-full flex-col justify-center flex items-center">
-            <p
-              style="font-size: 20px"
-              class="text2 w-full text-center text-white uppercase"
-            >
+            <p class="text2 w-full text-center text-white uppercase">
               {{ $t("mainPageH1") }}
             </p>
             <div>
@@ -57,8 +54,11 @@ const { locale } = useI18n();
   font-weight: 700;
   font-family: "Libre Baskerville", serif;
   font-style: normal;
-  @media (min-width: 320px) and (max-width: 820px) {
-    font-size: x-large;
+  font-size: 64px;
+  margin-bottom: 20px;
+  @media (min-width: 200px) and (max-width: 768px) {
+    font-size: 32px;
+    width: 80%;
   }
 }
 </style>

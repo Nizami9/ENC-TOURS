@@ -19,33 +19,48 @@
             {{ item.name }}
           </NuxtLink>
         </div>
-        <img src="@/assets/images/Group.png" alt="" />
-        <!-- <select v-model="locale" class="bg-opacity-0 bg-white">
-        <option value="en">🇬🇧</option>
-        <option value="de">🇩🇪</option>
-        <option value="jp">🇯🇵</option>
-        <option value="es">🇪🇦</option>
-        <option value="it">🇮🇹</option>
-        <option value="fr">🇫🇷</option>
-        <option value="pt">🇵🇹</option>
-        <option value="kr">🇰🇷</option>
-      </select> -->
+        <div class="relative flex">
+          <img
+            src="@/assets/images/Group.png"
+            class="mr-1"
+            @click="toggleSelectVisibility"
+            style="cursor: pointer"
+          />
+          <select
+            v-show="isSelectVisible"
+            v-model="locale"
+            class="bg-opacity-0 bg-white"
+            @change="hideSelect"
+          >
+            <option value="en">🇬🇧</option>
+            <option value="de">🇩🇪</option>
+            <option value="jp">🇯🇵</option>
+            <option value="es">🇪🇸</option>
+            <option value="it">🇮🇹</option>
+            <option value="fr">🇫🇷</option>
+            <option value="pt">🇵🇹</option>
+            <option value="kr">🇰🇷</option>
+          </select>
+        </div>
       </div>
     </div>
     <div class="forMobile w-full p-2">
       <div class="w-full flex justify-between">
-        <img src="@/assets/images/enclogo.png" class="w-24" alt="" />
-        <p class="w-12">---</p>
+        <img src="@/assets/images/enctours_logo.png" class="w-24" alt="" />
+        <Bars3Icon class="h-8 w-8 m-3 text-white" aria-hidden="true" />
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, watch } from "vue";
 import { useI18n } from "vue-i18n";
+import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
+
 const { locale, t: $t } = useI18n();
 const navigation = ref([]);
+const isSelectVisible = ref(false);
 
 const navigationItems = [
   { name: "home", key: "home", href: "/" },
@@ -69,6 +84,14 @@ watch(locale, () => {
 });
 
 updateNavigation();
+
+const toggleSelectVisibility = () => {
+  isSelectVisible.value = !isSelectVisible.value;
+};
+
+const hideSelect = () => {
+  isSelectVisible.value = false;
+};
 </script>
 
 <style scoped>
@@ -89,5 +112,4 @@ updateNavigation();
     display: none;
   }
 }
-
 </style>
