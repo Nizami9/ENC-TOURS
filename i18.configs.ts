@@ -813,7 +813,7 @@ export default {
           "Discover the perfect stay in Lankaran! Enjoy warm hospitality, stunning views and convenient amenities, ensuring a memorable experience in this charming city. With breathtaking views of the Caspian Sea and the serene beauty of the Talysh Mountains, Lankaran provides the perfect backdrop for your travels. Plan your trip today and immerse yourself in the charm of this captivating city.",
       },
       de: {
-        home: "Startseite",
+        home: "STARTSEITE",
         az: "ASERBAIDSCHAN",
         tours: "TOUREN",
         ourServ: "UNSERE DIENSTLEISTUNGEN",
