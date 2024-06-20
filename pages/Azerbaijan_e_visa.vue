@@ -3,9 +3,9 @@
     <div>
       <div class="relative z-0 w-full parallax">
         <div
-          class="w-1/2 m-auto mainDiv pt-80 text-center z-10 uppercase text-white p-2"
+          class="w-2/3 m-auto mainDiv pt-64 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-7xl uppercase font-semibold">
+          <p class="text2 mb-10 text-7xl uppercase font-semibold">
             AZERBAIJAN E-VISA
           </p>
           <p class="textP rounded-md mt-2">

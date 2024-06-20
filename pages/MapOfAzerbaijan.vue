@@ -6,19 +6,16 @@
           class="w-1/2 m-auto mainDiv pt-80 text-center z-10 uppercase text-white p-2"
         >
           <p class="text2 text-7xl uppercase font-semibold">
-            Map of Azerbaijan
+            {{ $t("azeMapH1") }}
           </p>
           <p class="textP rounded-md mt-2">
-            Founded on the principle in offering seamless operational travel
-            standards throughout Asia, ENC Tours is a company managed by
-            passionate travelers who know the ins and outs of their respective
-            destination like no other.
+            {{ $t("azeMapP1") }}
           </p>
         </div>
       </div>
       <div class="text-center">
         <div class="p-8">
-          <p class="text-6xl mainP">About Us</p>
+          <p class="text-6xl mainP">About Map</p>
           <p class="border-b-2 pt-4 w-20 border-orange-500 m-auto"></p>
         </div>
         <div
@@ -40,21 +37,7 @@
           class="border introText w-2/3 m-auto p-8 text-customGray"
         >
           <p class="pb-4">
-            Founded in 1999, ENC Tours prides itself on its extensive
-            specialized knowledge, expertise and integrity that has been the
-            cornerstone of a “yes, we can” attitude.
-          </p>
-          <p class="pb-4">
-            Our services range from tailor-made and wholesale leisure programs,
-            MICE and corporate travel planning, and an extensive variety of
-            theme-based programs – ranging from art, history or adventure –
-            throughout Asia.
-          </p>
-          <p class="pb-4">
-            Headquartered in Baku, the group continues to provide client-focused
-            destination management services in all of its own-operated
-            destinations; Cambodia, China, Hong Kong, Indonesia, Laos, Malaysia,
-            Myanmar, Singapore, Thailand and Vietnam.
+            {{ $t("azeMapP2") }}
           </p>
         </div>
         <p class="border-b pt-12 w-10/12 border-orange-500 m-auto"></p>
