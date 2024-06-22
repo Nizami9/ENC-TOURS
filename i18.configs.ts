@@ -14,7 +14,7 @@ export default {
         contacts: "CONTACTS",
         lux: "luxury",
         services: "Services",
-        mainPageH1: "enc unforgettable journeys",
+        mainPageH1: "ENC Signiture Experience",
         mainPageH2:
           "Being internationally connected, creative and advanced, ENC travel is intended to provide a legacy of solid reputation with high degree excellence and responsibility. The company was established in 2008 with the vision to be chosen as the most trusted source of travel for people who wish to have life lasting memories.",
         comp2h1: "Inspirations",
@@ -812,6 +812,7 @@ export default {
         hotelsLankaranIntro:
           "Discover the perfect stay in Lankaran! Enjoy warm hospitality, stunning views and convenient amenities, ensuring a memorable experience in this charming city. With breathtaking views of the Caspian Sea and the serene beauty of the Talysh Mountains, Lankaran provides the perfect backdrop for your travels. Plan your trip today and immerse yourself in the charm of this captivating city.",
 
+
         azeH1: "Azerbaijan",
         azeIntro:
           "Azerbaijan boasts a diverse landscape, from the Caspian Sea's shimmering shores to the rugged peaks of the Caucasus Mountains. Our mission is to unlock the wonders of Azerbaijan for travelers worldwide. By providing personalized travel experiences, exceptional service, and a deep respect for local culture, we aim to inspire the lives of our guests through unforgettable adventures in Azerbaijan.",
@@ -826,7 +827,6 @@ export default {
           "Azerbaijan is situated at the crossroads of Eastern Europe and Western Asia, also known as Eurasia. It is located in the South Caucasus region, bordered by several countries.",
         azeMapP2:
           "Azerbaijan is bordered by several countries: to the north by Russia, to the northwest by Georgia, to the west by Armenia, to the south by Iran, and to the east by the Caspian Sea. The Caspian Sea, the world's largest inland body of water, forms its eastern border. This strategic position not only influences its diverse cultural heritage but also shapes its economic activities, particularly in energy resources and transportation routes. The country's landscape ranges from coastal plains along the Caspian Sea to rugged mountains in the west and north, making Azerbaijan a destination rich in natural beauty and historical significance.",
-
         azeVisa: "Azerbaijan E-Visa",
         azeVisaP:
           "Visa types and durations vary based on the purpose of travel, ensuring visitors can experience Azerbaijan's cultural richness and natural beauty with ease.",
@@ -846,7 +846,21 @@ export default {
         azeUnesco: "UNESCO Heritage Sites",
         azeUnescoP:
           "Azerbaijan, a country at the crossroads of Europe and Asia, is home to a rich tapestry of cultural and historical heritage that has been recognized and celebrated by UNESCO. These sites stand as testaments to Azerbaijan's significance in global heritage.",
-      },
+      
+        kebab :"Tika Kebab, known for its simplicity and robust flavors, features tender cubes of marinated meat (often lamb or chicken) threaded onto skewers and grilled to perfection over open flames. The magic begins with the marinade, a blend of yogurt, garlic, onions, and an assortment of spices such as paprika, cumin, and sumac. The grilling process itself is a spectacle to behold skewers laden with meat, carefully rotated over glowing embers until each piece is caramelized on the outside yet succulent and juicy within. This meticulous attention to cooking ensures that every bite of Tika Kebab is a harmonious balance of flavors and textures, a testament to the skill and passion of Azerbaijani grill masters.",
+        dolma: "Dolma, meaning 'stuffed' in Azerbaijani language, refers to a variety of stuffed vegetable dishes. In this particular rendition, ripe tomatoes, vibrant bell peppers, and tender eggplants are carefully hollowed out and filled with a savory mixture of minced meat (often lamb or beef), rice, onions, and an array of aromatic herbs and spices. Each vegetable is meticulously carved to create a delicate vessel for the filling. The stuffing, a blend of minced meat seasoned with finely chopped onions, fragrant herbs like parsley and dill, and spices such as cinnamon, cumin, and paprika, is mixed with rice.",
+        caviar: "Baku Caviar is celebrated worldwide for its exceptional quality and distinct flavor profiles, which vary depending on the species of sturgeon and the precise harvesting techniques employed. Among the most sought-after varieties are Beluga, Ossetra, and Sevruga, each distinguished by its size, color, and the size and texture of its eggs. The production of Baku Caviar is a meticulous process that requires expertise and dedication. Sturgeon, revered for their prized roe, are carefully caught and gently processed to extract the precious eggs without compromising their integrity. The caviar is then delicately salted to enhance its natural flavor while preserving its delicate texture.",
+        dushbara: "Dushbara are typically made from a thin dough rolled out into small squares or circles, then filled with a savory mixture of minced lamb or beef, onions, and fragrant herbs like parsley and dill. The filling is generously seasoned with spices such as black pepper, cumin, and sometimes sumac, which impart a robust flavor to each bite. The art of making Dushbara lies in their size and shape; each dumpling is painstakingly crafted to be no larger than a fingertip, ensuring a balance between the tender dough and flavorful filling. Once filled, the edges of the dough are pinched together to create a small pouch, reminiscent of traditional Azerbaijani craftsmanship.",
+        shahPlov: "Shah Plov is more than just a meal; it is a cultural symbol in Azerbaijani society, often served at weddings, festive gatherings, and celebrations of all kinds. The rice is cooked to fluffy perfection, infused with layers of flavor from a fragrant broth made with lamb or beef, onions, and an array of spices. These spices may include saffron, cumin, cinnamon, cloves, and dried fruits like apricots or raisins, imparting a subtle sweetness to the dish. The meat in Shah Plov is typically lamb or beef, which is first seared to seal in its juices and then slow-cooked with onions until tender. This process ensures that the meat is succulent and infused with the rich flavors of the broth, complementing the rice perfectly.",
+        gutab: "Gutab begins with a thin, unleavened dough made from flour, water, and salt. The dough is rolled out into thin rounds or squares, creating a delicate canvas ready to be filled with a savory mixture. The fillings for Gutab vary widely, reflecting the diversity of Azerbaijani cuisine and local ingredients.One of the most common fillings is a mixture of minced lamb or beef, onions, and fragrant herbs such as parsley, dill, and cilantro. The filling is generously seasoned with spices like cumin, paprika, and sumac, which lend depth and complexity to the flavors. Once filled, the dough is folded over the filling, creating a half-moon or triangle shape, and then sealed along the edges. The filled Gutab is then cooked on a griddle, traditionally known as a 'saj', where it is lightly brushed with oil or butter and cooked until golden brown and crispy on the outside.",
+        sadj: "Sadj, a beloved dish in Azerbaijan, holds a special place in the cuisine of this diverse and culturally rich country. Imagine a large, flat metal plate called sadj, heated over an open fire or stove. On the sadj, you'll find a delightful mix of thinly sliced vegetables—tomatoes, bell peppers, eggplants—interspersed with aromatic herbs like parsley and cilantro. Depending on the variation, tender cuts of lamb or beef might also join the mix, adding a savory depth. Served hot and straight from the sadj, often enjoyed with lavash (flatbread) or rice pilaf, making it a hearty and satisfying meal, perfect for gatherings and special occasions. Beyond its culinary appeal, sadj is a cultural symbol, showcasing Azerbaijan's culinary heritage and the importance of seasonal ingredients in its traditional dishes.",
+        yarpaqDolma: "Yarpaq dolmasi are vine leaves (yarpaq) wrapped around lamb, herbs and rice. Tender grape leaves carefully selected and blanched, ready to be filled with a savory mixture of ground meat—typically lamb or beef—mixed with rice, onions, and aromatic herbs like dill, mint, and parsley. Each dolma is meticulously rolled into a compact shape, ensuring the filling is perfectly enclosed. In a large pot lined with grape leaves, these dolmas are nestled together, creating layers of flavor. A blend of water, tomato paste, and sometimes lemon juice is poured over them, adding a tangy depth to the dish. Served hot, yarpaq dolma is a centerpiece dish, often accompanied by yogurt or sour cream, enhancing its savory profile.",
+        dovqa: "Dovga, a staple of Azerbaijani cuisine, is much more than just a soup—it's a refreshing and nourishing tradition that embodies the country's culinary heritage. This unique dish is particularly cherished during the warm summer months for its cooling properties and delightful combination of flavors. The base of yogurt, thinned to a creamy consistency with water, providing a smooth backdrop for the soup. Into this, tender grains like rice are added, contributing a hearty texture. Fresh herbs such as dill, mint, and parsley, finely chopped for maximum aroma, are stirred in, infusing the soup with a burst of freshness. Preparation often involves cooking the grains separately until nearly tender, then gently simmering them with the yogurt and herbs until all flavors meld beautifully. The result is a soup that's served either warm or at room temperature, making it versatile for different occasions.",
+        sturgeon: "Caspian sturgeon kebab, chunks of sturgeon are marinated in a blend of olive oil, lemon juice, garlic, and seasonings like salt, pepper, and fresh herbs. This marinade not only enhances the natural flavors of the fish but also helps keep it tender during grilling.Once marinated, the sturgeon pieces are skewered with colorful vegetables such as bell peppers, onions, and tomatoes. This kebab is not just a dish but a testament to Azerbaijan's culinary expertise, blending fresh seafood with expert grilling techniques to create a dish that delights both locals and visitors alike, embodying the essence of Azerbaijani gastronomy. ",
+        murebbe: "Murebbe, also known as 'murabba' in some cultures, is a type of preserve or jam that originates from Azerbaijani and wider Middle Eastern cuisines. It involves cooking fruits (such as quince, strawberries or apricots) in a sugar syrup until the fruits become tender and translucent and the syrup thickens. This process not only preserves the fruits but also enhances their natural sweetness. The fruits are typically peeled, cored, and cut into pieces before being simmered gently in the syrup made from sugar and water. The cooking process is slow and requires occasional stirring to ensure the fruits cook evenly and the syrup thickens properly. More often prepared during the fruit harvest season and enjoyed as a dessert or sweet accompaniment to tea. It is also a popular homemade gift, symbolizing hospitality and the abundance of seasonal fruits.",
+        pakhlava: "Pakhlava is a traditional Azerbaijani pastry that holds significant cultural importance, especially during holidays and celebrations such as Nowruz and weddings. This sweet  is made from thin layers of unleavened dough, which are rolled out very thinly and layered with butter or oil to create a delicate, flaky texture.The traditional filling consists of finely chopped nuts, typically walnuts, almonds, or pistachios, mixed with sugar and flavored with spices such as ground cardamom. Some variations also include rosewater or saffron for additional fragrance and flavor.After baking, pakhlava is generously drizzled with a syrup made from sugar, water, and sometimes lemon juice. The syrup is heated until it reaches a thread-like consistency, allowing it to soak into the layers of pastry and nuts, adding sweetness and moisture.",
+        
+        },
       de: {
         home: "STARTSEITE",
         az: "ASERBAIDSCHAN",
@@ -858,7 +872,7 @@ export default {
         lux: "Luxus",
         contact: "Kontakt",
         services: "Dienstleistungen",
-        mainPageH1: "ENC Kultur- und Kulturerbetouren",
+        mainPageH1: "ENC Signiture Experience",
         mainPageH2:
           "ENC Tours ist international vernetzt, kreativ und fortschrittlich und soll einen guten Ruf mit hohem Grad an Exzellenz und Verantwortung bieten. Das Unternehmen wurde 2008 mit der Vision gegründet, als die vertrauenswürdigste Reiseart für Menschen ausgewählt zu werden, die lebenslange Erinnerungen haben möchten.",
         comp2h1: "Inspirationsquelle",
@@ -1493,7 +1507,7 @@ export default {
         contact: "Contactos",
         lux: "lujo",
         services: "Servicios",
-        mainPageH1: "ENC Tours culturales y patrimoniales",
+        mainPageH1: "ENC Signiture Experience",
         mainPageH2:
           "Al estar conectado internacionalmente, ser creativo y avanzado, ENC Travel tiene como objetivo proporcionar un legado de sólida reputación con un alto grado de excelencia y responsabilidad. La empresa se fundó en 2008 con la visión de ser elegida como la fuente de viajes más confiable para las personas que desean tener recuerdos duraderos para toda la vida.",
         comp2h1: "Inspiraciones",
@@ -2264,7 +2278,32 @@ export default {
           "Saat Meydani Nakhchivan alberga restaurante, jardín, terraza y bar. El establecimiento cuenta con habitaciones familiares y parque infantil. El alojamiento ofrece recepción 24 horas, servicio de enlace con el aeropuerto, servicio de habitaciones y WiFi gratuita en todas las instalaciones. Todas las habitaciones del hotel están equipadas con armario, ropa de cama y balcón con vistas a la montaña. Todos los alojamientos disponen de aire acondicionado, caja fuerte y TV de pantalla plana. El aeropuerto más cercano es el aeropuerto internacional de Nakhchivan, ubicado a 3 km del Saat Meydani Nakhchivan.",
         HotelTebriz:
           "Tebriz Hotel Nakhchivan ofrece alojamiento moderno y elegante en el centro de Nakhchivan y cuenta con piscina cubierta y spa con baño turco y servicio de masajes. El establecimiento también cuenta con centro de fitness y solárium. Las habitaciones disponen de conexión Wi-Fi gratuita, TV vía satélite, aire acondicionado, minibar, hervidor eléctrico, café gratuito, zona de estar y baño privado con artículos de aseo gratuitos y secador de pelo. Las habitaciones tienen vistas al lago y a la montaña. Todas las mañanas se sirve un desayuno abundante. También hay un bar y un restaurante en el establecimiento. El Hotel Tebriz Nakhchivan se encuentra a 7 km del Aeropuerto de Nakhchivan.",
-      },
+          
+          
+          azeH1: "Azerbaijan",
+          azeIntro: "",
+          azeGenFacts: "General Facts",
+          azeGenFactsP: "",
+          azeMap: "Map of Azerbaijan",
+          azeMapP: "",
+          azeMapH1: "Map of Azerbaijan",
+          azeMapP1: "",
+          azeMapP2: "",
+          azeVisa: "Azerbaijan E-Visa",
+          azeVisaP: "",
+          azeVisaH1: "AZERBAIJAN E-VISA",
+          azeVisaP1: "",
+          azeMapIntro: "",
+          azeMapIntro1: "",
+          azeRegions: "Toursit Regions",
+          azeRegionsP: "",
+          azeCuisine: "Azerbaijan Cuisines",
+          azeCuisineP: "",
+          azeEvents: "Events & Festivals",
+          azeEventsP: "",
+          azeUnesco: "UNESCO Heritage Sites",
+          azeUnescoP:"",
+        },
       it: {
         home: "HOME",
         az: "AZERBAIGIAN",
@@ -2276,7 +2315,7 @@ export default {
         contact: "Contactos",
         lux: "lusso",
         services: "Servicios",
-        mainPageH1: "ENC Tours culturali e patrimoniali",
+        mainPageH1: "ENC Signiture Experience",
         mainPageH2:
           "Essendo collegato a livello internazionale, creativo e avanzato, il viaggio con ENC è destinato a fornire un’eredità di solida reputazione con eccellenza e responsabilità di alto livello. La società è stata fondata nel 2008 con la visione di essere scelta come la fonte di viaggio più affidabile per le persone che desiderano avere ricordi per tutta la vita.",
         comp2h1: "Inspirazioni",
@@ -3922,7 +3961,7 @@ export default {
         luxIntro:
           "ENC Tours propose des circuits combinés captivants qui unissent de manière transparente les trésors culturels de l'Azerbaïdjan et de la Géorgie. Conçus pour une expérience complète, ces circuits offrent un mélange harmonieux de paysages diversifiés, de merveilles historiques et de rencontres culturelles uniques. Des rues animées de Tbilissi aux merveilles antiques de Bakou, ENCTours assure une exploration organisée et personnalisée des deux pays. Avec des guides experts, les voyageurs peuvent se plonger dans des histoires communes, savourer des cuisines locales et s'immerger dans les traditions distinctes de l'Azerbaïdjan et de la Géorgie. Ces circuits combinés promettent un voyage fluide et inoubliable à ceux qui recherchent une aventure complète à travers ces destinations captivantes.",
         services: "Prestations de service",
-        mainPageH1: "ENC Tours culturais e patrimoniais",
+        mainPageH1: "ENC Signiture Experience",
         mainPageH2:
           "Etant connectés au niveau international, créatifs et avancés, ENC Tours sont destinés à fournir un héritage de réputation solide avec un degré d’excellence et de responsabilité. L’entreprise a été créée en 2008 avec la vision d’être choisie comme la source de voyages la plus fiable pour les personnes souhaitant garder des souvenirs impérissables.",
         comp2p1:
@@ -4600,7 +4639,7 @@ export default {
         contact: "Contactos",
         services: "Servicios",
         lux: "luxo",
-        mainPageH1: "ENC Tours culturais e patrimoniais",
+        mainPageH1: "ENC Signiture Experience",
         mainPageH2:
           "Sendo conectado internacionalmente, criativo e avançado, ENC TOURS tem a intenção de fornecer um legado da reputação sólida com excelência e responsabilidade do grau alto. A empresa foi criada em 2008 com a visão de ser escolhida como a fonte mais confiável de viagens para pessoas que desejam ter memórias duradouras.",
         comp2h1: "Inspirações",
@@ -6137,5 +6176,5 @@ export default {
     },
   },
   locales: ["en", "de", "es", "it", "jp", "fr", "pt", "kr"],
-  defaultLocale: "en",
-};
+  defaultLocale: "en"
+}

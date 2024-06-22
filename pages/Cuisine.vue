@@ -22,16 +22,7 @@
                   <img src="@/assets/images/kebab.jpeg" alt="" />
                 </div>
                 <figcaption class="max-h-2/3 overflow-scroll">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
-                  iste amet voluptatibus mollitia illum, ipsum autem earum
-                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
-                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
-                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
-                  totam dicta, voluptas quaerat alias recusandae provident, cum
-                  itaque impedit eligendi minima exercitationem obcaecati!
-                  Labore nulla re cum sit dolorem?
+                  {{ $t("kebab") }}
                   <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
@@ -52,7 +43,6 @@
                   totam dicta, voluptas quaerat alias recusandae provident, cum
                   itaque impedit eligendi minima exercitationem obcaecati!
                   Labore nulla re cum sit dolorem?
-                  <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
             </li>
@@ -62,17 +52,7 @@
                   <img src="@/assets/images/cav.jpeg" alt="" />
                 </div>
                 <figcaption class="max-h-2/3 overflow-scroll">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
-                  iste amet voluptatibus mollitia illum, ipsum autem earum
-                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
-                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
-                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
-                  totam dicta, voluptas quaerat alias recusandae provident, cum
-                  itaque impedit eligendi minima exercitationem obcaecati!
-                  Labore nulla re cum sit dolorem?
-                  <span class="credit">Photo: Tim Marshall</span>
+                  {{ $t("caviar") }}
                 </figcaption>
               </figure>
             </li>
@@ -82,17 +62,7 @@
                   <img src="@/assets/images/dovga.avif" alt="" />
                 </div>
                 <figcaption class="max-h-2/3 overflow-scroll">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
-                  iste amet voluptatibus mollitia illum, ipsum autem earum
-                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
-                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
-                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
-                  totam dicta, voluptas quaerat alias recusandae provident, cum
-                  itaque impedit eligendi minima exercitationem obcaecati!
-                  Labore nulla re cum sit dolorem?
-                  <span class="credit">Photo: Tim Marshall</span>
+                  {{ $t("dovqa") }}
                 </figcaption>
               </figure>
             </li>
@@ -102,17 +72,7 @@
                   <img src="@/assets/images/dushbara.jpeg" alt="" />
                 </div>
                 <figcaption class="max-h-2/3 overflow-scroll">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
-                  iste amet voluptatibus mollitia illum, ipsum autem earum
-                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
-                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
-                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
-                  totam dicta, voluptas quaerat alias recusandae provident, cum
-                  itaque impedit eligendi minima exercitationem obcaecati!
-                  Labore nulla re cum sit dolorem?
-                  <span class="credit">Photo: Tim Marshall</span>
+                  {{ $t("dushbara") }}
                 </figcaption>
               </figure>
             </li>
@@ -122,16 +82,7 @@
                   <img src="@/assets/images/plov.jpeg" alt="" />
                 </div>
                 <figcaption class="max-h-2/3 overflow-scroll">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
-                  iste amet voluptatibus mollitia illum, ipsum autem earum
-                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
-                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
-                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
-                  totam dicta, voluptas quaerat alias recusandae provident, cum
-                  itaque impedit eligendi minima exercitationem obcaecati!
-                  Labore nulla re cum sit dolorem?
+                  {{ $t("shahPlov") }}
                   <span class="credit">Photo: Tim Marshall</span>
                 </figcaption>
               </figure>
@@ -142,17 +93,7 @@
                   <img src="@/assets/images/qutab.webp" alt="" />
                 </div>
                 <figcaption class="max-h-2/3 overflow-scroll">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
-                  iste amet voluptatibus mollitia illum, ipsum autem earum
-                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
-                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
-                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
-                  totam dicta, voluptas quaerat alias recusandae provident, cum
-                  itaque impedit eligendi minima exercitationem obcaecati!
-                  Labore nulla re cum sit dolorem?
-                  <span class="credit">Photo: Tim Marshall</span>
+                  {{ $t("gutab") }}
                 </figcaption>
               </figure>
             </li>
@@ -162,17 +103,7 @@
                   <img src="@/assets/images/saj.jpeg" alt="" />
                 </div>
                 <figcaption class="max-h-2/3 overflow-scroll">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
-                  iste amet voluptatibus mollitia illum, ipsum autem earum
-                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
-                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
-                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
-                  totam dicta, voluptas quaerat alias recusandae provident, cum
-                  itaque impedit eligendi minima exercitationem obcaecati!
-                  Labore nulla re cum sit dolorem?
-                  <span class="credit">Photo: Tim Marshall</span>
+                  {{ $t("sadj") }}
                 </figcaption>
               </figure>
             </li>
@@ -182,17 +113,7 @@
                   <img src="@/assets/images/sturgeon.webp" alt="" />
                 </div>
                 <figcaption class="max-h-2/3 overflow-scroll">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
-                  iste amet voluptatibus mollitia illum, ipsum autem earum
-                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
-                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
-                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
-                  totam dicta, voluptas quaerat alias recusandae provident, cum
-                  itaque impedit eligendi minima exercitationem obcaecati!
-                  Labore nulla re cum sit dolorem?
-                  <span class="credit">Photo: Tim Marshall</span>
+                  {{ $t("sturgeon") }}
                 </figcaption>
               </figure>
             </li>
@@ -202,17 +123,7 @@
                   <img src="@/assets/images/dolma.avif" alt="" />
                 </div>
                 <figcaption class="max-h-2/3 overflow-scroll">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
-                  iste amet voluptatibus mollitia illum, ipsum autem earum
-                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
-                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
-                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
-                  totam dicta, voluptas quaerat alias recusandae provident, cum
-                  itaque impedit eligendi minima exercitationem obcaecati!
-                  Labore nulla re cum sit dolorem?
-                  <span class="credit">Photo: Tim Marshall</span>
+                  {{ $t("dolma") }}
                 </figcaption>
               </figure>
             </li>
@@ -222,17 +133,7 @@
                   <img src="@/assets/images/murabba.jpeg" alt="" />
                 </div>
                 <figcaption class="max-h-2/3 overflow-scroll">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
-                  iste amet voluptatibus mollitia illum, ipsum autem earum
-                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
-                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
-                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
-                  totam dicta, voluptas quaerat alias recusandae provident, cum
-                  itaque impedit eligendi minima exercitationem obcaecati!
-                  Labore nulla re cum sit dolorem?
-                  <span class="credit">Photo: Tim Marshall</span>
+                  {{ $t("murebbe") }}
                 </figcaption>
               </figure>
             </li>
@@ -242,17 +143,7 @@
                   <img src="@/assets/images/pakhlava.jpeg" alt="" />
                 </div>
                 <figcaption class="max-h-2/3 overflow-scroll">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-                  ut omnis nisi architecto porro, minus deserunt saepe, officiis
-                  iste amet voluptatibus mollitia illum, ipsum autem earum
-                  perspiciatis obcaecati aliquam! Hic. Nulla accusantium
-                  sapiente ullam, repellenre, quia eos iusto fugiat aut optio
-                  debitis pariatur! Fuga maiores ad inventore. Eum sit fuga,
-                  totam dicta, voluptas quaerat alias recusandae provident, cum
-                  itaque impedit eligendi minima exercitationem obcaecati!
-                  Labore nulla re cum sit dolorem?
-                  <span class="credit">Photo: Tim Marshall</span>
+                  {{ $t("pakhlava") }}
                 </figcaption>
               </figure>
             </li>
@@ -325,7 +216,10 @@
   </NuxtLayout>
 </template>
 
-<script></script>
+<script setup>
+import { useI18n } from "#imports";
+const { locale, } = useI18n();
+</script>
 
 <style scoped>
 section {

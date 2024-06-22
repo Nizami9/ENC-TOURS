@@ -32,7 +32,7 @@
     <div class="text-gray-600 md:text-sm lg:text-base xl:text-base">
       <div class="flex sections w-10/12 m-auto text-center">
         <div class="w-1/3 sectionDiv">
-          <h5 class="hStyle">Active Trails</h5>
+          <h5 class="hStyle">Sustainable tour</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -53,7 +53,7 @@
           </p>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5 class="hStyle">Authentic Trails</h5>
+          <h5 class="hStyle">Culture and Gastronomy</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -74,7 +74,7 @@
           </p>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5 class="hStyle">Cruising Trails</h5>
+          <h5 class="hStyle">Baku City Break</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -98,7 +98,7 @@
 
       <div class="flex w-10/12 sections m-auto mt-4 text-center pb-3">
         <div class="w-1/3 sectionDiv">
-          <h5 class="hStyle">Culinary Trails</h5>
+          <h5 class="hStyle">Natural Etnographic</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -119,7 +119,7 @@
           </p>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5 class="hStyle">Digital Trails</h5>
+          <h5 class="hStyle">Explore Caucasus</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -140,7 +140,7 @@
           </p>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5 class="hStyle">Essential Trails</h5>
+          <h5 class="hStyle">Highlights of Azerbaijan</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -164,7 +164,7 @@
 
       <div class="flex sections w-10/12 m-auto mt-4 text-center pb-3">
         <div class="w-1/3 sectionDiv">
-          <h5 class="hStyle">Family Trails</h5>
+          <h5 class="hStyle">Birdwatching</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -185,7 +185,7 @@
           </p>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5 class="hStyle">Joint Trails</h5>
+          <h5 class="hStyle">Wine tasting</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
@@ -208,7 +208,7 @@
           </div>
         </div>
         <div class="w-1/3 sectionDiv">
-          <h5 class="hStyle">Romantic Trails</h5>
+          <h5 class="hStyle">Azerbaijan Grand Tour</h5>
           <div class="w-full m-auto mt-4 text-center">
             <p
               style="border-color: rgba(152, 176, 226, 1)"
