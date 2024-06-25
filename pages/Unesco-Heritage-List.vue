@@ -6,12 +6,10 @@
           class="w-1/2 m-auto mainDiv pt-80 text-center z-10 uppercase text-white p-2"
         >
           <p class="text2 text-7xl uppercase font-semibold">
-            UNESCO HERITAGE SITES
+            {{ $t("azeUnesco") }}
           </p>
           <p class="rounded-md mt-5 text-center textP">
-            Lauded for its extensive knowledge, its East-meets-West model and
-            venturing responsibly into every corner of its destinations, it is
-            our mission to show guests the beating heart of our Asia
+            {{ $t("azeUnescoP") }}
           </p>
         </div>
       </div>
@@ -39,18 +37,7 @@
           class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
-            ENC Tours provides captivating combined tours that seamlessly unite
-            the cultural treasures of Azerbaijan and Georgia. Tailored for a
-            well-rounded experience, these tours offer a harmonious blend of
-            diverse landscapes, historical wonders, and unique cultural
-            encounters. From the vibrant streets of Tbilisi to the ancient
-            marvels of Baku, ENC Tours ensures a curated and personalized
-            exploration of both countries. With expert guides, travelers can
-            delve into shared histories, savor local cuisines, and immerse
-            themselves in the distinct traditions of Azerbaijan and Georgia.
-            These combined tours promise a seamless and unforgettable journey
-            for those seeking a comprehensive adventure across these captivating
-            destinations.
+            {{ $t("azeUnescoP1") }}
           </p>
         </div>
         <div
