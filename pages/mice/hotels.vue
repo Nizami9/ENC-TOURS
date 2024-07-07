@@ -16,72 +16,146 @@
       <div class="">
         <div class="w-9/12 m-auto mt-10 mb-6">
           <div class="mb-10">
-            <h4>5* Four Seasons Hotel Baku</h4>
+            <h4>{{ $t("hotelMiceFSH") }}</h4>
             <ul class="list-disc text-gray-500">
-              <li>Total – 171 ROOMS</li>
+              <li>{{ $t("hotelMiceFS1") }}</li>
               <li>
-                Largest Ballroom of the hotel -6888 sq ft. Theatre style for up
-                to 400 people, total Space – 20,075 sq ft
+                {{ $t("hotelMiceFS2") }}
+              </li>
+              <li>
+                {{ $t("hotelMiceFS3") }}
               </li>
             </ul>
           </div>
           <div class="mb-10">
-            <h4>5* JW Marriott Absheron Baku</h4>
+            <h4>{{ $t("hotelMiceMarH") }}</h4>
             <ul class="list-disc text-gray-500">
-              <li>Total – 171 ROOMS</li>
+              <li>{{ $t("hotelMiceMar1") }}</li>
               <li>
-                Largest Ballroom of the hotel -6888 sq ft. Theatre style for up
-                to 400 people, total Space – 20,075 sq ft
+                {{ $t("hotelMiceMar2") }}
+              </li>
+              <li>
+                {{ $t("hotelMiceMar3") }}
               </li>
             </ul>
           </div>
           <div class="mb-10">
-            <h4>5* Four Seasons Hotel Baku</h4>
+            <h4>{{ $t("hotelMiceRCH") }}</h4>
             <ul class="list-disc text-gray-500">
-              <li>Total – 171 ROOMS</li>
+              <li>{{ $t("hotelMiceRC1") }}</li>
               <li>
-                Largest Ballroom of the hotel -6888 sq ft. Theatre style for up
-                to 400 people, total Space – 20,075 sq ft
+                {{ $t("hotelMiceRC2") }}
+              </li>
+              <li>
+                {{ $t("hotelMiceRC3") }}
               </li>
             </ul>
           </div>
           <div class="mb-10">
-            <h4>5* Four Seasons Hotel Baku</h4>
+            <h4>{{ $t("hotelMiceMarH") }}</h4>
             <ul class="list-disc text-gray-500">
-              <li>Total – 171 ROOMS</li>
+              <li>{{ $t("hotelMiceMar1") }}</li>
               <li>
-                Largest Ballroom of the hotel -6888 sq ft. Theatre style for up
-                to 400 people, total Space – 20,075 sq ft
+                {{ $t("hotelMiceMar2") }}
+              </li>
+              <li>
+                {{ $t("hotelMiceMar3") }}
               </li>
             </ul>
           </div>
           <div class="mb-10">
-            <h4>5* Four Seasons Hotel Baku</h4>
+            <h4>{{ $t("hotelMiceHyattH") }}</h4>
             <ul class="list-disc text-gray-500">
-              <li>Total – 171 ROOMS</li>
+              <li>{{ $t("hotelMiceHyatt1") }}</li>
               <li>
-                Largest Ballroom of the hotel -6888 sq ft. Theatre style for up
-                to 400 people, total Space – 20,075 sq ft
+                {{ $t("hotelMiceHyatt2") }}
+              </li>
+              <li>
+                {{ $t("hotelMiceHyatt3") }}
               </li>
             </ul>
           </div>
           <div class="mb-10">
-            <h4>5* Four Seasons Hotel Baku</h4>
+            <h4>{{ $t("hotelMiceFairmH") }}</h4>
             <ul class="list-disc text-gray-500">
-              <li>Total – 171 ROOMS</li>
+              <li>{{ $t("hotelMiceFairm1") }}</li>
               <li>
-                Largest Ballroom of the hotel -6888 sq ft. Theatre style for up
-                to 400 people, total Space – 20,075 sq ft
+                {{ $t("hotelMiceFairm2") }}
+              </li>
+              <li>
+                {{ $t("hotelMiceFairm3") }}
               </li>
             </ul>
           </div>
           <div class="mb-10">
-            <h4>5* Four Seasons Hotel Baku</h4>
+            <h4>{{ $t("hotelMiceHiltonH") }}</h4>
             <ul class="list-disc text-gray-500">
-              <li>Total – 171 ROOMS</li>
+              <li>{{ $t("hotelMiceHilton1") }}</li>
               <li>
-                Largest Ballroom of the hotel -6888 sq ft. Theatre style for up
-                to 400 people, total Space – 20,075 sq ft
+                {{ $t("hotelMiceHilton2") }}
+              </li>
+              <li>
+                {{ $t("hotelMiceHilton3") }}
+              </li>
+            </ul>
+          </div>
+          <div class="mb-10">
+            <h4>{{ $t("hotelMiceInterH") }}</h4>
+            <ul class="list-disc text-gray-500">
+              <li>{{ $t("hotelMiceInter1") }}</li>
+              <li>
+                {{ $t("hotelMiceInter2") }}
+              </li>
+              <li>
+                {{ $t("hotelMiceInter3") }}
+              </li>
+            </ul>
+          </div>
+          <div class="mb-10">
+            <h4>{{ $t("hotelMiceSherH") }}</h4>
+            <ul class="list-disc text-gray-500">
+              <li>{{ $t("hotelMiceSher1") }}</li>
+              <li>
+                {{ $t("hotelMiceSher2") }}
+              </li>
+              <li>
+                {{ $t("hotelMiceSher3") }}
+              </li>
+            </ul>
+          </div>
+          <div class="mb-10">
+            <h4>{{ $t("hotelMiceRadisH") }}</h4>
+            <ul class="list-disc text-gray-500">
+              <li>{{ $t("hotelMiceRadis1") }}</li>
+              <li>
+                {{ $t("hotelMiceRadis2") }}
+              </li>
+              <li>
+                {{ $t("hotelMiceRadis3") }}
+              </li>
+            </ul>
+          </div>
+          <div class="mb-10">
+            <h4>{{ $t("hotelMiceCoutH") }}</h4>
+            <ul class="list-disc text-gray-500">
+              <li>{{ $t("hotelMiceCout1") }}</li>
+              <li>
+                {{ $t("hotelMiceCout2") }}
+              </li>
+              <li>
+                {{ $t("hotelMiceCout3") }}
+              </li>
+            </ul>
+          </div>
+          <div class="mb-10">
+            <h4>{{ $t("hotelMiceBoulevH") }}</h4>
+            <ul class="list-disc text-gray-500">
+              <li>{{ $t("hotelMiceBoulev1") }}</li>
+              <li>
+                {{ $t("hotelMiceBoulev2") }}
+              </li>
+              <li>
+                {{ $t("hotelMiceBoulev3") }}
               </li>
             </ul>
           </div>

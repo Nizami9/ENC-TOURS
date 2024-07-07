@@ -5,11 +5,11 @@
         <div
           class="w-1/2 mainDiv m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-8xl uppercase font-semibold">ACTIVITIES</p>
+          <p class="text2 text-8xl uppercase font-semibold">
+            {{ $t("actMiceH") }}
+          </p>
           <p class="rounded-md mt-20 text-center textP">
-            Lauded for its extensive knowledge, its East-meets-West model and
-            venturing responsibly into every corner of its destinations, it is
-            our mission to show guests the beating heart of our Asia
+            {{ $t("actMiceP") }}
           </p>
         </div>
       </div>
@@ -17,11 +17,13 @@
         <div class="w-9/12 m-auto mt-10">
           <div class="mb-10">
             <ul class="list-disc text-gray-500">
-              <li class="mb-3">Jeep Safari</li>
-              <li class="mb-3">Karting</li>
-              <li class="mb-3">Paintball</li>
-              <li class="mb-3">Baku Shooting Centre</li>
-              <li class="mb-3">Mountain Bike Velopark</li>
+              <li class="mb-3">{{ $t("actMiceL1") }}</li>
+              <li class="mb-3">{{ $t("actMiceL2") }}</li>
+              <li class="mb-3">{{ $t("actMiceL3") }}</li>
+              <li class="mb-3">{{ $t("actMiceL4") }}</li>
+              <li class="mb-3">{{ $t("actMiceL5") }}</li>
+              <li class="mb-3">{{ $t("actMiceL6") }}</li>
+              <li class="mb-3">{{ $t("actMiceL7") }}</li>
             </ul>
           </div>
         </div>

@@ -6,13 +6,11 @@
           class="w-1/2 m-auto mainDiv pt-80 text-center z-10 uppercase text-white p-2"
         >
           <p class="text2 text-8xl uppercase font-semibold">
-            MEETINGS. INCENTIVES. CONFERENCES. EVENTS
+            {{ $t("miceH1") }}
           </p>
           <p class="rounded-md mt-20 text-center textP">
-            Lauded for its extensive knowledge, its East-meets-West model and
-            venturing responsibly into every corner of its destinations, it is
-            our mission to show guests the beating heart of our Asia
-          </p>
+            {{ $t("miceP1") }}
+           </p>
         </div>
       </div>
       <div class="text-center">
@@ -39,15 +37,7 @@
           class="border introText w-1/2 m-auto p-8 text-customGray"
         >
           <p>
-            ENC Tours experience in designing exceptional experiences continues
-            to cast an intimate spell. The almost mesmerizing bonds we have with
-            our East and South East Asian destinations are amongst the closest
-            one can find – be it a dreamy hideaway along sandy shores or a
-            breathtaking moment overlooking its authentic vastness. It is all in
-            delivering that perfect moment, where a second of tasting our Asia
-            delivers a moment of eternal gratitude for all it encompasses. It is
-            all about the local expertise, executive with passion and perfection
-            for an exceeding expectations’experience.
+            {{ $t("miceIntro") }}
           </p>
         </div>
         <div class="flex mainSection w-11/12 m-auto mt-10 mb-6">
@@ -84,11 +74,7 @@
             </div>
             <div>
               <p class="text-color leading-6 p-2 m-auto">
-                CAMBODIA Once seen as the centre of the ancient world, Cambodia
-                ignites the wanderlust in prospect visitors. Centred around the
-                Angkor temples, the country’s immaculate immersion of natural
-                and historical treasures are amongst the most sought-after
-                reasons for entering a world of legacy and hospitality.
+                {{ $t("miceHotelsP1") }}
               </p>
             </div>
           </div>
@@ -125,12 +111,7 @@
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 m-auto">
-                Following in the footsteps of an imperial path, China’s
-                centuries long history has shaped the grandeur within its
-                vastness. Running like a red thread through the country’s past,
-                present and future vision, no country has the ability to
-                effortlessly blend its values from a bygone era into captivating
-                sights for everyone.
+                {{ $t("miceRestP1") }}
               </p>
             </div>
           </div>
@@ -169,12 +150,7 @@
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 m-auto">
-                Thrilling with a pinch of British colonialism. Its unique
-                position within Greater China has made Hong Kong a dashing
-                example of city vibe with a deeply-rooted Chinese heritage with
-                continuously embracing its heritage. No Asian metropole has the
-                capacity to excite like Hong Kong when in need of a modern,
-                Chinese sense of exploration.
+                {{ $t("miceActivP1") }}
               </p>
             </div>
           </div>
@@ -212,12 +188,7 @@
             </div>
             <div>
               <p class="text-color leading-6 w-11/12 p-2 m-auto">
-                Thrilling with a pinch of British colonialism. Its unique
-                position within Greater China has made Hong Kong a dashing
-                example of city vibe with a deeply-rooted Chinese heritage with
-                continuously embracing its heritage. No Asian metropole has the
-                capacity to excite like Hong Kong when in need of a modern,
-                Chinese sense of exploration.
+                {{ $t("miceMasterClassP1") }}
               </p>
             </div>
           </div>

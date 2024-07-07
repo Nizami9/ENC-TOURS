@@ -5,70 +5,78 @@
         <div
           class="w-1/2 mainDiv m-auto pt-80 text-center z-10 uppercase text-white p-2"
         >
-          <p class="text2 text-7xl uppercase font-semibold">Restaurants</p>
+          <p class="text2 text-7xl uppercase font-semibold">
+            {{ $t("restMiceH") }}
+          </p>
           <p class="rounded-md mt-20 text-center textP">
-            Lauded for its extensive knowledge, its East-meets-West model and
-            venturing responsibly into every corner of its destinations, it is
-            our mission to show guests the beating heart of our Asia
+            {{ $t("restMiceIntro") }}
           </p>
         </div>
       </div>
       <div class="">
         <div class="w-9/12 m-auto mt-10 mb-6">
           <div class="mb-10">
-            <h4>“Shirvanshah Museum Restaurant”</h4>
+            <h4>{{ $t("restMiceShirvH") }}</h4>
             <ul class="list-disc text-gray-500">
-              <li>Cuisine: National</li>
-              <li>Show Program: Life music & mugham</li>
-              <li>Capacity: 300 persons</li>
+              <li>{{ $t("restMiceShirv1") }}</li>
+              <li>{{ $t("restMiceShirv2") }}</li>
+              <li>{{ $t("restMiceShirv3") }}</li>
             </ul>
           </div>
           <div class="mb-10">
-            <h4>“Han Restaurant Baku”</h4>
+            <h4>{{ $t("restMiceHanH") }}</h4>
             <ul class="list-disc text-gray-500">
-              <li>Cuisine: National</li>
-              <li>Show Program: Background music</li>
-              <li>Capacity: 150-180 persons</li>
+              <li>{{ $t("restMiceHan1") }}</li>
+              <li>{{ $t("restMiceHan2") }}</li>
+              <li>{{ $t("restMiceHan3") }}</li>
             </ul>
           </div>
           <div class="mb-10">
-            <h4>“Mangal“</h4>
+            <h4>{{ $t("restMiceMangalH") }}</h4>
             <ul class="list-disc text-gray-500">
-              <li>Cuisine: National, American, European</li>
-              <li>Show Program: Life music, mugham</li>
-              <li>Capacity: 30-300 persons</li>
+              <li>{{ $t("restMiceMangal1") }}</li>
+              <li>{{ $t("restMiceMangal2") }}</li>
+              <li>{{ $t("restMiceMangal3") }}</li>
             </ul>
           </div>
           <div class="mb-10">
-            <h4>“Mugam Club“</h4>
+            <h4>{{ $t("restMiceMugamH") }}</h4>
             <ul class="list-disc text-gray-500">
-              <li>Cuisine: Multi-Cuisine</li>
-              <li>Show Program: National dances , mugham</li>
-              <li>Capacity: 150 persons</li>
+              <li>{{ $t("restMiceMugam1") }}</li>
+              <li>{{ $t("restMiceMugam2") }}</li>
+              <li>{{ $t("restMiceMugam3") }}</li>
             </ul>
           </div>
           <div class="mb-10">
-            <h4>“Gala Bazaar Restaurant”</h4>
+            <h4>{{ $t("restMiceGalaH") }}</h4>
             <ul class="list-disc text-gray-500">
-              <li>Cuisine: National</li>
-              <li>Show Program: National dances , mugham</li>
-              <li>Capacity: 400-500 persons</li>
+              <li>{{ $t("restMiceGala1") }}</li>
+              <li>{{ $t("restMiceGala2") }}</li>
+              <li>{{ $t("restMiceGala3") }}</li>
             </ul>
           </div>
           <div class="mb-10">
-            <h4>“Prive Steak Gallery Baku”</h4>
+            <h4>{{ $t("restMicePriveH") }}</h4>
             <ul class="list-disc text-gray-500">
-              <li>Cuisine: National, American</li>
-              <li>Show Program: Background music</li>
-              <li>Capacity: 300 persons</li>
+              <li>{{ $t("restMicePrive1") }}</li>
+              <li>{{ $t("restMicePrive2") }}</li>
+              <li>{{ $t("restMicePrive3") }}</li>
             </ul>
           </div>
           <div class="mb-10">
-            <h4>“Passage 1901”</h4>
+            <h4>{{ $t("restMicePassageH") }}</h4>
             <ul class="list-disc text-gray-500">
-              <li>Cuisine: Multi-Cuisine</li>
-              <li>Show Program: Background music</li>
-              <li>Capacity: 200-250 persons</li>
+              <li>{{ $t("restMicePassage1") }}</li>
+              <li>{{ $t("restMicePassage2") }}</li>
+              <li>{{ $t("restMicePassage3") }}</li>
+            </ul>
+          </div>
+          <div class="mb-10">
+            <h4>{{ $t("restMiceChaykiH") }}</h4>
+            <ul class="list-disc text-gray-500">
+              <li>{{ $t("restMiceChayki1") }}</li>
+              <li>{{ $t("restMiceChayki2") }}</li>
+              <li>{{ $t("restMiceChayki3") }}</li>
             </ul>
           </div>
         </div>
@@ -82,7 +90,7 @@
 </template>
 
 <script setup>
-import carousel from "../../components/Carousel_Mice_Hotels";
+import carousel from "@/components/Carousel_Mice_Hotels";
 </script>
 <style scoped>
 .parallax {

@@ -812,7 +812,6 @@ export default {
         hotelsLankaranIntro:
           "Discover the perfect stay in Lankaran! Enjoy warm hospitality, stunning views and convenient amenities, ensuring a memorable experience in this charming city. With breathtaking views of the Caspian Sea and the serene beauty of the Talysh Mountains, Lankaran provides the perfect backdrop for your travels. Plan your trip today and immerse yourself in the charm of this captivating city.",
 
-
         azeH1: "Azerbaijan",
         azeIntro:
           "Azerbaijan boasts a diverse landscape, from the Caspian Sea's shimmering shores to the rugged peaks of the Caucasus Mountains. Our mission is to unlock the wonders of Azerbaijan for travelers worldwide. By providing personalized travel experiences, exceptional service, and a deep respect for local culture, we aim to inspire the lives of our guests through unforgettable adventures in Azerbaijan.",
@@ -831,9 +830,12 @@ export default {
         azeVisaP:
           "Visa types and durations vary based on the purpose of travel, ensuring visitors can experience Azerbaijan's cultural richness and natural beauty with ease.",
         azeVisaH1: "AZERBAIJAN E-VISA",
-        azeVisaP1: "Visa types and durations vary based on the purpose of travel, ensuring visitors can experience Azerbaijan's cultural richness and natural beauty with ease.",
-        azeMapIntro: "Travelers planning to visit Azerbaijan should be aware of the country's visa requirements.",
-        azeMapIntro1: "For the citizens of the countries eligible for e-Visa: https://mfa.gov.az/en/category/visa.For ASAN Tourist e-Visa: https://evisa.gov.az/en/",
+        azeVisaP1:
+          "Visa types and durations vary based on the purpose of travel, ensuring visitors can experience Azerbaijan's cultural richness and natural beauty with ease.",
+        azeMapIntro:
+          "Travelers planning to visit Azerbaijan should be aware of the country's visa requirements.",
+        azeMapIntro1:
+          "For the citizens of the countries eligible for e-Visa: https://mfa.gov.az/en/category/visa.For ASAN Tourist e-Visa: https://evisa.gov.az/en/",
         azeRegions: "Toursit Regions",
         azeRegionsP:
           "Azerbaijan's diverse landscape is divided into several distinctive regions, each offering its own blend of cultural heritage and natural beauty. From the dynamic urban center of Baku and the historic Absheron Peninsula to the scenic wonders of the Caucasus Mountains and Caspian Sea coast, explore the rich tapestry of experiences awaiting travelers across the country.",
@@ -843,38 +845,191 @@ export default {
         azeEvents: "Events & Festivals",
         azeEventsP:
           "Azerbaijan's events and festivals are vibrant celebrations that reflect the country's cultural diversity, historical richness and warm hospitality. Throughout the year, Azerbaijan hosts a variety of events that highlight its traditions, arts, music, and culinary delights, offering both locals and visitors unforgettable experiences.",
-        azeEventsP1: "From ancient cultural rituals to modern-day music festivals, Azerbaijan's events showcase the country's dynamic spirit and provide a glimpse into its colorful tapestry of traditions and celebrations. Azerbaijan's events reflect its vibrant and dynamic cultural landscape, inviting visitors to immerse themselves in its rich tapestry of traditions and celebrations throughout the year.",
-        novruz: "Celebrated in March to mark the arrival of spring, Nowruz is Azerbaijan's most cherished and ancient holiday. It includes traditional customs such as jumping over fires and exchanging gifts to welcome the new year with prosperity and renewal.",
+        azeEventsP1:
+          "From ancient cultural rituals to modern-day music festivals, Azerbaijan's events showcase the country's dynamic spirit and provide a glimpse into its colorful tapestry of traditions and celebrations. Azerbaijan's events reflect its vibrant and dynamic cultural landscape, inviting visitors to immerse themselves in its rich tapestry of traditions and celebrations throughout the year.",
+        novruz:
+          "Celebrated in March to mark the arrival of spring, Nowruz is Azerbaijan's most cherished and ancient holiday. It includes traditional customs such as jumping over fires and exchanging gifts to welcome the new year with prosperity and renewal.",
         jazz: "Held annually in October, the Baku Jazz Festival attracts renowned jazz musicians from around the world to perform in various venues across Baku. It is a celebration of jazz music that showcases Azerbaijan's appreciation for cultural diversity and musical excellence.",
-        musicFest: "Taking place in the picturesque city of Gabala in July, this festival brings together classical music performers and enthusiasts for concerts set against the backdrop of the Caucasus Mountains. It highlights Azerbaijan's classical music heritage and promotes cultural exchange through music.",
-        mughamFest : "Mugham, Azerbaijan's traditional music genre, is celebrated during this festival held in Baku each year. It features performances by mugham singers and musicians, workshops, and competitions to preserve and promote this integral part of Azerbaijani cultural heritage",
-        filmFest: "As a platform for international cinema, BIFF showcases a diverse selection of films from around the world while also highlighting Azerbaijan's emerging film industry. It attracts filmmakers, actors, and cinema enthusiasts to Baku for screenings, discussions, and awards ceremonies.",
-        foodFest: "Held in the historical city of Sheki, this festival celebrates Azerbaijan's culinary traditions along the ancient Silk Road. It features a variety of traditional Azerbaijani dishes, as well as cuisine from other Silk Road countries, offering a delicious journey through cultural gastronomy.",
-        cop29: "COP-29 refers to the 29th Conference of the Parties to the United Nations Framework Convention on Climate Change (UNFCCC). This international conference brings together representatives from countries around the world to discuss and negotiate global efforts to address climate change.",
+        musicFest:
+          "Taking place in the picturesque city of Gabala in July, this festival brings together classical music performers and enthusiasts for concerts set against the backdrop of the Caucasus Mountains. It highlights Azerbaijan's classical music heritage and promotes cultural exchange through music.",
+        mughamFest:
+          "Mugham, Azerbaijan's traditional music genre, is celebrated during this festival held in Baku each year. It features performances by mugham singers and musicians, workshops, and competitions to preserve and promote this integral part of Azerbaijani cultural heritage",
+        filmFest:
+          "As a platform for international cinema, BIFF showcases a diverse selection of films from around the world while also highlighting Azerbaijan's emerging film industry. It attracts filmmakers, actors, and cinema enthusiasts to Baku for screenings, discussions, and awards ceremonies.",
+        foodFest:
+          "Held in the historical city of Sheki, this festival celebrates Azerbaijan's culinary traditions along the ancient Silk Road. It features a variety of traditional Azerbaijani dishes, as well as cuisine from other Silk Road countries, offering a delicious journey through cultural gastronomy.",
+        cop29:
+          "COP-29 refers to the 29th Conference of the Parties to the United Nations Framework Convention on Climate Change (UNFCCC). This international conference brings together representatives from countries around the world to discuss and negotiate global efforts to address climate change.",
         F1: "The Formula 1 Grand Prix in Azerbaijan, officially known as the Azerbaijan Grand Prix, is a prestigious motorsport event held annually in the capital city of Baku. The Azerbaijan Grand Prix has produced memorable moments and dramatic races, including unexpected podium finishes, crashes, and strategic battles among drivers and teams. The street circuit nature of Baku adds an element of unpredictability, making it a fan-favorite among spectators and viewers worldwide.",
-        wineFest: "The Grape and Wine Festival in Azerbaijan is a lively celebration that highlights the country's rich winemaking traditions and cultural heritage. The Grape and Wine Festival is typically held in various regions across Azerbaijan known for their vineyards and winemaking history. Popular locations include Shamakhi, Ismayilli, Ganja, and Tovuz, where local wineries and vineyards showcase their products. The festival usually takes place in late summer or early autumn, coinciding with the grape harvest season. This period allows attendees to experience the vineyards at their most picturesque and vibrant, with grapes ready for harvest.",
-        pomegFest: "The Pomegranate Festival is typically held in Goychay, a region in central Azerbaijan known for its fertile soil and extensive orchards of pomegranate trees. Goychay has earned the title of 'pomegranate capital' due to its long history of pomegranate cultivation and production. The festival usually takes place in early October, coinciding with the harvest season when pomegranates are at their peak ripeness. It celebrates the abundance of this fruit and its cultural importance in Azerbaijani cuisine and traditions.",
-          azeUnesco: "UNESCO Heritage Sites",
+        wineFest:
+          "The Grape and Wine Festival in Azerbaijan is a lively celebration that highlights the country's rich winemaking traditions and cultural heritage. The Grape and Wine Festival is typically held in various regions across Azerbaijan known for their vineyards and winemaking history. Popular locations include Shamakhi, Ismayilli, Ganja, and Tovuz, where local wineries and vineyards showcase their products. The festival usually takes place in late summer or early autumn, coinciding with the grape harvest season. This period allows attendees to experience the vineyards at their most picturesque and vibrant, with grapes ready for harvest.",
+        pomegFest:
+          "The Pomegranate Festival is typically held in Goychay, a region in central Azerbaijan known for its fertile soil and extensive orchards of pomegranate trees. Goychay has earned the title of 'pomegranate capital' due to its long history of pomegranate cultivation and production. The festival usually takes place in early October, coinciding with the harvest season when pomegranates are at their peak ripeness. It celebrates the abundance of this fruit and its cultural importance in Azerbaijani cuisine and traditions.",
+        azeUnesco: "UNESCO Heritage Sites",
         azeUnescoP:
           "Azerbaijan, a country at the crossroads of Europe and Asia, is home to a rich tapestry of cultural and historical heritage that has been recognized and celebrated by UNESCO. These sites stand as testaments to Azerbaijan's significance in global heritage.",
-          azeUnescoP1: "Azerbaijan, a country rich in cultural and historical heritage, boasts several UNESCO World Heritage Sites that reflect its vibrant past and unique contributions to global history. These sites are recognized for their outstanding universal value and are treasured as symbols of Azerbaijan's cultural identity. Here's a closer look at the UNESCO-inscribed sites in Azerbaijan. Each site offers a unique narrative of Azerbaijan's past, from ancient rock art to medieval palaces, highlighting its enduring cultural legacy and its role in shaping the region's history.",
+        azeUnescoP1:
+          "Azerbaijan, a country rich in cultural and historical heritage, boasts several UNESCO World Heritage Sites that reflect its vibrant past and unique contributions to global history. These sites are recognized for their outstanding universal value and are treasured as symbols of Azerbaijan's cultural identity. Here's a closer look at the UNESCO-inscribed sites in Azerbaijan. Each site offers a unique narrative of Azerbaijan's past, from ancient rock art to medieval palaces, highlighting its enduring cultural legacy and its role in shaping the region's history.",
 
-
-
-        kebab :"Tika Kebab, known for its simplicity and robust flavors, features tender cubes of marinated meat (often lamb or chicken) threaded onto skewers and grilled to perfection over open flames. The magic begins with the marinade, a blend of yogurt, garlic, onions, and an assortment of spices such as paprika, cumin, and sumac. The grilling process itself is a spectacle to behold skewers laden with meat, carefully rotated over glowing embers until each piece is caramelized on the outside yet succulent and juicy within. This meticulous attention to cooking ensures that every bite of Tika Kebab is a harmonious balance of flavors and textures, a testament to the skill and passion of Azerbaijani grill masters.",
-        dolma: "Dolma, meaning 'stuffed' in Azerbaijani language, refers to a variety of stuffed vegetable dishes. In this particular rendition, ripe tomatoes, vibrant bell peppers, and tender eggplants are carefully hollowed out and filled with a savory mixture of minced meat (often lamb or beef), rice, onions, and an array of aromatic herbs and spices. Each vegetable is meticulously carved to create a delicate vessel for the filling. The stuffing, a blend of minced meat seasoned with finely chopped onions, fragrant herbs like parsley and dill, and spices such as cinnamon, cumin, and paprika, is mixed with rice.",
-        caviar: "Baku Caviar is celebrated worldwide for its exceptional quality and distinct flavor profiles, which vary depending on the species of sturgeon and the precise harvesting techniques employed. Among the most sought-after varieties are Beluga, Ossetra, and Sevruga, each distinguished by its size, color, and the size and texture of its eggs. The production of Baku Caviar is a meticulous process that requires expertise and dedication. Sturgeon, revered for their prized roe, are carefully caught and gently processed to extract the precious eggs without compromising their integrity. The caviar is then delicately salted to enhance its natural flavor while preserving its delicate texture.",
-        dushbara: "Dushbara are typically made from a thin dough rolled out into small squares or circles, then filled with a savory mixture of minced lamb or beef, onions, and fragrant herbs like parsley and dill. The filling is generously seasoned with spices such as black pepper, cumin, and sometimes sumac, which impart a robust flavor to each bite. The art of making Dushbara lies in their size and shape; each dumpling is painstakingly crafted to be no larger than a fingertip, ensuring a balance between the tender dough and flavorful filling. Once filled, the edges of the dough are pinched together to create a small pouch, reminiscent of traditional Azerbaijani craftsmanship.",
-        shahPlov: "Shah Plov is more than just a meal; it is a cultural symbol in Azerbaijani society, often served at weddings, festive gatherings, and celebrations of all kinds. The rice is cooked to fluffy perfection, infused with layers of flavor from a fragrant broth made with lamb or beef, onions, and an array of spices. These spices may include saffron, cumin, cinnamon, cloves, and dried fruits like apricots or raisins, imparting a subtle sweetness to the dish. The meat in Shah Plov is typically lamb or beef, which is first seared to seal in its juices and then slow-cooked with onions until tender. This process ensures that the meat is succulent and infused with the rich flavors of the broth, complementing the rice perfectly.",
-        gutab: "Gutab begins with a thin, unleavened dough made from flour, water, and salt. The dough is rolled out into thin rounds or squares, creating a delicate canvas ready to be filled with a savory mixture. The fillings for Gutab vary widely, reflecting the diversity of Azerbaijani cuisine and local ingredients.One of the most common fillings is a mixture of minced lamb or beef, onions, and fragrant herbs such as parsley, dill, and cilantro. The filling is generously seasoned with spices like cumin, paprika, and sumac, which lend depth and complexity to the flavors. Once filled, the dough is folded over the filling, creating a half-moon or triangle shape, and then sealed along the edges. The filled Gutab is then cooked on a griddle, traditionally known as a 'saj', where it is lightly brushed with oil or butter and cooked until golden brown and crispy on the outside.",
+        kebab:
+          "Tika Kebab, known for its simplicity and robust flavors, features tender cubes of marinated meat (often lamb or chicken) threaded onto skewers and grilled to perfection over open flames. The magic begins with the marinade, a blend of yogurt, garlic, onions, and an assortment of spices such as paprika, cumin, and sumac. The grilling process itself is a spectacle to behold skewers laden with meat, carefully rotated over glowing embers until each piece is caramelized on the outside yet succulent and juicy within. This meticulous attention to cooking ensures that every bite of Tika Kebab is a harmonious balance of flavors and textures, a testament to the skill and passion of Azerbaijani grill masters.",
+        dolma:
+          "Dolma, meaning 'stuffed' in Azerbaijani language, refers to a variety of stuffed vegetable dishes. In this particular rendition, ripe tomatoes, vibrant bell peppers, and tender eggplants are carefully hollowed out and filled with a savory mixture of minced meat (often lamb or beef), rice, onions, and an array of aromatic herbs and spices. Each vegetable is meticulously carved to create a delicate vessel for the filling. The stuffing, a blend of minced meat seasoned with finely chopped onions, fragrant herbs like parsley and dill, and spices such as cinnamon, cumin, and paprika, is mixed with rice.",
+        caviar:
+          "Baku Caviar is celebrated worldwide for its exceptional quality and distinct flavor profiles, which vary depending on the species of sturgeon and the precise harvesting techniques employed. Among the most sought-after varieties are Beluga, Ossetra, and Sevruga, each distinguished by its size, color, and the size and texture of its eggs. The production of Baku Caviar is a meticulous process that requires expertise and dedication. Sturgeon, revered for their prized roe, are carefully caught and gently processed to extract the precious eggs without compromising their integrity. The caviar is then delicately salted to enhance its natural flavor while preserving its delicate texture.",
+        dushbara:
+          "Dushbara are typically made from a thin dough rolled out into small squares or circles, then filled with a savory mixture of minced lamb or beef, onions, and fragrant herbs like parsley and dill. The filling is generously seasoned with spices such as black pepper, cumin, and sometimes sumac, which impart a robust flavor to each bite. The art of making Dushbara lies in their size and shape; each dumpling is painstakingly crafted to be no larger than a fingertip, ensuring a balance between the tender dough and flavorful filling. Once filled, the edges of the dough are pinched together to create a small pouch, reminiscent of traditional Azerbaijani craftsmanship.",
+        shahPlov:
+          "Shah Plov is more than just a meal; it is a cultural symbol in Azerbaijani society, often served at weddings, festive gatherings, and celebrations of all kinds. The rice is cooked to fluffy perfection, infused with layers of flavor from a fragrant broth made with lamb or beef, onions, and an array of spices. These spices may include saffron, cumin, cinnamon, cloves, and dried fruits like apricots or raisins, imparting a subtle sweetness to the dish. The meat in Shah Plov is typically lamb or beef, which is first seared to seal in its juices and then slow-cooked with onions until tender. This process ensures that the meat is succulent and infused with the rich flavors of the broth, complementing the rice perfectly.",
+        gutab:
+          "Gutab begins with a thin, unleavened dough made from flour, water, and salt. The dough is rolled out into thin rounds or squares, creating a delicate canvas ready to be filled with a savory mixture. The fillings for Gutab vary widely, reflecting the diversity of Azerbaijani cuisine and local ingredients.One of the most common fillings is a mixture of minced lamb or beef, onions, and fragrant herbs such as parsley, dill, and cilantro. The filling is generously seasoned with spices like cumin, paprika, and sumac, which lend depth and complexity to the flavors. Once filled, the dough is folded over the filling, creating a half-moon or triangle shape, and then sealed along the edges. The filled Gutab is then cooked on a griddle, traditionally known as a 'saj', where it is lightly brushed with oil or butter and cooked until golden brown and crispy on the outside.",
         sadj: "Sadj, a beloved dish in Azerbaijan, holds a special place in the cuisine of this diverse and culturally rich country. Imagine a large, flat metal plate called sadj, heated over an open fire or stove. On the sadj, you'll find a delightful mix of thinly sliced vegetables—tomatoes, bell peppers, eggplants—interspersed with aromatic herbs like parsley and cilantro. Depending on the variation, tender cuts of lamb or beef might also join the mix, adding a savory depth. Served hot and straight from the sadj, often enjoyed with lavash (flatbread) or rice pilaf, making it a hearty and satisfying meal, perfect for gatherings and special occasions. Beyond its culinary appeal, sadj is a cultural symbol, showcasing Azerbaijan's culinary heritage and the importance of seasonal ingredients in its traditional dishes.",
-        yarpaqDolma: "Yarpaq dolmasi are vine leaves (yarpaq) wrapped around lamb, herbs and rice. Tender grape leaves carefully selected and blanched, ready to be filled with a savory mixture of ground meat—typically lamb or beef—mixed with rice, onions, and aromatic herbs like dill, mint, and parsley. Each dolma is meticulously rolled into a compact shape, ensuring the filling is perfectly enclosed. In a large pot lined with grape leaves, these dolmas are nestled together, creating layers of flavor. A blend of water, tomato paste, and sometimes lemon juice is poured over them, adding a tangy depth to the dish. Served hot, yarpaq dolma is a centerpiece dish, often accompanied by yogurt or sour cream, enhancing its savory profile.",
-        dovqa: "Dovga, a staple of Azerbaijani cuisine, is much more than just a soup—it's a refreshing and nourishing tradition that embodies the country's culinary heritage. This unique dish is particularly cherished during the warm summer months for its cooling properties and delightful combination of flavors. The base of yogurt, thinned to a creamy consistency with water, providing a smooth backdrop for the soup. Into this, tender grains like rice are added, contributing a hearty texture. Fresh herbs such as dill, mint, and parsley, finely chopped for maximum aroma, are stirred in, infusing the soup with a burst of freshness. Preparation often involves cooking the grains separately until nearly tender, then gently simmering them with the yogurt and herbs until all flavors meld beautifully. The result is a soup that's served either warm or at room temperature, making it versatile for different occasions.",
-        sturgeon: "Caspian sturgeon kebab, chunks of sturgeon are marinated in a blend of olive oil, lemon juice, garlic, and seasonings like salt, pepper, and fresh herbs. This marinade not only enhances the natural flavors of the fish but also helps keep it tender during grilling.Once marinated, the sturgeon pieces are skewered with colorful vegetables such as bell peppers, onions, and tomatoes. This kebab is not just a dish but a testament to Azerbaijan's culinary expertise, blending fresh seafood with expert grilling techniques to create a dish that delights both locals and visitors alike, embodying the essence of Azerbaijani gastronomy. ",
-        murebbe: "Murebbe, also known as 'murabba' in some cultures, is a type of preserve or jam that originates from Azerbaijani and wider Middle Eastern cuisines. It involves cooking fruits (such as quince, strawberries or apricots) in a sugar syrup until the fruits become tender and translucent and the syrup thickens. This process not only preserves the fruits but also enhances their natural sweetness. The fruits are typically peeled, cored, and cut into pieces before being simmered gently in the syrup made from sugar and water. The cooking process is slow and requires occasional stirring to ensure the fruits cook evenly and the syrup thickens properly. More often prepared during the fruit harvest season and enjoyed as a dessert or sweet accompaniment to tea. It is also a popular homemade gift, symbolizing hospitality and the abundance of seasonal fruits.",
-        pakhlava: "Pakhlava is a traditional Azerbaijani pastry that holds significant cultural importance, especially during holidays and celebrations such as Nowruz and weddings. This sweet  is made from thin layers of unleavened dough, which are rolled out very thinly and layered with butter or oil to create a delicate, flaky texture.The traditional filling consists of finely chopped nuts, typically walnuts, almonds, or pistachios, mixed with sugar and flavored with spices such as ground cardamom. Some variations also include rosewater or saffron for additional fragrance and flavor.After baking, pakhlava is generously drizzled with a syrup made from sugar, water, and sometimes lemon juice. The syrup is heated until it reaches a thread-like consistency, allowing it to soak into the layers of pastry and nuts, adding sweetness and moisture.",
-        
-        },
+        yarpaqDolma:
+          "Yarpaq dolmasi are vine leaves (yarpaq) wrapped around lamb, herbs and rice. Tender grape leaves carefully selected and blanched, ready to be filled with a savory mixture of ground meat—typically lamb or beef—mixed with rice, onions, and aromatic herbs like dill, mint, and parsley. Each dolma is meticulously rolled into a compact shape, ensuring the filling is perfectly enclosed. In a large pot lined with grape leaves, these dolmas are nestled together, creating layers of flavor. A blend of water, tomato paste, and sometimes lemon juice is poured over them, adding a tangy depth to the dish. Served hot, yarpaq dolma is a centerpiece dish, often accompanied by yogurt or sour cream, enhancing its savory profile.",
+        dovqa:
+          "Dovga, a staple of Azerbaijani cuisine, is much more than just a soup—it's a refreshing and nourishing tradition that embodies the country's culinary heritage. This unique dish is particularly cherished during the warm summer months for its cooling properties and delightful combination of flavors. The base of yogurt, thinned to a creamy consistency with water, providing a smooth backdrop for the soup. Into this, tender grains like rice are added, contributing a hearty texture. Fresh herbs such as dill, mint, and parsley, finely chopped for maximum aroma, are stirred in, infusing the soup with a burst of freshness. Preparation often involves cooking the grains separately until nearly tender, then gently simmering them with the yogurt and herbs until all flavors meld beautifully. The result is a soup that's served either warm or at room temperature, making it versatile for different occasions.",
+        sturgeon:
+          "Caspian sturgeon kebab, chunks of sturgeon are marinated in a blend of olive oil, lemon juice, garlic, and seasonings like salt, pepper, and fresh herbs. This marinade not only enhances the natural flavors of the fish but also helps keep it tender during grilling.Once marinated, the sturgeon pieces are skewered with colorful vegetables such as bell peppers, onions, and tomatoes. This kebab is not just a dish but a testament to Azerbaijan's culinary expertise, blending fresh seafood with expert grilling techniques to create a dish that delights both locals and visitors alike, embodying the essence of Azerbaijani gastronomy. ",
+        murebbe:
+          "Murebbe, also known as 'murabba' in some cultures, is a type of preserve or jam that originates from Azerbaijani and wider Middle Eastern cuisines. It involves cooking fruits (such as quince, strawberries or apricots) in a sugar syrup until the fruits become tender and translucent and the syrup thickens. This process not only preserves the fruits but also enhances their natural sweetness. The fruits are typically peeled, cored, and cut into pieces before being simmered gently in the syrup made from sugar and water. The cooking process is slow and requires occasional stirring to ensure the fruits cook evenly and the syrup thickens properly. More often prepared during the fruit harvest season and enjoyed as a dessert or sweet accompaniment to tea. It is also a popular homemade gift, symbolizing hospitality and the abundance of seasonal fruits.",
+        pakhlava:
+          "Pakhlava is a traditional Azerbaijani pastry that holds significant cultural importance, especially during holidays and celebrations such as Nowruz and weddings. This sweet  is made from thin layers of unleavened dough, which are rolled out very thinly and layered with butter or oil to create a delicate, flaky texture.The traditional filling consists of finely chopped nuts, typically walnuts, almonds, or pistachios, mixed with sugar and flavored with spices such as ground cardamom. Some variations also include rosewater or saffron for additional fragrance and flavor.After baking, pakhlava is generously drizzled with a syrup made from sugar, water, and sometimes lemon juice. The syrup is heated until it reaches a thread-like consistency, allowing it to soak into the layers of pastry and nuts, adding sweetness and moisture.",
+        miceH1: "MEETINGS. INCENTIVES. CONFERENCES. EVENTS",
+        miceP1:
+          "Partner with us and let our expertise transform your next event into an unforgettable success. Discover why ENC Tours is your trusted partner for all your MICE travel needs.",
+        miceIntro:
+          "Explore our MICE services designed to streamline your event planning process and deliver exceptional experiences. From luxurious accommodations and state-of-the-art conference facilities to unique team-building activities and seamless logistics, we specialize in crafting memorable events that inspire and achieve your business objectives.",
+        miceHotelsP1:
+          "Explore a selection of premier hotels renowned for their exceptional MICE facilities. These venues offer versatile meeting spaces equipped with cutting-edge technology, personalized event planning services and they are dedicated to ensuring the success of your meetings, conferences, and corporate events. Discover the perfect blend of convenience, sophistication, and hospitality across our curated collection of MICE-friendly hotels.",
+        miceRestP1:
+          "Restaurants provide personalized event planning services to meet specific needs, from arranging seating layouts to curating custom menus that cater to diverse tastes and dietary requirements. With a focus on convenience and professional hospitality, they create an atmosphere conducive to productive meetings and memorable corporate events.",
+        miceActivP1:
+          "Our curated selection of activities: enriching team-building exercises and engaging networking opportunities, immersive cultural experiences and exhilarating recreational outings enhances every aspect of your business gatherings.",
+        miceMasterClassP1:
+          "Enjoy transformative learning experiences with Master Classes offered by ENC Tours. Designed to enrich MICE events, our Master Classes cover a range of topics from cultural unique trends and cuisine insights to specialized skills and creative workshops.",
+        hotelMiceFSH: "Four Seasons Hotel 5*",
+        hotelMiceFS1: "Total – 171 ROOMS",
+        hotelMiceFS2: "Largest Ballroom of the hotel -640 m2",
+        hotelMiceFS3:
+          "Theatre style for up to 250 people, total Space – 1,865 m2 (20,075 sq. ft.)",
+        hotelMiceRCH: "The Ritz-Carlton 5*",
+        hotelMiceRC1: "Total – 13 ROOMS",
+        hotelMiceRC2: "Largest Ballroom of the hotel -500 m2",
+        hotelMiceRC3: "Total Space – 2,202 m2 (23,702 sq.ft.)",
+        hotelMiceMarH: "JW Marriott Absheron Hotel Baku 5*",
+        hotelMiceMar1: "Total – 13 ROOMS",
+        hotelMiceMar2:
+          "Largest Ballroom of the hotel – 1207.5 m2 (12997.5 sq. ft.)",
+        hotelMiceMar3: "Total Space – 1,957 m2 (21,064 sq.ft.)",
+        hotelMiceHyattH: "Hyatt Regency 5*",
+        hotelMiceHyatt1: "Total – 9 ROOMS ",
+        hotelMiceHyatt2:
+          "Largest Ballroom of the hotel -  350 m2 (3,767 sq. ft.)",
+        hotelMiceHyatt3: "Total Space – 1,548 m2 (16,662 sq.ft.)",
+        hotelMiceFairmH: "Fairmont Baku Flame Towers Hotel 5*",
+        hotelMiceFairm1: "Total – 11 ROOMS",
+        hotelMiceFairm2:
+          "Largest Ballroom of the hotel – 1,014 m2 (10915 sq. ft.)",
+        hotelMiceFairm3: "Total Space – 2,500 m2 (26910 sq. ft.)",
+        hotelMiceHiltonH: "Hilton Baku Hotel 5*",
+        hotelMiceHilton1: "Total – 24 ROOMS",
+        hotelMiceHilton2:
+          "Largest Ballroom of the hotel –675 m2 (7265.6 sq. ft.)",
+        hotelMiceHilton3: "Total Space – 2,298 m2 (24735 sq.ft.)",
+        hotelMiceInterH: "Intercontinental Baku 5*",
+        hotelMiceInter1: "Total – 4 ROOMS",
+        hotelMiceInter2:
+          "Largest Ballroom of the hotel - 1,210 sq m (13.024 sq. ft.)",
+        hotelMiceInter3: "Total Space –197.98 m2 (2,131 sq.ft.)",
+        hotelMiceSherH: "Sheraton Baku Intourist Hotel 5*",
+        hotelMiceSher1: "Total – 1 ROOM",
+        hotelMiceSher2: "Largest Ballroom of the hotel –60,01 m2 (646 sq. ft.)",
+        hotelMiceSher3: "Total Space – 60,01 m2 (646 sq. ft.)",
+        hotelMiceMerchantH: "The Merchant Baku 4*",
+        hotelMiceMerchant1: "Total – 2 ROOMS",
+        hotelMiceMerchant2: "Largest Ballroom of the hotel -",
+        hotelMiceMerchant3: "Total Space –",
+        hotelMiceRadisH: "Radisson Hotel Baku 4*",
+        hotelMiceRadis1: "Total –  6  ROOMS",
+        hotelMiceRadis2:
+          "Largest Ballroom of the hotel - 324 m2 (3487,50 sq. ft.)",
+        hotelMiceRadis3: "Total Space – 623 m2 (6705,92)",
+        hotelMiceCoutH: "Courtyard by Marriott Baku 4*",
+        hotelMiceCout1: "Total –  11  ROOMS",
+        hotelMiceCout2: "Largest Ballroom of the hotel – 46 m2",
+        hotelMiceCout3: "Total Space – 502 m2",
+        hotelMiceBoulevH: "Baku Marriott Hotel Boulevard 4*",
+        hotelMiceBoulev1: "Total –   7 ROOMS ",
+        hotelMiceBoulev2:
+          "Largest Ballroom of the hotel - 1,332 m2 (14,337 sq. ft.)",
+        hotelMiceBoulev3: "Total Space – 2,061 m2",
+        restMiceH: "Restaurants",
+        restMiceIntro:
+          "Explore Azerbaijan's top restaurants curated for MICE events. Discover diverse culinary offerings blending Azerbaijani traditions with global flavors, perfect for business gatherings. The restaurants offer a diverse culinary landscape where traditional Azerbaijani flavors blend seamlessly with international cuisines, catering perfectly to the discerning tastes of business travelers and event organizers alike.",
+        restMiceShirvH: "Shirvanshah Museum Restaurant",
+        restMiceShirv1: "Cuisine: National",
+        restMiceShirv2: "Show Program: Life music & mugham",
+        restMiceShirv3: "Capacity: 300 persons",
+        restMiceHanH: "Han Restaurant Baku",
+        restMiceHan1: "Cuisine: National",
+        restMiceHan2: "Show Program: Background music",
+        restMiceHan3: "Capacity: 150-180 persons",
+        restMiceMangalH: "Mangal",
+        restMiceMangal1: "Cuisine: National, American, European",
+        restMiceMangal2: "Show Program: Life music, mugham",
+        restMiceMangal3: "Capacity: 30-300 persons",
+        restMiceMugamH: "Mugam Club",
+        restMiceMugam1: "Cuisine: Multi-Cuisine",
+        restMiceMugam2: "Show Program: National dances, mugham",
+        restMiceMugam3: "Capacity: 150 persons",
+        restMiceGalaH: "Gala Bazaar Restaurant",
+        restMiceGala1: "Cuisine: National",
+        restMiceGala2: "Show Program: National dances, mugham",
+        restMiceGala3: "Capacity: 400-500 persons",
+        restMicePriveH: "Prive Steak Gallery Baku",
+        restMicePrive1: "Cuisine: National, American",
+        restMicePrive2: "Show Program: Background music",
+        restMicePrive3: "Capacity: 300 persons",
+        restMicePassageH: "Passage 1901",
+        restMicePassage1: "Cuisine: Multi-Cuisine",
+        restMicePassage2: "Show Program: Background music",
+        restMicePassage3: "Capacity: 200-250 persons",
+        restMiceChaykiH: "Chayki",
+        restMiceChayki1: "Cuisine: Multi-Cuisine",
+        restMiceChayki2: "Show Program: Background music",
+        restMiceChayki3: "Capacity: 200-250 persons",
+        actMiceH: "Activities",
+        actMiceP:
+          "Enhance your corporate events with a variety of engaging experiences that help to team-building and cultural exploration. Enjoy exhilarating outdoor adventures, strategic challenges, and opportunities for relaxation and bonding, ensuring a well-rounded itinerary that complements your business agenda in this dynamic city.",
+        actMiceL1: "Jeep Safari",
+        actMiceL2: "Karting",
+        actMiceL3: "Paintball",
+        actMiceL4: "Baku Shooting Centre",
+        actMiceL5: "Mountain Bike Velopark",
+        actMiceL6: "Wine degustation",
+        actMiceL7: "Quiz in the Old City",
+        actMasterH: "Master Classes",
+        actMasterP:
+          "Our curated selection of cultural workshops designed for MICE events in Baku. Immerse yourself in hands-on experiences that highlight the essence of Azerbaijani heritage. Explore traditional culinary techniques, intricate arts and crafts, and vibrant dance forms, each offering a unique glimpse into local traditions and fostering team bonding and creativity. Enhance your event with these enriching cultural workshops, ensuring a memorable experience in Baku.",
+        MasterCulinH: "Culinary Master-class:",
+        MasterYogurtH:
+          "Yogurt Master Class. The authentic name of local yogurt is “qatiq”. Qatiq is usually served with some traditional dishes that usually have vegetables or meat among its ingredients. During this master class you will be able to see and learn how qatiq is prepared and served. In addition, you will have the opportunity to try it out and some other dairy products.",
+        MasterHalvaH:
+          "Sheki Halva is a traditional sweet and is considered the specialty of Sheki. Authentic halva is prepared in halva shops by a “halvachi”. Each halvachi has its own recipe, which is passed down from generation to generation and kept secret. Doing halva requires a lot of skill, time and patience.",
+        MasterGutabH:
+          "Gutab Master Class. The Gutab Making Class in Baku offers participants a chance to learn the art of making gutab, a traditional Azerbaijani dish. During the class, attendees typically learn how to prepare the dough, stuff it with various fillings such as minced meat, spinach, or herbs, and then cook it on a hot griddle. It's a hands-on experience that not only teaches culinary skills but also provides insight into Azerbaijani culture and cuisine.",
+        MasterDushbaraH:
+          "Dushbara Master Class. Dushabara- traditional Azerbaijani dish consisting of small dumplings filled with spiced minced meat. During the class, participants learn to prepare the dough, shape the dumplings, and cook them in a flavorful broth. It's an engaging activity that making it ideal for MICE groups looking to experience authentic Azerbaijani cuisine in Baku.",
+        MasterUniqueH: "Unique Experience:",
+        MasterShebekeH:
+          "Shebeke Master Class. Shebeke in Sheki – is filled windows with colored glasses, created by the Azerbaijani folk artists of small wooden parts without glue and nails. The windows of Sheki Khan Palace are decorated shebeke. And most of residential stone houses XVIII-XIX centuries in Sheki, decorated shebeke.",
+        MasterCopperH:
+          "Copper craftsmanship of Lahij is the traditional practice of making and using copperware concentrated in the Lahij community in the Caucasus. The tradition is transmitted within families from father to son. Numerous families in Azerbaijan come to buy copperware in Lahij and use it in their daily lives believing it improves the health benefits of food. For artisans, the tradition represents a major source of living and provides a strong sense of identity and community pride.",
+        MasterKelagaiH:
+          "Master class of kelagai. Kelagai is Azerbaijani women’s national headscarf made from fine and soft silk in a four-cornered shape. Kelagai was an integral part of women’s national costume in Azerbaijan. Silk kelagai protected them from both the hot sun and cold wind as silk is cool in summer and warm in winter. Basqal settlement of the Ismayilli region was famous for high quality kelagai production.",
+        MasterDanceH:
+          "Traditional Dance Master Class.  Led by experienced instructors, the class introduces participants to various traditional dance styles such as Yalli, Lezginka, and Mugham, each representing different regions and cultural nuances of Azerbaijan. Participants learn basic steps, rhythmic patterns, and the cultural significance behind each dance form. This experience promotes physical activity and allows to get information about the national dance culture.",
+      },
       de: {
         home: "STARTSEITE",
         az: "ASERBAIDSCHAN",
@@ -2292,32 +2447,31 @@ export default {
           "Saat Meydani Nakhchivan alberga restaurante, jardín, terraza y bar. El establecimiento cuenta con habitaciones familiares y parque infantil. El alojamiento ofrece recepción 24 horas, servicio de enlace con el aeropuerto, servicio de habitaciones y WiFi gratuita en todas las instalaciones. Todas las habitaciones del hotel están equipadas con armario, ropa de cama y balcón con vistas a la montaña. Todos los alojamientos disponen de aire acondicionado, caja fuerte y TV de pantalla plana. El aeropuerto más cercano es el aeropuerto internacional de Nakhchivan, ubicado a 3 km del Saat Meydani Nakhchivan.",
         HotelTebriz:
           "Tebriz Hotel Nakhchivan ofrece alojamiento moderno y elegante en el centro de Nakhchivan y cuenta con piscina cubierta y spa con baño turco y servicio de masajes. El establecimiento también cuenta con centro de fitness y solárium. Las habitaciones disponen de conexión Wi-Fi gratuita, TV vía satélite, aire acondicionado, minibar, hervidor eléctrico, café gratuito, zona de estar y baño privado con artículos de aseo gratuitos y secador de pelo. Las habitaciones tienen vistas al lago y a la montaña. Todas las mañanas se sirve un desayuno abundante. También hay un bar y un restaurante en el establecimiento. El Hotel Tebriz Nakhchivan se encuentra a 7 km del Aeropuerto de Nakhchivan.",
-          
-          
-          azeH1: "Azerbaijan",
-          azeIntro: "",
-          azeGenFacts: "General Facts",
-          azeGenFactsP: "",
-          azeMap: "Map of Azerbaijan",
-          azeMapP: "",
-          azeMapH1: "Map of Azerbaijan",
-          azeMapP1: "",
-          azeMapP2: "",
-          azeVisa: "Azerbaijan E-Visa",
-          azeVisaP: "",
-          azeVisaH1: "AZERBAIJAN E-VISA",
-          azeVisaP1: "",
-          azeMapIntro: "",
-          azeMapIntro1: "",
-          azeRegions: "Toursit Regions",
-          azeRegionsP: "",
-          azeCuisine: "Azerbaijan Cuisines",
-          azeCuisineP: "",
-          azeEvents: "Events & Festivals",
-          azeEventsP: "",
-          azeUnesco: "UNESCO Heritage Sites",
-          azeUnescoP:"",
-        },
+
+        azeH1: "Azerbaijan",
+        azeIntro: "",
+        azeGenFacts: "General Facts",
+        azeGenFactsP: "",
+        azeMap: "Map of Azerbaijan",
+        azeMapP: "",
+        azeMapH1: "Map of Azerbaijan",
+        azeMapP1: "",
+        azeMapP2: "",
+        azeVisa: "Azerbaijan E-Visa",
+        azeVisaP: "",
+        azeVisaH1: "AZERBAIJAN E-VISA",
+        azeVisaP1: "",
+        azeMapIntro: "",
+        azeMapIntro1: "",
+        azeRegions: "Toursit Regions",
+        azeRegionsP: "",
+        azeCuisine: "Azerbaijan Cuisines",
+        azeCuisineP: "",
+        azeEvents: "Events & Festivals",
+        azeEventsP: "",
+        azeUnesco: "UNESCO Heritage Sites",
+        azeUnescoP: "",
+      },
       it: {
         home: "HOME",
         az: "AZERBAIGIAN",
@@ -6190,5 +6344,5 @@ export default {
     },
   },
   locales: ["en", "de", "es", "it", "jp", "fr", "pt", "kr"],
-  defaultLocale: "en"
-}
+  defaultLocale: "en",
+};
