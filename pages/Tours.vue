@@ -705,6 +705,46 @@
               </div>
             </NuxtLink>
           </div>
+          <div
+            v-motion
+            :initial="{
+              opacity: 0,
+              y: 100,
+            }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: 'spring',
+                stiffness: 250,
+                damping: 70,
+                mass: 20,
+              },
+            }"
+            class="w-1/3 sectionDiv uppercase"
+          >
+            <NuxtLink :to="localePath('/tours/Azerbaijan_Grand_Tour')">
+              <div class="pb-2">
+                <img
+                  src="@/assets/images/nakh2.jpeg"
+                  class="imageStyle h-60 w-11/12 m-auto border-2 rounded-md border-gray-400 hover:scale-95 duration-300 transition-all"
+                  alt=""
+                  @mouseover="addBorder17"
+                  @mouseout="removeBorder17"
+                />
+              </div>
+              <div class="text-color pb-8">
+                <p
+                  ref="section17"
+                  class="pb-1"
+                  @mouseover="addBorder17"
+                  @mouseout="removeBorder17"
+                >
+                  {{ $t("susTour") }}
+                </p>
+              </div>
+            </NuxtLink>
+          </div>
         </div>
       </div>
     </div>
@@ -740,6 +780,7 @@ const section13 = ref(null);
 const section14 = ref(null);
 const section15 = ref(null);
 const section16 = ref(null);
+const section17 = ref(null);
 
 const { addBorder: addBorder1, removeBorder: removeBorder1 } =
   createHoverHandlers(section1);
@@ -773,6 +814,8 @@ const { addBorder: addBorder15, removeBorder: removeBorder15 } =
   createHoverHandlers(section15);
 const { addBorder: addBorder16, removeBorder: removeBorder16 } =
   createHoverHandlers(section16);
+const { addBorder: addBorder17, removeBorder: removeBorder17 } =
+  createHoverHandlers(section17);
 </script>
 <style scoped>
 .parallax {
