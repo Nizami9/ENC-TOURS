@@ -1029,6 +1029,31 @@ export default {
           "Master class of kelagai. Kelagai is Azerbaijani women’s national headscarf made from fine and soft silk in a four-cornered shape. Kelagai was an integral part of women’s national costume in Azerbaijan. Silk kelagai protected them from both the hot sun and cold wind as silk is cool in summer and warm in winter. Basqal settlement of the Ismayilli region was famous for high quality kelagai production.",
         MasterDanceH:
           "Traditional Dance Master Class.  Led by experienced instructors, the class introduces participants to various traditional dance styles such as Yalli, Lezginka, and Mugham, each representing different regions and cultural nuances of Azerbaijan. Participants learn basic steps, rhythmic patterns, and the cultural significance behind each dance form. This experience promotes physical activity and allows to get information about the national dance culture.",
+        AzGrandH: "Grand Route through Azerbaijan",
+        AzGrandD1: "",
+        AzGrandP1: "",
+        AzGrandD2: "",
+        AzGrandP2: "",
+        AzGrandD3: "",
+        AzGrandP3: "",
+        AzGrandD4: "",
+        AzGrandP4: "",
+        AzGrandD5: "",
+        AzGrandP5: "",
+        AzGrandD6: "",
+        AzGrandP6: "",
+        AzGrandD7: "",
+        AzGrandP7: "",
+        AzGrandD8: "",
+        AzGrandP68: "",
+        AzGrandD9: "",
+        AzGrandP69: "",
+        AzGrandD10: "",
+        AzGrandP10: "",
+        AzGrandD11: "",
+        AzGrandP11: "",
+        AzGrandD12: "",
+        AzGrandP12: "",
       },
       de: {
         home: "STARTSEITE",
@@ -1859,6 +1884,44 @@ export default {
           "Kelagai-Meisterkurs. Kelagai ist der Nationalschal der aserbaidschanischen Frauen aus feiner, weicher Seide in Form von vier Ecken. Kelagai war ein wesentlicher Bestandteil der weiblichen Nationaltracht in Aserbaidschan. Der Kelagai aus Seide schützte sie sowohl vor der heißen Sonne als auch vor dem kalten Wind, da Seide im Sommer kühl und im Winter warm ist. Die Basqal-Siedlung in der Region Ismayilli war berühmt für die Herstellung von hochwertigem Kelagai.",
         MasterDanceH:
           "Meisterkurs für traditionellen Tanz. Unter der Leitung erfahrener Lehrer führt der Kurs die Teilnehmer in verschiedene traditionelle Tanzstile ein, die jeweils unterschiedliche Regionen und kulturelle Nuancen Aserbaidschans repräsentieren. Die Teilnehmer lernen grundlegende Schritte, rhythmische Muster und die kulturelle Bedeutung jeder Tanzform. Dieses Erlebnis fördert die körperliche Aktivität und ermöglicht es Ihnen, die nationale Tanzkultur kennenzulernen.",
+
+        AzGrandH: "Große Tour durch Aserbaidschan",
+        AzGrandD1: "Tag 1: Ankunft in Baku",
+        AzGrandP1:
+          "Nach Ihrer Ankunft in Baku werden Sie vom Fahrer und Reiseleiter von ENC TOURS abgeholt und zu Ihrem Hotel gebracht.",
+        AzGrandD2: "Tag 2: Baku-Absheron-Baku (125 km)",
+        AzGrandP2:
+          "Nach dem Frühstück erkunden wir den Zoroastrischen Feuertempel von Ateschgah in der Siedlung Surakhani. Unser nächster Halt ist der „Brennenden Berg“ Yanar Dag. Yanar Dag liegt 25 km nördlich von Baku im Dorf Mehemmedli. Das an die Oberfläche sickernde Erdgas verleiht diesem Berg sein berühmtes „brennendes“ Aussehen. Anschließend umfasst Ihr geführter Rundgang durch Baku die mittelalterliche Stadtmauer „Icheri Sheher“ mit ihren engen Gassen, historischen Karawansereien, Moscheen und dem Palast der Schirwanschahs (UNESCO-Weltkulturerbe). Der Komplex des Shirvanshahs-Palastes war die letzte Residenz der Herrscher des Shirvan-Staates mit einer Geschichte von tausend Jahren. Wir werden auch ein weiteres UNESCO-Weltkulturerbe besichtigen, den Jungfrauenturm (Außenansicht), die imposanten Villen der Ölbarone, die während des Ölbooms von 1870-1914 erbaut wurden, und der Märtyrer-Friedhof mit ihrer herrlichen Aussicht über die Bucht von Baku. Dann sehen wir die Muhammed-Moschee (Außenansicht) und die Djuma-Moschee (Außenansicht). Übernachtung im Hotel in Baku. (F/-/-)",
+        AzGrandD3: "Tag 3: Baku-Guba-Khinalig-Guba (300 km)",
+        AzGrandP3:
+          "Heute Morgen verlassen wir Baku nach Guba. Die Fahrt dauert 2,5-3 Stunden. Nach Ihrer Ankunft in Guba unternehmen Sie einen Stadtrundgang. Wir fahren in Richtung Kaukasus zum Dorf Khinalig. Das Dorf Khinalig ist eine alte Siedlung, die bis in die kaukasisch-albanische Zeit zurückreicht. Khinalig ist das höchstgelegene, abgelegenste und isolierteste Dorf in Aserbaidschan (alle Touren nach Guba und Khinalig hängen von den Wetterbedingungen ab). Wir werden ein ethnografisches Museum besuchen. Übernachtung im Hotel in Guba. (F/-/-)",
+        AzGrandD4: "Tag 4: Guba – Baku-Shemakha-Nidj-Sheki (480 km)",
+        AzGrandP4:
+          "Heute Morgen besuchen wir Red Village, das von einer jüdischen Minderheit bewohnt wird. Bergjuden hatten sich vor mehr als zweitausend Jahren im Kaukasus niedergelassen und erschienen erst im 5. Jahrhundert auf dem aserbaidschanischen Land. Red Village ist nicht nur dafür bekannt, eine Oase einzigartiger nationaler Kultur zu sein, sondern auch für seine Einheimischen. Wir besuchen das Museum der Bergjuden (samstags geschlossen). Anschließend besuchen wir auf dem Rückweg nach Baku den Gedenkkomplex des Völkermords. Wir lassen Baku hinter uns und unsere Reise führt uns durch wunderschöne Landschaften auf dem Weg nach Shemakha. Nach der Ankunft in Shemakha besichtigen wir die historische Djuma-Moschee. Außerdem besuchen wir das Mausoleum von Diri Baba in Maraza und das antike Mausoleum und den Friedhof Yeddi Gumbez. Nach Shemakha besuchen wir das Dorf Nidzh, nicht weit von Gabala entfernt, das für ein einzigartiges Architekturdenkmal des kaukasischen Albaniens bekannt ist – den Udin-Tempel. Die Udins sind eine ganz besondere ethnische Gruppe, die als Nachkommen der Albaner gilt. Wir werden auch das Hausmuseum von Udins mit seinen Traditionen, seiner Sprache und seiner Geschichte besuchen. Ankunft in Sheki. Übernachtung in Sheki.(F/-/-)",
+        AzGrandD5: "Tag 5: Sheki-Kish-Sheki (10 km)",
+        AzGrandP5:
+          "Heute Morgen machen wir einen Spaziergang durch Sheki. Sheki, eine der ältesten Städte Aserbaidschans, wird zu Recht als architektonisches Reservat des Landes bezeichnet. Wir besuchen eines der wichtigsten Baudenkmäler Aserbaidschans – den Palast der Sheki Khans (1762). Danach besichtigen wir die Karawanserei in Sheki, die für ihren Handel berühmt war. Außerdem fahren wir zum Dorf Kish in der Nähe von Sheki. Kish, eines der ältesten Dörfer auf dem Gebiet Aserbaidschans, ist bekannt für sein einzigartiges Architekturdenkmal, einen Tempel aus der Zeit des kaukasischen Albaniens. Wir werden eine örtliche Bäckerei besuchen. Sie werden uns die Meisterklasse „Khalva“ vorführen. Khalva gilt als typisches Dessert Aserbaidschans. Es besteht hauptsächlich aus Mehl, Walnuss, Haselnuss, Fettsamen, Butter und Zucker. Übernachtung im Hotel in Sheki. (F/-/-)",
+        AzGrandD6: "Tag 6: Sheki-Ganja (140 km)",
+        AzGrandP6:
+          "Bevor wir Sheki verlassen, besuchen wir Shekis Teze-Basar mit seinen überfüllten Ständen mit Gewürzen und frischen Produkten. Danach verlassen wir Sheki und reisen zu einer der wichtigsten historischen und architektonischen Städte – Ganja. Ganja ist die zweitgrößte Stadt des Landes und ein Denkmal der antiken Kultur. Wir werden das „Flaschenhaus“ besuchen. In den Jahren 1966-67 verwendete der Bewohner von Ganja, Ibrahim Jafarov, beim Bau seines Hauses ein ungewöhnliches Material – Glasflaschen. Für den Bau wurden insgesamt 48.000 Flaschen unterschiedlicher Form und Größe verwendet, außerdem verwendete er farbige Steine, die er aus Sotschi mitgebracht hatte. Außerdem werden wir die Schah-Abbas-Moschee aus dem 17. Jahrhundert, das Javad-Khan-Mausoleum (19. Jahrhundert) und die orthodoxe Kirche (1815) besichtigen. Wir werden das Nizami-Mausoleum und die Imamzade-Moschee besichtigen. Übernachtung im Hotel in Ganja. (F/-/-)",
+        AzGrandD7: "Tag 7: Ganja-Baku-Lankaran (370 km)",
+        AzGrandP7:
+          "Wir werden Ganja verlassen und nach Baku fahren. Ankunft in Baku. Auf dem Weg nach Lankaran besuchen wir das Gobustan Historical Reserve (65 km entfernt). Das Reservat ist ein nationales historisches Wahrzeichen Aserbaidschans und wurde zur Erhaltung der prähistorischen Felszeichnungen, Schlammvulkane und Musiksteine in der Region gegründet. Vor Beginn der Tour durch Qobustan besuchen wir das gleichnamige interaktive Museum, wo wir mithilfe spezieller Programme und Multimedia-Touchscreens Informationen über die Natur und die Flora von Qobustan erhalten. Qobustan wurde 2007 in die Liste des UNESCO-Weltkulturerbes aufgenommen. Aserbaidschan hat die höchste Anzahl an Schlammvulkanen weltweit. Nicht weit von Gobustan entfernt liegen die Schlammvulkane. Wir werden Schlammvulkane besuchen (abhängig von den Wetterbedingungen). Dann verlassen wir Baku nach Lankaran. Die Fahrt dauert 3-4 Stunden. Auf dem Weg nach Lankaran besuchen wir eine der Hauptattraktionen in Salyan, den Shirvan-Nationalpark, der 2003 aus einem Naturschutzgebiet entstand, das hier seit 1969 besteht. Er erstreckt sich über eine Fläche von 55 Hektar und wurde gegründet, um die Einheimischen zu schützen Flora und Fauna, insbesondere Gazellen, die im Roten Buch aufgeführt sind. Nach dem Besuch des Shirvan-Nationalparks setzen wir unsere Tour in Lankaran fort. Ankunft in Lankaran. Übernachtung im Hotel in Lankaran. (F/-/-)",
+        AzGrandD8: "Tag 8: Lankaran",
+        AzGrandP68:
+          "Heute fahren Sie mit Ihrem Fahrer und Reiseleiter nach Baku. Vor der Abreise nach Baku fahren wir nach Astara. Wir werden Yanar Bulag (Brennendes Wasser) besuchen. Es besteht aus einem Metallständerrohr in einem kleinen Pavillon, durch den Wasser gurgelnd herausströmt. Wenn Sie ein Streichholz anzünden und das Wasser berühren, wird das Wasser selbst in Flammen gesetzt. Dies ist auf den hohen Methangehalt des Wassers zurückzuführen. Die Einheimischen glauben, dass das Wasser aus der Quelle heilende Eigenschaften hat und trinken oft etwas, während die Flamme brennt. Lankaran ist eine Region mit einzigartiger natürlicher Vielfalt. Im Osten wird die Stadt vom Wasser des Kaspischen Meeres umspült. Die Region ist berühmt für ihre Zitrusfrüchte und ihre schmackhafte Küche und ist das Zentrum des aserbaidschanischen Teeanbaus. Wir werden Citrus Valley besuchen. Wir werden den Hirkan-Nationalpark zum Wandern besuchen. Das Gebiet des Hirkan-Nationalparks ist zu 99 % von Wäldern bedeckt und liegt in einer überwiegend bergigen Region, die streng geschützt ist. Es handelt sich um einen der größten zusammenhängenden Wälder Aserbaidschans, der nicht durch Siedlungen oder Weiden unterbrochen wird. Nach einem Spaziergang durch den Wald des Hirkan-Nationalparks fahren wir zum Khanbulan-See. Der Khanbulan-See ist die Perle der Natur Lankarans. Wir können verschiedene exotische Pflanzen und Tiere beobachten und an der frischen Luft entspannen. Später werden wir den Ausflug zur Teeplantage genießen und hier eine Teezeremonie abhalten. Übernachtung im Hotel in Lankaran. (F/-/-)",
+        AzGrandD9: "Tag 9: Lankaran-Baku (250 km)",
+        AzGrandP69:
+          "Nach dem Frühstück verlassen wir Lankaran in Richtung Baku. Wir besuchen das Aserbaidschanische Nationale Teppichmuseum (montags geschlossen). Es war das erste spezialisierte Teppichmuseum der Welt. Im Jahr 2017 wurde das Aserbaidschanische Nationale Teppichmuseum vom International Council of Museums mit dem Preis für die beste Erfahrung im Bereich der Datenbank zum immateriellen Kulturerbe ausgezeichnet. Wir besuchen den Palast von Zeynalabdin Taghiyev (montags geschlossen). Dieser Palast gehörte früher dem aserbaidschanischen Millionär Zeynalabdin Tagiyev. Außerdem besuchen wir die 1884 erbaute Villa Petrolea, die fast 40 Jahre lang den Nobelbrüdern als Wohnsitz diente. Anschließend besuchen wir das Heydar Aliyev Kulturzentrum (montags geschlossen). Das Gebäude wurde 2012 von der weltweit anerkannten irakisch-britischen Architektin und Pritzker-Preisträgerin Zaha Hadid entworfen. Das Design des Gebäudes zeichnet sich durch seine futuristischen und fließenden Formen mit Kurven, Wellen und einer glatten weißen Außenseite aus. Für sein innovatives und markantes Design wurde es mit zahlreichen internationalen Architekturpreisen ausgezeichnet. Übernachtung im Hotel in Baku. (F/-/-)",
+        AzGrandD10: "Tag 10: Baku-Nachitschewan",
+        AzGrandP10:
+          "Ankunft in der Stadt Nachitschewan. Transfer zu Ihrem Hotel in der Stadt Nachitschewan, um Ihr Gepäck abzugeben. Besuch des Grabes des Propheten Noah. Dieser Ort wird von Menschen als Pir (Ort der Anbetung) besucht. In den letzten Jahren wurden hier groß angelegte archäologische Ausgrabungen durchgeführt. Besuch des Momina Khatun-Denkmals aus dem 12. Jahrhundert: Dieses Denkmal gilt als prächtiges Denkmal der nationalen Architektur und als Perle der östlichen Architektur. Das Grab wurde 1186 zum Gedenken an die Mutter des Atabay-Herrschers Mahammad Jahan Pahlavan erbaut. Es wird das Taj Mahal von Nachitschewan genannt. Besuch im Haus des Khans: Dieses Haus, das im Einklang mit dem östlichen Architekturstil des 18. und 19. Jahrhunderts erbaut wurde, war ein Wohnsitz des Nachitschewan-Herrschers Rahim Khan. Das Haus verfügt über einen Keller und acht große Räume. Von diesem Punkt aus hat man einen spektakulären Blick auf die Stadt. Besuch des Grabes von Yusif ibn Kuseyir: Es ist das Ergebnis hochentwickelter Ingenieurskunst, dass das Grab von Yusif ibn Kuseyir das einzige Denkmal unter den turmförmigen Gräbern Aserbaidschans ist, bei dem die Pyramidenabdeckung in den letzten 800 Jahren unzerstört in unsere Zeit gelangt ist. Reisen Sie zum Dorf Garabaghlar in der Region Sharur, um ein Denkmal aus dem 12. Jahrhundert zu besichtigen: Das Mausoleum im Dorf Garabaghlar ist nur ein Teil des Komplexes, in dessen Mitte schlanke Minarette aufragen, die (in der Mitte) durch das Portal verbunden sind. Aus der Ferne ähnelt dieses Bauwerk dem Stadttor. Besuchen Sie das Duzdagh Salt Mines Hospital – ein weltweit einzigartiges Zentrum zur Behandlung von Asthma-Bronchitis: Die medizinische Behandlung erfolgt, indem die Patienten mehrere Stunden am Tag in den leeren Salzminen bleiben. Duzdagh extrahiert auch Speisesalz. Fahren Sie zurück in die Stadt Nachitschewan. (F/-/-)",
+        AzGrandD11: "Tag 11: Nachitschewan",
+        AzGrandP11:
+          "Heute Morgen besuchen Sie die Festung Alinja – eine der stärksten Verteidigungsanlagen des 12. Jahrhunderts. Während Teymurs Angriff auf Nachitschewan in den Jahren 1386, 1392 und 1399 diente die Festung als Hauptquartier und Schatzkammer der herrschenden Atabayler-Dynastie. Anschließend Fahrt in die Stadt Ordubad und Besichtigung der Stadt. Auf dem Rückweg nach Nachitschewan besuchen wir die Thermalquelle Daridagh in der Region Julfa. In der Zusammensetzung des Wassers sind große Mengen der Elemente Bor, Jod, Brom, Strontium und Lithium enthalten. Das Wasser ist gut für Patienten mit Magen-Darm-Erkrankungen. Später besuchen wir das Gulustan-Denkmal in Julfa. Besuch der „Ashabu-Kahf“-Höhlen (wie es in Koran Sure 18 heißt – al-Kahf. „Die Gefährten der Höhle“, basierend auf der alten griechischen Legende „Sieben Schläfer von Ephesus“). Transfer zum Hotel, Freizeit. (F/-/-)",
+        AzGrandD12: "Tag 12: Abreise",
+        AzGrandP12:
+          "Geführter Transfer zum Internationalen Flughafen Nachitschewan.  Abreise.",
       },
       es: {
         home: "INICIO",
@@ -2827,6 +2890,44 @@ export default {
           "Clase magistral de kelagai. Kelagai es el pañuelo nacional de las mujeres azerbaiyanas hecho de seda fina y suave en forma de cuatro esquinas. Kelagai era una parte integral del traje nacional femenino en Azerbaiyán. Los kelagai de seda los protegían tanto del sol caliente como del viento frío, ya que la seda es fresca en verano y cálida en invierno. El asentamiento Basqal de la región de Ismayilli era famoso por la producción de kelagai de alta calidad.",
         MasterDanceH:
           "Clase Magistral de Danza Tradicional. Dirigida por instructores experimentados, la clase presenta a los participantes varios estilos de danza tradicional, cada uno de los cuales representa diferentes regiones y matices culturales de Azerbaiyán. Los participantes aprenden pasos básicos, patrones rítmicos y el significado cultural detrás de cada forma de danza. Esta experiencia promueve la actividad física y permite conocer la cultura de la danza nacional.",
+
+        AzGrandH: "Gran Recorrido de Azerbaiyán",
+        AzGrandD1: "Día 1: Llegada a Bakú",
+        AzGrandP1:
+          "Después de su llegada a Bakú, el conductor y el guía de ENCTOURS lo recibirán y lo llevarán a su hotel.",
+        AzGrandD2: "Día 2: Bakú-Absheron-Bakú (125 km)",
+        AzGrandP2:
+          "Después del desayuno, exploraremos el Templo de Fuego Zoroástrico Ateshgah en el asentamiento de Surakhani. Nuestra próxima parada será Yanar Dag montaña de fuego. Yanar Dag se encuentra a 25 km al norte de Bakú, en el pueblo de Mehemmedli. El gas natural que se filtra a la superficie le da a esta montaña su famoso aspecto de 'quema'. Luego, su visita guiada a pie por Bakú incluye la ciudad amurallada medieval 'Icheri sheher' con sus callejones estrechos, caravasares históricos, mezquitas y el Palacio de los Shirvan Shahs (Lista del Patrimonio Mundial de la UNESCO). El complejo del Palacio Shirvanshahs fue la última residencia de los gobernantes del Estado de Shirvan. También veremos otro sitio declarado Patrimonio de la UNESCO, la Torre de la Doncella (vista externa) y Callejón de los Mártires con sus magníficas vistas sobre la bahía de Bakú, construidas en el boom petrolero de 1870-1914. Luego veremos la Mezquita Muhammed (vista exterior) y la Mezquita Djuma (vista exterior). Alojamiento en el hotel en Bakú. (D/-/-)",
+        AzGrandD3: "Día 3: Bakú-Guba-Khinalig-Guba (300 km)",
+        AzGrandP3:
+          "Hoy conduciremos hacia Guba, situada a 180 km al norte de Bakú. Conduciremos hacia las montañas del Cáucaso hasta el pueblo de Khinalig. El pueblo de Khinalig es un asentamiento antiguo, que se remonta al período Albanés Caucásico. Khinalig es el pueblo más alto, remoto y aislado de Azerbaiyán. Khinalig está habitado por una minoría única famosa por su propio idioma, costumbres y tradiciones peculiares (todo el recorrido a Guba y Khinalig depende de las condiciones climáticas). Visitaremos un museo etnográfico. Alojamiento en el hotel en Guba. (D/-/-)",
+        AzGrandD4: "Día 4: Guba-Bakú-Shemakha-Nidj-Sheki (480 km)",
+        AzGrandP4:
+          "Por la mañana visitaremos el Pueblo Rojo habitado por minoría judía. Los Judíos de las Montañas se habían asentado en el Cáucaso hace más de dos mil años y aparecieron en la tierra de Azerbaiyán en el siglo V. El Pueblo Rojo es famoso no solo por ser un oasis de cultura nacional única, sino también por sus nativos. Visitaremos el Museo de los Judíos de Montaña (cerrado los sábados). Luego visitaremos el Complejo Conmemorativo del Genocidio en nuestro camino de regreso a Bakú. Dejando Bakú atrás, nuestro viaje nos lleva a través de hermosos paisajes de camino a Shemakha. A su llegada a Shemakha tendremos una visita turística de la histórica Mezquita Djuma (Mezquita de Viernes). También visitaremos el mausoleo de Diri Baba en Maraza y el antiguo Mausoleo y Cementerio Yeddi Gumbez. Después de Shemakha visitaremos el pueblo de Nidzh, no lejos de Gabala, conocido por un monumento arquitectónico único de la Albania Caucásica: el Templo de Udin. Los udins son un grupo étnico absolutamente especial que se consideran descendientes de albaneses. Visitaremos también el museo casa de Udines con sus tradiciones, idioma e historia. Llegada a Sheki. Alojamiento en el hotel en Guba. (D/-/-)",
+        AzGrandD5: "Día 5: Sheki-Kish-Sheki (10 km)",
+        AzGrandP5:
+          "Esta mañana daremos un paseo por Sheki. Sheki, una de las ciudades más antiguas de Azerbaiyán, se llama la reserva arquitectónica del país. Visitaremos uno de los monumentos arquitectónicos más importantes de Azerbaiyán: el Palacio de Sheki Khans (1762). Después de eso, veremos el caravasar en Sheki, que era famoso por su comercio. También conduciremos al pueblo de Kish ubicado cerca de Sheki. Kish, uno de los pueblos más antiguos del territorio de Azerbaiyán, es muy conocido por su monumento arquitectónico único, un templo del período de la Albania Caucásica. Visitaremos una panadería local. Nos demostrarán la clase magistral 'Khalva'. Khalva se considera un postre típico de Azerbaiyán. Principalmente está hecho de harina, nueces de avellana, semillas grasas, mantequilla y azúcar. Alojamiento en el hotel en Sheki. (D/-/-)",
+        AzGrandD6: "Día 6: Sheki-Ganja (140 km)",
+        AzGrandP6:
+          "Antes de salir de Sheki, iremos al Teze Bazaar de Sheki, con sus puestos repletos de especias y productos frescos. Después de eso, dejaremos Sheki y viajaremos para ver una de las principales ciudades históricas y arquitectónicas: Ganja. Ganja es la segunda ciudad más grande del país, un monumento de la cultura antigua. Visitaremos la 'Casa de la Botella'. En 1966-67, un residente de Ganja Ibrahim Jafarov construyó su casa usando material inusual: botellas de vidrio. En la construcción se utilizaron un total de 48.000 botellas de diversas formas y tamaños, y también utilizó piedras de colores traídas de Sochi. Visitaremos la Mezquita Shah Abbas del siglo XVII, el Mausoleo Javad khan (siglo XIX), la Iglesia Ortodoxa (1815), el Mausoleo Nizami y la Mezquita Imamzade. Alojamiento en el hotel en Ganja. (D/-/-)",
+        AzGrandD7: "Día 7: Ganja-Bakú-Lankaran (370 km)",
+        AzGrandP7:
+          "Dejaremos Ganja para Bakú. Llegada a Bakú. De camino a Lankaran visitaremos la Reserva Histórica de Gobustán (65 km de distancia). La reserva es un monumento histórico nacional de Azerbaiyán establecido para preservar las tallas rupestres prehistóricas, los volcanes de lodo y las piedras musicales de la región. Antes del inicio del recorrido por Gobustán visitaremos el museo interactivo con el mismo nombre, donde con la ayuda de programas especiales y pantallas táctiles obtendremos información sobre la naturaleza, la flora de Gobustán. El paisaje cultural de arte rupestre incluido en el parque nacional de Gobustán fue declarado Patrimonio de la Humanidad por la Unesco en 2007. Azerbaiyán alberga la mayor concentración de volcanes de lodo del mundo. No muy lejos de Gobustán se encuentran los volcanes de lodo. Visitaremos volcanes de lodo (dependiendo de las condiciones climáticas). Llegada a Lankaran. Alojamiento en el hotel en Lankaran. (D/-/-)",
+        AzGrandD8: "Día 8: Lankaran",
+        AzGrandP8:
+          "Hoy partirá con su conductor y guía hacia Bakú. Antes de la salida hacia Bakú, nos dirigiremos a Astara. Visitaremos Yanar Bulag(Agua Ardiente). Consiste en un tubo de soporte de metal dentro de un pequeño pabellón a través del cual sale agua gorgoteando. El agua en sí se quema cuando enciendes una cerilla y tocas el agua.  Esto ocurre debido al alto contenido de metano del agua. Los locales creen que el agua de manantial tiene propiedades curativas y, a menudo, beben cuando se quema una llama. Lankaran es una región de diversidad natural única. En el este, la ciudad está bañada por las aguas del mar Caspio. La región es famosa por sus cítricos y sabrosa cocina, además de ser el centro del cultivo del té azerbaiyano. Visitaremos Valle de cítricos. Visitaremos el Parque Nacional Hirkan para practicar senderismo. El área del Parque Nacional Hirkan está cubierta en un 99% por bosques en una región principalmente montañosa, y está estrictamente protegida. Constituye uno de los bosques contiguos más grandes de Azerbaiyán, que no está interrumpido por ningún asentamiento o pastizal. Nos dirigiremos al lago Khanbulan después de caminar por el bosque del Parque Nacional Hirkan. El lago Khanbulan es la perla de la naturaleza Lankaran. Podemos ver varias plantas y animales exóticos y relajarnos al aire libre. Más tarde, disfrutaremos de la excursión a la plantación de té y tendremos la ceremonia del té aquí. Alojamiento en el hotel en Lankaran. (D/-/-)",
+        AzGrandD9: "Día 9: Lankaran- Bakú (250 km)",
+        AzGrandP9:
+          "Después del desayuno saldremos de Lankaran hacia Bakú. Visitaremos el Museo Nacional de Alfombras de Azerbaiyán (cerrado los lunes). Fue el primer museo especializado en alfombras del mundo. El Museo Nacional de Alfombras de Azerbaiyán fue honrado con una alta condecoración 'La mejor experiencia' en la esfera de la base de datos del patrimonio inmaterial por el Comité Internacional para la documentación del Consejo Internacional de los museos en 2007. Visitaremos el Palacio de Zeynalabdin Taghiyev (cerrado los lunes). Este palacio perteneció anteriormente al millonario azerbaiyano Zeynalabdin Tagiyev.  También visitaremos Villa Petrolea, que fue construida en Bakú por Ludvig y Emanuel Nobel en la década de 1880. Varias generaciones de Nobles vivieron y nacieron en esta mansión. Más tarde visitaremos el Centro Cultural Heydar Aliyev (cerrado los lunes). El edificio fue diseñado por la reconocida arquitecta y ganadora del Premio Pritzker iraquí-británica Zaha Hadid en 2012. El diseño del edificio se caracteriza por sus formas futuristas y fluidas, con curvas, ondas y un exterior blanco liso. Ha ganado numerosos premios internacionales de arquitectura por su diseño innovador y llamativo.  Alojamiento en el hotel en Bakú. (D/-/-)",
+        AzGrandD10: "Día 10: Bakú-Nakhcivan",
+        AzGrandP10:
+          "Llegada a la ciudad de Nakhchivan. Traslado a su hotel en la ciudad de Nakhchivan para dejar el equipaje. Visita de la Tumba del Profeta Noé. Este lugar es visitado por la gente como Pir (lugar de culto). En los últimos años se han llevado a cabo aquí excavaciones arqueológicas a gran escala. Visita al monumento Momina Khatun del siglo XII: esta tumba se considera un magnífico monumento de la arquitectura nacional y una perla de la arquitectura oriental. La tumba fue construida en 1186 en memoria de la madre del gobernante Atabay, Mahammad Jahan Pahlavan. Se llama el Taj Mahal de Nakhchivan. Visitando la Casa de Khan: Esta casa, construida de acuerdo con el estilo arquitectónico oriental de los siglos XVIII y XIX, fue el hogar del gobernante de Nakhchivan, Rahim Khan. La casa consta de sótano y ocho amplias habitaciones. Desde este punto se tiene una vista espectacular del pueblo. Visita a la tumba de Yusif Ibn Kuseyir: Gracias a la alta ingeniería, la tumba de Yusif ibn Kuseyir es el único monumento entre las tumbas con forma de torre de Azerbaiyán cuya cubierta piramidal ha llegado hasta nuestros días sin destruida durante los últimos 800 años. Viaje al pueblo de Garabaghlar de la región de Sharur para ver el monumento del siglo XII: El Mausoleo en el pueblo de Garabaglar es sólo una parte del complejo en cuyo centro se elevan esbeltos minaretes conectados (en el medio) por un portal. Desde lejos, esta estructura parece similar a la puerta de la ciudad. Visite el Hospital de las minas de sal de Duzdagh, un centro de tratamiento de bronquitis asmática único en el mundo: el tratamiento médico se realiza manteniendo a los pacientes en las minas de sal vacías durante varias horas al día. Duzdagh también extrae sal alimentaria. Regreso a la ciudad de Nakhchivan.",
+        AzGrandD11: "Día 11: Nakhcivan",
+        AzGrandP11:
+          "Esta mañana visitará la Fortaleza de Alinja, una de las construcciones defensivas más fuertes del siglo XII. Durante el ataque de Teymur a Nakhchivan en 1386, 1392 y 1399, la fortaleza sirvió como cuartel general y lugar de tesoro de la dinastía gobernante Atabayler. Después de eso, traslado a la ciudad de Ordubad y recorrido por la ciudad. En el camino de regreso a Nakhchivan visitaremos las fuentes termales de Daridagh en la región de Julfa. En la composición del agua se encuentran una gran cantidad de elementos de boro, yodo, bromo, estroncio y litio. El agua es buena para los pacientes que padecen enfermedades gástricas e intestinales. Posteriormente visitaremos el Monumento a Gulustan en Julfa. Visita a las cuevas “Ashabu – Kahf” (como se indica la sura 18 del Corán - al-Kahf. 'Los compañeros de la cueva' basado en la antigua leyenda griega 'Los siete durmientes de Éfeso'). Traslado al Hotel, tiempo libre, descanso.",
+        AzGrandD12: "Día 12: Salida",
+        AzGrandP12:
+          "Traslado guiado al Aeropuerto Internacional de Nakhcivan. Salida.",
       },
       it: {
         home: "HOME",
@@ -3806,6 +3907,44 @@ export default {
           "Masterclass di Kelagai. Kelagai è la sciarpa nazionale femminile azera realizzata in seta fine e morbida a forma di quattro angoli. Kelagai era parte integrante del costume nazionale femminile in Azerbaigian. La seta Kelagai li proteggeva sia dal sole caldo che dal vento freddo, poiché la seta è fresca d'estate e calda d'inverno. L'insediamento basco della regione di Ismayilli era famoso per la produzione di kelagai di alta qualità.",
         MasterDanceH:
           "Masterclass di danza tradizionale. Guidata da istruttori esperti, la lezione introduce i partecipanti a vari stili di danza tradizionali, ciascuno dei quali rappresenta diverse regioni e sfumature culturali dell'Azerbaigian. I partecipanti imparano i passi base, gli schemi ritmici e il significato culturale dietro ogni forma di danza. Questa esperienza promuove l'attività fisica e permette di conoscere la cultura della danza nazionale.",
+
+        AzGrandH: "Gran Tour dell'Azerbaigian",
+        AzGrandD1: "Giorno 1: Arrivo a Baku",
+        AzGrandP1:
+          "Dopo il tuo arrivo a Baku, sarai prelevato dall'autista e guida ENCTOURS e portato al tuo hotel.",
+        AzGrandD2: "Giorno 2: Baku- Absheron-Baku (125 km)",
+        AzGrandP2:
+          "Dopo colazione lasceremo Sheki. Arrivo a Baku. Esploreremo il Tempio del Fuoco Zoroastriano Ateshgah nell'insediamento di Surakhani. La prossima tappa sarà Yanar Dag Montana de Fuego. Yanar Dag si trova a 25 km a nord di Baku, nel villaggio di Mehemmedli. Il gas naturale che filtra sulla superficie conferisce a questa montagna il suo famoso aspetto 'bruciante'. Quindi, il tuo tour guidato a piedi di Baku include la città murata medievale 'Icheri Sheher' con i suoi stretti vicoli, i caravanserragli storici, le moschee e il Palazzo degli Shirvan Shah (patrimonio dell'UNESCO). Complesso di Palazzo Shirvanshahs era l'ultima residenza dei governanti dello Stato Shirvan con la storia di mille. Vedremo anche un altro sito patrimonio dell'UNESCO la Torre della Fanciulla(vista esterna), le imponenti dimore dei baroni del petrolio, costruite nel boom petrolifero del 1870-1914 e Vicolo dei martiri con la sua superba vista sulla baia di Baku.  Poi vedremo Moschea Muhammed (vista esterna) e Moschea Djuma (vista esterna). Pernottamento a Baku. (C/- /-)",
+        AzGrandD3: "Giorno 3: Baku-Guba-Khinalig-Guba (300 km)",
+        AzGrandP3:
+          "Questa mattina lasceremo Baku per Guba. Il viaggio dura 2,5-3 ore. All'arrivo a Guba farai un tour a piedi della città. Guideremo verso le montagne del Caucaso fino al villaggio di Khinalig. Il villaggio di Khinalig è un antico insediamento, risalente al periodo albanese caucasico. Khinalig è il villaggio più alto, remoto e isolato dell'Azerbaigian (tutti i tour a Guba e Khinalig dipendono dalle condizioni meteorologiche). Visiteremo un museo etnografico. Pernottamento in hotel a Guba. (C/-/-)",
+        AzGrandD4: "Giorno 4: Guba- Baku-Shemakha-Nidj-Sheki (480 km)",
+        AzGrandP4:
+          "Oggi mattina visiteremo il Villaggio Rosso abitato dalla minoranza ebraica. Gli ebrei di montagna si erano stabiliti nel Caucaso più di duemila anni fa e apparvero nel territorio dell'Azerbaigian solo nel V secolo. Il Villaggio Rosso è famoso non solo per essere un'oasi di cultura nazionale unica, ma anche per i suoi nativi. Visiteremo il Museo degli Ebrei di Montagna (chiuso il sabato). Poi visiteremo il Complesso Memoriale del Genocidio sulla via del ritorno a Baku. Lasciandoci alle spalle Baku, il nostro viaggio ci porta attraverso splendidi paesaggi sulla strada per Shemakha. All'arrivo a Shemakha visiteremo la storica Moschea Djuma. Inoltre visiteremo il mausoleo di Diri Baba a Maraza e l'antico mausoleo e cimitero Yeddi Gumbez. Dopo Shamakhi visiteremo il villaggio di Nidzh, è noto per un monumento architettonico unico dell'Albania caucasica: il Tempio di Udin. Gli udin sono un gruppo etnico assolutamente speciale considerato discendente degli albanesi. Visiteremo anche la Casa Museo di Udini con le loro tradizioni, lingua e storia. Arrivo a Sheki. Pernottamento a Sheki.Overnight in Sheki. (C/-/-)",
+        AzGrandD5: "Giorno 5: Sheki-Kish-Sheki (10 km)",
+        AzGrandP5:
+          "Questa mattina andremo a fare una passeggiata intorno a Sheki. Una delle città più antiche dell'Azerbaigian, Sheki è giustamente chiamata la riserva architettonica del paese. Visiteremo uno dei monumenti architettonici più importanti dell'Azerbaigian: il Palazzo di Sheki Khan (1762). È notevole che durante la costruzione del palazzo non fu utilizzato un solo chiodo, e fu portato il vetro colorato per lo shebeke (mosaico nazionale) da Venezia. Dopo di che, vedremo il caravanserraglio a Sheki, che era famoso per il suo commercio. Inoltre guideremo al villaggio di Kish situato vicino a Sheki. Kish, uno dei più antichi villaggi del territorio dell'Azerbaigian è ben noto con il suo monumento architettonico unico, un tempio del periodo dell'Albania Caucasica. Visiteremo una panetteria locale. Ci dimostreranno la lezione magistrale 'Khalva'. Il Khalva è considerato un dolce tipico dell'Azerbaigian. Principalmente è fatto da farina, noci, nocciole, semi grassi, burro e zucchero. Pernottamento a Sheki. (C/-/-)",
+        AzGrandD6: "Giorno 6: Sheki-Ganja (150 km)",
+        AzGrandP6:
+          "Prima di lasciare Sheki, andremo al Teze Bazaar di Sheki, con le sue bancarelle traboccanti di spezie e prodotti freschi. Dopo di che, lasceremo Sheki e viaggeremo per vedere una delle principali città storiche e architettoniche: Ganja. Ganja è la seconda città più grande del paese, un monumento della cultura antica. Visiteremo la “Casa della Bottiglia”. Nel 1966-67, Ibrahim Jafarov, residente a Ganja, utilizzò bottiglie di vetro in materiale insolito nella costruzione della sua casa. Nella costruzione sono state utilizzate in totale 48.000 bottiglie di varie forme e dimensioni e sono state utilizzate anche pietre colorate portate da Sochi. Vedremo anche la Moschea Shah Abbas del XVII secolo, il Mausoleo di Javad Khan (XIX secolo), la Chiesa Ortodossa (1815), il Mausoleo Nizami e la Moschea Imamzade. Pernottamento a Ganja. (C/-/-)",
+        AzGrandD7: "Giorno 7: Ganja-Baku-Lankaran (370 km)",
+        AzGrandP7:
+          "Lasceremo Ganja per Baku. Arrivo a Baku. Sulla strada per Lankaran visiteremo la Riserva Storica di Gobustan (a 65 km). La riserva è un punto di riferimento storico nazionale dell'Azerbaigian istituito per preservare le incisioni rupestri preistoriche, i vulcani di fango e le pietre musicali della regione. Prima dell'inizio del tour intorno a Gobustan visiteremo il museo interattivo con lo stesso nome, dove con l'aiuto di programmi speciali otterremo informazioni sulla natura, la flora di Gobustan. Gobustan è stato iscritto nella lista del patrimonio mondiale dell'UNESCO nel 2007. L'Azerbaigian ha il più alto numero di vulcani di fango al mondo. Non lontano da Gobustan si trovano i vulcani di fango.  Visiteremo i Vulcani di Fango (a seconda delle condizioni meteorologiche). Poi, lasceremo Baku per Lankaran.  Il viaggio dura 3 - 4 ore. In rotta verso Lankaran, visiteremo una delle principali attrazioni di Salyan, il Parco Nazionale Shirvan, creato nel 2003 da una riserva naturale che esiste qui dal 1969. Si estende su un territorio di 55 ettari ed è stato fondato per preservare la flora e la fauna locali, in particolare le gazzelle elencate nel Libro Rosso. Dopo aver visitato il Parco Nazionale di Shirvan continueremo il nostro giro  a Lankaran. Arrivo a Lankaran. Pernottamento in hotel a Lankaran. (C/-/-)",
+        AzGrandD8: "Giorno 8: Lankaran",
+        AzGrandP68:
+          "Oggi partirete con il vostro autista e guida per Baku. Prima della partenza per Baku, andremo ad Astara. Visiteremo Yanar Bulag (Acqua che brucia). È costituito da un tubo metallico montante all'interno di un piccolo padiglione dal quale esce gorgogliante l'acqua. Quando accendi un fiammifero e tocchi l'acqua, l'acqua stessa viene incendiata. Ciò si verifica a causa dell'alto contenuto di metano dell'acqua. La gente del posto crede che l'acqua della sorgente abbia proprietà curative e spesso ne beveva mentre la fiamma era accesa. Lankaran è una regione dalla diversità naturale unica. A est la città è bagnata dalle acque del Mar Caspio. La regione è famosa per i suoi agrumi e la cucina saporita, oltre ad essere il centro della coltivazione del tè in Azerbaigian. Visiteremo la Valle degli Agrumi. Visiteremo il Parco Nazionale Hirkan per le escursioni. L'area del Parco Nazionale Hirkan è coperta per il 99% da foreste in una regione prevalentemente montuosa ed è rigorosamente protetta. Costituisce una delle foreste contigue più grandi dell'Azerbaigian, che non è interrotta da alcun insediamento o pascolo. Andremo al Lago Khanbulan dopo aver camminato attraverso la foresta del Parco Nazionale Hirkan. Il lago Khanbulan è la perla della natura di Lankaran. Possiamo vedere varie piante e animali esotici e rilassarci all'aria aperta. Più tardi, godremo dell'escursione alla piantagione di tè e celebreremo qui la cerimonia del tè. Pernottamento in hotel a Lankaran. (C/-/-)",
+        AzGrandD9: "Giorno 9: Lankaran-Baku (250 km)",
+        AzGrandP69:
+          "Dopo la colazione lasceremo Lankaran per Baku. Visiteremo il Museo Nazionale dei Tappeti dell'Azerbaigian (chiuso il lunedì). È stato il primo museo specializzato di tappeti al mondo. Nel 2017, il Museo nazionale del tappeto dell'Azerbaigian ha ricevuto il premio per la migliore esperienza nel campo del database del patrimonio culturale immateriale da parte del Consiglio Internazionale dei Musei. Visiteremo il Palazzo di Zeynalabdin Taghiyev (chiuso il lunedì). Questo palazzo apparteneva in precedenza al milionario azerbaigiano Zeynalabdin Tagiyev. Visiteremo anche Villa Petrolea, costruita nel 1884, fu residenza dei fratelli Nobel per quasi 40 anni. Successivamente visiteremo il Centro Culturale Heydar Aliyev (chiuso il lunedì). L'edificio è stato progettato dall'architetto iracheno-britannico riconosciuto in tutto il mondo e vincitore del Premio Pritzker Zaha Hadid nel 2012. Il disegno dell'edificio è caratterizzato da forme futuristiche e fluide, caratterizzate da curve, onde e un esterno bianco liscio. Ha vinto numerosi premi architettonici internazionali per il suo design innovativo e sorprendente. (C/-/-)",
+        AzGrandD10: "Giorno 10: Baku-Nakhcivan",
+        AzGrandP10:
+          "Arrivo nella città di Nakhchivan. Trasferimento al tuo hotel nella città di Nakhchivan per depositare i bagagli. Visita della tomba del profeta Noè. Questo luogo è visitato dalle persone come Pir (luogo di culto). Negli ultimi anni qui sono stati effettuati scavi archeologici su larga scala.  Visita al Monumento Momina Khatun del XII secolo: questa tomba è vista come un magnifico monumento dell'architettura nazionale e una perla dell'architettura orientale. La tomba fu costruita nel 1186 in memoria della madre del sovrano Atabay Mahammad Jahan Pahlavan. Si chiama Taj Mahal di Nakhchivan. Visitare la Casa di Khan: questa casa, costruita in armonia con lo stile architettonico orientale dei secoli XVIII e XIX, era la casa del sovrano di Nakhchivan Rahim Khan. La casa dispone di un seminterrato e di otto ampi vani. Da questo punto si gode una vista spettacolare della città. Visitare la tomba di Yusif Ibn Kuseyir: è il risultato di un'alta ingegneria che la tomba di Yusif ibn Kuseyir è l'unico monumento tra le tombe a forma di torre dell'Azerbaigian in cui la copertura piramidale è arrivata fino ai nostri giorni negli ultimi 800 anni senza essere distrutta. Viaggio al villaggio di Garabaghlar nella regione di Sharur per vedere il monumento del XII secolo: il Mausoleo nel villaggio di Garabaglar è solo una parte del complesso al centro del quale torreggiano sottili minareti collegati (al centro) dal portale. Da lontano questa struttura sembra simile alla porta della città. Visita l'ospedale delle miniere di sale di Duzdagh, un centro di trattamento della bronchite asmatica unico al mondo: il trattamento medico viene effettuato mantenendo i pazienti nelle miniere di sale vuote per diverse ore al giorno. Duzdagh estrae anche il sale alimentare. Ritorno alla città di Nakhchivan. (C/- /-)",
+        AzGrandD11: "Giorno 11: Nakhcivan",
+        AzGrandP11:
+          "Questa mattina visiterai la Fortezza di Alinja, una delle costruzioni difensive più forti del XII secolo. Durante l’attacco di Teymur a Nakhchivan nel 1386, 1392 e 1399 la fortezza servì come quartier generale e luogo di tesoro della dinastia regnante Atabayler.  Successivamente, guida alla città di Ordubad e visita della città. Sulla via del ritorno a Nakhchivan visita alla sorgente termale di Daridagh nella regione di Julfa. Nella composizione dell'acqua si riscontrano numerose quantità di boro, iodio, bromo, stronzio e litio. L'acqua fa bene ai pazienti che soffrono di malattie gastro-intestinali. Successivamente visiteremo il monumento Gulustan a Julfa. Visita alle Grotte “Ashabu – Kahf” (come affermato nella sura 18 del Corano - al-Kahf. 'I compagni della grotta 'basata sull'antica leggenda greca' I sette dormienti di Efeso'). Trasferimento in Hotel, tempo libero, riposo. (C/-/-)",
+        AzGrandD12: "Giorno 12: Partenza",
+        AzGrandP12:
+          "Trasferimento guidato all'Aeroporto Internazionale di Nakhcivan. Partenza.",
       },
       jp: {
         home: "家",
@@ -4829,6 +4968,31 @@ export default {
         MasterCopperH: "",
         MasterKelagaiH: "",
         MasterDanceH: "",
+
+        AzGrandD1: "",
+        AzGrandP1: "",
+        AzGrandD2: "",
+        AzGrandP2: "",
+        AzGrandD3: "",
+        AzGrandP3: "",
+        AzGrandD4: "",
+        AzGrandP4: "",
+        AzGrandD5: "",
+        AzGrandP5: "",
+        AzGrandD6: "",
+        AzGrandP6: "",
+        AzGrandD7: "",
+        AzGrandP7: "",
+        AzGrandD8: "",
+        AzGrandP68: "",
+        AzGrandD9: "",
+        AzGrandP69: "",
+        AzGrandD10: "",
+        AzGrandP10: "",
+        AzGrandD11: "",
+        AzGrandP11: "",
+        AzGrandD12: "",
+        AzGrandP12: "",
       },
       fr: {
         home: "PAGE D'ACCUEIL",
@@ -5683,6 +5847,31 @@ export default {
         MasterCopperH: "",
         MasterKelagaiH: "",
         MasterDanceH: "",
+
+        AzGrandD1: "",
+        AzGrandP1: "",
+        AzGrandD2: "",
+        AzGrandP2: "",
+        AzGrandD3: "",
+        AzGrandP3: "",
+        AzGrandD4: "",
+        AzGrandP4: "",
+        AzGrandD5: "",
+        AzGrandP5: "",
+        AzGrandD6: "",
+        AzGrandP6: "",
+        AzGrandD7: "",
+        AzGrandP7: "",
+        AzGrandD8: "",
+        AzGrandP68: "",
+        AzGrandD9: "",
+        AzGrandP69: "",
+        AzGrandD10: "",
+        AzGrandP10: "",
+        AzGrandD11: "",
+        AzGrandP11: "",
+        AzGrandD12: "",
+        AzGrandP12: "",
       },
       pt: {
         home: "INÍCIO",
@@ -6554,6 +6743,44 @@ export default {
           "Masterclas de Kelagai. Kelagai é o lenço nacional das mulheres do Azerbaijão feito de seda fina e macia em formato de quatro cantos. Kelagai era parte integrante do traje nacional feminino no Azerbaijão. A seda kelagai os protegia tanto do sol quente quanto do vento frio, já que a seda é fresca no verão e quente no inverno. O assentamento Basqal da região de Ismayilli era famoso pela produção de kelagai de alta qualidade.",
         MasterDanceH:
           "Masterclass de Dança Tradicional. Liderada por instrutores experientes, a aula apresenta aos participantes vários estilos de dança tradicional, cada um representando diferentes regiões e nuances culturais do Azerbaijão. Os participantes aprendem passos básicos, padrões rítmicos e o significado cultural por trás de cada forma de dança. Esta experiência promove a atividade física e permite conhecer a cultura da dança nacional.",
+
+        AzGrandH: "Grande Rota pelo Azerbaijão",
+        AzGrandD1: "Dia 1: Chegada a Baku",
+        AzGrandP1:
+          "Chegada ao Aeroporto de Baku Heydar Aliyev. Recepção pelo ENC e traslado ao hotel.",
+        AzGrandD2: "Dia 2: Baku-Absheron-Baku (125 km)",
+        AzGrandP2:
+          "Após o café da manhã, exploraremos o Templo do Fogo Zoroastriano Ateshgah, no assentamento Surakhani. Nossa próxima parada será Yanar Dag Fire Mountain. Yanar Dag está localizado 25 km ao norte de Baku, na vila de Mehemmedli. O gás natural que escoa para a superfície dá a esta montanha a sua famosa aparência de “queima”. Em seguida, seu passeio a pé guiado por Baku inclui a cidade medieval murada 'Icheri sheher', com suas vielas estreitas, caravanserais históricos, mesquitas e o Palácio dos Xás Shirvan (Lista do Patrimônio Mundial da UNESCO). O complexo do Palácio Shirvanshahs foi a última residência dos governantes do estado de Shirvan. Veremos também outro Patrimônio da UNESCO, a Torre da Donzela (vista externa) e o Beco dos Mártires com suas magníficas vistas sobre a Baía de Baku, construída durante o boom do petróleo de 1870-1914. Depois veremos a Mesquita Muhammed (vista exterior) e a Mesquita Djuma (vista exterior). Pernoite no hotel em Baku.(CM/-/-)",
+        AzGrandD3: "Dia 3: Baku-Guba-Khinalig-Guba (300 km)",
+        AzGrandP3:
+          "Hoje iremos até Guba, localizada 180 km ao norte de Baku. Seguiremos em direção às montanhas do Cáucaso até a aldeia de Khinalig. A aldeia de Khinalig é um assentamento antigo, que remonta ao período Albanês Caucasiano. Khinalig é a cidade mais alta, remota e isolada do Azerbaijão. Khinalig é habitada por uma minoria única, famosa pela sua própria língua, costumes e tradições peculiares (todo o passeio a Guba e Khinalig depende das condições meteorológicas). Visitaremos um Museu Etnográfico. Pernoite no hotel em Guba. (CM/-/-)",
+        AzGrandD4: "Dia 4: Guba-Baku-Shemakha-Nidj-Sheki (480 km)",
+        AzGrandP4:
+          "Pela manhã visitaremos a Cidade Vermelha habitada pela minoria judaica. Os judeus da montanha estabeleceram-se no Cáucaso há mais de dois mil anos e surgiram nas terras do Azerbaijão no século V. A Cidade Vermelha é famosa não só por ser um oásis de cultura nacional única, mas também pelos seus nativos. Visitaremos o Museu dos Judeus da Montanha (fechado aos sábados). Em seguida, visitaremos o Complexo Memorial do Genocídio no caminho de volta a Baku. Deixando Baku para trás, nossa jornada nos levará por belas paisagens a caminho de Shemakha. Ao chegar em Shemakha faremos um passeio turístico pela histórica Mesquita Djuma (Mesquita de Sexta-feira). Também visitaremos o Mausoléu de Diri Baba em Maraza e o antigo Mausoléu e Cemitério de Yeddi Gumbez. Depois de Shemakha visitaremos a vila de Nidzh, não muito longe de Gabala, conhecida por um monumento arquitetônico único da Albânia Caucasiana - o Templo de Udin. Os Udins são um grupo étnico absolutamente especial que se considera descendentes de albaneses. Visitaremos também a casa-museu de Udines com suas tradições, língua e história. Chegada em Sheki. Pernoite no hotel em Guba. (CM/-/-)",
+        AzGrandD5: "Dia 5: Sheki-Kish-Sheki (10 km)",
+        AzGrandP5:
+          "Esta manhã faremos um passeio por Sheki. Sheki, uma das cidades mais antigas do Azerbaijão, é chamada de reserva arquitetônica do país. Visitaremos um dos monumentos arquitetônicos mais importantes do Azerbaijão: o Palácio Sheki Khans (1762). Depois disso, veremos o Caravançarai em Sheki, famoso por seu comércio. Também iremos até a vila de Kish, localizada perto de Sheki. Kish, uma das cidades mais antigas do território do Azerbaijão, é conhecida pelo seu monumento arquitetônico único, um templo do período Albanês Caucasiano. Visitaremos uma padaria local. Eles vão nos demonstrar a master class 'Khalva'. Khalva é considerada uma sobremesa típica do Azerbaijão. É feito principalmente de farinha, avelãs, sementes gordurosas, manteiga e açúcar. Pernoite no hotel em Sheki. (CM/-/-)",
+        AzGrandD6: "Dia 6: Sheki-Ganja (140 km)",
+        AzGrandP6:
+          "Antes de sair de Sheki, iremos ao Bazar Teze de Sheki, com suas barracas repletas de especiarias e produtos frescos. Depois disso, sairemos de Sheki e viajaremos para conhecer uma das principais cidades históricas e arquitetônicas: Ganja. Ganja é a segunda maior cidade do país, um monumento da cultura milenar. Visitaremos a “Casa da Garrafa”. Em 1966-67, um morador de Ganja Ibrahim Jafarov construiu sua casa usando um material incomum - garrafas de vidro. Na construção foram utilizadas 48 mil garrafas de diversos formatos e tamanhos, além de pedras coloridas trazidas de Sochi. Visitaremos a Mesquita Shah Abbas do século XVII, o Mausoléu de Javad Khan (século XIX), a Igreja Ortodoxa (1815), o Mausoléu de Nizami e a Mesquita Imamzade. Pernoite no hotel em Ganja. (CM/-/-)",
+        AzGrandD7: "Dia 7: Ganja-Baku-Lankaran (370 km)",
+        AzGrandP7:
+          "Deixaremos Ganja para Baku. Chegada em Baku. No caminho para Lankaran visitaremos a Reserva Histórica Gobustão (65 km de distância). A reserva é um monumento histórico nacional do Azerbaijão estabelecido para preservar as esculturas rupestres pré-históricas da região, vulcões de lama e pedras musicais. Antes do início do passeio por Gobustãovisitaremos o museu interativo com o mesmo nome, onde com a ajuda de programas especiais e telas sensíveis ao toque obteremos informações sobre a natureza, a flora de Gobustão. A paisagem cultural de arte rupestre incluída no Parque Nacional Gobustão foi declarada Patrimônio Mundial da UNESCO em 2007. O Azerbaijão abriga a maior concentração de vulcões de lama do mundo. Não muito longe de Gobustão existem vulcões de lama. Visitaremos vulcões de lama (dependendo das condições climáticas). Chegada em Lankaran. Pernoite no hotel em Lankaran. (CM/-/-)",
+        AzGrandD8: "Dia 8: Lankaran",
+        AzGrandP68:
+          "Hoje você partirá com seu motorista e guia para Baku. Antes da partida para Baku, iremos para Astara. Visitaremos Yanar Bulag (Água Ardente). Consiste em um tubo de suporte metálico dentro de um pequeno pavilhão por onde a água jorra. A própria água queima quando você acende um fósforo e toca na água. Isso ocorre devido ao alto teor de metano da água. Os moradores locais acreditam que a água da nascente tem propriedades curativas e muitas vezes a bebem quando uma chama queima. Lankaran é uma região de diversidade natural única. No leste, a cidade é banhada pelas águas do Mar Cáspio. A região é famosa por suas frutas cítricas e culinária saborosa, além de ser o centro do cultivo de chá do Azerbaijão. Visitaremos o Vale dos Citros. Visitaremos o Parque Nacional Hirkan para caminhadas. A área do Parque Nacional Hirkan é 99% coberta por floresta em uma região principalmente montanhosa e é estritamente protegida. Constitui uma das maiores florestas contíguas do Azerbaijão, que não é interrompida por qualquer assentamento ou pastagem. Iremos para o Lago Khanbulan depois de caminhar pela floresta do Parque Nacional Hirkan. O Lago Khanbulan é a pérola da natureza de Lankaran. Podemos ver diversas plantas e animais exóticos e relaxar ao ar livre. Mais tarde, desfrutaremos da excursão à plantação de chá e realizaremos aqui a cerimônia do chá. Pernoite no hotel em Lankaran. (CM/-/-)",
+        AzGrandD9: "Dia 9: Lankaran-Baku (250 km)",
+        AzGrandP69:
+          "Após o café da manhã sairemos de Lankaran em direção a Baku. Visitaremos o Museu Nacional dos Tapetes do Azerbaijão (fechado às segundas-feiras). Foi o primeiro museu especializado em tapetes do mundo. O Museu Nacional de Tapetes do Azerbaijão foi homenageado com o alto prêmio 'Melhor Experiência' na área de banco de dados de patrimônio imaterial pelo Comitê Internacional de Documentação do Conselho Internacional de Museus em 2007. Visitaremos o Palácio Zeynalabdin Taghiyev (fechado às segundas-feiras). Este palácio pertenceu anteriormente ao milionário azerbaijano Zeynalabdin Tagiyev. Visitaremos também a Villa Petrolea, que foi construída em Baku por Ludvig e Emanuel Nobel na década de 1880. Várias gerações de nobres viveram e nasceram nesta mansão. Mais tarde visitaremos o Centro Cultural Heydar Aliyev (fechado às segundas-feiras). O edifício foi projetado pela renomada arquiteta iraquiana-britânica e ganhadora do Prêmio Pritzker Zaha Hadid em 2012. O design do edifício é caracterizado por suas formas futuristas e fluidas, com curvas, ondas e um exterior branco liso. Ganhou vários prêmios internacionais de arquitetura por seu design inovador e marcante. Pernoite no hotel em Baku. (CM/-/-)",
+        AzGrandD10: "Dia 10: Baku-Naquichevão",
+        AzGrandP10:
+          "Chegada à cidade de Naquichevão. Traslado ao hotel na cidade de Naquichevão para despacho de bagagem. Visita ao Túmulo do Profeta Noé. Este local é visitado por pessoas como Pir (local de culto). Escavações arqueológicas em grande escala foram realizadas aqui nos últimos anos. Visita ao monumento Momina Khatun do século XII: Este túmulo é considerado um magnífico monumento da arquitetura nacional e uma pérola da arquitetura oriental. A tumba foi construída em 1186 em memória da mãe do governante Atabay, Mahammad Jahan Pahlavan. É chamado de Taj Mahal de Nakhchivan. Visitando a Casa de Khan: Esta casa, construída de acordo com o estilo arquitetônico oriental dos séculos XVIII e XIX, foi a casa do governante de Naquichevão, Rahim Khan. A casa tem cave e oito divisões amplas. Deste ponto você tem uma vista espetacular da cidade. Visita ao túmulo de Yusif Ibn Kuseyir: Graças à alta engenharia, o túmulo de Yusif ibn Kuseyir é o único monumento entre os túmulos em forma de torre do Azerbaijão cuja cobertura piramidal sobreviveu até hoje sem ter sido destruída durante os últimos 800 anos. Viaje para a vila de Garabaghlar, na região de Sharur, para ver o monumento do século XII: O Mausoléu na vila de Garabaghlar é apenas uma parte do complexo no centro do qual se erguem minaretes delgados conectados (no meio) por um portal. De longe, esta estrutura parece semelhante ao portão da cidade. Visite o Duzdagh Hospital de Mina de Sal, um centro de tratamento de bronquite asmática único no mundo: o tratamento médico é realizado mantendo os pacientes nas minas de sal vazias durante várias horas por dia. Duzdagh também extrai sal dietético. Retorno à cidade de Naquichevão. (CM/-/-)",
+        AzGrandD11: "Dia 11: Naquichevão",
+        AzGrandP11:
+          "Esta manhã visitaremos a Fortaleza de Alinja, uma das mais fortes construções defensivas do século XII. Durante o ataque de Teymur a Naquichevão em 1386, 1392 e 1399, a fortaleza serviu como quartel-general e tesouro da dinastia governante Atabayler. Depois disso, traslado para a cidade de Ordubad e city tour. No caminho de volta a Naquichevão visitaremos as fontes termais de Daridagh, na região de Julfa. Uma grande quantidade de elementos boro, iodo, bromo, estrôncio e lítio são encontrados na composição da água. A água é boa para pacientes que sofrem de doenças gástricas e intestinais. Mais tarde visitaremos o Monumento Gulustan em Julfa. Visita às cavernas “Ashabu – Kahf” (conforme indicado na Sura 18 do Alcorão - al-Kahf. “Os Companheiros da Caverna” baseado na antiga lenda grega “Os Sete Adormecidos de Éfeso”). Traslado ao Hotel, tempo livre, descanso.  (CM/-/-)",
+        AzGrandD12: "Día 12: Salida",
+        AzGrandP12:
+          "Traslado guiado al Aeropuerto Internacional de Naquichevão. Salida.",
       },
       kr: {
         home: "집",
@@ -7576,6 +7803,31 @@ export default {
         MasterCopperH: "",
         MasterKelagaiH: "",
         MasterDanceH: "",
+
+        AzGrandD1: "",
+        AzGrandP1: "",
+        AzGrandD2: "",
+        AzGrandP2: "",
+        AzGrandD3: "",
+        AzGrandP3: "",
+        AzGrandD4: "",
+        AzGrandP4: "",
+        AzGrandD5: "",
+        AzGrandP5: "",
+        AzGrandD6: "",
+        AzGrandP6: "",
+        AzGrandD7: "",
+        AzGrandP7: "",
+        AzGrandD8: "",
+        AzGrandP68: "",
+        AzGrandD9: "",
+        AzGrandP69: "",
+        AzGrandD10: "",
+        AzGrandP10: "",
+        AzGrandD11: "",
+        AzGrandP11: "",
+        AzGrandD12: "",
+        AzGrandP12: "",
       },
     },
   },
