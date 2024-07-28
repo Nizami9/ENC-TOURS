@@ -1029,7 +1029,9 @@ export default {
           "Master class of kelagai. Kelagai is Azerbaijani women’s national headscarf made from fine and soft silk in a four-cornered shape. Kelagai was an integral part of women’s national costume in Azerbaijan. Silk kelagai protected them from both the hot sun and cold wind as silk is cool in summer and warm in winter. Basqal settlement of the Ismayilli region was famous for high quality kelagai production.",
         MasterDanceH:
           "Traditional Dance Master Class.  Led by experienced instructors, the class introduces participants to various traditional dance styles such as Yalli, Lezginka, and Mugham, each representing different regions and cultural nuances of Azerbaijan. Participants learn basic steps, rhythmic patterns, and the cultural significance behind each dance form. This experience promotes physical activity and allows to get information about the national dance culture.",
-      },
+      
+          
+        },
       de: {
         home: "STARTSEITE",
         az: "ASERBAIDSCHAN",
